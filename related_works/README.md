@@ -13,8 +13,8 @@
 ### Implications:
 - This prototype demonstrates the machine capability to **semantically understand and generate data properties**.
 - This capability can enable:
-  1) an **interoperable** information exchange in the context of **digitalization**
-  2) and higher degree of **task automation** in the context of **autonomization**
+  1. an **interoperable** information exchange in the context of **digitalization**
+  2. and higher degree of **task automation** in the context of **autonomization**
 ***
 # List of Related Works:
 
