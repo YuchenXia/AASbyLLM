@@ -1,4 +1,4 @@
-# The Main Features of 'AASbyLLM' and Its Novel Contributions.
+# The Main Features of 'AASbyLLM' and Its Novel Contributions:
 ### Technologies:
 - First research prototype applying **generative LLM** for generating AAS
 - Apply generative LLMs for **inferencing** and embedding LLMs for **similarity retrieval**
