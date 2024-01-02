@@ -1,7 +1,7 @@
 # The main features of this work (AASbyLLM) and the novelties:
 Technologies:
 - First research prototype applying **generative LLM** for generating AAS
-- Apply generative LLM for **inferencing** and embedding LLM for **similarity retrieval**
+- Apply generative LLMs for **inferencing** and embedding LLMs for **similarity retrieval**
 
 Benefits:
 - Wider range of **input flexibility** and format independent
