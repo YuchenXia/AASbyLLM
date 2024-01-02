@@ -1,4 +1,4 @@
-# The main features of this work (AASbyLLM) and the novelties:
+# The Main Features of 'AASbyLLM' and Its Novel Contributions.
 ### Technologies:
 - First research prototype applying **generative LLM** for generating AAS
 - Apply generative LLMs for **inferencing** and embedding LLMs for **similarity retrieval**
@@ -8,7 +8,7 @@
 - **Generally applicable** to different disciplinary domains.
 - Instead of using manually crafted mapping rules, the system utilizes the knowledge learned in LLMs
 - The system adds proper **semantic annotation** for disambiguating the **concepts of the data property**
-- The system optimizes relevant details to enhances the quality of AAS 
+- The system optimizes relevant information details to enhances the quality of AAS 
 
 ### Implications:
 - This prototype demonstrates the machine capability to **semantically understand and generate data properties**.
