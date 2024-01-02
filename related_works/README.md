@@ -112,19 +112,19 @@ These papers apply model transfromation and rule-based mappings, mainly utilizin
 ## 17. Model-Based Test Case Generation for Compliance Checking of Reactive Asset Administration Shells (2022)
 - **Summary**: This paper focuses on developing an automated method for generating test cases to verify Asset Administration Shell (AAS) server implementations for Digital Twins in Industry 4.0. The method involves manually creating AAS instance samples, parsing the OpenAPI specification to extract JSON schemas and API endpoints, analyzing dependencies between endpoints, and systematically generating cases for testing AAS-server implementations.
 - **Authors**: Björn Otto, Karsten Meinecke, Tobias Kleiner
-- **DOI**:
+- **DOI**: (Beiträge des Jahreskolloquiums KommA 2022)
 
-### 18. Semantic Interoperability of Digital Twins: Ontology-based Capability Checking in AAS Modeling Framework
+### 18. Semantic Interoperability of Digital Twins: Ontology-based Capability Checking in AAS Modeling Framework (2023)
 - **Summary**: It introduces a transformation module that converts between OWL ontologies and UML models, enriching AAS models with semantic annotations in the manufacturing domain. The approach uses the OML adapter for transforming MaRCO vocabularies into a UML profile, which is then applied to AAS models as stereotypes. 
-- **Authors**:
-- **DOI**:
+- **Authors**: Yining Huang, Saadia Dhouib, Luis Palacios Medinacelli, Jacques Malenfant
+- **DOI**: https://doi.org/10.1109/ICPS58381.2023.10128003
 
-### 19. I4.0-compliant integration of assets utilizing the Asset Administration Shell
+### 19. I4.0-compliant integration of assets utilizing the Asset Administration Shell (2019)
 - **Summary**: The paper illustrates the mapping translation of semantic descriptions of plants, machines, or components from OPC UA information models into the AAS model, ensuring standardized and interoperable data.
-- **Authors**:
-- **DOI**:
+- **Authors**: Jonathan Fuchs, Jan Schmidt, Jörg Franke, Kasim Rehman, Manuel Sauer, Stamatis Karnouskos
+- **DOI**: https://doi.org/10.1109/ETFA.2019.8869255
 
-### 20. Asset Administration Shells, Configuration, Code Generation: A power trio for Industry 4.0 Platforms
+### 20. Asset Administration Shells, Configuration, Code Generation: A power trio for Industry 4.0 Platforms (2023)
 - **Summary**: The paper presents an IIoT platform integrating AAS, flexible configuration support, and code generation for Industry 4.0 platforms. The authors point out the importance of AAS generation for scaling
 - **Authors**: Holger Eichelberger, Claudia Niederée
 - **DOI**: https://doi.org/10.1109/ETFA54631.2023.10275339
@@ -134,125 +134,125 @@ These papers apply model transfromation and rule-based mappings, mainly utilizin
 - **Authors**: Felix Brandt, Eric Brandt, Javad Ghofrani, David Heik, Dirk Reichelt 
 - **DOI**: https://doi.org/10.1007/978-3-030-63092-8_72
 
-### 22. Semantic Asset Administration Shell Towards a Cognitive Digital Twin
+### 22. Semantic Asset Administration Shell Towards a Cognitive Digital Twin (2023)
 - **Summary**: The paper focuses on integrating semantic technologies with Asset Administration Shell (AAS) to create Cognitive Digital Twins (CDTs) for industrial machines, and it details a method of creating an Asset Administration Shell through a combination of ontological modeling and semantic technologies.
-- **Authors**:
-- **DOI**:
+- **Authors**: Tomás Moreno, Thiago Sobral, António Almeida, António Lucas Soares, Américo Azevedo 
+- **DOI**: https://doi.org/10.1007/978-3-031-38165-2_79
 
 ### 23. Generating Industry 4.0 Asset Administration Shells with Data from Engineering Data Logistics
 - **Summary**: This paper proposes a method facilitating the collection and export of AAS for logistics data between engineering workgroups and the AutomationML engineering data. It starts by identifying relevant AutomationML domain-specific languages (DSLs) within an engineering network, which include data models from various engineering disciplines and tools. These models are integrated into an overall data model using AutomationML, forming a comprehensive representation of the engineering system. Subsequently, submodels for the AAS are identified based on these integrated engineering objects. The method then utilizes an export adapter to transform the collected data into an AAS AutomationML serialization. This adapter adds necessary role and interface classes and translates attributes into the AAS format. 
-- **Authors**:
-- **DOI**:
+- **Authors**: Arndt Lüder, Anna-Kristin Behnert, Felix Rinker, Stefan Biffl
+- **DOI**: https://doi.org/10.1109/ETFA46521.2020.9212149
 
-### 24. Towards an Ontology-Based Dictionary for Production Planning and Control in the Domain of Injection Molding
+### 24. Towards an Ontology-Based Dictionary for Production Planning and Control in the Domain of Injection Molding (2023)
 - **Summary**: The paper details an approach to create a standardized vocabulary for production planning and control (PPC) , aimed at facilitating machine-to-machine communication through AAS. This involves collecting detailed information for each process step in PPC within the injection molding domain and then constructing a UML class diagram. The outcome is an ontology PPCinIM, serving as a PPC dictionary, which underpins the formation of standardized digital twins through AAS and enrich the identifiable semantics of the data properties. 
-- **Authors**:
-- **DOI**:
+- **Authors**: Patrick Sapel, Christian Hopmann
+- **DOI**: https://doi.org/10.1016/j.jii.2023.100488
 
-### 25. Towards asset administration shell-based continuous engineering in process industries
+### 25. Towards asset administration shell-based continuous engineering in process industries (2023)
 - **Summary**: This paper focuses on the data integration of engineering processes in the industrial automation domain within the Industry 4.0 framework. It highlights the importance of embedding engineering information into the digital twin of a process plant to maintain and exchange engineering information across various phases of the plant lifecycle. AAS is defined as a technology-neutral Unified Modelling Language (UML) model with mappings to multiple file-based serializations, such as XML, JSON, and AutomationML, RDF, and interactive APIs for different lifecycle phases. 
-- **Authors**:
-- **DOI**:
+- **Authors**: Sten Grüner, Mario Hoernicke, Katharina Stark , Nicolai Schoch, Nafise Eskandani, John Pretlove
+- **DOI**: https://doi.org/10.1515/auto-2023-0012
 
-### 26. Insights into Mapping Solutions Based on OPC UA Information Model Applied to the Industry 4.0 Asset Administration Shell
+### 26. Insights into Mapping Solutions Based on OPC UA Information Model Applied to the Industry 4.0 Asset Administration Shell (2020)
 - **Summary**: The paper discusses modeling techniques for the OPC UA Information Model, which is essential for exposing information in the AAS metamodel. The method for creating an AAS in the paper involves mapping AAS entities into the OPC UA Information Model and structuring the OPC UA AddressSpace.
-- **Authors**:
-- **DOI**:
+- **Authors**: Salvatore Cavalieri, Marco Giuseppe Salafia
+- **DOI**: https://doi.org/10.3390/computers9020028
 
 
 
 # Semantics for data integration:
 Other paper point out the importance of the semantics
-## 27. The Semantic Asset Administration Shell
+## 27. The Semantic Asset Administration Shell (2019)
 - **Summary**: It introduces an ontology for the AAS specification, creates an RML mapping, enables mappings from between different data formats, and provides resources for validating RDF entities. The paper focuses on bridging the gap between industrial manufacturing frameworks and Semantic Web contributions, aiming to enhance data integration, reasoning, and interoperability in industrial scenarios through semantic formalization.
-- **Authors**:
-- **DOI**:
+- **Authors**: Sebastian R. Bader, Maria Maleshkova 
+- **DOI**: https://doi.org/10.1007/978-3-030-33220-4_12
 
-### 28. Semantic Asset Administration Shells in Industry 4.0: A Survey
+### 28. Semantic Asset Administration Shells in Industry 4.0: A Survey (2021)
 - **Summary**: The paper explores the technical aspects of Semantic Asset Administration Shells (AAS) in Industry 4.0. It delves into the structure, communication protocols, and interoperability challenges of AAS, emphasizing the need for standardization and semantic technologies integration to facilitate effective digital representation of physical assets in industrial environments.
-- **Authors**:
-- **DOI**:
+- **Authors**: Sadeer Beden, Qiushi Cao, Arnold Beckmann
+- **DOI**: https://doi.org/10.1109/ICPS49255.2021.9468266
 
-### 29. Semantic Integration Patterns for Industry 4.0 
+### 29. Semantic Integration Patterns for Industry 4.0 (2022)
 - **Summary**: The paper proposes semantic integration patterns and discusses the development of a semantic interoperability middleware to integrate digital twins in manufacturing systems. It focuses on Asset Administration Shell (AAS) models, utilizing  semantically enriched data interfaces.
-- **Authors**:
-- **DOI**:
+- **Authors**: Felix Strohmeier, Georg Güntner, Dietmar Glachs, Reinhard Mayr
+- **DOI**: https://doi.org/10.5220/0011550100003329
 
-### 30. Semantic Interoperability in the Industry 4.0 Using the IEEE 1451 Standard
+### 30. Semantic Interoperability in the Industry 4.0 Using the IEEE 1451 Standard (2020)
 - **Summary**: The paper discusses enhancing semantic interoperability in Industry 4.0 using the IEEE 1451 standards. It highlights the limitations of syntactic interoperability achieved by IEEE 1451.1 and proposes using JSON-Linked Data (JSON-LD) to add semantic descriptions to metadata, enabling better integration with frameworks like OPC UA and oneM2M​​.
-- **Authors**:
-- **DOI**:
+- **Authors**: Helbert da Rocha, Antonio Espirito-Santo, Reza Abrishambaf
+- **DOI**: https://doi.org/10.1109/IECON43393.2020.9254274
 
 ## 31. Asset Administration Shell for the Wiring Harness System (2023)
 - **Summary**: The discusses the creation of a digital twin for wiring harness systems in automobiles using AAS. The creation involves collaborative effort among various stakeholders in the value network, including OEMs, suppliers, and software and machine manufacturers. The authors point out the necessities and potentials of automating the effort-intensive AAS creation process of assets by using semantic interoperability and neural language models.
-- **Authors**: David Schnauffer Georg and Görzig, Kosel Christian, Diemer Johannes
+- **Authors**: Georg Schnauffer, David Görzig, Christian Kosel, Johannes Diemer 
 - **DOI**: https://doi.org/10.1007/978-3-031-27933-1_30
  
-## 32. On the Role of Digital Twins in Data Spaces
+## 32. On the Role of Digital Twins in Data Spaces (2023)
 - **Summary**: The authors leverage the International Data Space vocabulary and ontologies to enhance the semantics with semantic ID in AAS in their projects , making the data can be queried from a special connector with the required meaningful description.
-- **Authors**:
-- **DOI**:
+- **Authors**: Friedrich Volz, Gerhard Sutschet, Ljiljana Stojanovic, Thomas Usländer
+- **DOI**: https://doi.org/10.3390/s23177601
 
-### 33. PLM/ALM Integration With The Asset Administration Shell
+### 33. PLM/ALM Integration With The Asset Administration Shell (2020)
 - **Summary**: The paper's proposed method, Plm4AAS, involves the  integration of Product Lifecycle Management (PLM) and Application Lifecycle Management (ALM) through the Asset Administration Shell (AAS). The process includes exporting PLM data using PLM XML and ALM data using ReqIF formats, manually creating an AAS for the asset using tool AASX Package Explorer, and importing these data sets as separate submodels into the AAS. The concept description of the data are based on a standard in order to enable vendor-independent integration.
-- **Authors**:
-- **DOI**:
+- **Authors**: Andreas Deuter, Sebastian Imort
+- **DOI**: https://doi.org/10.1016/j.promfg.2020.11.040
 
-### 34. The industry 4.0 standards landscape from a semantic integration perspective
+### 34. The industry 4.0 standards landscape from a semantic integration perspective (2017)
 - **Summary**: It proposes the Standards Ontology (STO) for semantically describing and integrating different industrial standards related to Industry 4.0 , thereby aiding in the semantic mapping and integration of exisiting concepts in ontologies.
-- **Authors**:
-- **DOI**:
+- **Authors**: Irlán Grangel-González, Paul Baptista, Lavdim Halilaj, Steffen Lohmann, Maria-Esther Vidal, Christian Mader, Sören Auer
+- **DOI**: https://doi.org/10.1109/ETFA.2017.8247584
 
-### 35. Migration and synchronization of plant segments with Asset Administration Shells
+### 35. Migration and synchronization of plant segments with Asset Administration Shells (2022)
 - **Summary**: The paper details a migration approach from PackML to AAS in existing plants​​ for multi-vendor data interoperability and functional interoperability. It emphasizes the need for system-wide descriptions of plants and their components.
-- **Authors**:
-- **DOI**:
+- **Authors**: Stephan Schäfer, Dirk Schöttke, Thomas Kämpfe, Oliver Lachmann, Aaron Zielstorff, Bernd Tauber
+- **DOI**: https://doi.org/10.1109/ETFA52439.2022.9921595
 
 ### 36. An Approach for Realizing Hybrid Digital Twins Using Asset Administration Shells and Apache StreamPipes (2021)
 - **Summary**: The paper outlines a method for enhancing the interoperability AAS-based digital twins in a semantically consistent manner. The developed tool Apache StreamPipes can be used for processing heterogenous data from different data sources and sinks, e.g., communicated data from different network protocols, files, or databases
 - **Authors**: Michael Jacoby, Branislav Jovicic, Ljiljana Stojanovic, Nenad Stojanović
 - **DOI**: https://doi.org/10.3390/info12060217
 
-### 37. Asset Administration Shell as Integration Layer for the Orchestration of Mixed Process and Manufacturing Plants
+### 37. Asset Administration Shell as Integration Layer for the Orchestration of Mixed Process and Manufacturing Plants (2022)
 - **Summary**: The method for creating the AAS involves integrating the MTP and PackML standards.The AAS is used to form an integration layer to abstract differences between MTP and PackML standards.
 - **Authors**: Julian Grothoff, Sten Grüner, Christian Barth, Alexander Kehl, Matthias Freund, Tobias Klausmann
 - **DOI**: https://doi.org/10.1109/ETFA52439.2022.9921653
 
-### 38. Data Administration Shell for Data-Science-Driven Development
+### 38. Data Administration Shell for Data-Science-Driven Development (2021)
 - **Summary**: The paper focuses on linking data sets with information about their origin, analyses, results, and scripts, encasing them into AAS with necessary metadata and links to related development artifacts. The purpose is to facilitate the reuse of data sets for information sharing and management in joint cross-enterprise engineering projects.
-- **Authors**:
-- **DOI**:
+- **Authors**: Andreas Löcklin, Hannes Vietz, Dustin White, Tamás Ruppert, Nasser Jazdi, Michael Weyrich
+- **DOI**: https://doi.org/10.1016/j.procir.2021.05.019
 
 ### 39. Architecture Blueprints for the Application of the Industry 4.0 Asset Administration Shell (2022)
 - **Summary**: It outlines the methodologies based on numerous use cases, emphasizing the significance of semantic annotation, common data models, and unique identifiers for AAS elements. Additionally, the paper highlights the importance of data conversion in serialization and de-serialization processes, ensuring a unified understanding and efficient management of AAS submodel data across different organizational environments.
 - **Authors**: Frank Schnicke, Thomas Kuhn, Tobias Klausmann, Sten Grüner, Daniel Porta
 - **DOI**: https://doi.org/10.1109/ETFA52439.2022.9921694
 
-### 40. Overview and Comparison of Asset Information Model Standards
+### 40. Overview and Comparison of Asset Information Model Standards (2023)
 - **Summary**: It addresses the challenge posed by the variety of protocols for information exchange and evaluates different standards for the virtual description of an automation device. These standards include W3C WoT Thing Description, Asset Administration Shell, Digital Factory Framework, Automation Markup Language, Module Type Package, OPC UA, Process Automation - Device Information Model, and Field Device Integration. The standards are compared across four categories: property representation, service representation, information modeling for direct device access, and discovery mechanisms. The paper emphasizes the need for generic integration strategies, model transformation and semantic annotations to combine these models, as no single standard fully addresses all use cases​​.
-- **Authors**:
-- **DOI**:
+- **Authors**: Torben Miny, Michael Thies, Lina Lukic, Sebastian Käbisch, Kazeem Oladipupo, Christian Diedrich
+- **DOI**: https://doi.org/10.1109/ACCESS.2023.3312286
 
 
 # Other tools:
-Methods and tools that simplify the creation of AAS
+Methods and tools that simplify the creation of AAS (2021)
 ### 41. Automated Design and Integration of Asset Administration Shells in Components of Industry 4.0
 - **Summary**: The method for creating Asset Administration Shells (AAS) in the paper involves a semi-automated process using a configuration wizard. This wizard is designed to accelerate the formation process and simplify the implementation of AASs. It ensures that the administration shells are generated in compliance with Industry 4.0 standards and requirements. 
-- **Authors**:
-- **DOI**:
+- **Authors**: Jakub Arm, Tomas Benesl, Petr Marcon, Zdenek Bradac, Tizian Schröder, Alexander Belyaev, Thomas Werner, Vlastimil Braun, Pavel Kamensky, Frantisek Zezulka, Christian Diedrich, Premysl Dohnal
+- **DOI**: https://doi.org/10.3390/s21062004
 
 ## 42. AASX Server
 - **Summary**: 
-- **URL**:
+- **URL**: https://github.com/admin-shell-io/aasx-server
 
 ## 43. Eclipse BaSyx
 - **Summary**: 
-- **URL**:
+- **URL**: https://projects.eclipse.org/projects/dt.basyx
 
 ## 44. FA3ST Service
 - **Summary**: 
-- **URL**:
+- **URL**: https://github.com/FraunhoferIOSB/FAAAST-Service
 - 
 ## 45. NOVAAS
 - **Summary**: 
-- **URL**:
+- **URL**: https://gitlab.com/novaas/catalog/nova-school-of-science-and-technology/novaas
