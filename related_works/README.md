@@ -20,98 +20,98 @@ Implications:
 
 ## Natural Language Processing 
 These works apply embedding language models in NLP for information processing:
-### 1. Automated monitoring applications for existing buildings through natural language processing based semantic mapping of operational data and creation of digital twins
+### 1. Automated monitoring applications for existing buildings through natural language processing based semantic mapping of operational data and creation of digital twins (2023)
 - **Summary**: This paper focuses on creating automated technical monitoring applications for existing buildings using NLP to semantically map operational data and form digital twins. It tackles the challenge of integrating semantically heterogeneous operational data into monitoring applications, traditionally a manual effort-intensive process. The method uses AI to map this data to a standard, creating semantic digital twins of buildings, achieving over 95% effectiveness in automating data point mapping.
-- **Authors**:
+- **Authors**: Maximilian Both, Björn Kämper, Alina Cartus, Jo Beermann, Thomas Fessler, Jochen Müller, Christian Diedrich
 - **DOI**: https://doi.org/10.1016/j.enbuild.2023.113635
 
 
-### 2. Comparison of Different NLP Models for Semantic Interoperability of Heterogeneous Asset Administration Shells
+### 2. Comparison of Different NLP Models for Semantic Interoperability of Heterogeneous Asset Administration Shells (2023)
 - **Summary**: The paper explores different natural language processing (NLP) embedding models to achieve semantic interoperability in heterogeneous AAS. It focuses on extending the Industrie 4.0 approach to heterogeneous semantics by automating the mapping of varied vocabularies to target semantics using NLP models. The paper compares existing embedding models, evaluates their mapping accuracy, and discusses the integration of structured knowledge via knowledge graphs. It shows that fine-tuning existing models to the target vocabulary based on the ECLASS standard significantly improves mapping accuracy.
-- **Authors**:
-- **DOI**:
+- **Authors**: Maximilian Both, Jochen Müller, Christian Diedrich
+- **DOI**: https://doi.org/10.1515/auto-2021-0050
 
 
-### 3. Automated generation of Asset Administration Shell: a transfer learning approach with neural language model and semantic fingerprints
+### 3. Automated generation of Asset Administration Shell: a transfer learning approach with neural language model and semantic fingerprints (2022)
 - **Summary**: Proposes a transfer learning approach with a neural language model to map data properties from various information models into a standardized AAS model. It involves generating "semantic fingerprints," vectors containing latent conceptual meaning, which aid in creating AAS with reduced development effort.
-- **Authors**:
-- **DOI**:
+- **Authors**: Yuchen Xia, Nasser Jazdi, Michael Weyrich
+- **DOI**: https://doi.org/10.1109/ETFA52439.2022.9921637
 
 
-### 4. Interoperability of Semantically Heterogeneous Digital Twins through NLP Methods
+### 4. Interoperability of Semantically Heterogeneous Digital Twins through NLP Methods (2022)
 - **Summary**: This method improves interactions between Asset Administration Shells by mapping heterogeneous descriptions to a standardized semantic language. It involves an automated matching process using trained embedding models on domain-specific texts for mapping.
-- **Authors**:
-- **DOI**:
+- **Authors**: Alina Cartus, Maximilian Both, Nicolai Maisch, Jochen Müller, Christian Diedrich
+- **DOI**: https://doi.org/10.34641/clima.2022.143
 
 
-### 5. Automatisierte Abbildung Semantisch Heterogener I4.0-Verwaltungsschalen
+### 5. Automatisierte Abbildung Semantisch Heterogener I4.0-Verwaltungsschalen (2021)
 - **Summary**: The paper discusses automating semantic matching for interoperability between heterogeneous AAS, achieved through automated mapping of unknown vocabularies to a target ontology using NLP methods. It combines ISO standards pre-trained language models with sentence embeddings for this purpose.
-- **Authors**:
-- **DOI**:
+- **Authors**: Maximilian Both, Jochen Müller, Christian Diedrich
+- **DOI**: https://doi.org/10.1515/auto-2021-0050
 
 
 ## Rule-based:
 These papers apply model transfromation and rule-based mappings, mainly utilizing the model-based(/-driven) software engineering (MBSE/MDSE) pattern or semantic web technologies.
-### 6. Model Transformation for Asset Administration Shells
+### 6. Model Transformation for Asset Administration Shells (2020)
 - **Summary**: The authors propose a custom-built Model Transformation Language (MTL) for Asset Administration Shells -- AASMTL-- focusing on its designed abstract syntax and language semantics. The MTL, based on a simplified version of the Object Constraint Language (OCL), is tailored to transform information across various AAS submodels.
-- **Authors**:
-- **DOI**:
+- **Authors**: Torben Miny, Michael Thies, Ulrich Epple, Christian Diedrich
+- **DOI**: https://doi.org/10.1109/IECON43393.2020.9254649
 
-### 7. Interoperable Digital Twins in IIoT Systems by Transformation of Information Models: A Case Study with Asset Administration Shell
+### 7. Interoperable Digital Twins in IIoT Systems by Transformation of Information Models: A Case Study with Asset Administration Shell (2019)
 - **Summary**: The paper presents a system enabling interoperable digital twins in IIoT by transforming information models into AAS format. This process involves a detailed mapping model that dictates the conversion rules from source formats (like ABB Ability™ digital twins) to the AAS format.
-- **Authors**:
-- **DOI**:
+- **Authors**: Marie Platenius-Mohr, Somayeh Malakuti, Sten Grüner, Thomas Goldschmidt
+- **DOI**: https://doi.org/10.1145/3365871.3365873
   
 ### 8. A Semi-Automatic Approach for Asset Administration Shell Creation from Heterogeneous Data (2023)
 - **Summary**: The paper introduces a semi-automatic approach for AAS creation with a python implementation. It involves extracting engineering information from various document types (PDF, STP, XML, XML/AML, RDF) , then mapping this information to the AAS meta-model. This process creates individual AASs for each document, which are later integrated into a comprehensive AAS representing the asset.
 - **Authors**: Jingyun Zhao, Birgit Vogel-Heuser, Fandi Bi, Josua Höfgen, Felix Ocker, Bernd Vojanec, Timo Markert, André Kraft
 - **DOI**: https://doi.org/10.1016/j.ifacol.2023.10.1532
 
-### 9. Toward a Mapping of Capability and Skill Models using Asset Administration Shells and Ontologies
+### 9. Toward a Mapping of Capability and Skill Models using Asset Administration Shells and Ontologies (2023)
 - **Summary**: a bidirectional mapping approach that allows to transform between a model represented with the AAS submodels and a model represented with the skill ontology called CaSkMan
-- **Authors**:
-- **DOI**:
+- **Authors**: Luis Miguel Vieira Da Silva; Aljosha Köcher; Milapji Singh Gill; Marco Weiss; Alexander Fay
+- **DOI**: https://doi.org/10.1109/ETFA54631.2023.10275459
 
 
-### 10. File- and API-based interoperability of digital twins by model transformation: An IIoT case study using asset administration shell
+### 10. File- and API-based interoperability of digital twins by model transformation: An IIoT case study using asset administration shell (2020)
 - **Summary**: The method for creating the AAS involves a customizable transformation system. This system enables engineers to define transformation rules flexibly and apply them to source and target systems. 
-- **Authors**:
-- **DOI**:
+- **Authors**: Marie Platenius-Mohr, Somayeh Malakuti, Sten Grüner, Johannes Schmitt, Thomas Goldschmidt
+- **DOI**: https://doi.org/10.1016/j.future.2020.07.004
 
-### 11. Enabling semantic interoperability of asset administration shells through an ontology-based modeling method
+### 11. Enabling semantic interoperability of asset administration shells through an ontology-based modeling method (2022)
 - **Summary**: The paper describes a method for creating AAS using the Ontology Modeling Language (OML) to map AAS models to an ontology-compatible format (OWL). This involves selecting relevant MaRCO ontology concepts and integrating them into the OML vocabulary. The OML Adapter is then used to create a Unified Modeling Language (UML) profile from these OML files. The resulting MaRCO UML profile is applied to the AAS models as stereotypes, allowing the designer to refine them with specific properties. This process enables the conversion of AAS classes into OWL individuals, ensuring semantic interoperability.
-- **Authors**:
-- **DOI**:
+- **Authors**: Yining Huang, Saadia Dhouib, Luis Palacios Medinacelli, Jacques Malenfant
+- **DOI**: https://doi.org/10.1145/3550356.3561606
 
-### 12. Increasing Interoperability between Digital Twin Standards and Specifications Transformation of DTDL to AAS
+### 12. Increasing Interoperability between Digital Twin Standards and Specifications Transformation of DTDL to AAS (2023)
 - **Summary**: The work propose a mapping of the AAS element into DTDL model
-- **Authors**:
-- **DOI**:
+- **Authors**:  Carlos Schmidt, Friedrich Volz, Ljiljana Stojanovic, Gerhard Sutschet
+- **DOI**: https://doi.org/10.3390/s23187742
 
 
-### 13. Generation of digital twins for information exchange between partners in the Industrie 4.0 value chain
+### 13. Generation of digital twins for information exchange between partners in the Industrie 4.0 value chain (2023)
 - **Summary**: Utilizing a model-driven approach: it formalizes the AAS meta-model in a domain-specific language and a intermediate representation, and then generates a compatible schemas for XML, JSON, and RDF formats.
-- **Authors**:
-- **DOI**:
+- **Authors**: Nico Braunisch; Marko Ristin-Kaufmann; Robert Lehmann; Martin Wollschlaeger, Hans Wernher van de Venn
+- **DOI**: https://doi.org/10.1109/INDIN51400.2023.10218306
 
 ### 14. An Industry 4.0 Asset Administration Shell-Enabled Digital Solution for Robot-Based Manufacturing Systems / Toward Data Interoperability of Enterprise and Control Applications via the Industry 4.0 Asset Administration Shell (2021)
 - **Summary**: Manually create the AAS with AASX Package Explorer and use a designed XML-Parser to map the AAS and the OPC UA infromation models. Use JSON parser to convert AAS and Excel file
 - **Authors**: Xun Ye, Seung Ho Hong, Won Seok Song, Yu Chul Kim, Xiongfeng Zhang
 - **DOI**: https://doi.org/10.1109/ACCESS.2021.3128580
 
-### 15. Using AutomationML to Generate Digital Twins of Tooling Machines for the Purpose of Developing Energy Efficient Production Systems
+### 15. Using AutomationML to Generate Digital Twins of Tooling Machines for the Purpose of Developing Energy Efficient Production Systems (2021)
 - **Summary**: The paper introduces a methodology leveraging AutomationML and Graph-based Design Languages to automatically generate Digital Twins. Graph-based Design languages contains the defined vocabularies, rules and compilers. AutomationML provides the data interface and serves as data exchange container.
-- **Authors**:
-- **DOI**:
+- **Authors**: Nicolai Beisheim, Markus Linde, Tobias Ott, Sebastian Amann
+- **DOI**: https://doi.org/10.3233/ATDE210092
 
-### 16. Modelling with AAS and RDF in Industry 4.0
+### 16. Modelling with AAS and RDF in Industry 4.0 (2023)
 - **Summary**: The authors propose a two-fold approach: firstly, they establish a set of rules for converting RDF-based models into AAS models to aid in model development, and secondly, they suggest using RDF-based models to create a digital shadow of AASs, enhancing semantic discoverability.
-- **Authors**:
-- **DOI**:
+- **Authors**: Sjoerd Rongen, Nikoletta Nikolova, Mark van der Pas
+- **DOI**: https://doi.org/10.1016/j.compind.2023.103910
 
-## 17. Model-Based Test Case Generation for Compliance Checking of Reactive Asset Administration Shells
+## 17. Model-Based Test Case Generation for Compliance Checking of Reactive Asset Administration Shells (2022)
 - **Summary**: This paper focuses on developing an automated method for generating test cases to verify Asset Administration Shell (AAS) server implementations for Digital Twins in Industry 4.0. The method involves manually creating AAS instance samples, parsing the OpenAPI specification to extract JSON schemas and API endpoints, analyzing dependencies between endpoints, and systematically generating cases for testing AAS-server implementations.
-- **Authors**:
+- **Authors**: Björn Otto, Karsten Meinecke, Tobias Kleiner
 - **DOI**:
 
 ### 18. Semantic Interoperability of Digital Twins: Ontology-based Capability Checking in AAS Modeling Framework
