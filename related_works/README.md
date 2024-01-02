@@ -109,7 +109,7 @@ These papers apply model transfromation and rule-based mappings, mainly utilizin
 - **Authors**: Sjoerd Rongen, Nikoletta Nikolova, Mark van der Pas
 - **DOI**: https://doi.org/10.1016/j.compind.2023.103910
 
-## 17. Model-Based Test Case Generation for Compliance Checking of Reactive Asset Administration Shells (2022)
+### 17. Model-Based Test Case Generation for Compliance Checking of Reactive Asset Administration Shells (2022)
 - **Summary**: This paper focuses on developing an automated method for generating test cases to verify Asset Administration Shell (AAS) server implementations for Digital Twins in Industry 4.0. The method involves manually creating AAS instance samples, parsing the OpenAPI specification to extract JSON schemas and API endpoints, analyzing dependencies between endpoints, and systematically generating cases for testing AAS-server implementations.
 - **Authors**: Björn Otto, Karsten Meinecke, Tobias Kleiner
 - **DOI**: (Beiträge des Jahreskolloquiums KommA 2022)
@@ -139,7 +139,7 @@ These papers apply model transfromation and rule-based mappings, mainly utilizin
 - **Authors**: Tomás Moreno, Thiago Sobral, António Almeida, António Lucas Soares, Américo Azevedo 
 - **DOI**: https://doi.org/10.1007/978-3-031-38165-2_79
 
-### 23. Generating Industry 4.0 Asset Administration Shells with Data from Engineering Data Logistics
+### 23. Generating Industry 4.0 Asset Administration Shells with Data from Engineering Data Logistics (2020)
 - **Summary**: This paper proposes a method facilitating the collection and export of AAS for logistics data between engineering workgroups and the AutomationML engineering data. It starts by identifying relevant AutomationML domain-specific languages (DSLs) within an engineering network, which include data models from various engineering disciplines and tools. These models are integrated into an overall data model using AutomationML, forming a comprehensive representation of the engineering system. Subsequently, submodels for the AAS are identified based on these integrated engineering objects. The method then utilizes an export adapter to transform the collected data into an AAS AutomationML serialization. This adapter adds necessary role and interface classes and translates attributes into the AAS format. 
 - **Authors**: Arndt Lüder, Anna-Kristin Behnert, Felix Rinker, Stefan Biffl
 - **DOI**: https://doi.org/10.1109/ETFA46521.2020.9212149
@@ -163,7 +163,7 @@ These papers apply model transfromation and rule-based mappings, mainly utilizin
 
 # Category: Semantics for data integration
 Other paper point out the importance of the semantics
-## 27. The Semantic Asset Administration Shell (2019)
+### 27. The Semantic Asset Administration Shell (2019)
 - **Summary**: It introduces an ontology for the AAS specification, creates an RML mapping, enables mappings from between different data formats, and provides resources for validating RDF entities. The paper focuses on bridging the gap between industrial manufacturing frameworks and Semantic Web contributions, aiming to enhance data integration, reasoning, and interoperability in industrial scenarios through semantic formalization.
 - **Authors**: Sebastian R. Bader, Maria Maleshkova 
 - **DOI**: https://doi.org/10.1007/978-3-030-33220-4_12
@@ -183,12 +183,12 @@ Other paper point out the importance of the semantics
 - **Authors**: Helbert da Rocha, Antonio Espirito-Santo, Reza Abrishambaf
 - **DOI**: https://doi.org/10.1109/IECON43393.2020.9254274
 
-## 31. Asset Administration Shell for the Wiring Harness System (2023)
+### 31. Asset Administration Shell for the Wiring Harness System (2023)
 - **Summary**: The discusses the creation of a digital twin for wiring harness systems in automobiles using AAS. The creation involves collaborative effort among various stakeholders in the value network, including OEMs, suppliers, and software and machine manufacturers. The authors point out the necessities and potentials of automating the effort-intensive AAS creation process of assets by using semantic interoperability and neural language models.
 - **Authors**: Georg Schnauffer, David Görzig, Christian Kosel, Johannes Diemer 
 - **DOI**: https://doi.org/10.1007/978-3-031-27933-1_30
  
-## 32. On the Role of Digital Twins in Data Spaces (2023)
+### 32. On the Role of Digital Twins in Data Spaces (2023)
 - **Summary**: The authors leverage the International Data Space vocabulary and ontologies to enhance the semantics with semantic ID in AAS in their projects , making the data can be queried from a special connector with the required meaningful description.
 - **Authors**: Friedrich Volz, Gerhard Sutschet, Ljiljana Stojanovic, Thomas Usländer
 - **DOI**: https://doi.org/10.3390/s23177601
@@ -235,24 +235,24 @@ Other paper point out the importance of the semantics
 
 
 # Category: Other methods and tools
-Methods and tools that simplify the creation of AAS (2021)
-### 41. Automated Design and Integration of Asset Administration Shells in Components of Industry 4.0
+Methods and tools that simplify the creation of AAS
+### 41. Automated Design and Integration of Asset Administration Shells in Components of Industry 4.0 (2021)
 - **Summary**: The method for creating Asset Administration Shells (AAS) in the paper involves a semi-automated process using a configuration wizard. This wizard is designed to accelerate the formation process and simplify the implementation of AASs. It ensures that the administration shells are generated in compliance with Industry 4.0 standards and requirements. 
 - **Authors**: Jakub Arm, Tomas Benesl, Petr Marcon, Zdenek Bradac, Tizian Schröder, Alexander Belyaev, Thomas Werner, Vlastimil Braun, Pavel Kamensky, Frantisek Zezulka, Christian Diedrich, Premysl Dohnal
 - **DOI**: https://doi.org/10.3390/s21062004
 
-## 42. AASX Server
+### 42. AASX Server
 - **Summary**: 
 - **URL**: https://github.com/admin-shell-io/aasx-server
 
-## 43. Eclipse BaSyx
+### 43. Eclipse BaSyx
 - **Summary**: 
 - **URL**: https://projects.eclipse.org/projects/dt.basyx
 
-## 44. FA3ST Service
+### 44. FA3ST Service
 - **Summary**: 
 - **URL**: https://github.com/FraunhoferIOSB/FAAAST-Service
 - 
-## 45. NOVAAS
+### 45. NOVAAS
 - **Summary**: 
 - **URL**: https://gitlab.com/novaas/catalog/nova-school-of-science-and-technology/novaas
