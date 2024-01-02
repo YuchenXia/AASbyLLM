@@ -18,12 +18,12 @@ Implications:
 
 # List of Related Works
 
-## NLP:
+## Natural Language Processing 
 These works apply embedding language models in NLP for information processing:
 ### 1. Automated monitoring applications for existing buildings through natural language processing based semantic mapping of operational data and creation of digital twins
 - **Summary**: This paper focuses on creating automated technical monitoring applications for existing buildings using NLP to semantically map operational data and form digital twins. It tackles the challenge of integrating semantically heterogeneous operational data into monitoring applications, traditionally a manual effort-intensive process. The method uses AI to map this data to a standard, creating semantic digital twins of buildings, achieving over 95% effectiveness in automating data point mapping.
 - **Authors**:
-- **DOI**:
+- **DOI**: https://doi.org/10.1016/j.enbuild.2023.113635
 
 
 ### 2. Comparison of Different NLP Models for Semantic Interoperability of Heterogeneous Asset Administration Shells
@@ -61,11 +61,11 @@ These papers apply model transfromation and rule-based mappings, mainly utilizin
 - **Summary**: The paper presents a system enabling interoperable digital twins in IIoT by transforming information models into AAS format. This process involves a detailed mapping model that dictates the conversion rules from source formats (like ABB Ability™ digital twins) to the AAS format.
 - **Authors**:
 - **DOI**:
-
-### 8. A Semi-Automatic Approach for Asset Administration Shell Creation from Heterogeneous Data
+  
+### 8. A Semi-Automatic Approach for Asset Administration Shell Creation from Heterogeneous Data (2023)
 - **Summary**: The paper introduces a semi-automatic approach for AAS creation with a python implementation. It involves extracting engineering information from various document types (PDF, STP, XML, XML/AML, RDF) , then mapping this information to the AAS meta-model. This process creates individual AASs for each document, which are later integrated into a comprehensive AAS representing the asset.
-- **Authors**:
-- **DOI**:
+- **Authors**: Jingyun Zhao, Birgit Vogel-Heuser, Fandi Bi, Josua Höfgen, Felix Ocker, Bernd Vojanec, Timo Markert, André Kraft
+- **DOI**: https://doi.org/10.1016/j.ifacol.2023.10.1532
 
 ### 9. Toward a Mapping of Capability and Skill Models using Asset Administration Shells and Ontologies
 - **Summary**: a bidirectional mapping approach that allows to transform between a model represented with the AAS submodels and a model represented with the skill ontology called CaSkMan
@@ -94,10 +94,10 @@ These papers apply model transfromation and rule-based mappings, mainly utilizin
 - **Authors**:
 - **DOI**:
 
-### 14. An Industry 4.0 Asset Administration Shell-Enabled Digital Solution for Robot-Based Manufacturing Systems / Toward Data Interoperability of Enterprise and Control Applications via the Industry 4.0 Asset Administration Shell
+### 14. An Industry 4.0 Asset Administration Shell-Enabled Digital Solution for Robot-Based Manufacturing Systems / Toward Data Interoperability of Enterprise and Control Applications via the Industry 4.0 Asset Administration Shell (2021)
 - **Summary**: Manually create the AAS with AASX Package Explorer and use a designed XML-Parser to map the AAS and the OPC UA infromation models. Use JSON parser to convert AAS and Excel file
-- **Authors**:
-- **DOI**:
+- **Authors**: Xun Ye, Seung Ho Hong, Won Seok Song, Yu Chul Kim, Xiongfeng Zhang
+- **DOI**: https://doi.org/10.1109/ACCESS.2021.3128580
 
 ### 15. Using AutomationML to Generate Digital Twins of Tooling Machines for the Purpose of Developing Energy Efficient Production Systems
 - **Summary**: The paper introduces a methodology leveraging AutomationML and Graph-based Design Languages to automatically generate Digital Twins. Graph-based Design languages contains the defined vocabularies, rules and compilers. AutomationML provides the data interface and serves as data exchange container.
@@ -126,13 +126,13 @@ These papers apply model transfromation and rule-based mappings, mainly utilizin
 
 ### 20. Asset Administration Shells, Configuration, Code Generation: A power trio for Industry 4.0 Platforms
 - **Summary**: The paper presents an IIoT platform integrating AAS, flexible configuration support, and code generation for Industry 4.0 platforms. The authors point out the importance of AAS generation for scaling
-- **Authors**:
-- **DOI**:
+- **Authors**: Holger Eichelberger, Claudia Niederée
+- **DOI**: https://doi.org/10.1109/ETFA54631.2023.10275339
 
-### 21. Asset Administration Shell: Domain Specific Language Approach to Integrate Heterogeneous Device Endpoints
+### 21. Asset Administration Shell: Domain Specific Language Approach to Integrate Heterogeneous Device Endpoints (2020)
 - **Summary**: The method described in the paper involves developing a domain-specific language to facilitate the data integrations of different manufacturing assets. This DSL is tailored to map different manufacturing assets and protocols, such as OPC-UA and MQTT, into a unified company model.
-- **Authors**:
-- **DOI**:
+- **Authors**: Felix Brandt, Eric Brandt, Javad Ghofrani, David Heik, Dirk Reichelt 
+- **DOI**: https://doi.org/10.1007/978-3-030-63092-8_72
 
 ### 22. Semantic Asset Administration Shell Towards a Cognitive Digital Twin
 - **Summary**: The paper focuses on integrating semantic technologies with Asset Administration Shell (AAS) to create Cognitive Digital Twins (CDTs) for industrial machines, and it details a method of creating an Asset Administration Shell through a combination of ontological modeling and semantic technologies.
@@ -183,10 +183,10 @@ Other paper point out the importance of the semantics
 - **Authors**:
 - **DOI**:
 
-## 31. Asset Administration Shell for the Wiring Harness System
+## 31. Asset Administration Shell for the Wiring Harness System (2023)
 - **Summary**: The discusses the creation of a digital twin for wiring harness systems in automobiles using AAS. The creation involves collaborative effort among various stakeholders in the value network, including OEMs, suppliers, and software and machine manufacturers. The authors point out the necessities and potentials of automating the effort-intensive AAS creation process of assets by using semantic interoperability and neural language models.
-- **Authors**:
-- **DOI**:
+- **Authors**: David Schnauffer Georg and Görzig, Kosel Christian, Diemer Johannes
+- **DOI**: https://doi.org/10.1007/978-3-031-27933-1_30
  
 ## 32. On the Role of Digital Twins in Data Spaces
 - **Summary**: The authors leverage the International Data Space vocabulary and ontologies to enhance the semantics with semantic ID in AAS in their projects , making the data can be queried from a special connector with the required meaningful description.
@@ -208,25 +208,25 @@ Other paper point out the importance of the semantics
 - **Authors**:
 - **DOI**:
 
-### 36. An Approach for Realizing Hybrid Digital Twins Using Asset Administration Shells and Apache StreamPipes
+### 36. An Approach for Realizing Hybrid Digital Twins Using Asset Administration Shells and Apache StreamPipes (2021)
 - **Summary**: The paper outlines a method for enhancing the interoperability AAS-based digital twins in a semantically consistent manner. The developed tool Apache StreamPipes can be used for processing heterogenous data from different data sources and sinks, e.g., communicated data from different network protocols, files, or databases
-- **Authors**:
-- **DOI**:
+- **Authors**: Michael Jacoby, Branislav Jovicic, Ljiljana Stojanovic, Nenad Stojanović
+- **DOI**: https://doi.org/10.3390/info12060217
 
 ### 37. Asset Administration Shell as Integration Layer for the Orchestration of Mixed Process and Manufacturing Plants
 - **Summary**: The method for creating the AAS involves integrating the MTP and PackML standards.The AAS is used to form an integration layer to abstract differences between MTP and PackML standards.
-- **Authors**:
-- **DOI**:
+- **Authors**: Julian Grothoff, Sten Grüner, Christian Barth, Alexander Kehl, Matthias Freund, Tobias Klausmann
+- **DOI**: https://doi.org/10.1109/ETFA52439.2022.9921653
 
 ### 38. Data Administration Shell for Data-Science-Driven Development
 - **Summary**: The paper focuses on linking data sets with information about their origin, analyses, results, and scripts, encasing them into AAS with necessary metadata and links to related development artifacts. The purpose is to facilitate the reuse of data sets for information sharing and management in joint cross-enterprise engineering projects.
 - **Authors**:
 - **DOI**:
 
-### 39. Architecture Blueprints for the Application of the Industry 4.0 Asset Administration Shell
+### 39. Architecture Blueprints for the Application of the Industry 4.0 Asset Administration Shell (2022)
 - **Summary**: It outlines the methodologies based on numerous use cases, emphasizing the significance of semantic annotation, common data models, and unique identifiers for AAS elements. Additionally, the paper highlights the importance of data conversion in serialization and de-serialization processes, ensuring a unified understanding and efficient management of AAS submodel data across different organizational environments.
-- **Authors**:
-- **DOI**:
+- **Authors**: Frank Schnicke, Thomas Kuhn, Tobias Klausmann, Sten Grüner, Daniel Porta
+- **DOI**: https://doi.org/10.1109/ETFA52439.2022.9921694
 
 ### 40. Overview and Comparison of Asset Information Model Standards
 - **Summary**: It addresses the challenge posed by the variety of protocols for information exchange and evaluates different standards for the virtual description of an automation device. These standards include W3C WoT Thing Description, Asset Administration Shell, Digital Factory Framework, Automation Markup Language, Module Type Package, OPC UA, Process Automation - Device Information Model, and Field Device Integration. The standards are compared across four categories: property representation, service representation, information modeling for direct device access, and discovery mechanisms. The paper emphasizes the need for generic integration strategies, model transformation and semantic annotations to combine these models, as no single standard fully addresses all use cases​​.
