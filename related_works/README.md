@@ -1,24 +1,24 @@
 # The main features of this work (AASbyLLM) and the novelties:
-Technologies:
+### Technologies:
 - First research prototype applying **generative LLM** for generating AAS
 - Apply generative LLMs for **inferencing** and embedding LLMs for **similarity retrieval**
 
-Benefits:
+### Benefits:
 - Wider range of **input flexibility** and format independent
 - **Generally applicable** to different disciplinary domains.
 - Instead of using manually crafted mapping rules, the system utilizes the knowledge learned in LLMs
 - The system adds proper **semantic annotation** for disambiguating the **concepts of the data property**
 - The system optimizes relevant details to enhances the quality of AAS 
 
-Implications:
+### Implications:
 - This prototype demonstrates the machine capability to **semantically understand and generate data properties**.
 - This capability can enable:
   1) an **interoperable** information exchange in the context of **digitalization**
   2) and higher degree of **task automation** in the context of **autonomization**
+***
+# List of Related Works:
 
-# List of Related Works
-
-## Natural Language Processing 
+## Category: Natural Language Processing 
 These works apply embedding language models in NLP for information processing:
 ### 1. Automated monitoring applications for existing buildings through natural language processing based semantic mapping of operational data and creation of digital twins (2023)
 - **Summary**: This paper focuses on creating automated technical monitoring applications for existing buildings using NLP to semantically map operational data and form digital twins. It tackles the challenge of integrating semantically heterogeneous operational data into monitoring applications, traditionally a manual effort-intensive process. The method uses AI to map this data to a standard, creating semantic digital twins of buildings, achieving over 95% effectiveness in automating data point mapping.
@@ -50,7 +50,7 @@ These works apply embedding language models in NLP for information processing:
 - **DOI**: https://doi.org/10.1515/auto-2021-0050
 
 
-## Rule-based:
+## Category: Rule-based:
 These papers apply model transfromation and rule-based mappings, mainly utilizing the model-based(/-driven) software engineering (MBSE/MDSE) pattern or semantic web technologies.
 ### 6. Model Transformation for Asset Administration Shells (2020)
 - **Summary**: The authors propose a custom-built Model Transformation Language (MTL) for Asset Administration Shells -- AASMTL-- focusing on its designed abstract syntax and language semantics. The MTL, based on a simplified version of the Object Constraint Language (OCL), is tailored to transform information across various AAS submodels.
@@ -161,7 +161,7 @@ These papers apply model transfromation and rule-based mappings, mainly utilizin
 
 
 
-# Semantics for data integration:
+# Category: Semantics for data integration
 Other paper point out the importance of the semantics
 ## 27. The Semantic Asset Administration Shell (2019)
 - **Summary**: It introduces an ontology for the AAS specification, creates an RML mapping, enables mappings from between different data formats, and provides resources for validating RDF entities. The paper focuses on bridging the gap between industrial manufacturing frameworks and Semantic Web contributions, aiming to enhance data integration, reasoning, and interoperability in industrial scenarios through semantic formalization.
@@ -234,7 +234,7 @@ Other paper point out the importance of the semantics
 - **DOI**: https://doi.org/10.1109/ACCESS.2023.3312286
 
 
-# Other tools:
+# Category: Other methods and tools
 Methods and tools that simplify the creation of AAS (2021)
 ### 41. Automated Design and Integration of Asset Administration Shells in Components of Industry 4.0
 - **Summary**: The method for creating Asset Administration Shells (AAS) in the paper involves a semi-automated process using a configuration wizard. This wizard is designed to accelerate the formation process and simplify the implementation of AASs. It ensures that the administration shells are generated in compliance with Industry 4.0 standards and requirements. 
