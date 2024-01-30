@@ -1,0 +1,876 @@
+[
+    {
+        "DataFeature": {
+            "Name": "Name",
+            "Definition": "Name of the product",
+            "Value": "Motor controller",
+            "SourceDescription": "Product name"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Material description of the product line",
+                    "Definition": "Usual name or brand name of the material in general language",
+                    "Reason": "The annotation does not directly describe the name of the product, but it could be related to the product's material.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAP078002"
+                },
+                {
+                    "Name": "Manufacturer product designation",
+                    "Definition": "Short description of the product (short text)",
+                    "Reason": "The annotation is relevant as it describes the product name in a concise manner.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAW338001"
+                },
+                {
+                    "Name": "product type description of processor",
+                    "Definition": "name of the product family or variant",
+                    "Reason": "The annotation is not directly related to the product name.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAR557001"
+                },
+                {
+                    "Name": "Material description of the case",
+                    "Definition": "Usual name or brand name of the material in general language",
+                    "Reason": "The annotation does not directly describe the product name, but it could be related to the product's material.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAP139002"
+                },
+                {
+                    "Name": "Product family",
+                    "Definition": "Name that has been defined for a cluster of products by the manufacturer, to differentiate in the entire range",
+                    "Reason": "The annotation is not directly related to the product name.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO843002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Manufacturer product designation",
+                "Definition": "Short description of the product (short text)",
+                "SemanticIdentifier": "AAW338001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Product name",
+                "Definition": "Name of the product",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "Identifying the product"
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "3",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Product type designation",
+            "Definition": "Designation of the product type",
+            "Value": "CMMB-AS",
+            "SourceDescription": "Product type designation"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Product type",
+                    "Definition": "Additional information for describing products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                    "Reason": "This annotation is relevant as it describes the additional information for distinguishing products within a family or special design variants.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO846001"
+                },
+                {
+                    "Name": "product-type designation",
+                    "Definition": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants",
+                    "Reason": "This annotation is relevant as it describes the identification code defined by the manufacturer to differentiate single products within a product family or special variants.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAF542002"
+                },
+                {
+                    "Name": "product type",
+                    "Definition": "characterization of the product with regard to its general type",
+                    "Reason": "This annotation is not relevant as it only describes the general type of the product, not the specific product type designation.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO243004"
+                },
+                {
+                    "Name": "product designation of manufacturer",
+                    "Definition": "designation used by the manufacturer for his product",
+                    "Reason": "This annotation is relevant as it describes the designation used by the manufacturer for the product.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO682003"
+                },
+                {
+                    "Name": "Product type of the form",
+                    "Definition": "Additional information for describing the form of products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                    "Reason": "This annotation is not relevant as it describes the form of the product, not the specific product type designation.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO844001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "product-type designation",
+                "Definition": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants",
+                "SemanticIdentifier": "AAF542002"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Product Type Designation",
+                "Definition": "Unique identifier assigned by the manufacturer to differentiate specific products within a product family or special variants",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "The product type designation can be used to identify and distinguish specific products within a product family or special variants, aiding in inventory management, order processing, and customer support."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Product type",
+            "Definition": "Type of the product",
+            "Value": "servo motors",
+            "SourceDescription": "Product type"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "product type",
+                    "Definition": "characterization of the product with regard to its general type",
+                    "Reason": "It is a general description of the product type.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO243004"
+                },
+                {
+                    "Name": "Product type",
+                    "Definition": "Characteristic to differentiate between different products of a product family or special variants",
+                    "Reason": "It is a more specific description of the product type.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO057002"
+                },
+                {
+                    "Name": "Product type",
+                    "Definition": "Additional information for describing products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                    "Reason": "It is a more specific description of the product type.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO846001"
+                },
+                {
+                    "Name": "Product type of the form",
+                    "Definition": "Additional information for describing the form of products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                    "Reason": "It is not directly related to the product type.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO844001"
+                },
+                {
+                    "Name": "Supplier product type",
+                    "Definition": "Characteristic to differentiate between different products of a product family or special variants",
+                    "Reason": "It is a more specific description of the product type.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW336001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "product type",
+                "Definition": "characterization of the product with regard to its general type",
+                "SemanticIdentifier": "AAO243004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Product type",
+                "Definition": "General description of the product type",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "Identifying and describing products for inventory, sales, or customer service purposes."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Type of mounting",
+            "Definition": "Way of mounting the product",
+            "Value": "Screwed onto connection plate",
+            "SourceDescription": "Mounting type"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "type of mounting",
+                    "Definition": "manner of mounting a device at its position",
+                    "Reason": "It is directly related to the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAE687008"
+                },
+                {
+                    "Name": "type of mounting",
+                    "Definition": "specific manner for installation or mounting of an operating unit",
+                    "Reason": "It is directly related to the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAB451012"
+                },
+                {
+                    "Name": "type of mounting material",
+                    "Definition": "information on the variation of the pre-mounted parts for the contstruction",
+                    "Reason": "It is not directly related to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG601002"
+                },
+                {
+                    "Name": "type of mounting on H-side",
+                    "Definition": "manner of mounting a device at the H or high pressure side",
+                    "Reason": "It is not directly related to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAB406007"
+                },
+                {
+                    "Name": "type of mounting on L-side",
+                    "Definition": "manner of mounting a device at the L or low pressure side",
+                    "Reason": "It is not directly related to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAB407007"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "type of mounting",
+                "Definition": "manner of mounting a device at its position",
+                "SemanticIdentifier": "BAE687008"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Mounting type",
+                "Definition": "Way of mounting the product",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "Identifying the specific way a product is mounted, which can be useful in installation, maintenance, and compatibility checks."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "3",
+            "overall": "3",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Display",
+            "Definition": "Type of display",
+            "Value": "Seven-segment display",
+            "SourceDescription": "Display type"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Display type",
+                    "Definition": "A group of displays of the same kind of construction and whose manufacturing technologies are of the same kind to such an extent that they can be subsumed under just one recognized construction type or for purposes of conformity checks. They are generally covered by a single, joint construction type specification",
+                    "Reason": "This annotation is relevant because it describes the type of display, which is a group of displays of the same construction and manufacturing technology.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAC165007"
+                },
+                {
+                    "Name": "Display type",
+                    "Definition": "A group of displays (Panel PC) built in device of the same kind of construction and whose manufacturing technologies are of the same kind to such an extent that they can be subsumed under just one recognized construction type or for purposes of conformity checks. They are generally covered by a single, joint construction type specification",
+                    "Reason": "This annotation is not relevant because it is specific to Panel PC, while the data feature is about a general display type.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAC163009"
+                },
+                {
+                    "Name": "display format",
+                    "Definition": "Specification in respect to form and size of a display",
+                    "Reason": "This annotation is not relevant because it describes the format and size of a display, not the type.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE830002"
+                },
+                {
+                    "Name": "type of monitor",
+                    "Definition": "information on the visual display unit",
+                    "Reason": "This annotation is not relevant because it is too general and does not specify the type of display.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG606004"
+                },
+                {
+                    "Name": "Display type",
+                    "Definition": "Type of attachment for information output in the form of symbols, digits, letters or pictorial representations. For example, display is possible through phasors, light diodes (LED), liquid crystals (LCD) and other constructions. With special attachments, the displayed information can be read by touching it or by listening to appropriate acoustic signals",
+                    "Reason": "This annotation is relevant because it describes the type of display, which is a method of information output.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAQ208002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Display type",
+                "Definition": "Type of attachment for information output in the form of symbols, digits, letters or pictorial representations. For example, display is possible through phasors, light diodes (LED), liquid crystals (LCD) and other constructions. With special attachments, the displayed information can be read by touching it or by listening to appropriate acoustic signals",
+                "SemanticIdentifier": "AAQ208002"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Seven-segment display",
+                "Definition": "A specific type of display that uses seven segments to form numbers and characters.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 2,
+            "Affordance": "The information can be used to identify the type of display used in a device, which can be useful in selecting devices with specific display requirements."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Parameterisation interface",
+            "Definition": "Type of interface for parameterisation",
+            "Value": "RS232 (up to 38400 bits/s)",
+            "SourceDescription": "Parameterisation interface"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Module type",
+                    "Definition": "Description of the interface type",
+                    "Reason": "The data feature is about the parameterisation interface, not the module type.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "Type of interface",
+                    "Definition": "A group of interfaces with comparable attributes in respect to their type of construction and/or mode of operation",
+                    "Reason": "The data feature is about a specific parameterisation interface, not a group of interfaces.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "interface present",
+                    "Definition": "specification whether there is an interface",
+                    "Reason": "The data feature is about a specific parameterisation interface, not just the presence of an interface.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "Type of controller interface",
+                    "Definition": "A group of controller interfaces with comparable attributes in respect to method of construction and/or mode of operation",
+                    "Reason": "The data feature is about a parameterisation interface, not a controller interface.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "Interface",
+                    "Definition": "formal specification of all characteristics of an interface that are required for guaranteeing the complete (physical and functional) compatibility of two systems to be connected for the data exchange",
+                    "Reason": "The data feature is about a specific parameterisation interface, not a general interface specification.",
+                    "isRelevant": false
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Type of interface",
+                "Definition": "A group of interfaces with comparable attributes in respect to their type of construction and/or mode of operation",
+                "SemanticIdentifier": "AAP800003"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Parameterisation interface type",
+                "Definition": "Type of the parameterisation interface",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in configuring and troubleshooting the communication between systems, and in selecting compatible devices."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "3",
+            "overall": "4",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Operating range of analogue inputs [V]",
+            "Definition": "Operating range of analogue inputs in volts",
+            "Value": "\u00b110",
+            "SourceDescription": "Operating range of analogue inputs"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Number of input ranges -1 V...+1 V",
+                    "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: -1 V...+1 V",
+                    "Reason": "The annotation is relevant because it provides information about the number of input ranges for analog signals, which is related to the operating range of analogue inputs.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAP484002"
+                },
+                {
+                    "Name": "Number of input ranges -500 mV...+500 mV",
+                    "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: -500 mV...+500 mV",
+                    "Reason": "The annotation is relevant because it provides information about the number of input ranges for analog signals, which is related to the operating range of analogue inputs.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAP503002"
+                },
+                {
+                    "Name": "Number of input ranges -100 mV...+100 mV",
+                    "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: -100 mV...+100 mV",
+                    "Reason": "The annotation is relevant because it provides information about the number of input ranges for analog signals, which is related to the operating range of analogue inputs.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAP490002"
+                },
+                {
+                    "Name": "Number of input ranges -2.5 V...+ 2.5 V",
+                    "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: -2.5 V...+2.5 V",
+                    "Reason": "The annotation is relevant because it provides information about the number of input ranges for analog signals, which is related to the operating range of analogue inputs.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAP493002"
+                },
+                {
+                    "Name": "Number of input ranges 1 V...5 V",
+                    "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: 1 V...5 V",
+                    "Reason": "The annotation is relevant because it provides information about the number of input ranges for analog signals, which is related to the operating range of analogue inputs.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAP485002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Number of input ranges -1 V...+1 V",
+                "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: -1 V...+1 V",
+                "SemanticIdentifier": "AAP484002"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Operating range of analogue inputs [V]",
+                "Definition": "Operating range of analogue inputs in volts",
+                "SemanticIdentifier": null
+            },
+            "Unit": "V",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the range of input signals that the device can handle, which is crucial for proper operation and performance of the device."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Characteristics of analogue inputs",
+            "Definition": "Characteristics of analogue inputs",
+            "Value": "Differential inputs",
+            "SourceDescription": "Characteristics of analogue inputs"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Number of analogue inputs, integrated",
+                    "Definition": "quantitative information about the amount of the available integrated connections for analogous signals",
+                    "Reason": "The data feature is about the characteristics of analogue inputs, not the number of integrated inputs.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAI219002"
+                },
+                {
+                    "Name": "number of analogue outputs",
+                    "Definition": "quantitative specification of the interfaces for analogue data transfer to other devices",
+                    "Reason": "The data feature is about the characteristics of analogue inputs, not the number of analogue outputs.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG545001"
+                },
+                {
+                    "Name": "number of analogue inputs",
+                    "Definition": "quantitative specification of the amount of analogue interfaces at the device for data acquisition from other devices",
+                    "Reason": "The data feature is about the characteristics of analogue inputs, not the number of analogue inputs.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF912001"
+                },
+                {
+                    "Name": "analogue input present",
+                    "Definition": "specification whether there is a n interface for analouge signal acquisition",
+                    "Reason": "The data feature is about the characteristics of analogue inputs, not whether there is an analogue input.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF749004"
+                },
+                {
+                    "Name": "analog inputs, configurable",
+                    "Definition": "whether analog inputs are configurable",
+                    "Reason": "The data feature is about the characteristics of analogue inputs, not whether the analogue inputs are configurable.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAM486004"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Characteristics of analogue inputs",
+                "Definition": "Characteristics of analogue inputs",
+                "SemanticIdentifier": "AAF749004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Characteristics of analogue inputs",
+                "Definition": "Characteristics of analogue inputs",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in understanding the technical specifications of the device, particularly in understanding the nature of the analogue inputs."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Configurable for rotational speed / current",
+            "Definition": "Whether the analogue inputs are configurable for rotational speed / current",
+            "Value": "Yes",
+            "SourceDescription": "Configurability of analogue inputs"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "analog inputs, configurable",
+                    "Definition": "whether analog inputs are configurable",
+                    "Reason": "The data feature is about configurability of analogue inputs, which is relevant to this annotation.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAM486004"
+                },
+                {
+                    "Name": "analog outputs, configurable",
+                    "Definition": "whether analog outputs are configurable",
+                    "Reason": "The data feature is about configurability of analogue inputs, not outputs, so this annotation is not relevant.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAM487004"
+                },
+                {
+                    "Name": "Control types",
+                    "Definition": "Specification of the adjustment mechanisms provided in the device",
+                    "Reason": "The data feature is about configurability of analogue inputs, not about control types, so this annotation is not relevant.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW268001"
+                },
+                {
+                    "Name": "digital inputs, configurable",
+                    "Definition": "whether digital inputs are configurable",
+                    "Reason": "The data feature is about configurability of analogue inputs, not digital inputs, so this annotation is not relevant.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAM484004"
+                },
+                {
+                    "Name": "Number of rotational speed inputs",
+                    "Definition": "indication of quantity about the number of inputs for rotation speed sensing",
+                    "Reason": "The data feature is about configurability of analogue inputs, not about the number of rotational speed inputs, so this annotation is not relevant.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAS531001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "analog inputs, configurable",
+                "Definition": "whether analog inputs are configurable",
+                "SemanticIdentifier": "AAM486004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Configurability of analogue inputs for rotational speed / current",
+                "Definition": "Whether the analogue inputs are configurable for rotational speed / current",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in specific engineering tasks such as configuring the motor controller for rotational speed or current sensing applications."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "1",
+            "definition": "1",
+            "affordance": "1",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Number of digital logic outputs",
+            "Definition": "Number of digital logic outputs",
+            "Value": "5",
+            "SourceDescription": "Number of digital logic outputs"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Number of digital outputs, integrated",
+                    "Definition": "Quantitative statement about the set of digital outputs, integrated",
+                    "Reason": "The data feature is about the number of digital logic outputs, which is a subset of digital outputs.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAP422001"
+                },
+                {
+                    "Name": "Number of outputs, digital",
+                    "Definition": "Quantitative statement about the set of outputs, digital",
+                    "Reason": "The data feature is about the number of digital logic outputs, which is a specific type of digital outputs.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAP610001"
+                },
+                {
+                    "Name": "Number of additionally integrated digital outputs",
+                    "Definition": "quantitative statement about the number of additionally integrated digital outputs with digital signal (characterized by High and Low)",
+                    "Reason": "The data feature is about the number of digital logic outputs, which is not necessarily about additionally integrated digital outputs.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAP336001"
+                },
+                {
+                    "Name": "max. number of integrated digital inputs",
+                    "Definition": "Quantitative statement about the number of outputs available with digital signal",
+                    "Reason": "The data feature is about the number of digital logic outputs, not inputs.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAP295001"
+                },
+                {
+                    "Name": "Number of optional digital outputs",
+                    "Definition": "Quantitative information on the quantity As a more precise determination: Output, which converts a one-bit binary number into a binary signal (characterized by the states High and Low), with an active signal (eg DC 24 V) or passive signal (eg via Optocoupler) and, if necessary, configurable as switching, pulse or frequency output (International Electrotechnical Commission 61131-2) / optional",
+                    "Reason": "The data feature is about the number of digital logic outputs, not optional digital outputs.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW839001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Number of digital outputs, integrated",
+                "Definition": "Quantitative statement about the set of digital outputs, integrated",
+                "SemanticIdentifier": "AAP422001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Number of digital logic outputs",
+                "Definition": "Quantitative statement about the number of digital logic outputs",
+                "SemanticIdentifier": null
+            },
+            "Unit": "5",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in engineering tasks related to system integration, control systems, and automation."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Number of digital logic inputs",
+            "Definition": "Number of digital logic inputs",
+            "Value": "7",
+            "SourceDescription": "Number of digital logic inputs"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Number of digital inputs, integrated",
+                    "Definition": "Quantitative statement about the set of digital inputs, integrated",
+                    "Reason": "Relevant because it is a quantitative statement about the number of digital inputs, which is integrated.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAP421001"
+                },
+                {
+                    "Name": "Number of inputs, digital",
+                    "Definition": "Quantitative statement about the set of inputs, digital",
+                    "Reason": "Relevant because it is a quantitative statement about the number of digital inputs.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAP508003"
+                },
+                {
+                    "Name": "Number of optional digital inputs",
+                    "Definition": "Quantitative information on the quantity As a more precise determination: Input which converts a binary signal (characterized by the states High and Low) into a one-bit binary number, with an active signal (eg DC 24 V) or passive signal (eg (Digital input type 1: eg relay contacts, push buttons, switches) or for signals from semiconductor switches (digital input type 2 and type 3: Sensors, 2-wire proximity switches) (International Electrotechnical Commission 61131-2) / optional",
+                    "Reason": "Not relevant because it is more specific about the type of digital inputs and their characteristics.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW840001"
+                },
+                {
+                    "Name": "Number of additionally integrated digital inputs",
+                    "Definition": "quantitative statement about the number of additionally integrated digital inputs with digital signal (characterized by High and Low)",
+                    "Reason": "Not relevant because it is about the additional integration of digital inputs.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAP335001"
+                },
+                {
+                    "Name": "max. number of digital inputs",
+                    "Definition": "max. quantitative statement about the set of inputs, digital",
+                    "Reason": "Not relevant because it is about the maximum number of digital inputs, not the exact number.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW900001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Number of digital inputs, integrated",
+                "Definition": "Quantitative statement about the set of digital inputs, integrated",
+                "SemanticIdentifier": "AAP421001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Number of digital inputs",
+                "Definition": "Quantitative statement about the number of digital inputs",
+                "SemanticIdentifier": null
+            },
+            "Unit": "1",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in various engineering tasks such as system design, integration, and troubleshooting."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Operating range of logic inputs [V]",
+            "Definition": "Operating range of logic inputs in volts",
+            "Value": "12.5 ... 30",
+            "SourceDescription": "Operating range of logic inputs"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Operating voltage in Ex- Range",
+                    "Definition": "Value of operating voltage in Ex- Range",
+                    "Reason": "The data feature is about the operating range of logic inputs, not about the operating voltage in Ex- Range.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "Number of input ranges 1 V ... 5 V",
+                    "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: 1 V ... 5 V",
+                    "Reason": "The data feature is about the operating range of logic inputs, not about the number of inputs available with analog signals in the input range: 1 V ... 5 V.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "Number of input ranges -2.5 V ... + 2.5 V",
+                    "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: -2.5 V ... +2.5 V",
+                    "Reason": "The data feature is about the operating range of logic inputs, not about the number of inputs available with analog signals in the input range: -2.5 V ... +2.5 V.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "Operating voltage in secure range",
+                    "Definition": "Value of operating voltage in secure range",
+                    "Reason": "The data feature is about the operating range of logic inputs, not about the operating voltage in secure range.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "Number of input ranges -1 V ... +1 V",
+                    "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: -1 V ... +1 V",
+                    "Reason": "The data feature is about the operating range of logic inputs, not about the number of inputs available with analog signals in the input range: -1 V ... +1 V.",
+                    "isRelevant": false
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Operating range of logic inputs [V]",
+                "Definition": "Operating range of logic inputs in volts",
+                "SemanticIdentifier": "the_given_semantic_identifier"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Operating range of logic inputs [V]",
+                "Definition": "Operating range of logic inputs in volts",
+                "SemanticIdentifier": null
+            },
+            "Unit": "V",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in determining the compatibility of the device with other devices or systems that require specific input voltage ranges for logic inputs."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "4",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Degree of protection",
+            "Definition": "Degree of protection of the product",
+            "Value": "IP20",
+            "SourceDescription": "Degree of protection"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Index of protection class",
+                    "Definition": "Supplementary index of the protection class which contains the information necessary to achieve the specified degree of protection of the product",
+                    "Reason": "The annotation is not directly related to the degree of protection of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ336001"
+                },
+                {
+                    "Name": "Degree of Protection",
+                    "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and against ingress of water",
+                    "Reason": "The annotation is directly related to the degree of protection of the product.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAV695001"
+                },
+                {
+                    "Name": "Fire protection barrier present",
+                    "Definition": "whether the product is equipped with a fire protection barrier",
+                    "Reason": "The annotation is not directly related to the degree of protection of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAD\u00a0147010,00"
+                },
+                {
+                    "Name": "degree of protection",
+                    "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and/or ingress of water and verified by standardized test methods, expressed as a IP rating",
+                    "Reason": "The annotation is directly related to the degree of protection of the product.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAG975013"
+                },
+                {
+                    "Name": "protection of base part",
+                    "Definition": "specification which protection has the base part",
+                    "Reason": "The annotation is not directly related to the degree of protection of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABE224001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Degree of Protection",
+                "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and against ingress of water",
+                "SemanticIdentifier": "AAV695001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Degree of protection",
+                "Definition": "The degree of protection indicates the level of protection provided by the product's enclosure against access to hazardous parts, ingress of solid foreign objects, and ingress of water.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The degree of protection can be used to determine the product's suitability for various environments and applications."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "4",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    }
+]

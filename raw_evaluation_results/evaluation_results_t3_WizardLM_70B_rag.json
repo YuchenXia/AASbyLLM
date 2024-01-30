@@ -1,0 +1,1157 @@
+[
+    {
+        "DataFeature": {
+            "Name": "air damper_Product No.",
+            "Definition": "Product number of air damper",
+            "Value": "GAP191.1E/IHT",
+            "SourceDescription": "Product number of air damper"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "product article number of manufacturer",
+                    "Definition": "unique product identifier of the manufacturer",
+                    "Reason": "The data feature is a product number, which is a unique identifier for the product.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO676003"
+                },
+                {
+                    "Name": "Material number of the evaporator",
+                    "Definition": "Usual name or brand name of the material. The material is unambiguously described by referring to a norm",
+                    "Reason": "The data feature is a product number, not a material number.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAQ294002"
+                },
+                {
+                    "Name": "Manufacturer product order suffix",
+                    "Definition": "By the manufacturer awarded string for the identification of additional attributes, not by a structured manufacturer item number may be expressed",
+                    "Reason": "The data feature is a product number, not a manufacturer product order suffix.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAU733001"
+                },
+                {
+                    "Name": "supplier of the identifier",
+                    "Definition": "DUNS-no., supplier number, or other number as identifier of an offeror or supplier of the identification",
+                    "Reason": "The data feature is a product number, not a supplier identifier.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAP796004"
+                },
+                {
+                    "Name": "air slot present",
+                    "Definition": "specification whether the product is equipped with air slot",
+                    "Reason": "The data feature is a product number, not a specification about an air slot.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABE312001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "product article number of manufacturer",
+                "Definition": "unique product identifier of the manufacturer",
+                "SemanticIdentifier": "AAO676003"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Product Number",
+                "Definition": "Unique identifier for the product",
+                "SemanticIdentifier": null
+            },
+            "Unit": "N/A",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "Identifying the product for sales, inventory, and customer service purposes."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "air damper_Stock No.",
+            "Definition": "Stock number of air damper",
+            "Value": "S55499-D639",
+            "SourceDescription": "Stock number of air damper"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "supplier of the identifier",
+                    "Definition": "DUNS-no., supplier number, or other number as identifier of an offeror or supplier of the identification",
+                    "Reason": "The data feature is a stock number of a product, not a supplier identifier.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAP796004"
+                },
+                {
+                    "Name": "National stock number",
+                    "Definition": "13-digit numeric code, identifying all the standardized material items of supply as they have been recognized by the United States Department of Defense",
+                    "Reason": "The data feature is a stock number, but it is not a national stock number.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAN075003"
+                },
+                {
+                    "Name": "number of hot air guns",
+                    "Definition": "quantitative information to the amount of the available hot air guns",
+                    "Reason": "The data feature is a stock number of a product, not a quantity of hot air guns.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAI268001"
+                },
+                {
+                    "Name": "Material number of the evaporator",
+                    "Definition": "Usual name or brand name of the material. The material is unambiguously described by referring to a norm",
+                    "Reason": "The data feature is a stock number of a product, not a material number of an evaporator.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAQ294002"
+                },
+                {
+                    "Name": "Number of Pumps",
+                    "Definition": "Number",
+                    "Reason": "The data feature is a stock number of a product, not a number of pumps.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAV891001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Stock No.",
+                "Definition": "Stock number of air damper",
+                "SemanticIdentifier": "AAN075003"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Stock Number",
+                "Definition": "Unique identifier assigned to a product for inventory and supply chain purposes",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "The stock number can be used for inventory management, order processing, and supply chain tracking."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "air damper_Torque",
+            "Definition": "Torque of air damper",
+            "Value": "6 Nm",
+            "SourceDescription": "Torque of air damper"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "torque",
+                    "Definition": "measured torque of the motor",
+                    "Reason": "It is directly related to the torque of the air damper.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "ABC236001"
+                },
+                {
+                    "Name": "set assembly torque",
+                    "Definition": "given mounting torque required to achieve a satisfactory final connection which is to be applied to a component or system in the application",
+                    "Reason": "It is related to the torque needed for assembly, but not specifically to the air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC881001"
+                },
+                {
+                    "Name": "air consumption",
+                    "Definition": "consumption of compressed-air of the tool",
+                    "Reason": "It is not directly related to the torque of the air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG919002"
+                },
+                {
+                    "Name": "air pressure",
+                    "Definition": "sum of all forces that influence the compressed-air vessel wall through compressed air",
+                    "Reason": "It is not directly related to the torque of the air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAJ705005"
+                },
+                {
+                    "Name": "actual assembly torque",
+                    "Definition": "mounting torque required to achieve a satisfactory final connection, determined at the time under consideration",
+                    "Reason": "It is related to the torque needed for assembly, but not specifically to the air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC854001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "torque",
+                "Definition": "measured torque of the motor",
+                "SemanticIdentifier": "ABC236001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "air damper torque",
+                "Definition": "Torque required for the operation of the air damper",
+                "SemanticIdentifier": null
+            },
+            "Unit": "Nm",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in engineering tasks related to motor performance and efficiency, and in determining the appropriate torque for the operation of the air damper."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "air damper_Holding torque",
+            "Definition": "Holding torque of air damper",
+            "Value": "6 Nm",
+            "SourceDescription": "Holding torque of air damper"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "torque",
+                    "Definition": "measured torque of the motor",
+                    "Reason": "Not relevant as it is about the motor torque, not the holding torque of the air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC236001"
+                },
+                {
+                    "Name": "set assembly torque",
+                    "Definition": "given mounting torque required to achieve a satisfactory final connection which is to be applied to a component or system in the application",
+                    "Reason": "Not relevant as it is about the mounting torque, not the holding torque of the air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC881001"
+                },
+                {
+                    "Name": "measurement principle for torque",
+                    "Definition": "test methods for measuring the torque",
+                    "Reason": "Not relevant as it is about the measurement principle, not the holding torque of the air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK731002"
+                },
+                {
+                    "Name": "Operating torque",
+                    "Definition": "Operating torque",
+                    "Reason": "Not relevant as it is about the operating torque, not the holding torque of the air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAV518002"
+                },
+                {
+                    "Name": "holding torque",
+                    "Definition": "resistant effort generated in the axis of joint after the lock of the clamping device",
+                    "Reason": "Relevant as it is about the holding torque, which is the resistant effort generated after the lock of the clamping device.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAE881003"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "holding torque",
+                "Definition": "resistant effort generated in the axis of joint after the lock of the clamping device",
+                "SemanticIdentifier": "AAE881003"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Holding torque of air damper",
+                "Definition": "The resistant effort generated in the axis of joint after the lock of the clamping device for an air damper.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "Nm",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in engineering tasks related to the installation, maintenance, and performance evaluation of air dampers."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "air damper_Air damper area",
+            "Definition": "Area of air damper",
+            "Value": "1 m\u00b2",
+            "SourceDescription": "Area of air damper"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Application area of laryngeal mask airway",
+                    "Definition": "category of persons determined for the intended use of laryngeal mask airway",
+                    "Reason": "The annotation is not relevant because it refers to the application area of a laryngeal mask airway, not the area of an air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAA322005"
+                },
+                {
+                    "Name": "Application area of respirator",
+                    "Definition": "category of persons determined for the intended use of the respirator",
+                    "Reason": "The annotation is not relevant because it refers to the application area of a respirator, not the area of an air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAA334005"
+                },
+                {
+                    "Name": "Application area of inhaler or nebulizer",
+                    "Definition": "category of persons determined for the intended use of inhaler or nebulizer",
+                    "Reason": "The annotation is not relevant because it refers to the application area of an inhaler or nebulizer, not the area of an air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAA347005"
+                },
+                {
+                    "Name": "air flow volume",
+                    "Definition": "quantitative indication of the airflow",
+                    "Reason": "The annotation is not relevant because it refers to the air flow volume, not the area of an air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAI696002"
+                },
+                {
+                    "Name": "air flow volume",
+                    "Definition": "quantitative indication of the airflow",
+                    "Reason": "The annotation is not relevant because it refers to the air flow volume, not the area of an air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAI697002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "air damper area",
+                "Definition": "Area of air damper",
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "Air damper area",
+                "Definition": "Area of the air damper",
+                "SemanticIdentifier": null
+            },
+            "Unit": "m\u00b2",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The information can be used in determining the size of the air damper and its potential impact on airflow."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "2",
+            "overall": "5",
+            "definition": "3",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "air damper_Angular rotation",
+            "Definition": "Angular rotation of air damper",
+            "Value": "90\u00b0",
+            "SourceDescription": "Angular rotation of air damper"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "measurement principle for angle of rotation",
+                    "Definition": "test methods for measuring the rotational angle",
+                    "Reason": "Not directly related to the angular rotation of the air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK732002"
+                },
+                {
+                    "Name": "Rotational direction of the drift",
+                    "Definition": "Motion direction (rotating direction) in the case of rotation.",
+                    "Reason": "Not directly related to the angular rotation of the air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAD867005"
+                },
+                {
+                    "Name": "rotary vortex present",
+                    "Definition": "specification whether the device is equipped with a rotary vortex",
+                    "Reason": "Not directly related to the angular rotation of the air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAH388004"
+                },
+                {
+                    "Name": "Rotation speed compressor",
+                    "Definition": "number of revolutions of the compressor per unit of time",
+                    "Reason": "Not directly related to the angular rotation of the air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAJ165008"
+                },
+                {
+                    "Name": "Form of rotary seal, view from atmosphere",
+                    "Definition": "Geometric shape of rotary seal, view from atmosphere",
+                    "Reason": "Not directly related to the angular rotation of the air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE322003"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Rotational direction of the drift",
+                "Definition": "Motion direction (rotating direction) in the case of rotation.",
+                "SemanticIdentifier": "AAD867005"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Angular rotation of the air damper",
+                "Definition": "The specific angle of rotation of the air damper.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "\u00b0",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to understand the specific rotation angle of the air damper, which can be useful in various engineering tasks such as designing ventilation systems or maintaining HVAC equipment."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "air damper_Power consumption",
+            "Definition": "Power consumption of air damper",
+            "Value": "20 VA, 13 W",
+            "SourceDescription": "Power consumption of air damper"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "electrical power consumption",
+                    "Definition": "electrical power consumption of the component or system",
+                    "Reason": "The annotation is relevant as it describes the power consumption of the air damper, which is an electrical component.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAZ820001"
+                },
+                {
+                    "Name": "air requirement/-consumption",
+                    "Definition": "amount of required and consumed air",
+                    "Reason": "The annotation is not relevant as it describes the consumption of air, not the electrical power.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG882002"
+                },
+                {
+                    "Name": "air consumption",
+                    "Definition": "consumption of compressed-air of the tool",
+                    "Reason": "The annotation is not relevant as it describes the consumption of compressed air, not the electrical power.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG919002"
+                },
+                {
+                    "Name": "Power consumption of the filter",
+                    "Definition": "A quantity of energy per time unit taken from an energy source in operational state",
+                    "Reason": "The annotation is not relevant as it describes the power consumption of a filter, not the air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAI090003"
+                },
+                {
+                    "Name": "energy consumption",
+                    "Definition": "measured energy consumption of the unit",
+                    "Reason": "The annotation is not relevant as it describes the energy consumption in general, not specifically for the air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC229001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "electrical power consumption",
+                "Definition": "electrical power consumption of the component or system",
+                "SemanticIdentifier": "AAZ820001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Power consumption of the air damper",
+                "Definition": "Power consumption of the air damper",
+                "SemanticIdentifier": null
+            },
+            "Unit": "VA, W",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in determining the energy efficiency of the air damper and in comparing it with other similar products."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "air damper_Positioning time",
+            "Definition": "Positioning time of air damper",
+            "Value": "2 s",
+            "SourceDescription": "Positioning time of air damper"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "position of pole drill",
+                    "Definition": "spatial position of the pole bore",
+                    "Reason": "Not relevant to the positioning time of the air damper",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK711002"
+                },
+                {
+                    "Name": "Position of the pad holder",
+                    "Definition": "position of the mounting for presentation pads",
+                    "Reason": "Not relevant to the positioning time of the air damper",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW121001"
+                },
+                {
+                    "Name": "Positioning function present",
+                    "Definition": "whether the automation software is equipped with a positioning function",
+                    "Reason": "Not relevant to the positioning time of the air damper",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAD\u00a0572008,00"
+                },
+                {
+                    "Name": "Lowering time",
+                    "Definition": "The time required for the lowering process between the upper and lower terminal positions",
+                    "Reason": "Not relevant to the positioning time of the air damper",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAI771004"
+                },
+                {
+                    "Name": "type of mounting of the air-termination system",
+                    "Definition": "indication of the method of installation/fixing of the equipment",
+                    "Reason": "Not relevant to the positioning time of the air damper",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABD841001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Positioning time",
+                "Definition": "The time required to move from one position to another",
+                "SemanticIdentifier": "BAI771004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Positioning time of air damper",
+                "Definition": "The time required for the air damper to move from one position to another",
+                "SemanticIdentifier": null
+            },
+            "Unit": "s",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The positioning time of the air damper can be used in engineering tasks related to automation and control systems, and in specific applications such as HVAC systems and industrial automation."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "air damper_Cable length",
+            "Definition": "Cable length of air damper",
+            "Value": "0.9 m",
+            "SourceDescription": "Cable length of air damper"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Cable diameter",
+                    "Definition": "states the diameter of a cable",
+                    "Reason": "The data feature is about the length, not the diameter of a cable.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE365006"
+                },
+                {
+                    "Name": "diameter of the cord",
+                    "Definition": "diameter of the cord",
+                    "Reason": "The data feature is about the length, not the diameter of a cord.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAS656002"
+                },
+                {
+                    "Name": "Height of housing for cable joint",
+                    "Definition": "With housing for a cable joint, the dimension in the direction of the cable",
+                    "Reason": "The data feature is about the cable length, not the height of a housing for a cable joint.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAB633005"
+                },
+                {
+                    "Name": "nominal length of the cable with pods",
+                    "Definition": "rounded length of the wire including the connection boards",
+                    "Reason": "The data feature is about the cable length without connection boards.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAE370005"
+                },
+                {
+                    "Name": "length connecting cord",
+                    "Definition": "largest dimension of the connection cord",
+                    "Reason": "The data feature is about the cable length, not the length of a connection cord.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAI667003"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Cable length",
+                "Definition": "Length of the cable",
+                "SemanticIdentifier": "BAE365006"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Cable length",
+                "Definition": "Length of the cable",
+                "SemanticIdentifier": null
+            },
+            "Unit": "m",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The information can be used in engineering tasks related to cable management, wiring, and installation of the air damper."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "air damper_Positioning signal",
+            "Definition": "Positioning signal of air damper",
+            "Value": "DC 0(2)...10 V, 0(4)...20 mA",
+            "SourceDescription": "Positioning signal of air damper"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "air connection",
+                    "Definition": "information on the connection for the air supply",
+                    "Reason": "The data feature is about the positioning signal of the air damper, not about the air connection.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAH942002"
+                },
+                {
+                    "Name": "type of mounting of the air-termination system",
+                    "Definition": "indication of the method of installation/fixing of the equipment",
+                    "Reason": "The data feature is about the positioning signal of the air damper, not about the mounting of the air-termination system.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABD841001"
+                },
+                {
+                    "Name": "positioning on rail system",
+                    "Definition": "relative indication of the positioning of the operating device on the rail system",
+                    "Reason": "The data feature is about the positioning signal of the air damper, not about the positioning on the rail system.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAH450003"
+                },
+                {
+                    "Name": "set signal on alarm",
+                    "Definition": "factory setting for signal on alarm",
+                    "Reason": "The data feature is about the positioning signal of the air damper, not about the set signal on alarm.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAM836003"
+                },
+                {
+                    "Name": "Position of the pad holder",
+                    "Definition": "position of the mounting for presentation pads",
+                    "Reason": "The data feature is about the positioning signal of the air damper, not about the position of the pad holder.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW121001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Positioning signal",
+                "Definition": "Positioning signal of air damper",
+                "SemanticIdentifier": "AAH942002"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Positioning signal",
+                "Definition": "Positioning signal of the air damper",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in understanding and controlling the operation of the air damper."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "3",
+            "definition": "1",
+            "affordance": "5",
+            "isInaccurate": [
+                "GeneratedDefinition"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "air damper_Degree of protection",
+            "Definition": "Degree of protection of air damper",
+            "Value": "IP54",
+            "SourceDescription": "Degree of protection of air damper"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "degree of protection",
+                    "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and/or ingress of water and verified by standardized test methods, expressed as a IP rating",
+                    "Reason": "It is directly related to the degree of protection of the air damper.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAG975013"
+                },
+                {
+                    "Name": "Degree of Protection",
+                    "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and against ingress of water",
+                    "Reason": "It is similar to the degree of protection of the air damper but lacks the specific mention of 'verified by standardized test methods' and 'expressed as a IP rating'.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAV695001"
+                },
+                {
+                    "Name": "degree of protection (IP) (UL1449)",
+                    "Definition": "Indicates the protection of the SPD against access to hazardous parts and ingress of solid particles and liquids",
+                    "Reason": "It is related to the protection of a specific device (SPD) against access and ingress, but not specifically about the air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABD315001"
+                },
+                {
+                    "Name": "category (explosion protection)",
+                    "Definition": "classification of devices by it degree of safety",
+                    "Reason": "It is about the classification of devices based on safety, not specifically about the protection of the air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO609003"
+                },
+                {
+                    "Name": "type of protection",
+                    "Definition": "classification of an explosion protection according to the specific measures applied to avoid ignition of a surrounding explosive atmosphere",
+                    "Reason": "It is about the classification of explosion protection, not specifically about the protection of the air damper.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAQ325004"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "degree of protection",
+                "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and/or ingress of water and verified by standardized test methods, expressed as a IP rating",
+                "SemanticIdentifier": "BAG975013"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Degree of protection of air damper",
+                "Definition": "The extent of protection provided by the air damper enclosure against access to hazardous parts, against ingress of solid foreign objects and/or ingress of water, expressed as a IP rating",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The degree of protection is crucial in determining the suitability of the air damper for specific environments and applications where protection against access to hazardous parts, solid foreign objects, and water ingress is required."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "3",
+            "overall": "4",
+            "definition": "4",
+            "affordance": "4",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "air damper_Ambient temperature, operation",
+            "Definition": "Ambient temperature for operation of air damper",
+            "Value": "-32\u202655 \u00b0C",
+            "SourceDescription": "Ambient temperature for operation of air damper"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "maximum ambient temperature (during operation)",
+                    "Definition": "maximal permitted temperature of the atmosphere surrounding the operating resource during operation",
+                    "Reason": "The data feature is about the ambient temperature during operation, and this annotation refers to the maximum temperature limit during operation, which is relevant.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAW302002"
+                },
+                {
+                    "Name": "minimum ambient temperature (during operation)",
+                    "Definition": "minimal permitted temperature of the atmosphere surrounding the operating resource during operation",
+                    "Reason": "The data feature is about the ambient temperature during operation, and this annotation refers to the minimum temperature limit during operation, which is relevant.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAW301002"
+                },
+                {
+                    "Name": "Ambient temperature",
+                    "Definition": "Temperature in the outer area of the operating medium",
+                    "Reason": "The data feature is about the ambient temperature during operation, but this annotation is too general and does not specify operation, so it is not relevant.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE540004"
+                },
+                {
+                    "Name": "min. ambient temperature during operation",
+                    "Definition": "Minimum limit value of specific temperature during operation surrounding the operating unit",
+                    "Reason": "The data feature is about the ambient temperature during operation, and this annotation refers to the minimum temperature limit during operation, which is relevant.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAC022006"
+                },
+                {
+                    "Name": "max. ambient temperature during operation",
+                    "Definition": "Maximum limit value of specific temperature during operation surrounding the operating unit",
+                    "Reason": "The data feature is about the ambient temperature during operation, and this annotation refers to the maximum temperature limit during operation, which is relevant.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAB906006"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "maximum ambient temperature (during operation)",
+                "Definition": "maximal permitted temperature of the atmosphere surrounding the operating resource during operation",
+                "SemanticIdentifier": "AAW302002"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Ambient temperature, operation",
+                "Definition": "Temperature of the surrounding atmosphere during operation of the air damper",
+                "SemanticIdentifier": null
+            },
+            "Unit": "\u00b0C",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to ensure the proper operation of the air damper within the specified temperature range."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "air damper_Medium temperature",
+            "Definition": "Medium temperature of air damper",
+            "Value": "-32\u202650 \u00b0C",
+            "SourceDescription": "Medium temperature of air damper"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Moisture loss of heat and moisture exchanger at Vt = 250 ml)",
+                    "Definition": "quantity of water the heat and moisture exchanger loses because of its output referred to dry gas, not to room air",
+                    "Reason": "Not relevant to the medium temperature of the air damper",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAA598007"
+                },
+                {
+                    "Name": "Moisture loss of heat and moisture exchanger at Vt = 500 ml",
+                    "Definition": "quantity of water the heat and moisture exchanger loses because of its output referred to dry gas, not to room air",
+                    "Reason": "Not relevant to the medium temperature of the air damper",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAA599007"
+                },
+                {
+                    "Name": "reference humidity",
+                    "Definition": "reference humidity at which the device specifications apply",
+                    "Reason": "Not directly related to the medium temperature of the air damper",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAN146002"
+                },
+                {
+                    "Name": "min. relative humidity (operation)",
+                    "Definition": "lowest relative humidity which is required for the intended use of device",
+                    "Reason": "Not directly related to the medium temperature of the air damper",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAA942007"
+                },
+                {
+                    "Name": "permitted relative humidity (during transport)",
+                    "Definition": "value for ratio of the actual compression of water vapour in the atmosphere and the saturation vapour pressure during transport",
+                    "Reason": "Not directly related to the medium temperature of the air damper",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW296001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Medium temperature",
+                "Definition": "The temperature range at which the air damper operates best",
+                "SemanticIdentifier": "AAA598007"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Air damper temperature range",
+                "Definition": "The temperature range at which the air damper is designed to function",
+                "SemanticIdentifier": null
+            },
+            "Unit": "\u00b0C",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to ensure proper operation of the air damper in different environmental conditions."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "2",
+            "definition": "5",
+            "affordance": "1",
+            "isInaccurate": [
+                "Affordance"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "air damper_Ambient humidity, operation",
+            "Definition": "Ambient humidity for operation of air damper",
+            "Value": "95 % r.h.",
+            "SourceDescription": "Ambient humidity for operation of air damper"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "reference humidity",
+                    "Definition": "reference humidity at which the device specifications apply",
+                    "Reason": "This annotation is not relevant because it refers to the reference humidity, not the ambient humidity for operation.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAN146002"
+                },
+                {
+                    "Name": "min. relative humidity (operation)",
+                    "Definition": "lowest relative humidity which is required for the intended use of device",
+                    "Reason": "This annotation is relevant because it refers to the minimum relative humidity required for the operation of the device.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAA942007"
+                },
+                {
+                    "Name": "ambient humidity",
+                    "Definition": "measured ambient humidity",
+                    "Reason": "This annotation is relevant because it refers to the ambient humidity, but it is not specific to the operation of the device.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "ABC147001"
+                },
+                {
+                    "Name": "max. relative humidity (operation)",
+                    "Definition": "highest relative humidity which is permitted for the intended use of device",
+                    "Reason": "This annotation is relevant because it refers to the maximum relative humidity permitted for the operation of the device.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAA915007"
+                },
+                {
+                    "Name": "min. application humidity range",
+                    "Definition": "indication of the minimum value of relative humidity at which the device can be operated properly",
+                    "Reason": "This annotation is relevant because it refers to the minimum value of relative humidity at which the device can be operated properly.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAK081002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "min. relative humidity (operation)",
+                "Definition": "lowest relative humidity which is required for the intended use of device",
+                "SemanticIdentifier": "AAA942007"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Ambient humidity_Operation",
+                "Definition": "Ambient humidity required for the operation of the air damper",
+                "SemanticIdentifier": null
+            },
+            "Unit": "%",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to ensure the proper operation of the air damper under specific ambient humidity conditions."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "air damper_Dimensions (W x H x D)",
+            "Definition": "Dimensions of air damper",
+            "Value": "81 x 192 x 63 mm",
+            "SourceDescription": "Dimensions of air damper"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "width of head (large)",
+                    "Definition": "dimension perpendicular to height and length/depth of large head",
+                    "Reason": "The data feature is about the dimensions of the air damper, not the width of the head.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "Length of breathing hose",
+                    "Definition": "largest dimension of breathing hose",
+                    "Reason": "The data feature is about the dimensions of the air damper, not the length of the breathing hose.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "mounting dimension",
+                    "Definition": "describes the dimention of the mounting surface (inch)",
+                    "Reason": "The data feature is about the dimensions of the air damper, not the mounting dimension.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "depth of working area",
+                    "Definition": "the dimension perpendicular to height and length/depth of the work area",
+                    "Reason": "The data feature is about the dimensions of the air damper, not the depth of the working area.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "width of head (small)",
+                    "Definition": "dimension perpendicular to height and length/depth of small head",
+                    "Reason": "The data feature is about the dimensions of the air damper, not the width of the small head.",
+                    "isRelevant": false
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Dimensions (W x H x D)",
+                "Definition": "Dimensions of air damper",
+                "SemanticIdentifier": "the_given_semantic_identifier"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Dimensions of air damper",
+                "Definition": "The size of the air damper, including width, height, and depth.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "mm",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The dimensions of the air damper can be used in engineering tasks such as designing the layout of a system, determining the space required for installation, and ensuring compatibility with other components."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "air damper_Operating voltage",
+            "Definition": "Operating voltage of air damper",
+            "Value": "AC/DC 24 V",
+            "SourceDescription": "Operating voltage of air damper"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "operating voltage AC",
+                    "Definition": "AC voltage which is necessary to operate the device",
+                    "Reason": "The data feature is about the operating voltage of the air damper, which is a specific device, and the annotation describes the general concept of operating voltage for a device.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "ABD344001"
+                },
+                {
+                    "Name": "operating voltage, alarm circuit AC (UL 1449)",
+                    "Definition": "normal AC power frequency voltage rating assigned to the alarm circuit of the SPD",
+                    "Reason": "The data feature is about the operating voltage of the air damper, which is not related to the alarm circuit of the SPD.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABD499001"
+                },
+                {
+                    "Name": "operating voltage DC",
+                    "Definition": "DC voltage which is necessary to operate the device",
+                    "Reason": "The data feature is about the operating voltage of the air damper, which is a specific device, and the annotation describes the general concept of operating voltage for a device.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "ABD345001"
+                },
+                {
+                    "Name": "operating voltage, alarm circuit DC (UL 1449)",
+                    "Definition": "normal DC voltage rating assigned to the alarm circuit of the SPD",
+                    "Reason": "The data feature is about the operating voltage of the air damper, which is not related to the alarm circuit of the SPD.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABD505001"
+                },
+                {
+                    "Name": "Output voltage for fans",
+                    "Definition": "voltage that is available at the output of an operating resource for ventilating or air circulating fans",
+                    "Reason": "The data feature is about the operating voltage of the air damper, which is not related to the output voltage for fans.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAS552003"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "operating voltage AC",
+                "Definition": "AC voltage which is necessary to operate the device",
+                "SemanticIdentifier": "ABD344001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Operating voltage of air damper",
+                "Definition": "The voltage required to operate the air damper",
+                "SemanticIdentifier": null
+            },
+            "Unit": "V",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The information can be used to ensure the proper functioning of the air damper by providing the required operating voltage."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "air damper_Auxiliary switch",
+            "Definition": "Auxiliary switch of air damper",
+            "Value": "0",
+            "SourceDescription": "Auxiliary switch of air damper"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "air connection",
+                    "Definition": "information on the connection for the air supply",
+                    "Reason": "The data feature is about the auxiliary switch of the air damper, not about the air connection.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAH942002"
+                },
+                {
+                    "Name": "Integrated auxiliary switch present",
+                    "Definition": "whether the main switch is equipped with an integrated auxiliary switch",
+                    "Reason": "The data feature is about the auxiliary switch of the air damper, not about whether the main switch is equipped with an integrated auxiliary switch.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAD\u00a0376009,00"
+                },
+                {
+                    "Name": "suitable for devices with auxiliary switch",
+                    "Definition": "whether the component is suitable for devices with auxiliary switch",
+                    "Reason": "The data feature is about the auxiliary switch of the air damper, not about the suitability of the component for devices with auxiliary switch.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB662007"
+                },
+                {
+                    "Name": "Auxiliary voltage for alarm switch (at DC)",
+                    "Definition": "Additional electromotive force (to be applied to other applied voltages), which must be available to an electrical equipment in a timely or continuous manner to ensure the function of the equipment / for the purpose / allocation: potential - free auxiliary switches with special connection designations / under the condition: (DC = direct current) / a value of a quantity which is valid for a predefined operating condition, which is generally determined by the manufacturer for an element, a group or a device A short explanation of a text (footnote or endnote)",
+                    "Reason": "The data feature is about the auxiliary switch of the air damper, not about the auxiliary voltage for alarm switch.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW915002"
+                },
+                {
+                    "Name": "separate injection- and control air plug present",
+                    "Definition": "specification whether the unit is conducted with a seperate inection- and control air plug or if there is a seperate inection- and control air plug",
+                    "Reason": "The data feature is about the auxiliary switch of the air damper, not about the presence of a separate injection- and control air plug.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG950005"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Integrated auxiliary switch present",
+                "Definition": "whether the main switch is equipped with an integrated auxiliary switch",
+                "SemanticIdentifier": "BAD\u00a0376009,00"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Auxiliary switch of air damper",
+                "Definition": "The presence or absence of an auxiliary switch in the air damper",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 2,
+            "Affordance": "The information can be used to determine if the air damper has an auxiliary switch and its status."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    }
+]

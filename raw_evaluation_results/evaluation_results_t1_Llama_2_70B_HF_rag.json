@@ -1,0 +1,966 @@
+[
+    {
+        "DataFeature": {
+            "Name": "Manufacturer-article name",
+            "Definition": "The name of the manufacturer and the article name",
+            "Value": "Solenoid valve",
+            "SourceDescription": "The manufacturer-article name is the first line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "product article number of manufacturer",
+                    "Definition": "unique product identifier of the manufacturer",
+                    "Reason": "The data feature is the name of the manufacturer and the article name, which is the same as the definition of the annotation.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO676003"
+                },
+                {
+                    "Name": "product article number of supplier",
+                    "Definition": "unique product order identifier of the supplier",
+                    "Reason": "The data feature is the name of the manufacturer and the article name, which is different from the definition of the annotation.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO736004"
+                },
+                {
+                    "Name": "Designation of manufacturer",
+                    "Definition": "The specifying designation (company name) for the product manufacturer/ publishers (card, book, other publication or CD)",
+                    "Reason": "The data feature is the name of the manufacturer and the article name, which is different from the definition of the annotation.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAP923001"
+                },
+                {
+                    "Name": "Design of contents in reference to its main parts.",
+                    "Definition": "The specifying designation (type name, type code, abbreviated name, article number) of the basic parts of the product",
+                    "Reason": "The data feature is the name of the manufacturer and the article name, which is different from the definition of the annotation.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE602005"
+                },
+                {
+                    "Name": "Manufacturer product designation",
+                    "Definition": "Short description of the product (short text)",
+                    "Reason": "The data feature is the name of the manufacturer and the article name, which is different from the definition of the annotation.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW338001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "product article number of manufacturer",
+                "Definition": "unique product identifier of the manufacturer",
+                "SemanticIdentifier": "AAO676003"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Manufacturer-article name",
+                "Definition": "The name of the manufacturer and the article name",
+                "SemanticIdentifier": null
+            },
+            "Unit": "unit_of_the_data_property",
+            "ClassifyingScore_GeneralOrTechnical": 3,
+            "Affordance": "Affordance_in_one_sentence"
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "2",
+            "definition": "3",
+            "affordance": "1",
+            "isInaccurate": [
+                "GeneratedDefinition",
+                "Unit",
+                "Affordance"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Manufacturer code",
+            "Definition": "The code of the manufacturer",
+            "Value": "VUVG-L14-T32C-AT-G18-1R8L",
+            "SourceDescription": "The manufacturer code is the second line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Code of the manufacturer declaration",
+                    "Definition": "Code of the manufacturer explanations or notes for a component or device in text form",
+                    "Reason": "The data feature is the manufacturer code, which is a code of the manufacturer.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAQ197001"
+                },
+                {
+                    "Name": "model code of manufacturer",
+                    "Definition": "sequence of characters assigned in accordance with certain rules of the manufacturer's for designation of the model",
+                    "Reason": "The data feature is the manufacturer code, which is a model code of the manufacturer.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAE344005"
+                },
+                {
+                    "Name": "product code",
+                    "Definition": "machine-readable string of the model of the machine, that might include options like the hardware configuration of the model",
+                    "Reason": "The data feature is the manufacturer code, which is a product code.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "ABA679001"
+                },
+                {
+                    "Name": "identification code on the product",
+                    "Definition": "a series of characters according to specific rules that are used for describing (also part of) a sentence",
+                    "Reason": "The data feature is the manufacturer code, which is an identification code on the product.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO688002"
+                },
+                {
+                    "Name": "order code of manufacturer",
+                    "Definition": "by manufactures issued unique combination of numbers and letters used to identify the device for ordering",
+                    "Reason": "The data feature is the manufacturer code, which is an order code of the manufacturer.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO227002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "model code of manufacturer",
+                "Definition": "sequence of characters assigned in accordance with certain rules of the manufacturer's for designation of the model",
+                "SemanticIdentifier": "BAE344005"
+            },
+            "GeneratedAnnotation": {
+                "Name": "manufacturer code",
+                "Definition": "The code of the manufacturer",
+                "SemanticIdentifier": null
+            },
+            "Unit": "none",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "The manufacturer code can be used to identify the manufacturer of the product."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "2",
+            "overall": "2",
+            "definition": "2",
+            "affordance": "2",
+            "isInaccurate": [
+                "GeneratedDefinition",
+                "Affordance"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Part number",
+            "Definition": "The part number of the article",
+            "Value": "574226",
+            "SourceDescription": "The part number is the third line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Spare parts lists - numbers",
+                    "Definition": "Reference to a document in which the part to be procured is described in greater detail and/or represented graphically",
+                    "Reason": "The part number is not a reference to a document in which the part to be procured is described in greater detail and/or represented graphically.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO606001"
+                },
+                {
+                    "Name": "Manufacturing part number",
+                    "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                    "Reason": "The part number is not a sequence of characters for identifying name of a manufacturing part.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO628001"
+                },
+                {
+                    "Name": "number of the parts list",
+                    "Definition": "Description of the list that includes all individual parts required for manufacturing or assembling a product",
+                    "Reason": "The part number is not a description of the list that includes all individual parts required for manufacturing or assembling a product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO835001"
+                },
+                {
+                    "Name": "number of parts",
+                    "Definition": "describes the number of the parts of the object",
+                    "Reason": "The part number is not the number of the parts of the object.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK546003"
+                },
+                {
+                    "Name": "Design of contents in reference to its main parts.",
+                    "Definition": "The specifying designation (type name, type code, abbreviated name, article number) of the basic parts of the product",
+                    "Reason": "The part number is not the specifying designation (type name, type code, abbreviated name, article number) of the basic parts of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE602005"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Manufacturing part number",
+                "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                "SemanticIdentifier": "AAO628001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Part number",
+                "Definition": "The part number of the article",
+                "SemanticIdentifier": null
+            },
+            "Unit": "none",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "The part number is used to identify the article."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Valve function",
+            "Definition": "The function of the valve",
+            "Value": "2x3/2 closed, monostable",
+            "SourceDescription": "The valve function is the fourth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "valve protection function present",
+                    "Definition": "specification whether the is a valve protection function",
+                    "Reason": "The data feature is not a valve protection function.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF714004"
+                },
+                {
+                    "Name": "valve lock",
+                    "Definition": "indication of whether the lock has a valve function which closes its lumen as a passage barrier when not in use",
+                    "Reason": "The data feature is not a valve lock.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABD969001"
+                },
+                {
+                    "Name": "valve seat velocity",
+                    "Definition": "mean velocity of the flow through the valve seat at the specified operating conditions",
+                    "Reason": "The data feature is not a valve seat velocity.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC114001"
+                },
+                {
+                    "Name": "directional control valve function",
+                    "Definition": "specification of the number of connections and shifting positions of a fluidic directional control valve",
+                    "Reason": "The data feature is not a directional control valve function.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ989001"
+                },
+                {
+                    "Name": "function of input/output",
+                    "Definition": "purpose for which an auxiliary input or an output is provided",
+                    "Reason": "The data feature is not a function of input/output.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAN019002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "directional control valve function",
+                "Definition": "specification of the number of connections and shifting positions of a fluidic directional control valve",
+                "SemanticIdentifier": "AAZ989001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "valve function",
+                "Definition": "The function of the valve",
+                "SemanticIdentifier": null
+            },
+            "Unit": "none",
+            "ClassifyingScore_GeneralOrTechnical": 3,
+            "Affordance": "The valve function can be used to determine the type of valve and its intended use."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "1",
+            "overall": "3",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Type of actuation",
+            "Definition": "The type of actuation of the valve",
+            "Value": "electrical",
+            "SourceDescription": "The type of actuation is the fifth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Actuation type",
+                    "Definition": "means of moving a fluidic valve from its normal position to its operating position or vice versa by means of external force",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ408002"
+                },
+                {
+                    "Name": "Type of actuation",
+                    "Definition": "Type of voltage with which the shunt release can be operated",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAC050008"
+                },
+                {
+                    "Name": "type of control",
+                    "Definition": "method of transmitting the actuation signal to the shifting element of a directional control valve",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ978001"
+                },
+                {
+                    "Name": "type of valve activation",
+                    "Definition": "method of activating the fitting",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAD599008"
+                },
+                {
+                    "Name": "Type of actuation of pressing",
+                    "Definition": "The function type of the pressing of a cutting machine",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAF848003"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Type of actuation",
+                "Definition": "Type of voltage with which the shunt release can be operated",
+                "SemanticIdentifier": "BAC050008"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Type of actuation",
+                "Definition": "The type of actuation of the valve",
+                "SemanticIdentifier": null
+            },
+            "Unit": "none",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The type of actuation of the valve can be used to determine the type of actuation of the valve."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "4",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Valve size",
+            "Definition": "The size of the valve",
+            "Value": "14 mm",
+            "SourceDescription": "The valve size is the sixth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "nominal width (DN)",
+                    "Definition": "diameter of a pipe/hose or the size/mounting dimension of a valve",
+                    "Reason": "The data feature is the size of the valve, which is a size/mounting dimension of a valve.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAH222001"
+                },
+                {
+                    "Name": "face-to face length of valve",
+                    "Definition": "indicated distance between the - to the centre line - horizontal, external surfaces of the housing end apertures",
+                    "Reason": "The data feature is the size of the valve, which is not the indicated distance between the - to the centre line - horizontal, external surfaces of the housing end apertures.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAI514005"
+                },
+                {
+                    "Name": "flap size",
+                    "Definition": "information on the size of the heart valve",
+                    "Reason": "The data feature is the size of the valve, which is not the size of the heart valve.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABD992001"
+                },
+                {
+                    "Name": "wrench size",
+                    "Definition": "describes the size of the wrench",
+                    "Reason": "The data feature is the size of the valve, which is not the size of the wrench.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAI890001"
+                },
+                {
+                    "Name": "flow area A",
+                    "Definition": "narrowest flow cross-section of a safety relief valve (not the smallest cross-section between valve head and seat)",
+                    "Reason": "The data feature is the size of the valve, which is not the narrowest flow cross-section of a safety relief valve.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABF473001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "nominal width (DN)",
+                "Definition": "diameter of a pipe/hose or the size/mounting dimension of a valve",
+                "SemanticIdentifier": "AAH222001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Valve size",
+                "Definition": "The size of the valve",
+                "SemanticIdentifier": null
+            },
+            "Unit": "mm",
+            "ClassifyingScore_GeneralOrTechnical": 3,
+            "Affordance": "The valve size is used to determine the size of the valve."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "1",
+            "overall": "4",
+            "definition": "5",
+            "affordance": "3",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Standard nominal flow rate",
+            "Definition": "The standard nominal flow rate of the valve",
+            "Value": "560 l/min",
+            "SourceDescription": "The standard nominal flow rate is the seventh line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "nominal volume flow rate",
+                    "Definition": "describes the nominal volume flow rate",
+                    "Reason": "The data feature is the nominal volume flow rate of the valve.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAI855002"
+                },
+                {
+                    "Name": "nominal flow rate",
+                    "Definition": "volume flow of the gasses, those removed from the gaseous phase from a vacuum vessel by the vacuum pump under nominal conditions",
+                    "Reason": "The data feature is not the volume flow of the gasses.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAJ162008"
+                },
+                {
+                    "Name": "nominal supply flow rate",
+                    "Definition": "specification of a flow rate, which is generated by a power supply, which describes for a component or system that it belongs to a certain classification (hydraulics)",
+                    "Reason": "The data feature is not the nominal supply flow rate.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC593001"
+                },
+                {
+                    "Name": "nominal total flow rate",
+                    "Definition": "specification of a flow rate, consisting of the pilot flow rate, internal leakage and outlet flow rate, which describes for a component or system that it belongs to a certain classification (hydraulics)",
+                    "Reason": "The data feature is not the nominal total flow rate.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC582001"
+                },
+                {
+                    "Name": "nominal flow rate",
+                    "Definition": "specification of a flow rate, which describes for a component or system that it belongs to a certain classification (hydraulics)",
+                    "Reason": "The data feature is not the nominal flow rate.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC551001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "nominal volume flow rate",
+                "Definition": "describes the nominal volume flow rate",
+                "SemanticIdentifier": "AAI855002"
+            },
+            "GeneratedAnnotation": {
+                "Name": "nominal flow rate",
+                "Definition": "The nominal flow rate of the valve",
+                "SemanticIdentifier": null
+            },
+            "Unit": "l/min",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The nominal flow rate of the valve is used to determine the flow rate of the valve."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "2",
+            "overall": "4",
+            "definition": "5",
+            "affordance": "3",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Design structure",
+            "Definition": "The design structure of the valve",
+            "Value": "Piston slide",
+            "SourceDescription": "The design structure is the ninth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "valve return",
+                    "Definition": "constructional design of the mechanism that moves the valve piston into the de-energised position",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ984001"
+                },
+                {
+                    "Name": "manifold present",
+                    "Definition": "indication whether the device has a manifold attached comprising two or more valves",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAB346009"
+                },
+                {
+                    "Name": "Style of port catheter",
+                    "Definition": "a port catheter design with valve",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAA431005"
+                },
+                {
+                    "Name": "valve protection function present",
+                    "Definition": "specification whether the is a valve protection function",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF714004"
+                },
+                {
+                    "Name": "Construction type of the outlet valve",
+                    "Definition": "a group of construction elements with the same construction features and the same construction, which can be collated for the construction type approval and quality conformity controls as a result of similar manufacturing methods. they are generally allocated to a construction type specification. Note: in certain cases, construction element from different construction type specifications can be viewed as belonging to the same type and hence collated for the construction type approval and quality conformity controls",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAD071006"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Piston slide",
+                "Definition": "The design structure of the valve",
+                "SemanticIdentifier": "AAZ984001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Piston slide",
+                "Definition": "The design structure of the valve",
+                "SemanticIdentifier": null
+            },
+            "Unit": "N/A",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The design structure of the valve is used to determine the type of valve."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "1",
+            "overall": "4",
+            "definition": "5",
+            "affordance": "4",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Type of reset",
+            "Definition": "The type of reset of the valve",
+            "Value": "Air spring",
+            "SourceDescription": "The type of reset is the tenth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "reset function",
+                    "Definition": "specifies whether the operating device is equipped with a reset function",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK391004"
+                },
+                {
+                    "Name": "reset function present",
+                    "Definition": "specification whether the device is equipped with the reset function",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAH677004"
+                },
+                {
+                    "Name": "type of valve activation",
+                    "Definition": "method of activating the fitting",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAD599008"
+                },
+                {
+                    "Name": "valve return",
+                    "Definition": "constructional design of the mechanism that moves the valve piston into the de-energised position",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ984001"
+                },
+                {
+                    "Name": "throttle valve",
+                    "Definition": "Reduction of the peak value by temporary retention of the effluent",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAX145001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "reset function",
+                "Definition": "specifies whether the operating device is equipped with a reset function",
+                "SemanticIdentifier": "AAK391004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Type of reset",
+                "Definition": "The type of reset of the valve",
+                "SemanticIdentifier": null
+            },
+            "Unit": "none",
+            "ClassifyingScore_GeneralOrTechnical": 3,
+            "Affordance": "The type of reset of the valve can be used to determine the type of reset of the valve."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "1",
+            "overall": "4",
+            "definition": "5",
+            "affordance": "4",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Protection class",
+            "Definition": "The protection class of the valve",
+            "Value": "IP65 with plug socket",
+            "SourceDescription": "The protection class is the eleventh line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Protection class in accordance with EN 60 730-1",
+                    "Definition": "The - for a device or component - prescribed protection class in accordance with EN 60 730-1",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAD\u00a0781006,00"
+                },
+                {
+                    "Name": "protection class",
+                    "Definition": "indication of the safety class of the object",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK401005"
+                },
+                {
+                    "Name": "Protection class (IP, rear side)",
+                    "Definition": "Numerical classification and designation system in accordance with International Electrotechnical Commission 60529 for the indication of degrees of protection, preceded by the symbol IP, for use in empty housings or housings of electrical equipment in order to protect persons against contact with live or moving parts (except smooth shafts or Similar parts) in the interior of the housing to ensure the protection of the (electrical) working medium against the penetration of solid foreign bodies or dust and, where specified by the classification, the protection of the electrical equipment against harmful ingress of vapors, moisture or water / Location specific: the return / return page",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW856001"
+                },
+                {
+                    "Name": "Class of Ex- protection",
+                    "Definition": "Class of Ex-protection",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO711002"
+                },
+                {
+                    "Name": "valve protection function present",
+                    "Definition": "specification whether the is a valve protection function",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF714004"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Protection class in accordance with EN 60 730-1",
+                "Definition": "The - for a device or component - prescribed protection class in accordance with EN 60 730-1",
+                "SemanticIdentifier": "BAD\u00a0781006,00"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Protection class",
+                "Definition": "The protection class of the valve",
+                "SemanticIdentifier": null
+            },
+            "Unit": "IP",
+            "ClassifyingScore_GeneralOrTechnical": 3,
+            "Affordance": "The protection class of the valve can be used to determine the safety class of the object."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "1",
+            "overall": "3",
+            "definition": "5",
+            "affordance": "2",
+            "isInaccurate": [
+                "Unit",
+                "Affordance"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Nominal size",
+            "Definition": "The nominal size of the valve",
+            "Value": "4.6 mm",
+            "SourceDescription": "The nominal size is the twelfth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "nominal size",
+                    "Definition": "alphanumeric description of the size of components in a pipe system as a reference, in contrast to components that are defined by an outer diameter or by a thread size",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAG982007"
+                },
+                {
+                    "Name": "nominal size (Outlet)",
+                    "Definition": "alphanumeric description of the size of components in a pipe system as a reference, in contrast to components that are defined by an outer diameter or by a thread size",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABF522001"
+                },
+                {
+                    "Name": "nominal width (DN)",
+                    "Definition": "diameter of a pipe/hose or the size/mounting dimension of a valve",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAH222001"
+                },
+                {
+                    "Name": "nominal size at location 2",
+                    "Definition": "alphanumeric description of the size of components in a pipe system as a reference, in contrast to components that are defined by an outer diameter or by a thread size",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO800003"
+                },
+                {
+                    "Name": "nominal size (Inlet)",
+                    "Definition": "alphanumeric description of the size of components in a pipe system as a reference, in contrast to components that are defined by an outer diameter or by a thread size",
+                    "Reason": "The definition of the annotation is not relevant to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABF521001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "nominal size (Outlet)",
+                "Definition": "alphanumeric description of the size of components in a pipe system as a reference, in contrast to components that are defined by an outer diameter or by a thread size",
+                "SemanticIdentifier": "ABF522001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Nominal size",
+                "Definition": "The nominal size of the valve",
+                "SemanticIdentifier": null
+            },
+            "Unit": "mm",
+            "ClassifyingScore_GeneralOrTechnical": 3,
+            "Affordance": "The nominal size of the valve is used to determine the size of the valve."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "4",
+            "definition": "5",
+            "affordance": "4",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Switching time off",
+            "Definition": "The switching time off of the valve",
+            "Value": "23 ms",
+            "SourceDescription": "The switching time off is the thirteenth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "shifting off-time",
+                    "Definition": "length of time that elapses between the control signal (electric or pneumatic) being withdrawn and the pressure decreasing at the respective valve output until 90 % of the defined operating pressure is reached",
+                    "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAZ905001"
+                },
+                {
+                    "Name": "Valve switching times from 0 to 1",
+                    "Definition": "Time between the switch-on command and the control of a component which controls or regulates the direction, the pressure or volume flow of a fluid",
+                    "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAC192007"
+                },
+                {
+                    "Name": "Valve switching times from 0 to 1",
+                    "Definition": "Time between the switch-on command and the control of a component which controls or regulates the direction, the pressure or volume flow of a fluid",
+                    "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAC191007"
+                },
+                {
+                    "Name": "shifting on-time",
+                    "Definition": "length of time that elapses between the control signal (electric or pneumatic) being applied and the pressure increasing at the respective valve output until 10 % of the defined operating pressure is reached",
+                    "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAZ895001"
+                },
+                {
+                    "Name": "Switch-on time",
+                    "Definition": "describes the time it takes for the sensor to be ready after the supply voltage is applied",
+                    "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAZ245001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "shifting off-time",
+                "Definition": "length of time that elapses between the control signal (electric or pneumatic) being withdrawn and the pressure decreasing at the respective valve output until 90 % of the defined operating pressure is reached",
+                "SemanticIdentifier": "AAZ905001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Switching time off",
+                "Definition": "The switching time off of the valve",
+                "SemanticIdentifier": null
+            },
+            "Unit": "ms",
+            "ClassifyingScore_GeneralOrTechnical": 3,
+            "Affordance": "The switching time off of the valve is used to determine the time it takes for the valve to switch off."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "3",
+            "definition": "3",
+            "affordance": "4",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Switching time on",
+            "Definition": "The switching time on of the valve",
+            "Value": "8 ms",
+            "SourceDescription": "The switching time on is the fourteenth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Valve switching times from 0 to 1",
+                    "Definition": "Time between the switch-on command and the control of a component which controls or regulates the direction, the pressure or volume flow of a fluid",
+                    "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAC191007"
+                },
+                {
+                    "Name": "Valve switching times from 0 to 1",
+                    "Definition": "Time between the switch-on command and the control of a component which controls or regulates the direction, the pressure or volume flow of a fluid",
+                    "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAC192007"
+                },
+                {
+                    "Name": "shifting on-time",
+                    "Definition": "length of time that elapses between the control signal (electric or pneumatic) being applied and the pressure increasing at the respective valve output until 10 % of the defined operating pressure is reached",
+                    "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAZ895001"
+                },
+                {
+                    "Name": "shifting off-time",
+                    "Definition": "length of time that elapses between the control signal (electric or pneumatic) being withdrawn and the pressure decreasing at the respective valve output until 90 % of the defined operating pressure is reached",
+                    "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAZ905001"
+                },
+                {
+                    "Name": "Switch-on time",
+                    "Definition": "describes the time it takes for the sensor to be ready after the supply voltage is applied",
+                    "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAZ245001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Valve switching times from 0 to 1",
+                "Definition": "Time between the switch-on command and the control of a component which controls or regulates the direction, the pressure or volume flow of a fluid",
+                "SemanticIdentifier": "AAC191007"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Switching time on",
+                "Definition": "The switching time on of the valve",
+                "SemanticIdentifier": null
+            },
+            "Unit": "ms",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The information can be used to determine the switching time on of the valve."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "1",
+            "overall": "3",
+            "definition": "3",
+            "affordance": "2",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Duty cycle",
+            "Definition": "The duty cycle of the valve",
+            "Value": "100 %",
+            "SourceDescription": "The duty cycle is the fifteenth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "duty cycle measurements possible",
+                    "Definition": "specification whether or whether not the multimeter can measure duty cycles",
+                    "Reason": "The data feature is not about the measurement of duty cycles, but the duty cycle itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAM169004"
+                },
+                {
+                    "Name": "working time (cycles)",
+                    "Definition": "number of shifting cycles to which a system, sub-system, component or piping was subjected, during operation of a function",
+                    "Reason": "The data feature is not about the number of shifting cycles, but the duty cycle.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ812001"
+                },
+                {
+                    "Name": "specified maximum working time (cycles)",
+                    "Definition": "maximum number of shifting cycles to which a system, subsystem, component or piping shall be subjected during operation",
+                    "Reason": "The data feature is not about the maximum number of shifting cycles, but the duty cycle.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC634001"
+                },
+                {
+                    "Name": "specified maximum remaining working time (cycles)",
+                    "Definition": "remaining maximum number of shifting cycles to which a system, subsystem, component or piping shall be subjected during operation",
+                    "Reason": "The data feature is not about the maximum number of shifting cycles, but the duty cycle.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC659001"
+                },
+                {
+                    "Name": "specified minimum working time (cycles)",
+                    "Definition": "minimum guaranteed number of shifting cycles to which a system, subsystem, component or piping performs a function correctly during operation",
+                    "Reason": "The data feature is not about the minimum number of shifting cycles, but the duty cycle.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC635001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "duty cycle measurements possible",
+                "Definition": "specification whether or whether not the multimeter can measure duty cycles",
+                "SemanticIdentifier": "AAM169004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "duty cycle",
+                "Definition": "The duty cycle of the valve",
+                "SemanticIdentifier": null
+            },
+            "Unit": "percent",
+            "ClassifyingScore_GeneralOrTechnical": 3,
+            "Affordance": "The duty cycle is used to determine the percentage of time that the valve is in the on state."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "1",
+            "overall": "3",
+            "definition": "5",
+            "affordance": "1",
+            "isInaccurate": [
+                "Affordance"
+            ]
+        }
+    }
+]

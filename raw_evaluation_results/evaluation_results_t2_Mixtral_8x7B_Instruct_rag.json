@@ -1,0 +1,1207 @@
+[
+    {
+        "DataFeature": {
+            "Name": "Name_1",
+            "Definition": "Manufacturer code",
+            "Value": "OVEL-10-H-15-PQ-VQ6-UA-C-A-B2PNLK-H3",
+            "SourceDescription": "This data feature is extracted from the second line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Code of the manufacturer declaration",
+                    "Definition": "Code of the manufacturer explanations or notes for a component or device in text form",
+                    "Reason": "This annotation is not relevant because it refers to the text form of the manufacturer's explanations or notes, while the data feature is a machine-readable string.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAQ197001"
+                },
+                {
+                    "Name": "product code",
+                    "Definition": "machine-readable string of the model of the machine, that might include options like the hardware configuration of the model",
+                    "Reason": "This annotation is relevant because it refers to a machine-readable string that identifies the model of the machine, which matches the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "ABA679001"
+                },
+                {
+                    "Name": "model code of manufacturer",
+                    "Definition": "sequence of characters assigned in accordance with certain rules of the manufacturer's for designation of the model",
+                    "Reason": "This annotation is relevant because it refers to a sequence of characters assigned by the manufacturer to identify the model, which matches the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAE344005"
+                },
+                {
+                    "Name": "Manufacturing part number",
+                    "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                    "Reason": "This annotation is relevant because it refers to a sequence of characters used to identify a manufacturing part, which matches the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO628001"
+                },
+                {
+                    "Name": "identification code on the product",
+                    "Definition": "a series of characters according to specific rules that are used for describing (also part of) a sentence",
+                    "Reason": "This annotation is not relevant because it refers to a series of characters used to describe a sentence, while the data feature is a machine-readable string.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO688002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "product code",
+                "Definition": "machine-readable string of the model of the machine, that might include options like the hardware configuration of the model",
+                "SemanticIdentifier": "ABA679001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Manufacturer's machine-readable model code",
+                "Definition": "A machine-readable string of the model of the machine, that might include options like the hardware configuration of the model, assigned by the manufacturer.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "This information can be used for identifying the specific machine model and its hardware configuration in a database or for ordering replacement parts."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": [
+                "Name"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Name_2",
+            "Definition": "Part number",
+            "Value": "8069572",
+            "SourceDescription": "This data feature is extracted from the third line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Manufacturing part number",
+                    "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                    "Reason": "This annotation is relevant because it describes the part number as a sequence of characters for identifying a manufacturing part, which is consistent with the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO628001"
+                },
+                {
+                    "Name": "Spare parts lists - numbers",
+                    "Definition": "Reference to a document in which the part to be procured is described in greater detail and/or represented graphically",
+                    "Reason": "This annotation is not relevant because it refers to a document rather than the part number itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO606001"
+                },
+                {
+                    "Name": "Data collection function present",
+                    "Definition": "whether the automation software has a data collection function",
+                    "Reason": "This annotation is not relevant because it refers to a software function rather than the part number.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAD\u00a0505008,00"
+                },
+                {
+                    "Name": "Type of input",
+                    "Definition": "Method for input of data",
+                    "Reason": "This annotation is not relevant because it refers to a method for inputting data rather than the part number.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAF143002"
+                },
+                {
+                    "Name": "component name",
+                    "Definition": "human-readable localized text for the machine given by enduser",
+                    "Reason": "This annotation is not relevant because it refers to a human-readable localized text for the machine rather than the part number.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABA685001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Manufacturing part number",
+                "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                "SemanticIdentifier": "AAO628001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Manufacturing part number",
+                "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "Used for identifying the manufacturing part in procurement and inventory management processes."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": [
+                "Name"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Name_3",
+            "Definition": "Nominal size, Laval nozzle",
+            "Value": "0.95 mm",
+            "SourceDescription": "This data feature is extracted from the fourth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "nominal size of laval nozzle",
+                    "Definition": "numeric identifier for the size of the laval nozzle in a vacuum generator",
+                    "Reason": "This annotation is relevant to the data feature as it accurately describes the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "ABC419001"
+                },
+                {
+                    "Name": "Nominal size of nozzle/pipe",
+                    "Definition": "Alphanumeric designation (starting with DN) of the size for components in a pipeline system, used for reference purposes",
+                    "Reason": "This annotation is not relevant to the data feature as it refers to a different context.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO341002"
+                },
+                {
+                    "Name": "nominal width (DN)",
+                    "Definition": "diameter of a pipe/hose or the size/mounting dimension of a valve",
+                    "Reason": "This annotation is not relevant to the data feature as it refers to a different property.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAH222001"
+                },
+                {
+                    "Name": "nominal size/connection size",
+                    "Definition": "alphanumeric designation of the size for components of a pipe system, which is used for reference purposes",
+                    "Reason": "This annotation is not relevant to the data feature as it refers to a different context.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAU182003"
+                },
+                {
+                    "Name": "nominal size",
+                    "Definition": "numeric identifier for the measured variable referred to the flow cross section of a fluidic device",
+                    "Reason": "This annotation is not relevant to the data feature as it refers to a different property.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC418001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "nominal size of laval nozzle",
+                "Definition": "numeric identifier for the size of the laval nozzle in a vacuum generator",
+                "SemanticIdentifier": "ABC419001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Nominal size of Laval nozzle",
+                "Definition": "numeric identifier for the size of the Laval nozzle in a vacuum generator",
+                "SemanticIdentifier": null
+            },
+            "Unit": "mm",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in the design and engineering of vacuum generators to ensure proper sizing and performance of the Laval nozzle."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "1",
+            "overall": "1",
+            "definition": "1",
+            "affordance": "5",
+            "isInaccurate": [
+                "Name"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Name_4",
+            "Definition": "Grid dimension",
+            "Value": "15 mm",
+            "SourceDescription": "This data feature is extracted from the fifth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "standard number of properties layout",
+                    "Definition": "Identifier for that part of the standard series DIN 4000 that is applicable for the object",
+                    "Reason": "This annotation is not relevant to the data feature as it is not related to the grid dimension",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAA092005"
+                },
+                {
+                    "Name": "Grid has format sizes present",
+                    "Definition": "whether the cutting table has grids with format sizes",
+                    "Reason": "This annotation is not relevant to the data feature as it is not related to the grid dimension",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAC217007"
+                },
+                {
+                    "Name": "Grid dimension of the connections",
+                    "Definition": "Rectangular network consisting of imaginary, equally spaced lines used to determine the position of connections on a pc-board",
+                    "Reason": "This annotation is not relevant to the data feature as it is not related to the grid dimension of the vacuum generator",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAC082006"
+                },
+                {
+                    "Name": "Dimension of 4th heating element",
+                    "Definition": "Enter the min/max dimension in mm (if extension is possible), separated by / - MANDATORY if element exists",
+                    "Reason": "This annotation is not relevant to the data feature as it is not related to the grid dimension of the vacuum generator",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAE822006"
+                },
+                {
+                    "Name": "Dimension of 5th heating element",
+                    "Definition": "Enter the min/max dimension in mm (if extension is possible), separated by / - MANDATORY if element exists",
+                    "Reason": "This annotation is not relevant to the data feature as it is not related to the grid dimension of the vacuum generator",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAE179006"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Grid dimension of the connections",
+                "Definition": "Rectangular network consisting of imaginary, equally spaced lines used to determine the position of connections on a pc-board",
+                "SemanticIdentifier": "AAC082006"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Grid dimension",
+                "Definition": "The dimension of the grid on the vacuum generator",
+                "SemanticIdentifier": null
+            },
+            "Unit": "mm",
+            "ClassifyingScore_GeneralOrTechnical": 2,
+            "Affordance": "Used to determine the size of the grid on the vacuum generator for compatibility with other components"
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "1",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": [
+                "Name"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Name_5",
+            "Definition": "Silencer design",
+            "Value": "Open",
+            "SourceDescription": "This data feature is extracted from the sixth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "input signal",
+                    "Definition": "information on the incoming information",
+                    "Reason": "This annotation is not relevant to the data feature as it does not provide any information about the silencer design.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF945002"
+                },
+                {
+                    "Name": "encoder present",
+                    "Definition": "Converter for data or messages or command for transmission or further processing to a target system",
+                    "Reason": "This annotation is not relevant to the data feature as it does not provide any information about the silencer design.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB512007"
+                },
+                {
+                    "Name": "design of decimal selector",
+                    "Definition": "defined brand or make of the function for automatic rounding of a result on a certain number of right-of-comma positions",
+                    "Reason": "This annotation is not relevant to the data feature as it does not provide any information about the silencer design.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAA149005"
+                },
+                {
+                    "Name": "Design of form of sharpener",
+                    "Definition": "Describes the form of a sharpener for writing implents (e.g. wedge form)",
+                    "Reason": "This annotation is not relevant to the data feature as it does not provide any information about the silencer design.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAG075002"
+                },
+                {
+                    "Name": "suitable for number of splice holders",
+                    "Definition": "describes the number of splice holders which are suitable for the product",
+                    "Reason": "This annotation is not relevant to the data feature as it does not provide any information about the silencer design.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAI572001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Design of form of sharpener",
+                "Definition": "Describes the form of a sharpener for writing implents (e.g. wedge form)",
+                "SemanticIdentifier": "BAG075002"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Silencer design",
+                "Definition": "The design of the silencer in the vacuum generator",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 2,
+            "Affordance": "Used to determine the design of the silencer in the vacuum generator, which can affect the noise level and performance of the vacuum generator."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "1",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": [
+                "Name"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Name_6",
+            "Definition": "Mounting position",
+            "Value": "optional",
+            "SourceDescription": "This data feature is extracted from the seventh line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "mounting feature",
+                    "Definition": "describes with what the object can be fixed",
+                    "Reason": "This annotation is relevant because it describes the feature that the object can be fixed with.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAK232003"
+                },
+                {
+                    "Name": "for mounting to",
+                    "Definition": "specification on what you can fix the object",
+                    "Reason": "This annotation is not relevant because it describes the specification on what the object can be fixed to, not the feature of the object itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK521003"
+                },
+                {
+                    "Name": "mounting orientation",
+                    "Definition": "device installation position defined by the manufacturer for proper operation",
+                    "Reason": "This annotation is not relevant because it describes the device installation position, not the feature of the object itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAQ211005"
+                },
+                {
+                    "Name": "insert mounting style code",
+                    "Definition": "identifier for the method of holding a cutting item onto a tool item",
+                    "Reason": "This annotation is not relevant because it describes the identifier for the method of holding a cutting item onto a tool item, not the feature of the object itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAM539002"
+                },
+                {
+                    "Name": "mounting method box",
+                    "Definition": "information on the placement of the box on the device fixture channel",
+                    "Reason": "This annotation is not relevant because it describes the information on the placement of the box on the device fixture channel, not the feature of the object itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG032002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "mounting feature",
+                "Definition": "describes with what the object can be fixed",
+                "SemanticIdentifier": "AAK232003"
+            },
+            "GeneratedAnnotation": {
+                "Name": "mounting position",
+                "Definition": "describes the position where the object can be fixed",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "This information can be used to determine the position where the object can be fixed during installation."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "1",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": [
+                "Name"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Name_7",
+            "Definition": "Ejector characteristic",
+            "Value": "High vacuum",
+            "SourceDescription": "This data feature is extracted from the eighth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Data logging/recording according to EN 50160",
+                    "Definition": "Characteristic (peculiar) characteristics / peculiarities / peculiarities / collection and storage of characters, indications or information (mostly electronically stored) describing a product or service AccorDeutsche Industrienormg to industry standard / standard: Description of European Committee for Electrotechnical Standardization: TC 8X: System aspects of electrical power supply: characteristics of voltage in public electricity supply networks",
+                    "Reason": "This annotation is not relevant to the ejector characteristic as it is related to data logging and recording according to a specific standard.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW739001"
+                },
+                {
+                    "Name": "identification code on the product",
+                    "Definition": "a series of characters according to specific rules that are used for describing (also part of) a sentence",
+                    "Reason": "This annotation is not relevant to the ejector characteristic as it is related to an identification code on the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO688002"
+                },
+                {
+                    "Name": "Manufacturing part number",
+                    "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                    "Reason": "This annotation is not relevant to the ejector characteristic as it is related to a manufacturing part number.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO628001"
+                },
+                {
+                    "Name": "Type of input",
+                    "Definition": "Method for input of data",
+                    "Reason": "This annotation is not relevant to the ejector characteristic as it is related to the type of input.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAF143002"
+                },
+                {
+                    "Name": "Type description of the input channels",
+                    "Definition": "The specifying designation (type name, type code, abbreviated name, article number) for the input channel that a product has",
+                    "Reason": "This annotation is not relevant to the ejector characteristic as it is related to the type description of the input channels.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO948001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Ejector characteristic",
+                "Definition": "The characteristic of the ejector that describes its ability to generate a vacuum.",
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "Ejector vacuum characteristic",
+                "Definition": "The ability of the ejector to generate a high vacuum.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in selecting the appropriate ejector for a specific application based on its vacuum generating capability."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "1",
+            "overall": "3",
+            "definition": "3",
+            "affordance": "5",
+            "isInaccurate": [
+                "Name",
+                "Value"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Name_8",
+            "Definition": "Standard",
+            "Value": "Grade of filtration 40 \u00b5m",
+            "SourceDescription": "This data feature is extracted from the ninth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Data logging/recording according to EN 50160",
+                    "Definition": "Characteristic (peculiar) characteristics / peculiarities / peculiarities / collection and storage of characters, indications or information (mostly electronically stored) describing a product or service AccorDeutsche Industrienormg to industry standard / standard: Description of European Committee for Electrotechnical Standardization: TC 8X: System aspects of electrical power supply: characteristics of voltage in public electricity supply networks",
+                    "Reason": "This annotation is not relevant to the data feature as it is not related to the grade of filtration.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW739001"
+                },
+                {
+                    "Name": "Data format for record (CSV) present",
+                    "Definition": "Design, construction or function As a more precise definition: formal specification of the specification as to how a data model is to be syntactically for the data exchange, ie, how, for example, data elements are to be interpreted during loaDeutsche Industrienormg and saving / for purpose determination / assignment: collection and storage of an information / file format (abbreviation) For Comma-Separated Values), which describes the structure of a text file for storing or exchanging easily structured data",
+                    "Reason": "This annotation is not relevant to the data feature as it is not related to the grade of filtration.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW719001"
+                },
+                {
+                    "Name": "standard number of properties layout",
+                    "Definition": "Identifier for that part of the standard series DIN 4000 that is applicable for the object",
+                    "Reason": "This annotation is not relevant to the data feature as it is not related to the grade of filtration.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAA092005"
+                },
+                {
+                    "Name": "identification code on the product",
+                    "Definition": "a series of characters according to specific rules that are used for describing (also part of) a sentence",
+                    "Reason": "This annotation is relevant to the data feature as it is a code that identifies the product.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO688002"
+                },
+                {
+                    "Name": "Manufacturing part number",
+                    "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                    "Reason": "This annotation is not relevant to the data feature as it is not related to the grade of filtration.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO628001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "identification code on the product",
+                "Definition": "a series of characters according to specific rules that are used for describing (also part of) a sentence",
+                "SemanticIdentifier": "AAO688002"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Grade of filtration code",
+                "Definition": "A code that identifies the grade of filtration of the product.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "This information can be used for identifying the grade of filtration of the product, which can be useful for selecting the appropriate product for a specific application."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": [
+                "Name",
+                "Value"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Name_9",
+            "Definition": "Manual override",
+            "Value": "Non-detenting",
+            "SourceDescription": "This data feature is extracted from the tenth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "component name",
+                    "Definition": "human-readable localized text for the machine given by enduser",
+                    "Reason": "This annotation is not relevant to the data feature because it does not describe the manual override feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABA685001"
+                },
+                {
+                    "Name": "product code",
+                    "Definition": "machine-readable string of the model of the machine, that might include options like the hardware configuration of the model",
+                    "Reason": "This annotation is not relevant to the data feature because it does not describe the manual override feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABA679001"
+                },
+                {
+                    "Name": "Code of the manufacturer declaration",
+                    "Reason": "This annotation is not relevant to the data feature because it does not describe the manual override feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAQ197001"
+                },
+                {
+                    "Name": "model code of manufacturer",
+                    "Definition": "sequence of characters assigned in accordance with certain rules of the manufacturer's for designation of the model",
+                    "Reason": "This annotation is not relevant to the data feature because it does not describe the manual override feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE344005"
+                },
+                {
+                    "Name": "standard number of properties layout",
+                    "Definition": "Identifier for that part of the standard series DIN 4000 that is applicable for the object",
+                    "Reason": "This annotation is not relevant to the data feature because it does not describe the manual override feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAA092005"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": null,
+                "Definition": null,
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "Manual override",
+                "Definition": "A feature that allows the user to manually override the automatic operation of the machine.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "Allows the user to manually override the automatic operation of the machine."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": [
+                "Name",
+                "Value"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Name_10",
+            "Definition": "Integrated function",
+            "Value": "Electric ejector pulse",
+            "SourceDescription": "This data feature is extracted from the eleventh line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Data collection function present",
+                    "Definition": "whether the automation software has a data collection function",
+                    "Reason": "This annotation is not relevant to the data feature as it does not describe the technical task of the device.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAD\u00a0505008,00"
+                },
+                {
+                    "Name": "function type",
+                    "Definition": "information on the model, function and purpose of a system",
+                    "Reason": "This annotation is relevant to the data feature as it describes the type of function of the device.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAG796003"
+                },
+                {
+                    "Name": "function of input/output",
+                    "Definition": "purpose for which an auxiliary input or an output is provided",
+                    "Reason": "This annotation is not relevant to the data feature as it does not describe the technical task of the device.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAN019002"
+                },
+                {
+                    "Name": "Function",
+                    "Definition": "description of the technical task of a device",
+                    "Reason": "This annotation is relevant to the data feature as it describes the technical task of the device.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAW605001"
+                },
+                {
+                    "Name": "print of reference-numbers/date present",
+                    "Definition": "whether the device is equipped with a function for printing information value like reference-number or date",
+                    "Reason": "This annotation is not relevant to the data feature as it does not describe the technical task of the device.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAA190009"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "function type",
+                "Definition": "information on the model, function and purpose of a system",
+                "SemanticIdentifier": "AAG796003"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Integrated function type",
+                "Definition": "information on the integrated function of the device",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to understand the integrated function of the device and its purpose in a system."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": [
+                "Name",
+                "Value"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Name_11",
+            "Definition": "Flow control",
+            "Value": "Pressure sensor",
+            "SourceDescription": "This data feature is extracted from the twelfth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "volume flow control present",
+                    "Definition": "indication whether the product is equipped with a flow control",
+                    "Reason": "The annotation is not relevant because it does not indicate the type of flow control.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAL262004"
+                },
+                {
+                    "Name": "Data collection function present",
+                    "Definition": "whether the automation software has a data collection function",
+                    "Reason": "The annotation is not relevant because it does not indicate the type of data collection.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAD\u00a0505008,00"
+                },
+                {
+                    "Name": "feedback signal present",
+                    "Definition": "indication whether the initiated actions or parts of input data can be returned directly or in modified form to the user or not",
+                    "Reason": "The annotation is not relevant because it does not indicate the type of feedback signal.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAM049004"
+                },
+                {
+                    "Name": "input signal",
+                    "Definition": "information on the incoming information",
+                    "Reason": "The annotation is not relevant because it does not indicate the type of input signal.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF945002"
+                },
+                {
+                    "Name": "Type of input",
+                    "Definition": "Method for input of data",
+                    "Reason": "The annotation is relevant because it indicates the type of input.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAF143002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Type of input",
+                "Definition": "Method for input of data",
+                "SemanticIdentifier": "BAF143002"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Flow control type",
+                "Definition": "The method for controlling the flow of a substance or energy.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 4,
+            "Affordance": "The information can be used to determine the method for controlling the flow of a substance or energy in the vacuum generator."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "1",
+            "overall": "1",
+            "definition": "1",
+            "affordance": "1",
+            "isInaccurate": [
+                "Name",
+                "Value",
+                "GeneratedDefinition",
+                "Affordance"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Name_12",
+            "Definition": "Electric on-off valve",
+            "Value": "N/A",
+            "SourceDescription": "This data feature is extracted from the thirteenth line of the input text. The value is not applicable in this context."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "max. switch-off pressure",
+                    "Definition": "Maximum adjustable pressure value at which the contacts in the control circuit close in order to switch off the pressure generator",
+                    "Reason": "This annotation is not relevant to the data feature because it is not related to the electric on-off valve.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB813006"
+                },
+                {
+                    "Name": "maximum variable back pressure",
+                    "Definition": "indication of the maximum back pressure on the Outlet side of the safety relief valve, which was assumed for sizing the valve",
+                    "Reason": "This annotation is not relevant to the data feature because it is not related to the electric on-off valve.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABF469001"
+                },
+                {
+                    "Name": "suitable for EMERGENCY-OFF",
+                    "Definition": "whether the control device or sensor is suitable for an EMERGENCY-OFF function",
+                    "Reason": "This annotation is not relevant to the data feature because it is not related to the electric on-off valve.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAD\u00a0706009,00"
+                },
+                {
+                    "Name": "valve seat velocity",
+                    "Definition": "mean velocity of the flow through the valve seat at the specified operating conditions",
+                    "Reason": "This annotation is not relevant to the data feature because it is not related to the electric on-off valve.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC114001"
+                },
+                {
+                    "Name": "min. switch-off pressure",
+                    "Definition": "minimum adjustable pressure value at which the contacts in the control circuit close in order to switch off the pressure generator",
+                    "Reason": "This annotation is not relevant to the data feature because it is not related to the electric on-off valve.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB950007"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "N/A",
+                "Definition": "N/A",
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "Electric on-off valve status",
+                "Definition": "The status of the electric on-off valve, indicating whether it is open or closed.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 2,
+            "Affordance": "The status of the electric on-off valve can be used to determine whether the vacuum generator is operational or not, and to troubleshoot any issues with the vacuum generator."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "1",
+            "overall": "1",
+            "definition": "1",
+            "affordance": "1",
+            "isInaccurate": [
+                "Name",
+                "Value",
+                "GeneratedDefinition",
+                "Affordance"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Name_13",
+            "Definition": "Filter",
+            "Value": "Open silencer",
+            "SourceDescription": "This data feature is extracted from the fourteenth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Filter",
+                    "Definition": "kind of filter",
+                    "Reason": "The annotation is relevant as it describes the type of filter.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAF401006"
+                },
+                {
+                    "Name": "Material description of the filter element",
+                    "Definition": "Usual name or brand name of the material in general language",
+                    "Reason": "The annotation is not relevant as it describes the material of the filter element, not the filter itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAP121002"
+                },
+                {
+                    "Name": "Material description of the filter base",
+                    "Definition": "Usual name or brand name of the material in general language",
+                    "Reason": "The annotation is not relevant as it describes the material of the filter base, not the filter itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAP120002"
+                },
+                {
+                    "Name": "Data collection function present",
+                    "Definition": "whether the automation software has a data collection function",
+                    "Reason": "The annotation is not relevant as it describes a property of the automation software, not the filter.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAD\u00a0505008,00"
+                },
+                {
+                    "Name": "type of filter connection",
+                    "Definition": "information on the make of the filter connection",
+                    "Reason": "The annotation is not relevant as it describes the type of filter connection, not the filter itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAH333002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Filter",
+                "Definition": "kind of filter",
+                "SemanticIdentifier": "AAF401006"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Filter type",
+                "Definition": "Open silencer",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 4,
+            "Affordance": "Used to determine the type of filter used in the vacuum generator."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "1",
+            "overall": "1",
+            "definition": "1",
+            "affordance": "1",
+            "isInaccurate": [
+                "Name",
+                "Value",
+                "GeneratedDefinition",
+                "Affordance"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Name_14",
+            "Definition": "Design",
+            "Value": "T-shape",
+            "SourceDescription": "This data feature is extracted from the fifteenth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Data format for record (CSV) present",
+                    "Definition": "Design, construction or function As a more precise definition: formal specification of the specification as to how a data model is to be syntactically for the data exchange, ie, how, for example, data elements are to be interpreted during loaDeutsche Industrienormg and saving / for purpose determination / allocation: collection and storage of an information / file format (abbreviation) For Comma-Separated Values), which describes the structure of a text file for storing or exchanging easily structured data",
+                    "Reason": "This annotation is not relevant to the data feature as it refers to a file format, not a design.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW719001"
+                },
+                {
+                    "Name": "Type of input",
+                    "Definition": "Method for input of data",
+                    "Reason": "This annotation is not relevant to the data feature as it refers to the method of inputting data, not a design.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAF143002"
+                },
+                {
+                    "Name": "input signal",
+                    "Definition": "information on the incoming information",
+                    "Reason": "This annotation is not relevant to the data feature as it refers to incoming information, not a design.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF945002"
+                },
+                {
+                    "Name": "Data format for record (COMTRADE) present",
+                    "Definition": "Design, construction or function As a more precise definition: formal specification of the specification as to how a data model is to be syntactically for the data exchange, ie, how, for example, data elements are to be interpreted during loaDeutsche Industrienormg and saving / for purpose determination / allocation: collection and storage of an information / file format for storage Of oscilloscope and status data related to temporary disturbances of the power grid",
+                    "Reason": "This annotation is not relevant to the data feature as it refers to a file format, not a design.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW718001"
+                },
+                {
+                    "Name": "Designating digits",
+                    "Definition": "Established sequences of characters as written or numeric characters for identifying parts or products",
+                    "Reason": "This annotation is relevant to the data feature as it refers to a design.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAT085001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Designating digits",
+                "Definition": "Established sequences of characters as written or numeric characters for identifying parts or products",
+                "SemanticIdentifier": "AAT085001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "T-shape design",
+                "Definition": "Design of the vacuum generator with a T-shape",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 2,
+            "Affordance": "This information can be used to identify the design of the vacuum generator in a catalog or inventory system."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": [
+                "Name"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Name_15",
+            "Definition": "Switching element function",
+            "Value": "N/C contact",
+            "SourceDescription": "This data feature is extracted from the sixteenth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Design of the switching element",
+                    "Definition": "Design and/or mode of operation of an element that implements a switching function",
+                    "Reason": "The annotation is not relevant because it does not describe the switching element function.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB412007"
+                },
+                {
+                    "Name": "switch function present",
+                    "Definition": "specification whether there is a switch function",
+                    "Reason": "The annotation is not relevant because it does not describe the switching element function.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF719004"
+                },
+                {
+                    "Name": "Design of the switch function of the inputs",
+                    "Definition": "Design / function of the switch elements of inputs (break contact, make contact, positive opener or change-over switch) and, possibly, the number of contacts, e.g.: change-over switch 1S + 3\u00d6...(1 make + 3 break)",
+                    "Reason": "The annotation is not relevant because it does not describe the switching element function.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB399006"
+                },
+                {
+                    "Name": "switching element function",
+                    "Definition": "Design of control element as opener, shutter, opener by force, or changer",
+                    "Reason": "The annotation is relevant because it describes the switching element function.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAD\u00a0899010,00"
+                },
+                {
+                    "Name": "type of switching input",
+                    "Definition": "for a switching input, a distinction is made between the two binary states Active / On and Inactive / Off. In most cases it can be determined via the parameterization whether the input is activated by applying a HIGH or a LOW level. Common functions of the input are e.g. B. Laser-off, trigger function or synchronization. The function can also be dependent on the duration of the applied signal. E.g. with external teach-in of two distance values \u200b\u200bfor the min./max. Value scaling of the analog output",
+                    "Reason": "The annotation is not relevant because it does not describe the switching element function.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABD948001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "switching element function",
+                "Definition": "Design of control element as opener, shutter, opener by force, or changer",
+                "SemanticIdentifier": "BAD\u00a0899010,00"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Switching element contact type",
+                "Definition": "The type of contact for the switching element, such as normally closed or normally open.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the behavior of the switching element in different states."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "1",
+            "definition": "1",
+            "affordance": "5",
+            "isInaccurate": [
+                "Name",
+                "Value",
+                "GeneratedDefinition"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Name_16",
+            "Definition": "N/C or N/O contact, switchable",
+            "Value": "Switchable",
+            "SourceDescription": "This data feature is extracted from the seventeenth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "target selection keys",
+                    "Definition": "separately selected memory transistor for frequently dialled numbers for speed dialling",
+                    "Reason": "This annotation is not relevant to the data feature as it does not match the definition of the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG524001"
+                },
+                {
+                    "Name": "contact less",
+                    "Definition": "whether an electronic data carrier is without touch for switch equipment or not",
+                    "Reason": "This annotation is not relevant to the data feature as it does not match the definition of the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAL383005"
+                },
+                {
+                    "Name": "Electrical interface (PROFINET IO, 100 Mbit/s, double RJ45 connector) present",
+                    "Definition": "(Physical and functional) compatibility of the systems to be connected for the exchange of data / PROFINET, by means of appropriate measures Input Output is used to control sensors and actuators by means of a central control in the manufacturing technology, value: 100 megabits per second, so that it exists in two copies or occurs by the US Federal Communications Commission (FCC) standardized connector for telecommunication cabling, as (8P8C) modular connector or as a modular jack, commonly referred to as an ISDN connector (if unshielded) and an Ethernet connector (if shielded)",
+                    "Reason": "This annotation is not relevant to the data feature as it does not match the definition of the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW861001"
+                },
+                {
+                    "Name": "data output",
+                    "Definition": "information on the interface for data transmission to other units",
+                    "Reason": "This annotation is relevant to the data feature as it matches the definition of the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAH927003"
+                },
+                {
+                    "Name": "type of data carrier",
+                    "Definition": "indication of the kind of data carrier for a switching device",
+                    "Reason": "This annotation is not relevant to the data feature as it does not match the definition of the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAM466003"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "data output",
+                "Definition": "information on the interface for data transmission to other units",
+                "SemanticIdentifier": "AAH927003"
+            },
+            "GeneratedAnnotation": {
+                "Name": "contact type",
+                "Definition": "whether the contact is normally closed or normally open and switchable",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 4,
+            "Affordance": "This information can be used to determine the type of contact for programming the switching function."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": [
+                "Name",
+                "Value"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Name_17",
+            "Definition": "Switching function",
+            "Value": "Freely programmable",
+            "SourceDescription": "This data feature is extracted from the eighteenth line of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "switch function present",
+                    "Definition": "specification whether there is a switch function",
+                    "Reason": "The annotation is relevant because it indicates the presence of a switch function, which is consistent with the extracted data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAF719004"
+                },
+                {
+                    "Name": "type of switching input",
+                    "Definition": "for a switching input, a distinction is made between the two binary states Active / On and Inactive / Off. In most cases it can be determined via the parameterization whether the input is activated by applying a HIGH or a LOW level. Common functions of the input are e.g. B. Laser-off, trigger function or synchronization. The function can also be dependent on the duration of the applied signal. E.g. with external teach-in of two distance values \u200b\u200bfor the min./max. Value scaling of the analog output",
+                    "Reason": "The annotation is not relevant because it refers to the type of switching input, while the extracted data feature is about the switching function.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABD948001"
+                },
+                {
+                    "Name": "Design of the switch function of the inputs",
+                    "Definition": "Design / function of the switch elements of inputs (break contact, make contact, positive opener or change-over switch) and, possibly, the number of contacts, e.g.: change-over switch 1S + 3\u00d6...(1 make + 3 break)",
+                    "Reason": "The annotation is not relevant because it refers to the design of the switch function of the inputs, while the extracted data feature is about the switching function.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB399006"
+                },
+                {
+                    "Name": "correcting variable switching",
+                    "Definition": "specification whether the correcting variable is switching",
+                    "Reason": "The annotation is not relevant because it refers to the correcting variable switching, while the extracted data feature is about the switching function.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF712004"
+                },
+                {
+                    "Name": "Design of the switching element",
+                    "Definition": "Design and/or mode of operation of an element that implements a switching function",
+                    "Reason": "The annotation is not relevant because it refers to the design of the switching element, while the extracted data feature is about the switching function.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB412007"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "switch function present",
+                "Definition": "specification whether there is a switch function",
+                "SemanticIdentifier": "AAF719004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Switching function type",
+                "Definition": "The type of switching function implemented in the system.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The switching function type can be used to program the switching function of the system, allowing for customization and flexibility in its operation."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": [
+                "Name"
+            ]
+        }
+    }
+]

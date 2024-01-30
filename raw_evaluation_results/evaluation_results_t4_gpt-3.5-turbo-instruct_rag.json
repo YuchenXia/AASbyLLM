@@ -1,0 +1,818 @@
+[
+    {
+        "DataFeature": {
+            "Name": "Product No.",
+            "Definition": "The unique identification number assigned to a specific product.",
+            "Value": "VVF53.100-150K",
+            "SourceDescription": "This data feature is extracted from the input text and is the product number of the seat valve."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Product number",
+                    "Definition": "Coded series of characters which is used in place of the article (or service) by a body supplying administrative services and is thus the meaningful unit, for example, in planning and control systems or warehousing",
+                    "Reason": "The given annotation is not relevant as it does not match the definition of a product number and is not specific enough for the given data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO607001"
+                },
+                {
+                    "Name": "product article number of manufacturer",
+                    "Definition": "unique product identifier of the manufacturer",
+                    "Reason": "The given annotation is not relevant as it does not match the definition of a product number and is not specific enough for the given data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO676003"
+                },
+                {
+                    "Name": "product identifier",
+                    "Definition": "unique identifier of the product",
+                    "Reason": "The given annotation is not relevant as it does not match the definition of a product number and is not specific enough for the given data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABA671001"
+                },
+                {
+                    "Name": "order code of manufacturer",
+                    "Definition": "by manufactures issued unique combination of numbers and letters used to identify the device for ordering",
+                    "Reason": "The given annotation is not relevant as it does not match the definition of a product number and is not specific enough for the given data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO227002"
+                },
+                {
+                    "Name": "identifying order number",
+                    "Definition": "unique classifying number that enables to name an object and to order it from a supplier or manufacturer",
+                    "Reason": "The given annotation is not relevant as it does not match the definition of a product number and is not specific enough for the given data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO689001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Product No.",
+                "Definition": "The unique identification number assigned to a specific product.",
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "Product Number",
+                "Definition": "The unique identification number assigned to a specific product.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "This information can be used to identify and order a specific product from a supplier or manufacturer."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Stock No.",
+            "Definition": "The unique identification number assigned to a specific stock.",
+            "Value": "S55208-V158",
+            "SourceDescription": "This data feature is extracted from the input text and is the stock number of the seat valve."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "National stock number",
+                    "Definition": "13-digit numeric code, identifying all the standardized material items of supply as they have been recognized by the United States Department of Defense",
+                    "Reason": "Not relevant as it is a different type of stock number.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAN075003"
+                },
+                {
+                    "Name": "identifying order number",
+                    "Definition": "unique classifying number that enables to name an object and to order it from a supplier or manufacturer",
+                    "Reason": "Not relevant as it is a different type of stock number.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO689001"
+                },
+                {
+                    "Name": "supplier of the identifier",
+                    "Definition": "DUNS-no., supplier number, or other number as identifier of an offeror or supplier of the identification",
+                    "Reason": "Not relevant as it is a different type of stock number.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAP796004"
+                },
+                {
+                    "Name": "UN number",
+                    "Definition": "An internationally valid substance number allocated either to an individual substance or a substance group",
+                    "Reason": "Not relevant as it is a different type of stock number.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO994001"
+                },
+                {
+                    "Name": "impression text or impression numbers",
+                    "Definition": "names the imprint text or number for a standard stock stamp without the possibility of individualization (e.g. scanned, sent on..., copy...)",
+                    "Reason": "Not relevant as it is a different type of stock number.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABF423001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Stock No.",
+                "Definition": "The unique identification number assigned to a specific stock.",
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "Stock No.",
+                "Definition": "The unique identification number assigned to a specific stock.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "This information can be used to identify and order a specific stock of the seat valve."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Stroke",
+            "Definition": "The distance that the valve can move from its fully closed position to its fully open position.",
+            "Value": "40 mm, DN 50: 20 mm;From DN 65: 40 mm",
+            "SourceDescription": "This data feature is extracted from the input text and describes the stroke of the seat valve."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "lap",
+                    "Definition": "distance in longitudinal direction between the fixed and movable control edges of a spool valve",
+                    "Reason": "Not relevant as it describes a different type of valve.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC469001"
+                },
+                {
+                    "Name": "valve seat velocity",
+                    "Definition": "mean velocity of the flow through the valve seat at the specified operating conditions",
+                    "Reason": "Not relevant as it describes a different type of valve.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC114001"
+                },
+                {
+                    "Name": "stroke mechanism",
+                    "Definition": "information about through which kind of mechanism the stroke is performed",
+                    "Reason": "Not relevant as it does not provide information about the distance the valve can move.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAI117002"
+                },
+                {
+                    "Name": "Stroke time",
+                    "Definition": "The time required for the hoisting process between the lower and upper terminal positions",
+                    "Reason": "Not relevant as it does not provide information about the distance the valve can move.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAI755004"
+                },
+                {
+                    "Name": "minimal lift",
+                    "Definition": "actual travel of the valve disc away from the closed position",
+                    "Reason": "Not relevant as it does not provide information about the distance the valve can move.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABF459001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Stroke",
+                "Definition": "The distance that the valve can move from its fully closed position to its fully open position.",
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "Valve travel",
+                "Definition": "The distance that the valve can move from its fully closed position to its fully open position.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "mm",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the maximum distance the valve can move, which is critical in understanding its functionality and performance in a specific context."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "-",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Leakage rate",
+            "Definition": "The amount of fluid that can leak through the valve when it is fully closed.",
+            "Value": "0...0.01 % of kvs value",
+            "SourceDescription": "This data feature is extracted from the input text and describes the leakage rate of the seat valve."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "leakage rate of flow",
+                    "Definition": "measured rate of flow leaking from shaft seals",
+                    "Reason": "The given annotation is not relevant as it refers to a different type of valve and a different type of leakage.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC157001"
+                },
+                {
+                    "Name": "leakage rate of flow",
+                    "Definition": "rate of flow leaking from shaft seals",
+                    "Reason": "The given annotation is not relevant as it refers to a different type of valve and a different type of leakage.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABB474001"
+                },
+                {
+                    "Name": "valve seat velocity",
+                    "Definition": "mean velocity of the flow through the valve seat at the specified operating conditions",
+                    "Reason": "The given annotation is not relevant as it refers to a different type of valve and a different type of data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC114001"
+                },
+                {
+                    "Name": "valve lock",
+                    "Definition": "indication of whether the lock has a valve function which closes its lumen as a passage barrier when not in use",
+                    "Reason": "The given annotation is not relevant as it refers to a different type of valve and a different type of data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABD969001"
+                },
+                {
+                    "Name": "Leakage at advanced catheter",
+                    "Definition": "referred to a closed suction system the amount of leaking breathing air",
+                    "Reason": "The given annotation is not relevant as it refers to a different type of valve and a different type of leakage.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAA809008"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "leakage rate of flow",
+                "Definition": "rate of flow leaking from shaft seals",
+                "SemanticIdentifier": "ABB474001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Leakage rate",
+                "Definition": "The amount of fluid that can leak through the valve when it is fully closed.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the potential leakage of the seat valve in a specific context."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "kvs",
+            "Definition": "The flow coefficient of the valve, which is a measure of its flow capacity.",
+            "Value": "150 m\u00b3/h",
+            "SourceDescription": "This data feature is extracted from the input text and is the flow coefficient of the seat valve."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Kvs-value (at 1 bar)",
+                    "Definition": "water flow through a valve at a pressure difference of 1 bar and a water temperature 50-30 \u00b0 C (flow coefficient)",
+                    "Reason": "The given annotation is not relevant as it specifies a different pressure and temperature than the extracted data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAI685003"
+                },
+                {
+                    "Name": "valve seat velocity",
+                    "Definition": "mean velocity of the flow through the valve seat at the specified operating conditions",
+                    "Reason": "The given annotation is not relevant as it does not directly relate to the extracted data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC114001"
+                },
+                {
+                    "Name": "flow area A",
+                    "Definition": "narrowest flow cross-section of a safety relief valve (not the smallest cross-section between valve head and seat)",
+                    "Reason": "The given annotation is not relevant as it does not directly relate to the extracted data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABF473001"
+                },
+                {
+                    "Name": "mean rated velocity at outlet area of the installation",
+                    "Definition": "rated flow at the outlet area of the installation divided by the inlet area of the installation",
+                    "Reason": "The given annotation is not relevant as it does not directly relate to the extracted data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC099001"
+                },
+                {
+                    "Name": "volumetric flow rate due to secondary venting",
+                    "Definition": "volume of the fluid per unit of time with pressure drop on the outlet side due to a generally unducted connection on a pressure regulator",
+                    "Reason": "The given annotation is not relevant as it does not directly relate to the extracted data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ986001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Kvs-value (at 1 bar)",
+                "Definition": "water flow through a valve at a pressure difference of 1 bar and a water temperature 50-30 \u00b0 C (flow coefficient)",
+                "SemanticIdentifier": "AAI685003"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Flow coefficient",
+                "Definition": "The flow coefficient of the valve, which is a measure of its flow capacity.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "m\u00b3/h",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the flow capacity of the valve in various engineering tasks, such as designing a fluid system or selecting the appropriate valve for a specific application."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Medium temperature",
+            "Definition": "The temperature range in which the valve can safely operate.",
+            "Value": "-5\u2026220 \u00b0C",
+            "SourceDescription": "This data feature is extracted from the input text and describes the medium temperature range for the seat valve."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Temperature range",
+                    "Definition": "Range from the smallest through to the largest temperature in the outer surroundings of the operating medium",
+                    "Reason": "The given annotation is not relevant as it describes the temperature range in the outer surroundings, not the temperature range in which the valve can safely operate.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO931001"
+                },
+                {
+                    "Name": "Min. permissible operating temperature at TS2, room3",
+                    "Definition": "The operating temperature TS2 is the maximum value of the operating temperature defined from a safety point of view by the manufacturer of the system for the various components. The temperature point TS2 is in correlation to the pressures  PS2+ and PS2-",
+                    "Reason": "The given annotation is not relevant as it describes the maximum operating temperature defined by the manufacturer, not the temperature range in which the valve can safely operate.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAH756005"
+                },
+                {
+                    "Name": "Min. permissible operating temperature at TS2, room2",
+                    "Definition": "The operating temperature TS2 is the maximum value of the operating temperature defined from a safety point of view by the manufacturer of the system for the various components. The temperature point TS2 is in correlation to the pressures  PS2+ and PS2-",
+                    "Reason": "The given annotation is not relevant as it describes the maximum operating temperature defined by the manufacturer, not the temperature range in which the valve can safely operate.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAH755006"
+                },
+                {
+                    "Name": "Min. permissible operating temperature at TS2, room1",
+                    "Definition": "The operating temperature TS2 is the maximum value of the operating temperature defined from a safety point of view by the manufacturer of the system for the various components. The temperature point TS2 is in correlation to the pressures  PS2+ and PS2-",
+                    "Reason": "The given annotation is not relevant as it describes the maximum operating temperature defined by the manufacturer, not the temperature range in which the valve can safely operate.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAH754006"
+                },
+                {
+                    "Name": "min. temperature range",
+                    "Definition": "minimum boundary value of the temperature range, in which an operating unit can be used, without serious changes of assigned features, depending on the exposure time. Temporal restrictions like short-time or durability have to be stated",
+                    "Reason": "The given annotation is not relevant as it describes the minimum boundary value of the temperature range, not the temperature range in which the valve can safely operate.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAH177003"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Medium temperature",
+                "Definition": "The temperature range in which the valve can safely operate.",
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "Temperature range for safe operation",
+                "Definition": "The temperature range in which the valve can safely operate.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "\u00b0C",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the safe operating temperature range for the seat valve in various engineering tasks and applications."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Valve characteristic",
+            "Definition": "The relationship between the valve's opening and the flow rate of the fluid.",
+            "Value": "Equal percentage, kvs 220/315 linear",
+            "SourceDescription": "This data feature is extracted from the input text and describes the valve characteristic of the seat valve."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "valve seat velocity",
+                    "Definition": "mean velocity of the flow through the valve seat at the specified operating conditions",
+                    "Reason": "Not relevant as it describes the velocity of the flow through the valve seat, not the relationship between the valve's opening and the flow rate of the fluid.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC114001"
+                },
+                {
+                    "Name": "opening characteristic",
+                    "Definition": "description of the behavior of a safety valve upon exceeding the set pressure",
+                    "Reason": "Not relevant as it describes the behavior of a safety valve, not the relationship between the valve's opening and the flow rate of the fluid.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABF486001"
+                },
+                {
+                    "Name": "valve lock",
+                    "Definition": "indication of whether the lock has a valve function which closes its lumen as a passage barrier when not in use",
+                    "Reason": "Not relevant as it describes the function of a valve lock, not the relationship between the valve's opening and the flow rate of the fluid.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABD969001"
+                },
+                {
+                    "Name": "suitability for both directions of flow",
+                    "Definition": "specification relating to the behaviour in the event of a change of flow direction in fluidic valves",
+                    "Reason": "Not relevant as it describes the behavior of a valve in different flow directions, not the relationship between the valve's opening and the flow rate of the fluid.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ920001"
+                },
+                {
+                    "Name": "control characteristics",
+                    "Definition": "behaviour of the fluidic directional control valve when the actuation signal is withdrawn or actuation signals are simultaneously applied",
+                    "Reason": "Not relevant as it describes the behavior of a directional control valve, not the relationship between the valve's opening and the flow rate of the fluid.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ977001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Valve characteristic",
+                "Definition": "The relationship between the valve's opening and the flow rate of the fluid.",
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "Valve characteristic",
+                "Definition": "The relationship between the valve's opening and the flow rate of the fluid.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the behavior and performance of the valve in relation to the flow rate of the fluid in various operating conditions."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Rangeability",
+            "Definition": "The ratio of the maximum to minimum controllable flow rate of the valve.",
+            "Value": "> 100",
+            "SourceDescription": "This data feature is extracted from the input text and describes the rangeability of the seat valve."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "valve seat velocity",
+                    "Definition": "mean velocity of the flow through the valve seat at the specified operating conditions",
+                    "Reason": "Not relevant as it describes the velocity of the flow through the valve seat, not the rangeability of the valve.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC114001"
+                },
+                {
+                    "Name": "end value of the measuring range (flow rate)",
+                    "Definition": "upper limit value of the range of those values of the measurand flow rate for which it is required that the measuring deviations of the measuring device remain within specified limits and that the values are represented in accordance with the specifications",
+                    "Reason": "Not relevant as it describes the end value of the measuring range, not the rangeability of the valve.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ823001"
+                },
+                {
+                    "Name": "Adjustable volume flow (l/min)",
+                    "Definition": "Describes the adjustable range of volume flow",
+                    "Reason": "Not relevant as it describes the adjustable range of volume flow, not the rangeability of the valve.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW147002"
+                },
+                {
+                    "Name": "Range",
+                    "Definition": "Range that can be carried out or bridged",
+                    "Reason": "Not relevant as it describes the range that can be carried out or bridged, not the rangeability of the valve.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAC907005"
+                },
+                {
+                    "Name": "Signal range at the input",
+                    "Definition": "An interval defined by two values of the input variables in which an evaluation can be carried out within the specified accuracy",
+                    "Reason": "Not relevant as it describes the signal range at the input, not the rangeability of the valve.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAA239007"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Range",
+                "Definition": "Range that can be carried out or bridged",
+                "SemanticIdentifier": "BAC907005"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Rangeability",
+                "Definition": "The ratio of the maximum to minimum controllable flow rate of the valve.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the rangeability of the valve in various engineering tasks, such as designing a control system for the valve or selecting the appropriate valve for a specific application."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Permissible operating pressure",
+            "Definition": "The maximum pressure that the valve can safely withstand during operation.",
+            "Value": "2500 kPa",
+            "SourceDescription": "This data feature is extracted from the input text and describes the permissible operating pressure of the seat valve."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "max. permissible operating pressure",
+                    "Definition": "under unfavorable operating conditions the maximum permissible pressure limit value that must never be exceeded to prevent personal injury and damage to property, yet the pressure that is necessary to ensure satisfactory completion of a process/working step",
+                    "Reason": "The definition is too broad and does not specifically mention the maximum pressure that the valve can withstand.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB916008"
+                },
+                {
+                    "Name": "min. permissible operating pressure",
+                    "Definition": "under unfavorable operating conditions the maximum permissible pressure limit value that must never be exceeded to prevent personal injury and damage to property, yet the pressure that is necessary to ensure satisfactory completion of a process/working step",
+                    "Reason": "The definition is too broad and does not specifically mention the maximum pressure that the valve can withstand.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAC032008"
+                },
+                {
+                    "Name": "Greatest value of operating pressure range",
+                    "Definition": "States the highest value of pressure with which a device can be operated",
+                    "Reason": "The definition is too broad and does not specifically mention the maximum pressure that the valve can withstand.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE226007"
+                },
+                {
+                    "Name": "maximum operating pressure",
+                    "Definition": "upper limit of the pressure range at which a fluidic device fulfils its function",
+                    "Reason": "The definition is too broad and does not specifically mention the maximum pressure that the valve can withstand.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ943001"
+                },
+                {
+                    "Name": "Max. permissible underpressure PS1- at TS1, room1",
+                    "Definition": "The operating underpressure PS- is the maximum value of the operating underpressure defined from a safety point of view by the manufacturer of the system for the various components in relation to the atmospheric pressure (1 bar) at the maximum permissible temperature TS1",
+                    "Reason": "The definition is too broad and does not specifically mention the maximum pressure that the valve can withstand.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAI205009"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Permissible operating pressure",
+                "Definition": "The maximum pressure that the valve can safely withstand during operation.",
+                "SemanticIdentifier": "AAB916008"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Maximum operating pressure",
+                "Definition": "The highest pressure that the valve can safely withstand during operation.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "kPa",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the maximum pressure that the valve can safely withstand during operation in various engineering tasks and applications."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Material, valve body",
+            "Definition": "The material used to construct the body of the valve.",
+            "Value": "Ductile iron",
+            "SourceDescription": "This data feature is extracted from the input text and describes the material of the valve body for the seat valve."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Material description of the valve body",
+                    "Definition": "usual name or brand name of the material in everyday language, of the valve body",
+                    "Reason": "The annotation is relevant as it provides a description of the material used in the valve body.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAP167001"
+                },
+                {
+                    "Name": "Material of valve",
+                    "Definition": "material (fabric, raw material) the valve is made of (having regard to its outward form and/or the process of formation resp. of manufacture)",
+                    "Reason": "The annotation is not relevant as it is too general and does not specifically describe the material used in the valve body.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF234001"
+                },
+                {
+                    "Name": "Material description of the valve face",
+                    "Definition": "Usual name or brand name of the material in general language",
+                    "Reason": "The annotation is not relevant as it does not specifically describe the material used in the valve body.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAP168002"
+                },
+                {
+                    "Name": "Material number of the valve face",
+                    "Definition": "A norm-based numbering of the materials. The material is unambiguously described by referring to a norm",
+                    "Reason": "The annotation is not relevant as it does not specifically describe the material used in the valve body.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAQ293002"
+                },
+                {
+                    "Name": "Material description of the valve ball/valve cone",
+                    "Definition": "Usual name or brand name of the material in general language",
+                    "Reason": "The annotation is not relevant as it does not specifically describe the material used in the valve body.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAP015002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Material description of the valve body",
+                "Definition": "usual name or brand name of the material in everyday language, of the valve body",
+                "SemanticIdentifier": "AAP167001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Material description of the valve body",
+                "Definition": "The usual name or brand name of the material used in the valve body.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the material used in the valve body for various engineering tasks, such as selecting the appropriate material for a specific application or analyzing the performance of the valve in different environments."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Material, inside set",
+            "Definition": "The material used for the internal components of the valve.",
+            "Value": "CrNi steel",
+            "SourceDescription": "This data feature is extracted from the input text and describes the material of the internal components for the seat valve."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Material description of the valve body",
+                    "Definition": "usual name or brand name of the material in everyday language, of the valve body",
+                    "Reason": "Not relevant as it describes the material of the valve body, not the internal components.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAP167001"
+                },
+                {
+                    "Name": "Material of valve",
+                    "Definition": "material (fabric, raw material) the valve is made of (having regard to its outward form and/or the process of formation resp. of manufacture)",
+                    "Reason": "Not relevant as it describes the material of the entire valve, not just the internal components.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF234001"
+                },
+                {
+                    "Name": "Material number of the valve face",
+                    "Definition": "A norm-based numbering of the materials. The material is unambiguously described by referring to a norm",
+                    "Reason": "Not relevant as it describes the material of the valve face, not the internal components.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAQ293002"
+                },
+                {
+                    "Name": "Material description of the valve face",
+                    "Definition": "Usual name or brand name of the material in general language",
+                    "Reason": "Not relevant as it describes the material of the valve face, not the internal components.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAP168002"
+                },
+                {
+                    "Name": "Overflow valve integrated",
+                    "Definition": "Information as to whether an object or function is an integral component of the object",
+                    "Reason": "Not relevant as it does not describe the material of the internal components.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAC253006"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Material of valve",
+                "Definition": "material (fabric, raw material) the valve is made of (having regard to its outward form and/or the process of formation resp. of manufacture)",
+                "SemanticIdentifier": "AAF234001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Material of internal components",
+                "Definition": "The material used for the internal components of the valve.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in selecting the appropriate material for the internal components of the valve in various engineering tasks and applications."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "PN class",
+            "Definition": "The pressure rating of the valve, indicating the maximum pressure it can withstand.",
+            "Value": "PN 25",
+            "SourceDescription": "This data feature is extracted from the input text and is the PN class of the seat valve."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Nominal pressure of the operating medium",
+                    "Definition": "PN (nominal pressure) is an alphanumeric variable for reference purposes, relating to a combination of mechanical and measurement properties of a pipe component. It comprises the letters PN followed by a dimensionless number (according to EN 1333/96.08)",
+                    "Reason": "Not relevant as it refers to the pressure of the medium, not the valve itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO778001"
+                },
+                {
+                    "Name": "Nominal pressure of the product line",
+                    "Definition": "PN (nominal pressure) is an alphanumeric variable for reference purposes, relating to a combination of mechanical and measurement properties of a pipe component. It comprises the letters PN followed by a dimensionless number (according to EN 1333/96.08)",
+                    "Reason": "Not relevant as it refers to the pressure of the product line, not the valve itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO776001"
+                },
+                {
+                    "Name": "Nominal pressure at venue 3",
+                    "Definition": "PN (nominal pressure) is an alphanumeric variable for reference purposes, relating to a combination of mechanical and dimensional properties of a component of a pipe. It comprises the letters PN followed by a dimensionless number (according to EN 1333/96.08)",
+                    "Reason": "Not relevant as it refers to the pressure at a specific venue, not the valve itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO773002"
+                },
+                {
+                    "Name": "Nominal pressure of the gas feedback",
+                    "Definition": "PN (nominal pressure) is an alphanumeric variable for reference purposes, relating to a combination of mechanical and measurement properties of a pipe component. It comprises the letters PN followed by a dimensionless number (according to EN 1333/96.08)",
+                    "Reason": "Not relevant as it refers to the pressure of the gas feedback, not the valve itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO775001"
+                },
+                {
+                    "Name": "Nominal pressure of the compressed air",
+                    "Definition": "PN (nominal pressure) is an alphanumeric variable for reference purposes, relating to a combination of mechanical and dimensional properties of a component of a pipe. It comprises the letters PN followed by a dimensionless number (according to EN 1333/96.08)",
+                    "Reason": "Not relevant as it refers to the pressure of the compressed air, not the valve itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO774001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "PN class",
+                "Definition": "PN (nominal pressure) is an alphanumeric variable for reference purposes, relating to a combination of mechanical and measurement properties of a pipe component. It comprises the letters PN followed by a dimensionless number (according to EN 1333/96.08)",
+                "SemanticIdentifier": "AAO778001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Pressure rating",
+                "Definition": "The maximum pressure that the valve can withstand.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the maximum pressure that the valve can withstand in various applications and engineering tasks."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    }
+]

@@ -1,0 +1,684 @@
+[
+    {
+        "DataFeature": {
+            "Name": "Product Type Designation",
+            "Definition": "The specific designation or model number of the product.",
+            "Value": "Herculine 2000",
+            "SourceDescription": "This data feature is extracted from the input text, which is a product type designation for an electric actuator."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "product-type designation",
+                    "Definition": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants",
+                    "Reason": "The given annotation is not relevant as it is too specific and does not match the general information provided.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF542002"
+                },
+                {
+                    "Name": "Product type",
+                    "Definition": "Additional information for describing products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                    "Reason": "The given annotation is relevant as it provides additional information for distinguishing products.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO846001"
+                },
+                {
+                    "Name": "Product type of the form",
+                    "Definition": "Additional information for describing the form of products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                    "Reason": "The given annotation is not relevant as it is too specific and does not match the general information provided.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO844001"
+                },
+                {
+                    "Name": "product designation of manufacturer",
+                    "Definition": "designation used by the manufacturer for his product",
+                    "Reason": "The given annotation is not relevant as it is too specific and does not match the general information provided.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO682003"
+                },
+                {
+                    "Name": "Type description",
+                    "Definition": "The specifying designation (type name, type code, abbreviated name, article number) for distinguishing by type and size or design (variant) of the used product/material",
+                    "Reason": "The given annotation is not relevant as it is too specific and does not match the general information provided.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO945001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Product type",
+                "Definition": "Additional information for describing products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                "SemanticIdentifier": "AAO846001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Product type designation",
+                "Definition": "The specific designation or model number of the product.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 3,
+            "Affordance": "This information can be used to identify and distinguish the product from others in its family or with special design variants."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Part Number",
+            "Definition": "The unique identification number assigned to a specific part of a product.",
+            "Value": "2000",
+            "SourceDescription": "This data feature is extracted from the input text, which is the part number for the Herculine 2000 electric actuator."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Manufacturing part number",
+                    "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                    "Reason": "The given annotation is not relevant as it does not match the definition of a part number.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO628001"
+                },
+                {
+                    "Name": "Spare parts lists - numbers",
+                    "Definition": "Reference to a document in which the part to be procured is described in greater detail and/or represented graphically",
+                    "Reason": "The given annotation is not relevant as it does not match the definition of a part number.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO606001"
+                },
+                {
+                    "Name": "number of the parts list",
+                    "Definition": "Description of the list that includes all individual parts required for manufacturing or assembling a product",
+                    "Reason": "The given annotation is not relevant as it does not match the definition of a part number.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO835001"
+                },
+                {
+                    "Name": "Designating digits",
+                    "Definition": "Established sequences of characters as written or numeric characters for identifying parts or products",
+                    "Reason": "The given annotation is not relevant as it does not match the definition of a part number.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAT085001"
+                },
+                {
+                    "Name": "product article number of manufacturer",
+                    "Definition": "unique product identifier of the manufacturer",
+                    "Reason": "The given annotation is relevant as it matches the definition of a part number.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO676003"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "product article number of manufacturer",
+                "Definition": "unique product identifier of the manufacturer",
+                "SemanticIdentifier": "AAO676003"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Part number",
+                "Definition": "The unique identification number assigned to a specific part of a product.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 4,
+            "Affordance": "This information can be used to identify and order a specific part of the Herculine 2000 electric actuator for maintenance or replacement purposes."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "3",
+            "definition": "2",
+            "affordance": "5",
+            "isInaccurate": [
+                "GeneratedDefinition"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Weight",
+            "Definition": "The mass or heaviness of an object.",
+            "Value": "25 lb. (11.36 kg)",
+            "SourceDescription": "This data feature is extracted from the input text, which is the weight of the Herculine 2000 electric actuator."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "weight",
+                    "Definition": "mass of a device or component in operating state",
+                    "Reason": "The given annotation is relevant as it provides a quantitative specification of the weight of the machine.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAQ808004"
+                },
+                {
+                    "Name": "weight of the machine",
+                    "Definition": "quantitative specification of the weight of the machine",
+                    "Reason": "The given annotation is relevant as it provides a quantitative specification of the weight of the machine.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAH829003"
+                },
+                {
+                    "Name": "weight of item",
+                    "Definition": "force exerted by the mass of an object",
+                    "Reason": "The given annotation is not relevant as it does not provide a quantitative specification of the weight of the machine.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAB576007"
+                },
+                {
+                    "Name": "weight robot",
+                    "Definition": "physical mass of the robot",
+                    "Reason": "The given annotation is not relevant as it does not provide a quantitative specification of the weight of the machine.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAJ755002"
+                },
+                {
+                    "Name": "Max. permissible operating weight",
+                    "Definition": "In the sense of a weighing result, no longer recommended description for the mass of objects in operation including the operation materials and add-on parts. The word weight is primarily used in three different senses: a) in place of weighing value, b) as a short form of weight force, c) as a short form for weight item (see DIN 8120-2). Note: if there is a risk of misunderstanding, the word weight should be replaced with the respective weighing value, weight force or weight item.",
+                    "Reason": "The given annotation is not relevant as it does not provide a quantitative specification of the weight of the machine.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAH746005"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "weight",
+                "Definition": "mass of a device or component in operating state",
+                "SemanticIdentifier": "AAQ808004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Weight",
+                "Definition": "The mass or heaviness of an object.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "lb. (11.36 kg)",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the weight of the Herculine 2000 electric actuator for specific engineering tasks such as designing mounting structures or calculating load capacities."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Enclosure",
+            "Definition": "The outer covering or housing of a device or equipment.",
+            "Value": "Precision-machined die-cast aluminum housing finished in light gray powder coat epoxy.",
+            "SourceDescription": "This data feature is extracted from the input text, which is the enclosure for the Herculine 2000 electric actuator."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "protective enclosure present",
+                    "Definition": "specification whether there is a protective enclosure",
+                    "Reason": "The annotation is relevant as it describes the presence of a protective enclosure.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAG474004"
+                },
+                {
+                    "Name": "Enclosure rating encoder",
+                    "Definition": "describes protection from direct contact or from the ingress of solids and liquids",
+                    "Reason": "The annotation is not relevant as it does not provide information about the design or presence of the enclosure.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ293001"
+                },
+                {
+                    "Name": "Design of enclosure",
+                    "Definition": "Design and designation of a secondary product enclosed with a publication",
+                    "Reason": "The annotation is not relevant as it does not provide information about the design or presence of the enclosure.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE937002"
+                },
+                {
+                    "Name": "Enclosure rating mechanic",
+                    "Definition": "describes protection from direct contact or from the ingress of solids and liquids in cable pull mechanisms",
+                    "Reason": "The annotation is not relevant as it does not provide information about the design or presence of the enclosure.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ276001"
+                },
+                {
+                    "Name": "With interlocking actuator",
+                    "Definition": "essential component part of an unit, enclosed with the product or is included in delivery",
+                    "Reason": "The annotation is not relevant as it does not provide information about the design or presence of the enclosure.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAT137001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "protective enclosure present",
+                "Definition": "specification whether there is a protective enclosure",
+                "SemanticIdentifier": "AAG474004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Enclosure design",
+                "Definition": "The specific design and construction of the outer covering or housing of a device or equipment.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in the design and construction of electric actuators for various industrial applications."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "4",
+            "definition": "5",
+            "affordance": "4",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Factory Set Angle",
+            "Definition": "The predetermined angle at which the electric actuator is set at during factory production.",
+            "Value": "90\u00b0 or 150\u00b0 (+/-5\u00b0)",
+            "SourceDescription": "This data feature is extracted from the input text, which is the factory set angle for the Herculine 2000 electric actuator."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "angle adjustable",
+                    "Definition": "information on whether the stand for a diamond drill has an adjustable angle or not",
+                    "Reason": "Not relevant as it does not provide information on the predetermined angle at which the electric actuator is set at during factory production.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAM288004"
+                },
+                {
+                    "Name": "angle compensation",
+                    "Definition": "indication whether a tightening device contains angle compensation. If true, the movement of the tool during angle measurements can be considered",
+                    "Reason": "Not relevant as it does not provide information on the predetermined angle at which the electric actuator is set at during factory production.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABA661001"
+                },
+                {
+                    "Name": "detection range",
+                    "Definition": "size of the angle, starting from the unit to be registered in the movements",
+                    "Reason": "Not relevant as it does not provide information on the predetermined angle at which the electric actuator is set at during factory production.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAI516003"
+                },
+                {
+                    "Name": "point angle 1st step",
+                    "Definition": "angle between the major cutting edge and the same cutting edge rotated 180 degrees about its tool axis",
+                    "Reason": "Not relevant as it does not provide information on the predetermined angle at which the electric actuator is set at during factory production.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAA848006"
+                },
+                {
+                    "Name": "Opening angle of the cut-out",
+                    "Definition": "Information on the opening angle of the cut-out of an open bearing. In ISO 10285 it is coded with a (alpha).",
+                    "Reason": "Not relevant as it does not provide information on the predetermined angle at which the electric actuator is set at during factory production.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAB037004"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Factory Set Angle",
+                "Definition": "The predetermined angle at which the electric actuator is set at during factory production.",
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "Factory Set Angle",
+                "Definition": "The predetermined angle at which the electric actuator is set at during factory production.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the specific angle at which the Herculine 2000 electric actuator is set at during factory production, allowing for precise installation and operation in various engineering tasks."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Storage Temperature",
+            "Definition": "The range of temperatures at which the electric actuator can be safely stored.",
+            "Value": "\u201340 \u00b0C to +93 \u00b0C (\u201340 \u00b0C to +200 \u00b0F)",
+            "SourceDescription": "This data feature is extracted from the input text, which is the storage temperature range for the Herculine 2000 electric actuator."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "storage temperature",
+                    "Definition": "Temperature at which a component is stored",
+                    "Reason": "The annotation is relevant as it provides a general description of the temperature at which the electric actuator can be stored.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAZ830001"
+                },
+                {
+                    "Name": "max. storage temperature",
+                    "Definition": "maximum temperature which can be fed with a heat storage",
+                    "Reason": "The annotation is not relevant as it refers to a specific type of storage, which is not applicable to the electric actuator.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAI791003"
+                },
+                {
+                    "Name": "max. storage temperature",
+                    "Definition": "temperature up to which the device may be stored or transported without any permanent impairment to its operability",
+                    "Reason": "The annotation is not relevant as it refers to a specific type of device, which is not applicable to the electric actuator.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAQ341005"
+                },
+                {
+                    "Name": "upper limiting value of storage temperature",
+                    "Definition": "temperature up to which the device may be stored or transported without any permanent impairment to its operability",
+                    "Reason": "The annotation is not relevant as it refers to a specific type of device, which is not applicable to the electric actuator.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAN272004"
+                },
+                {
+                    "Name": "max. permissible temperature during storage",
+                    "Definition": "maximum permissible temperature of the operating resource during storage",
+                    "Reason": "The annotation is not relevant as it refers to a specific type of resource, which is not applicable to the electric actuator.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABA654001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "storage temperature",
+                "Definition": "Temperature at which a component is stored",
+                "SemanticIdentifier": "AAZ830001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "storage temperature range",
+                "Definition": "The range of temperatures at which the electric actuator can be safely stored.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 3,
+            "Affordance": "This information can be used to determine the appropriate storage conditions for the Herculine 2000 electric actuator in various environments."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Relative Humidity",
+            "Definition": "The amount of water vapor present in the air compared to the maximum amount of water vapor that the air can hold at a specific temperature.",
+            "Value": "0 % to 99 % R.H. non-condensing over the full operating temperature range",
+            "SourceDescription": "This data feature is extracted from the input text, which is the relative humidity range for the Herculine 2000 electric actuator."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "reference humidity",
+                    "Definition": "relative humidity at which the performance of a device was tested",
+                    "Reason": "Not relevant, as it refers to the humidity at which the device was tested, not the maximum allowed humidity for operation.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAA023007"
+                },
+                {
+                    "Name": "max. relative humidity (operation)",
+                    "Definition": "highest relative humidity which is permitted for the intended use of device",
+                    "Reason": "Not relevant, as it refers to the maximum humidity allowed for operation, not the range of humidity.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAA915007"
+                },
+                {
+                    "Name": "max. relative humidity",
+                    "Definition": "highest value of relative humidity for which a device is or must be designed to operate within its specified limits",
+                    "Reason": "Not relevant, as it refers to the maximum humidity allowed for operation, not the range of humidity.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAN102003"
+                },
+                {
+                    "Name": "max. application humidity range",
+                    "Definition": "indication of the maximum value of relative humidity, at which the device can be operated properly",
+                    "Reason": "Relevant, as it refers to the maximum range of humidity allowed for operation.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAK082002"
+                },
+                {
+                    "Name": "min. application humidity range",
+                    "Definition": "indication of the minimum value of relative humidity at which the device can be operated properly",
+                    "Reason": "Not relevant, as it refers to the minimum range of humidity allowed for operation, not the maximum range.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK081002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "max. application humidity range",
+                "Definition": "indication of the maximum value of relative humidity, at which the device can be operated properly",
+                "SemanticIdentifier": "AAK082002"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Relative Humidity Range",
+                "Definition": "The range of relative humidity allowed for proper operation of the device.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the maximum range of humidity in which the Herculine 2000 electric actuator can operate properly."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Scale",
+            "Definition": "A system of ordered marks at fixed intervals used as a reference for measurement.",
+            "Value": "0 % to 100 % corresponding to full crank arm travel",
+            "SourceDescription": "This data feature is extracted from the input text, which is the scale for the Herculine 2000 electric actuator."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Special scale",
+                    "Definition": "Scale unit, if it is different from the standard scale",
+                    "Reason": "The given annotation is not relevant as it does not provide any additional information about the scale.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAE346003"
+                },
+                {
+                    "Name": "dial",
+                    "Definition": "describes the accuracy of the scale of the measuring device",
+                    "Reason": "The given annotation is not relevant as it does not provide any information about the scale itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK785003"
+                },
+                {
+                    "Name": "Type of scale",
+                    "Definition": "Unit of measurement of scale",
+                    "Reason": "The given annotation is not relevant as it does not provide any information about the scale itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ209001"
+                },
+                {
+                    "Name": "Position of the dial",
+                    "Definition": "Layout of the dial with a scale or several scales for displaying measurement values",
+                    "Reason": "The given annotation is not relevant as it does not provide any information about the scale itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAQ345001"
+                },
+                {
+                    "Name": "Type of adjustment",
+                    "Definition": "Setting or scaling of a measuring device so that systematic measurement errors are eliminated to the extent required for the intended application",
+                    "Reason": "The given annotation is not relevant as it does not provide any information about the scale itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAA234007"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Scale",
+                "Definition": "A system of ordered marks at fixed intervals used as a reference for measurement.",
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "Scale",
+                "Definition": "A system of ordered marks at fixed intervals used as a reference for measurement.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to accurately measure the crank arm travel of the Herculine 2000 electric actuator in various engineering tasks."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "4",
+            "overall": "4",
+            "definition": "3",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Lubrication",
+            "Definition": "The process of applying a lubricant to reduce friction and wear between moving parts.",
+            "Value": "Texaco Starplex 2 EP Grease",
+            "SourceDescription": "This data feature is extracted from the input text, which is the lubrication used for the Herculine 2000 electric actuator."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Lubricant",
+                    "Definition": "A substance which is added to a mixture of substances in a small quantity so that movement is easier and adherence to other substances is prevented",
+                    "Reason": "The definition of 'lubricant' is too broad and does not specifically mention the reduction of friction and wear between moving parts.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAB083002"
+                },
+                {
+                    "Name": "Lubricant",
+                    "Definition": "Fluid or tenacious compound for reduction of friction or for transmission of power in lubrication systems",
+                    "Reason": "The definition of 'lubricant' is too broad and does not specifically mention the reduction of friction and wear between moving parts.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAJ006006"
+                },
+                {
+                    "Name": "oil lubricated",
+                    "Definition": "specification whether the unit is lubricated with oil",
+                    "Reason": "The annotation is not relevant as it does not provide any specific information about the type of lubricant used.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG921004"
+                },
+                {
+                    "Name": "Cooling lubricant",
+                    "Definition": "Liquid used for cooling and lubrication when materials are cut",
+                    "Reason": "The definition of 'cooling lubricant' is not applicable as it does not mention the reduction of friction and wear between moving parts.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAF542002"
+                },
+                {
+                    "Name": "Interior application of cooling lubricant",
+                    "Definition": "Cooling lubricant for cooling and lubricating the work piece, applied in the interior area of the work piece",
+                    "Reason": "The definition of 'interior application of cooling lubricant' is not applicable as it does not mention the reduction of friction and wear between moving parts.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAF456003"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Lubrication",
+                "Definition": "The process of applying a lubricant to reduce friction and wear between moving parts.",
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "Lubrication type",
+                "Definition": "The specific type of lubrication used for the Herculine 2000 electric actuator.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the appropriate lubrication type for the Herculine 2000 electric actuator in various engineering tasks."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Clamp Bolt Torque",
+            "Definition": "The amount of force applied to tighten the clamp bolt on the electric actuator.",
+            "Value": "88 lb-in (10 N-m)",
+            "SourceDescription": "This data feature is extracted from the input text, which is the clamp bolt torque for the Herculine 2000 electric actuator."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "holding torque",
+                    "Definition": "resistant effort generated in the axis of joint after the lock of the clamping device",
+                    "Reason": "Not relevant as it refers to the torque after the clamp is locked, while the data feature is about the torque applied to tighten the clamp.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAE881003"
+                },
+                {
+                    "Name": "minimal clamping torque",
+                    "Definition": "smallest for the clamping required moment measured in the axis joint",
+                    "Reason": "Not relevant as it refers to the smallest required torque for clamping, while the data feature is about the actual torque applied.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAE829004"
+                },
+                {
+                    "Name": "max. torque (UL 1449)",
+                    "Definition": "maximum torque which is allowed to be applied to the screws of the supply line terminals",
+                    "Reason": "Not relevant as it refers to the maximum allowed torque for a different component, while the data feature is about the actual torque applied to the clamp bolt.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABD482001"
+                },
+                {
+                    "Name": "clamping force (at 50 mm clamping height)",
+                    "Definition": "power with which an object or a component is secured in a holding device depending on the assigned clamping height",
+                    "Reason": "Not relevant as it refers to the clamping force for a specific clamping height, while the data feature is about the torque applied to the clamp bolt.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG751003"
+                },
+                {
+                    "Name": "clamping force",
+                    "Definition": "power with which an object or a component is secured in a holding device",
+                    "Reason": "Not relevant as it refers to the clamping force for a different component, while the data feature is about the torque applied to the clamp bolt.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG752002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Clamp Bolt Torque",
+                "Definition": "The amount of force applied to tighten the clamp bolt on the electric actuator.",
+                "SemanticIdentifier": "the_given_semantic_identifier_x"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Clamp Bolt Torque",
+                "Definition": "The amount of force applied to tighten the clamp bolt on the electric actuator.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "lb-in (N-m)",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This data feature can be used to determine the appropriate amount of force needed to tighten the clamp bolt on the Herculine 2000 electric actuator in various engineering tasks and applications."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    }
+]

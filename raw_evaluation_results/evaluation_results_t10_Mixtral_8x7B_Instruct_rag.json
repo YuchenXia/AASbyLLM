@@ -1,0 +1,818 @@
+[
+    {
+        "DataFeature": {
+            "Name": "Name",
+            "Definition": "The name of the product",
+            "Value": "gas sensor",
+            "SourceDescription": "This data feature is the name of the product, which is explicitly stated in the input text as 'gas sensor'."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Sensor type",
+                    "Definition": "Additional information for describing sensors to be able to distinguish - for a sensor family or for special design (variants) - the products from each other",
+                    "Reason": "This annotation is not relevant to the data feature because it is not additional information for describing sensors to distinguish products from each other. It is the name of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAA063005"
+                },
+                {
+                    "Name": "Material description of the gas feedback",
+                    "Definition": "Usual name or brand name of the material in general language",
+                    "Reason": "This annotation is not relevant to the data feature because it is not the usual name or brand name of the material in general language. It is the name of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAP060002"
+                },
+                {
+                    "Name": "type of sensor",
+                    "Definition": "information on the make of a sensor that distinguishes it from others",
+                    "Reason": "This annotation is relevant to the data feature because it is information on the make of a sensor that distinguishes it from others.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAF865004"
+                },
+                {
+                    "Name": "With temperature sensor",
+                    "Definition": "essential component part of an unit, enclosed with the product or is included in delivery",
+                    "Reason": "This annotation is not relevant to the data feature because it is not an essential component part of an unit, enclosed with the product or is included in delivery. It is the name of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAT135001"
+                },
+                {
+                    "Name": "Material description of the gas",
+                    "Definition": "Usual name or brand name of the material or material blend in general language",
+                    "Reason": "This annotation is not relevant to the data feature because it is not the usual name or brand name of the material or material blend in general language. It is the name of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO906002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "type of sensor",
+                "Definition": "information on the make of a sensor that distinguishes it from others",
+                "SemanticIdentifier": "AAF865004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Product name",
+                "Definition": "The name of the product as stated in the original text",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "The name of the product can be used to identify the product and distinguish it from other products."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Part Number",
+            "Definition": "The unique identifier assigned to the product",
+            "Value": "AB010-RO1A-CIT",
+            "SourceDescription": "This data feature is the part number of the product, which is explicitly stated in the input text as 'AB010-RO1A-CIT'."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Manufacturing part number",
+                    "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                    "Reason": "This annotation is relevant because it describes the part number as a sequence of characters for identifying a manufacturing part, which is consistent with the definition of the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO628001"
+                },
+                {
+                    "Name": "product identifier",
+                    "Definition": "unique identifier of the product",
+                    "Reason": "This annotation is relevant because it describes the part number as a unique identifier of the product, which is consistent with the definition of the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "ABA671001"
+                },
+                {
+                    "Name": "Designating digits",
+                    "Definition": "Established sequences of characters as written or numeric characters for identifying parts or products",
+                    "Reason": "This annotation is relevant because it describes the part number as an established sequence of characters for identifying parts or products, which is consistent with the definition of the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAT085001"
+                },
+                {
+                    "Name": "product article number of manufacturer",
+                    "Definition": "unique product identifier of the manufacturer",
+                    "Reason": "This annotation is relevant because it describes the part number as a unique product identifier of the manufacturer, which is consistent with the definition of the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO676003"
+                },
+                {
+                    "Name": "number of the parts list",
+                    "Definition": "Description of the list that includes all individual parts required for manufacturing or assembling a product",
+                    "Reason": "This annotation is not relevant because it describes the part number as a description of the list that includes all individual parts required for manufacturing or assembling a product, which is not consistent with the definition of the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO835001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "product identifier",
+                "Definition": "unique identifier of the product",
+                "SemanticIdentifier": "ABA671001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Part Number",
+                "Definition": "The unique identifier assigned to the product",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "Used for identifying the specific product in the inventory or order management system."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Product Type Designation",
+            "Definition": "The type of the product",
+            "Value": "1CO Carbon Monoxide (CO) Sensor",
+            "SourceDescription": "This data feature is the product type designation of the product, which is explicitly stated in the input text as '1CO Carbon Monoxide (CO) Sensor'."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Product type",
+                    "Definition": "Additional information for describing products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                    "Reason": "This annotation is relevant because it describes the product type and differentiates it from other products.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO846001"
+                },
+                {
+                    "Name": "Sensor type",
+                    "Definition": "Additional information for describing sensors to be able to distinguish - for a sensor family or for special design (variants) - the products from each other",
+                    "Reason": "This annotation is not relevant because the data feature is not about the sensor type.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAA063005"
+                },
+                {
+                    "Name": "Product type of the form",
+                    "Definition": "Additional information for describing the form of products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                    "Reason": "This annotation is not relevant because the data feature is not about the form of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO844001"
+                },
+                {
+                    "Name": "type of product",
+                    "Definition": "indication of the substance of the product",
+                    "Reason": "This annotation is not relevant because the data feature is not about the substance of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK755004"
+                },
+                {
+                    "Name": "product-type designation",
+                    "Definition": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants",
+                    "Reason": "This annotation is relevant because it describes the product type designation and differentiates it from other products.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAF542002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Product type",
+                "Definition": "Additional information for describing products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                "SemanticIdentifier": "AAO846001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "1CO Carbon Monoxide (CO) Sensor",
+                "Definition": "The type of the product, which is explicitly stated in the input text as '1CO Carbon Monoxide (CO) Sensor'.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "This information can be used to identify the type of the product and differentiate it from other products."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Technology",
+            "Definition": "The technology used in the product",
+            "Value": "Electrochemical",
+            "SourceDescription": "This data feature is the technology used in the product, which is explicitly stated in the input text as 'Electrochemical'."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "type of product",
+                    "Definition": "characterisation of the device based on its usage, operation principle, and its fabricated form",
+                    "Reason": "The annotation is not relevant because it is too general and does not describe the technology used in the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABA688001"
+                },
+                {
+                    "Name": "Display yielded active-energy present",
+                    "Definition": "Clearly defined technical task / activity which can be carried out / executed by a product or service / device for visualization in binary, analogue and / or digital form At the outlet or the removal device (Energy efficiency) is measured in kWh (the actual power is measured eg in kW) where the difference between these two variables is the factor time",
+                    "Reason": "The annotation is not relevant because it describes a technical task that is not related to the technology used in the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW803001"
+                },
+                {
+                    "Name": "Suitable for product type",
+                    "Definition": "Specification of the equipment with which the product can be used",
+                    "Reason": "The annotation is not relevant because it does not describe the technology used in the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAS457001"
+                },
+                {
+                    "Name": "Data logging/recording according to EN 50160",
+                    "Definition": "Characteristic (peculiar) characteristics / peculiarities / peculiarities / collection and storage of characters, indications or information (mostly electronically stored) describing a product or service AccorDeutsche Industrienormg to industry standard / standard: Description of European Committee for Electrotechnical Standardization: TC 8X: System aspects of electrical power supply: characteristics of voltage in public electricity supply networks",
+                    "Reason": "The annotation is not relevant because it describes a data logging/recording standard that is not related to the technology used in the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW739001"
+                },
+                {
+                    "Name": "Display reactive energy inductive present",
+                    "Definition": "Clearly defined technical task / activity which can be carried out / executed by a product or service / device for visualization in binary, analogue and / or digital form The energy consumed by a consumer (supplied with alternating current) more energy than it is converted into useful energy Based on induction, which induces induction or with means induction induction",
+                    "Reason": "The annotation is not relevant because it describes a technical task that is not related to the technology used in the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW805001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Technology",
+                "Definition": "The technology used in the product",
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "Electrochemical sensing technology",
+                "Definition": "The technology used in the product to detect and measure the presence and concentration of carbon monoxide (CO) in the air.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The technology can be used in various applications that require the detection and measurement of carbon monoxide (CO) in the air, such as indoor air quality monitoring, industrial process control, and safety monitoring in confined spaces."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Measurement Range",
+            "Definition": "The range of measurement for the product",
+            "Value": "0.5 ppm CO to 1000 ppm CO (EN 45544 applications)",
+            "SourceDescription": "This data feature is the measurement range of the product, which is explicitly stated in the input text as '0.5 ppm CO to 1000 ppm CO (EN 45544 applications)'."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Measurement range",
+                    "Definition": "Range of those values of the quantity to be measured for which it is required that the measurement error of a measuring device stays within prescribed boundaries",
+                    "Reason": "This annotation is relevant because it describes the range of values of the quantity to be measured for which it is required that the measurement error of a measuring device stays within prescribed boundaries, which matches the definition of the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAA413004"
+                },
+                {
+                    "Name": "percentage measurement range start value",
+                    "Definition": "The measurement range for humidity is the range of those values of the measurement variable that is demanded to ensure that the measurement deviations of a measurement installation remain within the determined limits. The measurement range is defined by the start and end value. Setting ranges can be given for the measurement range start value and the measurement range end value. The measurement range start value is frequently given as a percentage of the measurement range end value or formed as a quotient of the measurement range end value and start value or as a percentage of the measurement voltage. Depending on the measurement installation, the following information is recommended. In addition to the measurement range, a measurement span can be given. This is the difference between the measurement range end value and the measurement range start value",
+                    "Reason": "This annotation is not relevant because it describes the measurement range for humidity, which is not applicable to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE423006"
+                },
+                {
+                    "Name": "end value of the measuring range (temperature)",
+                    "Definition": "upper limit value of the range of those values of the measurand temperature for which it is required that the measuring deviations of the measuring device remain within specified limits and that the values are represented in accordance with the specifications",
+                    "Reason": "This annotation is not relevant because it describes the upper limit value of the range of those values of the measurand temperature, which is not applicable to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ822001"
+                },
+                {
+                    "Name": "measuring range",
+                    "Definition": "range of the values of the measuring size for which it is required that the errors of measurement of a measuring device keep within defined boundaries",
+                    "Reason": "This annotation is relevant because it describes the range of the values of the measuring size for which it is required that the errors of measurement of a measuring device keep within defined boundaries, which matches the definition of the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAH095003"
+                },
+                {
+                    "Name": "number of measuring ranges",
+                    "Definition": "quantitative information to the amount of the measuring ranges",
+                    "Reason": "This annotation is not relevant because it describes the quantitative information to the amount of the measuring ranges, which is not applicable to the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAI304001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Measurement range",
+                "Definition": "Range of those values of the quantity to be measured for which it is required that the measurement error of a measuring device stays within prescribed boundaries",
+                "SemanticIdentifier": "BAA413004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Measurement Range",
+                "Definition": "The range of measurement for the product",
+                "SemanticIdentifier": null
+            },
+            "Unit": "ppm CO",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the appropriate measuring device for the product, ensuring that the measurement error remains within the prescribed boundaries."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Maximum Overload",
+            "Definition": "The maximum overload for the product",
+            "Value": "2000 ppm CO",
+            "SourceDescription": "This data feature is the maximum overload for the product, which is explicitly stated in the input text as '2000 ppm CO'."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "max. heat protection permanent load",
+                    "Definition": "highest possible permanent temperature, against which the product can protect the user duly",
+                    "Reason": "This annotation is not relevant to the data feature as it refers to temperature, not overload.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK113004"
+                },
+                {
+                    "Name": "max. Setting",
+                    "Definition": "Describes what setting is the maximum required for the product to continue to function optimally",
+                    "Reason": "This annotation is not relevant to the data feature as it refers to a setting, not overload.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAT037002"
+                },
+                {
+                    "Name": "Max. load capacity",
+                    "Definition": "The greatest load (mass) which can be taken up or held during normal operation",
+                    "Reason": "This annotation is not relevant to the data feature as it refers to load capacity, not overload.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAF316003"
+                },
+                {
+                    "Name": "max. permissible overpressure PS2+ (at TS2), liquefier",
+                    "Definition": "maximum value of the operating overpressure defined from a safety point of view by the manufacturer of the system for the various components in relation to the atmospheric pressure (1 bar) at the maximum permissible temperature TS2",
+                    "Reason": "This annotation is not relevant to the data feature as it refers to a specific type of overpressure in a liquefier, not overload.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAH735007"
+                },
+                {
+                    "Name": "max. operation overpressure",
+                    "Definition": "largest permissible pressure at proper operation of the device or component",
+                    "Reason": "This annotation is relevant to the data feature as it refers to the maximum permissible overpressure, which is a type of overload.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAI725005"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "max. operation overpressure",
+                "Definition": "largest permissible pressure at proper operation of the device or component",
+                "SemanticIdentifier": "AAI725005"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Maximum Overload",
+                "Definition": "The maximum overload for the product, which is 2000 ppm CO in this case.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "ppm CO",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the maximum permissible overload for the product, ensuring safe operation and preventing damage to the product."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Sensitivity",
+            "Definition": "The sensitivity of the product",
+            "Value": "50 nA/ppm \u00b110 nA/ppm",
+            "SourceDescription": "This data feature is the sensitivity of the product, which is explicitly stated in the input text as '50 nA/ppm \u00b110 nA/ppm'."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "sensitivity",
+                    "Definition": "bhange of value of the output variable of a measuring device based on the change of value of the input variable which is causing it",
+                    "Reason": "This annotation is relevant because it describes the sensitivity of the product, which is the data feature extracted from the text.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAF910002"
+                },
+                {
+                    "Name": "min. input sensitivity",
+                    "Definition": "lowest value of input sensitivity at an oscilloscope",
+                    "Reason": "This annotation is not relevant because it refers to the lowest value of input sensitivity at an oscilloscope, which is not the data feature extracted from the text.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG355003"
+                },
+                {
+                    "Name": "Response sensitivity is adjustable",
+                    "Definition": "whether the response sensitivity of the monitoring device can be set",
+                    "Reason": "This annotation is not relevant because it refers to whether the response sensitivity of the monitoring device can be set, which is not the data feature extracted from the text.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAD\u00a0478008,00"
+                },
+                {
+                    "Name": "Compensated cross-sensitivity (2-dimensional)",
+                    "Definition": "value for the accuracy of the measurement system. describes the effect of the second (non-deflected) axis as a result of the reaction from the deflected axis, this reaction is minimized by means of electronic compensation where possible",
+                    "Reason": "This annotation is not relevant because it refers to the compensated cross-sensitivity of the measurement system, which is not the data feature extracted from the text.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ275001"
+                },
+                {
+                    "Name": "Sensitivity pursuant to ISO",
+                    "Definition": "The quality of being more or less sensitive to certain stimuli, whereby this property is measured in accordance with the guidelines and standards of the International Standardization Organization (ISO)",
+                    "Reason": "This annotation is not relevant because it refers to the sensitivity measured in accordance with the guidelines and standards of the International Standardization Organization (ISO), which is not the data feature extracted from the text.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAQ218002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "sensitivity",
+                "Definition": "bhange of value of the output variable of a measuring device based on the change of value of the input variable which is causing it",
+                "SemanticIdentifier": "AAF910002"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Sensitivity of the product",
+                "Definition": "The sensitivity of the product is 50 nA/ppm \u00b110 nA/ppm, which is the change of value of the output variable of the product based on the change of value of the input variable which is causing it.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "nA/ppm",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the sensitivity of the product, which is critical in determining how the product will function or perform in a specific context, such as in air quality monitoring systems or industrial process control systems."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Repeatability",
+            "Definition": "The repeatability of the product",
+            "Value": "< \u00b12% of measured value",
+            "SourceDescription": "This data feature is the repeatability of the product, which is explicitly stated in the input text as '< \u00b12% of measured value'."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "repeatability",
+                    "Definition": "for a device, percentage degree of deviation between the results of successive measurements of a quantity, carried out under the same conditions of measurement",
+                    "Reason": "This annotation is relevant because it describes the repeatability of a device, which is the same as the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAN079004"
+                },
+                {
+                    "Name": "repeatability",
+                    "Definition": "degree of agreement for a number of subsequent measurements of the output signal for the same value of the input variable under the same conditions, when the output variable, originating from the same direction, passes through all variables in its range",
+                    "Reason": "This annotation is not relevant because it describes the repeatability of a signal, not a device.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAQ350003"
+                },
+                {
+                    "Name": "Repeatability, maximum",
+                    "Definition": "Repeatability, maximum",
+                    "Reason": "This annotation is not relevant because it does not provide a clear definition of repeatability.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC251001"
+                },
+                {
+                    "Name": "rel. repeat precision",
+                    "Definition": "output signal changes under determined conditions relating to the output signal, expressed in percent",
+                    "Reason": "This annotation is not relevant because it describes the precision of the output signal, not the repeatability of the device.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAQ331002"
+                },
+                {
+                    "Name": "Reproducibility",
+                    "Definition": "Reproducibility for balances. Degree of agreement for a number of subsequent measurements of the output signal for the same value of the input variable under the same conditions, when the output variable, originating from the same direction, passes through all variables in its range",
+                    "Reason": "This annotation is not relevant because it describes the reproducibility of a balance, not the repeatability of the device.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE571006"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "repeatability",
+                "Definition": "for a device, percentage degree of deviation between the results of successive measurements of a quantity, carried out under the same conditions of measurement",
+                "SemanticIdentifier": "AAN079004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Repeatability of the product",
+                "Definition": "The degree of agreement for a number of subsequent measurements of the output signal for the same value of the input variable under the same conditions, when the output variable, originating from the same direction, passes through all variables in its range.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "%",
+            "ClassifyingScore_GeneralOrTechnical": 4,
+            "Affordance": "This information can be used to determine the consistency of the product's output signal over time and under the same conditions, which is important for quality control and assurance in manufacturing and testing processes."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Linearity",
+            "Definition": "The linearity of the product",
+            "Value": "Linear \u00b1 5% (0 ppm CO to 2000 ppm CO)",
+            "SourceDescription": "This data feature is the linearity of the product, which is explicitly stated in the input text as 'Linear \u00b1 5% (0 ppm CO to 2000 ppm CO)'."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "coefficient of linear expansion",
+                    "Definition": "is the ratio of the relative change in length of a glass sample when heated from -30\u00b0C to +70\u00b0C to the corresponding temperature difference of 100 K",
+                    "Reason": "This annotation is not relevant to the data feature because it refers to the ratio of the relative change in length of a glass sample when heated from -30\u00b0C to +70\u00b0C, while the data feature is the linearity of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAV109002"
+                },
+                {
+                    "Name": "Linearity distortion",
+                    "Definition": "systematic percent deviation of the output signal from an ideal linear characteriztic curve referred to the endpoint of the measurement range (with measuring sensors)",
+                    "Reason": "This annotation is not relevant to the data feature because it refers to the systematic percent deviation of the output signal from an ideal linear characteristic curve referred to the endpoint of the measurement range (with measuring sensors), while the data feature is the linearity of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAD865007,00"
+                },
+                {
+                    "Name": "Linearity, maximum",
+                    "Definition": "Linearity, maximum",
+                    "Reason": "This annotation is relevant to the data feature because it refers to the maximum linearity of the product.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "ABC250001"
+                },
+                {
+                    "Name": "height of product",
+                    "Definition": "describes the hight of the product",
+                    "Reason": "This annotation is not relevant to the data feature because it refers to the height of the product, while the data feature is the linearity of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAI874004"
+                },
+                {
+                    "Name": "Linear expansion coefficient",
+                    "Definition": "Measure of relative change in length caused by change in temperature",
+                    "Reason": "This annotation is not relevant to the data feature because it refers to the measure of relative change in length caused by change in temperature, while the data feature is the linearity of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAA354006"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Linearity, maximum",
+                "Definition": "Linearity, maximum",
+                "SemanticIdentifier": "ABC250001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Linearity",
+                "Definition": "The maximum deviation of the output signal from an ideal linear characteristic curve referred to the endpoint of the measurement range (with measuring sensors)",
+                "SemanticIdentifier": null
+            },
+            "Unit": "%",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the maximum deviation of the output signal from an ideal linear characteristic curve referred to the endpoint of the measurement range (with measuring sensors) in the product."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Operating Temperature Range",
+            "Definition": "The operating temperature range for the product",
+            "Value": "-40\u00b0C to +60\u00b0C",
+            "SourceDescription": "This data feature is the operating temperature range for the product, which is explicitly stated in the input text as '-40\u00b0C to +60\u00b0C'."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Adjustable temperature",
+                    "Definition": "Enter the range of temperature supported (\u00b0C min-\u00b0C max), separated by a minus sign",
+                    "Reason": "This annotation is not relevant because it is asking for a user input, not a property of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAV232002"
+                },
+                {
+                    "Name": "Working temperature range (combination)",
+                    "Definition": "defined by the higher minimum and lower maximum value of the operating temperature range of the encoder and mechanics",
+                    "Reason": "This annotation is not relevant because it refers to the operating temperature range of the encoder and mechanics, not the product itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ239001"
+                },
+                {
+                    "Name": "Temperature range",
+                    "Definition": "Range from the smallest through to the largest temperature in the outer surroundings of the operating medium",
+                    "Reason": "This annotation is relevant because it refers to the temperature range of the product's operating medium.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO931001"
+                },
+                {
+                    "Name": "min. operating temperature range",
+                    "Definition": "minimum boundary value of the usage in a specified temperature, in which an operating unit can be used, without serious changes of assigned features, depending on the exposure time. Temporal restrictions like short-time or durability have to be stated",
+                    "Reason": "This annotation is not relevant because it refers to the minimum boundary value of the usage in a specified temperature, not the temperature range.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG322003"
+                },
+                {
+                    "Name": "temperature range from minus",
+                    "Definition": "indicates the temperature range from minus of an object",
+                    "Reason": "This annotation is not relevant because it refers to the temperature range from minus of an object, not the product's operating temperature range.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAJ230003"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Temperature range",
+                "Definition": "Range from the smallest through to the largest temperature in the outer surroundings of the operating medium",
+                "SemanticIdentifier": "AAO931001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Operating temperature range",
+                "Definition": "The temperature range for the product's operation",
+                "SemanticIdentifier": null
+            },
+            "Unit": "\u00b0C",
+            "ClassifyingScore_GeneralOrTechnical": 2,
+            "Affordance": "This information can be used to determine the suitable environment for the product's operation and storage."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Operating Pressure Range",
+            "Definition": "The operating pressure range for the product",
+            "Value": "600 mbar to 1200 mbar",
+            "SourceDescription": "This data feature is the operating pressure range for the product, which is explicitly stated in the input text as '600 mbar to 1200 mbar'."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Greatest value of operating pressure range",
+                    "Definition": "States the highest value of pressure with which a device can be operated",
+                    "Reason": "This annotation is not relevant because it only refers to the highest value of the operating pressure range, while the data feature includes both the minimum and maximum values.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE226007"
+                },
+                {
+                    "Name": "Input pressure range (bar/psi)",
+                    "Definition": "Describes the device pressure range required for operation",
+                    "Reason": "This annotation is relevant because it describes the pressure range required for the device to operate.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAW130002"
+                },
+                {
+                    "Name": "Operating pressure",
+                    "Definition": "The pressure which arises in a system part within the operating range",
+                    "Reason": "This annotation is relevant because it describes the pressure that arises in a system part within the operating range.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAA452006"
+                },
+                {
+                    "Name": "maximum operating pressure",
+                    "Definition": "upper limit of the pressure range at which a fluidic device fulfils its function",
+                    "Reason": "This annotation is not relevant because it only refers to the maximum value of the operating pressure range, while the data feature includes both the minimum and maximum values.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ943001"
+                },
+                {
+                    "Name": "maximum allowable working pressure",
+                    "Definition": "pressure for a component on the basis of materials used and on the basis of calculation rules at the specified operating temperature",
+                    "Reason": "This annotation is not relevant because it refers to the maximum allowable working pressure, which is not the same as the operating pressure range.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABB705001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Input pressure range (bar/psi)",
+                "Definition": "Describes the device pressure range required for operation",
+                "SemanticIdentifier": "AAW130002"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Operating pressure range",
+                "Definition": "The range of pressures within which a device can operate",
+                "SemanticIdentifier": null
+            },
+            "Unit": "mbar",
+            "ClassifyingScore_GeneralOrTechnical": 3,
+            "Affordance": "This information can be used to determine the suitability of the device for specific applications based on the pressure range requirements."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "4",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Expected Operating Life",
+            "Definition": "The expected operating life for the product",
+            "Value": "5 years in air",
+            "SourceDescription": "This data feature is the expected operating life for the product, which is explicitly stated in the input text as '5 years in air'."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "actual product life (time)",
+                    "Definition": "period over which a system, subsystem, component or piping has been stored and used since production",
+                    "Reason": "The annotation is not relevant because it refers to the actual product life, which is not the same as the expected operating life.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC667001"
+                },
+                {
+                    "Name": "specified maximum product life (time)",
+                    "Definition": "maximum time period over which a system, subsystem, component or piping shall been stored and used since production",
+                    "Reason": "The annotation is not relevant because it refers to the maximum time period that a product can be used, while the expected operating life is the typical time period that the product can be used.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC668001"
+                },
+                {
+                    "Name": "product life (time)",
+                    "Definition": "period over which a system, subsystem, component or piping has been stored and used since production",
+                    "Reason": "The annotation is relevant because it refers to the period over which a product has been used, which is the same as the expected operating life.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAZ844001"
+                },
+                {
+                    "Name": "storage time in months",
+                    "Definition": "quantitative specification how long an operating unit can be stored without losing its typical features",
+                    "Reason": "The annotation is not relevant because it refers to the storage time, which is not the same as the expected operating life.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG316001"
+                },
+                {
+                    "Name": "min. shelf life",
+                    "Definition": "time span how long a product can be stored without losing its typical qualities",
+                    "Reason": "The annotation is not relevant because it refers to the minimum shelf life, which is not the same as the expected operating life.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAR431003"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "product life (time)",
+                "Definition": "period over which a system, subsystem, component or piping has been stored and used since production",
+                "SemanticIdentifier": "AAZ844001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "expected product life (time)",
+                "Definition": "typical time period that a product can be used",
+                "SemanticIdentifier": null
+            },
+            "Unit": "years",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "The expected operating life can be used to determine the typical time period that the product can be used, and to plan for maintenance or replacement of the product."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    }
+]

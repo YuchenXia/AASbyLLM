@@ -1,0 +1,1080 @@
+[
+    {
+        "DataFeature": {
+            "Name": "Manufacturer-article name",
+            "Definition": "Name of the product as assigned by the manufacturer",
+            "Value": "pressure sensor",
+            "SourceDescription": "Input text"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "product article number of manufacturer",
+                    "Definition": "unique product identifier of the manufacturer",
+                    "Reason": "The data feature is a product name, not a unique identifier.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "product article number of supplier",
+                    "Definition": "unique product order identifier of the supplier",
+                    "Reason": "The data feature is a product name, not a supplier identifier.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "Manufacturer product designation",
+                    "Definition": "Short description of the product (short text)",
+                    "Reason": "The data feature is a product name, not a short description.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "product designation of manufacturer",
+                    "Definition": "designation used by the manufacturer for his product",
+                    "Reason": "The data feature is a product name, not a manufacturer's designation.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "name plate present",
+                    "Definition": "information whether the product has a marked off area for written name details",
+                    "Reason": "The data feature is a product name, not information about a name plate.",
+                    "isRelevant": false
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Manufacturer-article name",
+                "Definition": "Name of the product as assigned by the manufacturer",
+                "SemanticIdentifier": "AAO676003"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Product Name",
+                "Definition": "Name of the product",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "Identifying the product"
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Manufacturer code",
+            "Definition": "Unique identifier assigned by the manufacturer",
+            "Value": "SPAU-P2R-W-G18FD-L-PNLK-PNVBA-M8U",
+            "SourceDescription": "Input text"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "product article number of manufacturer",
+                    "Definition": "unique product identifier of the manufacturer",
+                    "Reason": "The annotation is relevant as it describes the unique product identifier assigned by the manufacturer.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO676003"
+                },
+                {
+                    "Name": "serial number of manufacturer",
+                    "Definition": "unique identification of the manufacturer for the identity of the object",
+                    "Reason": "The annotation is not relevant as it refers to a unique identification for the object, not specifically the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABF465001"
+                },
+                {
+                    "Name": "product identifier",
+                    "Definition": "unique identifier of the product",
+                    "Reason": "The annotation is relevant as it describes a unique identifier for the product.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "ABA671001"
+                },
+                {
+                    "Name": "manufacturer URI",
+                    "Definition": "globally unique identifier of the manufacturer of the machine",
+                    "Reason": "The annotation is not relevant as it refers to a globally unique identifier for the manufacturer, not specifically the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABA677001"
+                },
+                {
+                    "Name": "model code of manufacturer",
+                    "Definition": "sequence of characters assigned in accordance with certain rules of the manufacturer's for designation of the model",
+                    "Reason": "The annotation is not relevant as it refers to a model code, not specifically the product code.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE344005"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "product article number of manufacturer",
+                "Definition": "unique product identifier of the manufacturer",
+                "SemanticIdentifier": "AAO676003"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Manufacturer code",
+                "Definition": "Unique identifier assigned by the manufacturer",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 2,
+            "Affordance": "The information can be used for inventory management, order processing, and product identification in various engineering tasks."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Part number",
+            "Definition": "Unique identifier assigned for inventory and tracking purposes",
+            "Value": "8001232",
+            "SourceDescription": "Input text"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Manufacturing part number",
+                    "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                    "Reason": "It is a unique identifier for a manufacturing part, which is relevant to the part number of the product.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO628001"
+                },
+                {
+                    "Name": "product identifier",
+                    "Definition": "unique identifier of the product",
+                    "Reason": "It is a general term for any unique identifier of a product, but the data feature is specifically a part number.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABA671001"
+                },
+                {
+                    "Name": "serial number of manufacturer",
+                    "Definition": "unique identification of the manufacturer for the identity of the object",
+                    "Reason": "It is a unique identification for the manufacturer, not directly related to the product part number.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABF465001"
+                },
+                {
+                    "Name": "product article number of manufacturer",
+                    "Definition": "unique product identifier of the manufacturer",
+                    "Reason": "It is another term for a unique product identifier, which is relevant to the part number of the product.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO676003"
+                },
+                {
+                    "Name": "identifying order number",
+                    "Definition": "unique classifying number that enables to name an object and to order it from a supplier or manufacturer",
+                    "Reason": "It is a unique number for ordering a product, which is relevant to the part number of the product.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO689001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Manufacturing part number",
+                "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                "SemanticIdentifier": "AAO628001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Part number",
+                "Definition": "Unique identifier assigned for inventory and tracking purposes",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "Identifying and tracking the product for inventory and order processing."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Start value for pressure measuring range",
+            "Definition": "The minimum value in the range of pressure measurement",
+            "Value": "0 bar",
+            "SourceDescription": "Input text"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "initial value of the measuring range (pressure)",
+                    "Definition": "lower limit value of the range of those values of the measurand pressure for which it is required that the measurement deviations of the measuring equipment remain within specified limits and that the values are represented in accordance with the specifications",
+                    "Reason": "The annotation is relevant as it describes the lower limit of the pressure measuring range, which aligns with the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAZ803001"
+                },
+                {
+                    "Name": "Initial value of pressure measuring range",
+                    "Definition": "lower limit of the range of values for a measured variable for which the measurement deviations of a measuring device must remain within defined limits",
+                    "Reason": "The annotation is relevant as it describes the lower limit of the pressure measuring range, which aligns with the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAZ403002"
+                },
+                {
+                    "Name": "end value of the measuring range (pressure)",
+                    "Definition": "upper limit value of the range of the measured variable pressure",
+                    "Reason": "The annotation is not relevant as it describes the upper limit of the pressure measuring range, which does not align with the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC508001"
+                },
+                {
+                    "Name": "measurement method for pressure flow",
+                    "Definition": "start value for flow rate measuring range is the lower nominal value of the input signal range in which the (accuracy) specifications apply",
+                    "Reason": "The annotation is not relevant as it describes the start value for flow rate measuring range, which does not align with the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABD902001"
+                },
+                {
+                    "Name": "Lowest value of measurement range for pressure",
+                    "Definition": "lower value for measurement range for pressure quantities for which the measurement error of a measuring device must stay within given boundaries",
+                    "Reason": "The annotation is not relevant as it describes the lowest value of the pressure measurement range, which does not align with the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAA154009"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "initial value of the measuring range (pressure)",
+                "Definition": "lower limit value of the range of those values of the measurand pressure for which it is required that the measurement deviations of the measuring equipment remain within specified limits and that the values are represented in accordance with the specifications",
+                "SemanticIdentifier": "AAZ803001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Start value of pressure measuring range",
+                "Definition": "The minimum value in the range of pressure measurement",
+                "SemanticIdentifier": null
+            },
+            "Unit": "bar",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in various engineering applications such as pressure measurement, control systems, and safety devices."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "End value for pressure measuring range",
+            "Definition": "The maximum value in the range of pressure measurement",
+            "Value": "2 bar",
+            "SourceDescription": "Input text"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "end value of the measuring range (pressure)",
+                    "Definition": "upper limit value of the range of the measured variable pressure",
+                    "Reason": "It correctly describes the data feature",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "ABC508001"
+                },
+                {
+                    "Name": "end value of the measuring range (pressure)",
+                    "Definition": "upper limit value of the range of those values of the measurand pressure for which it is required that the measuring deviations of the measuring equipment remain within specified limits and that the values are represented in accordance with the specifications",
+                    "Reason": "It is too specific and includes details about measurement equipment",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ821001"
+                },
+                {
+                    "Name": "Greatest value of measuring range for pressure",
+                    "Definition": "Upper value of the measuring range for pressure for which it is required that the measurement errors of the measuring device stay within preestablished boundaries",
+                    "Reason": "It is a correct description but less precise than the first one",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAG950008"
+                },
+                {
+                    "Name": "final value of pressure measuring range",
+                    "Definition": "upper limit of the range of values for a measured variable for which the measurement deviations of a measuring device must remain within defined limits",
+                    "Reason": "It is a correct description but less precise than the first one",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAZ921001"
+                },
+                {
+                    "Name": "end value of the measuring range (temperature)",
+                    "Definition": "upper limit value of the range of those values of the measurand temperature for which it is required that the measuring deviations of the measuring device remain within specified limits and that the values are represented in accordance with the specifications",
+                    "Reason": "It is not relevant to the data feature",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ822001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "end value of the measuring range (pressure)",
+                "Definition": "upper limit value of the range of the measured variable pressure",
+                "SemanticIdentifier": "ABC508001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "End value of pressure measuring range",
+                "Definition": "The maximum value in the range of pressure measurement",
+                "SemanticIdentifier": null
+            },
+            "Unit": "bar",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in engineering tasks related to pressure measurement and control, such as designing pressure sensors, calibrating pressure gauges, and setting safety limits in pressure-related systems."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Max. overload pressure",
+            "Definition": "The maximum pressure the sensor can withstand without damage",
+            "Value": "6 bar",
+            "SourceDescription": "Input text"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "pressure rated to",
+                    "Definition": "maximum compressive strength of a sensor",
+                    "Reason": "The annotation is relevant as it describes the maximum pressure a sensor can withstand without damage.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAR854005"
+                },
+                {
+                    "Name": "max. operation overpressure",
+                    "Definition": "largest permissible pressure at proper operation of the device or component",
+                    "Reason": "The annotation is relevant as it describes the maximum pressure the sensor can withstand during operation.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAI725005"
+                },
+                {
+                    "Name": "maximum pressure of use",
+                    "Definition": "highest value of supply pressure in entrance of the device to insure the functioning",
+                    "Reason": "The annotation is not relevant as it describes the maximum pressure for the device to function, not the maximum overload pressure.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF024006"
+                },
+                {
+                    "Name": "max. inlet pressure",
+                    "Definition": "highest inlet pressure to which the device is subjected during operation",
+                    "Reason": "The annotation is relevant as it describes the maximum pressure the sensor can withstand during operation.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAI564009"
+                },
+                {
+                    "Name": "max. testing pressure",
+                    "Definition": "Maximum pressure applied during initial and repeated testing pressure and which does not result in permanent dimensional change, damage or malfunction",
+                    "Reason": "The annotation is relevant as it describes the maximum pressure the sensor can withstand during testing without damage.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAB881006"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "max. operation overpressure",
+                "Definition": "largest permissible pressure at proper operation of the device or component",
+                "SemanticIdentifier": "AAI725005"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Max. overload pressure",
+                "Definition": "The maximum pressure the sensor can withstand without damage",
+                "SemanticIdentifier": null
+            },
+            "Unit": "bar",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in engineering tasks related to pressure sensor operation, testing, and selection."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Media temperature",
+            "Definition": "The temperature range of the medium being measured",
+            "Value": "0 \u00b0C ... 50 \u00b0C",
+            "SourceDescription": "Input text"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Temperature range",
+                    "Definition": "Range from the smallest through to the largest temperature in the outer surroundings of the operating medium",
+                    "Reason": "The annotation is relevant as it describes the range of temperatures of the medium being measured.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO931001"
+                },
+                {
+                    "Name": "Ambient temperature",
+                    "Definition": "Temperature in the outer area of the operating medium",
+                    "Reason": "The annotation is relevant as it describes the temperature of the medium being measured.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAE540004"
+                },
+                {
+                    "Name": "reference ambient temperature of electronics",
+                    "Definition": "Reference temperature of the air or another medium in which the electronics is applied as directed",
+                    "Reason": "The annotation is not relevant as it describes the reference temperature of the electronics, not the medium being measured.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAN311003"
+                },
+                {
+                    "Name": "housing temperature",
+                    "Definition": "measured temperature of the housing",
+                    "Reason": "The annotation is not relevant as it describes the temperature of the housing, not the medium being measured.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC153001"
+                },
+                {
+                    "Name": "reference temperature",
+                    "Definition": "temperature at which the performance of a device was tested or to which calculated values refer",
+                    "Reason": "The annotation is not relevant as it describes the reference temperature for device performance, not the medium being measured.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAQ336005"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Media temperature",
+                "Definition": "The temperature range of the medium being measured",
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "Operating temperature range of medium",
+                "Definition": "The range of temperatures within which the medium being measured can operate",
+                "SemanticIdentifier": null
+            },
+            "Unit": "\u00b0C",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the suitable operating conditions for the pressure sensor and ensure its optimal performance."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Ambient temperature",
+            "Definition": "The temperature range of the environment in which the sensor operates",
+            "Value": "0 \u00b0C ... 50 \u00b0C",
+            "SourceDescription": "Input text"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Ambient temperature",
+                    "Definition": "Temperature in the outer area of the operating medium",
+                    "Reason": "The annotation is relevant as it describes the temperature of the operating environment, which is the same as the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAE540004"
+                },
+                {
+                    "Name": "ambient temperature",
+                    "Definition": "temperature of the surrounding operating environment of a component or system",
+                    "Reason": "The annotation is relevant as it describes the temperature of the operating environment, which is the same as the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAZ842001"
+                },
+                {
+                    "Name": "reference ambient temperature of electronics",
+                    "Definition": "Reference temperature of the air or another medium in which the electronics is applied as directed",
+                    "Reason": "The annotation is not relevant as it refers to a reference temperature, not the actual operating temperature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAN311003"
+                },
+                {
+                    "Name": "actual ambient temperature",
+                    "Definition": "temperature of the surrounding operating environment of a component or system, determined at the time under consideration",
+                    "Reason": "The annotation is relevant as it describes the actual temperature of the operating environment, which is the same as the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "ABC747001"
+                },
+                {
+                    "Name": "specified maximum ambient temperature",
+                    "Definition": "maximum allowable temperature of the surrounding operating environment of a component or system",
+                    "Reason": "The annotation is not relevant as it refers to the maximum allowable temperature, not the actual operating temperature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC746001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Ambient temperature",
+                "Definition": "Temperature in the outer area of the operating medium",
+                "SemanticIdentifier": "BAE540004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Operating environment temperature",
+                "Definition": "The temperature range of the environment in which the sensor operates",
+                "SemanticIdentifier": null
+            },
+            "Unit": "\u00b0C",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the suitable operating conditions for the sensor and to ensure it is not exposed to temperatures outside the specified range."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Resolution ADC",
+            "Definition": "The resolution of the Analog-to-Digital Converter",
+            "Value": "12 bit",
+            "SourceDescription": "Input text"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Resolution of the analog inputs",
+                    "Definition": "Number of bits with which an analog value that can be digitalized at the analog output - the resolution of the A/D or D/A converter, together with the selected input range, determines the smallest voltage difference (increment) that can be resolved",
+                    "Reason": "This annotation is relevant because it describes the resolution of the Analog-to-Digital Converter, which is directly related to the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAC831007"
+                },
+                {
+                    "Name": "Resolution of the analog outputs",
+                    "Definition": "Number of bits with which an analog value that can be digitalized at the analog output - the resolution of the A/D converter and D/A converter determines, together with the selected input range, the smallest voltage difference (increment) that can be resolved",
+                    "Reason": "This annotation is not relevant because it refers to the analog outputs, not the ADC resolution.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAC832007"
+                },
+                {
+                    "Name": "Number of input ranges 0 mA ... 5 mA",
+                    "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: 0 mA ... 5 mA",
+                    "Reason": "This annotation is not relevant because it does not directly describe the ADC resolution.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO522002"
+                },
+                {
+                    "Name": "Number of input ranges 0 mV ... 200 mV",
+                    "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: 0 mV ... 200 mV",
+                    "Reason": "This annotation is not relevant because it does not directly describe the ADC resolution.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO524002"
+                },
+                {
+                    "Name": "Number of input ranges 0 V ... 2.5 V",
+                    "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: 0 V ... 2.5 V",
+                    "Reason": "This annotation is not relevant because it does not directly describe the ADC resolution.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO531002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Resolution of the analog inputs",
+                "Definition": "Number of bits with which an analog value that can be digitalized at the analog output - the resolution of the A/D or D/A converter, together with the selected input range, determines the smallest voltage difference (increment) that can be resolved",
+                "SemanticIdentifier": "AAC831007"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Resolution ADC",
+                "Definition": "The resolution of the Analog-to-Digital Converter",
+                "SemanticIdentifier": null
+            },
+            "Unit": "bit",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The information can be used in various engineering tasks such as system design, performance evaluation, and troubleshooting of devices that use Analog-to-Digital Converters."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "3",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Accuracy in \u00b1 %FS",
+            "Definition": "The accuracy of the sensor's measurement",
+            "Value": "1.5 %FS",
+            "SourceDescription": "Input text"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "accuracy of the measuring instrument",
+                    "Definition": "degree of approximation between a result of determination and the approved reference value",
+                    "Reason": "Both refer to the accuracy of a measuring instrument.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAH810004"
+                },
+                {
+                    "Name": "accuracy of the measuring instrument",
+                    "Definition": "degree of approximation between a result of determination and the approved reference value",
+                    "Reason": "Both refer to the accuracy of a measuring instrument.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAH809004"
+                },
+                {
+                    "Name": "accuracy (according to DIN 862)",
+                    "Definition": "specification whether the measuring device is conform to the formality of accuracy according to norm or not",
+                    "Reason": "This annotation is about the conformity to a norm, not the accuracy of the measurement.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAH986005"
+                },
+                {
+                    "Name": "measurement accuracy at 25 \u00b0C",
+                    "Definition": "total deviation from expected value at 25 \u00b0C",
+                    "Reason": "This annotation is about the accuracy at a specific temperature, not the general accuracy.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW988002"
+                },
+                {
+                    "Name": "Accuracy of measurement",
+                    "Definition": "degree of the conformity between the result of a meassurement and a real value of the meassured value",
+                    "Reason": "Both refer to the accuracy of a measurement.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAS556001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "accuracy of the measuring instrument",
+                "Definition": "degree of approximation between a result of determination and the approved reference value",
+                "SemanticIdentifier": "AAH810004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Accuracy of the sensor's measurement",
+                "Definition": "The accuracy of the sensor's measurement",
+                "SemanticIdentifier": null
+            },
+            "Unit": "%FS",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to assess the reliability of the sensor's measurements in various applications."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Repetition accuracy in \u00b1 %FS",
+            "Definition": "The accuracy of repeated measurements",
+            "Value": "0.3 %FS",
+            "SourceDescription": "Input text"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "repeatability",
+                    "Definition": "for a device, percentage degree of deviation between the results of successive measurements of a quantity, carried out under the same conditions of measurement",
+                    "Reason": "It is a measure of the consistency of repeated measurements",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAN079004"
+                },
+                {
+                    "Name": "Repeatability",
+                    "Definition": "accuracy with which a motion system achieves a target position over several attempts under identical conditions",
+                    "Reason": "It is not directly related to the measurement accuracy of a device",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ285001"
+                },
+                {
+                    "Name": "repeatability",
+                    "Definition": "degree of agreement for a number of subsequent measurements of the output signal for the same value of the input variable under the same conditions, when the output variable, originating from the same direction, passes through all variables in its range",
+                    "Reason": "It is a measure of the consistency of repeated measurements",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAQ350003"
+                },
+                {
+                    "Name": "Counting accuracy, minimum",
+                    "Definition": "Counting accuracy, minimum",
+                    "Reason": "It is not directly related to the measurement accuracy of a device",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAV529002"
+                },
+                {
+                    "Name": "rel. repeat precision",
+                    "Definition": "output signal changes under determined conditions relating to the output signal, expressed in percent",
+                    "Reason": "It is a measure of the consistency of repeated measurements",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAQ331002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "repeatability",
+                "Definition": "for a device, percentage degree of deviation between the results of successive measurements of a quantity, carried out under the same conditions of measurement",
+                "SemanticIdentifier": "AAN079004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Repetition accuracy",
+                "Definition": "The accuracy of repeated measurements",
+                "SemanticIdentifier": null
+            },
+            "Unit": "",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to assess the reliability and consistency of the device's measurements in various engineering applications."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Temperature coefficient in \u00b1 %FS/K",
+            "Definition": "The effect of temperature on the sensor's accuracy",
+            "Value": "0.05 %FS/K",
+            "SourceDescription": "Input text"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "operating medium",
+                    "Definition": "temperature at which the specified accuracy data are valid. For deviations from the nominal temperature, the specified temperature coefficients must be must be added to the specified accuracies",
+                    "Reason": "The annotation is relevant as it provides context about the temperature at which the sensor's accuracy is valid.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "ABD905001"
+                },
+                {
+                    "Name": "measurement accuracy at 25 \u00b0C",
+                    "Definition": "total deviation from expected value at 25 \u00b0C",
+                    "Reason": "The annotation is not relevant as it is about the accuracy at a specific temperature, not the temperature coefficient.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW988002"
+                },
+                {
+                    "Name": "reference temperature",
+                    "Definition": "temperature at which the performance of a device was tested or to which calculated values refer",
+                    "Reason": "The annotation is relevant as it provides context about the reference temperature for the sensor's performance.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAQ336005"
+                },
+                {
+                    "Name": "accuracy class of temperature sensor",
+                    "Definition": "category of measuring instruments or components thereof, all of which are intended to comply with a set of specifications regarding uncertainty",
+                    "Reason": "The annotation is not relevant as it is about the accuracy class of a temperature sensor, not the temperature coefficient.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAT752002"
+                },
+                {
+                    "Name": "lower range-limit of temperature",
+                    "Definition": "lowest value of temperature that the device can be adjusted to measure within the specified accuracy limits",
+                    "Reason": "The annotation is not relevant as it is about the lower range-limit of temperature, not the temperature coefficient.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAY818001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "operating medium",
+                "Definition": "temperature at which the specified accuracy data are valid. For deviations from the nominal temperature, the specified temperature coefficients must be must be added to the specified accuracies",
+                "SemanticIdentifier": "ABD905001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Temperature coefficient",
+                "Definition": "The effect of temperature on the sensor's accuracy",
+                "SemanticIdentifier": null
+            },
+            "Unit": "1.5 %FS",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to understand the sensor's accuracy in different temperature conditions and adjust the sensor's performance accordingly."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Max. output current",
+            "Definition": "The maximum current output by the sensor",
+            "Value": "100 mA",
+            "SourceDescription": "Input text"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "max. measurement current",
+                    "Definition": "describes the maximum limit of the measurement current",
+                    "Reason": "The data feature is about the maximum output current, not the maximum limit of the measurement current.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAM482003"
+                },
+                {
+                    "Name": "max. current measurement value (at DC)",
+                    "Definition": "maximum measurement of a DC current",
+                    "Reason": "The data feature is about the maximum output current, not the maximum measurement of a DC current.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG145004"
+                },
+                {
+                    "Name": "max. input current per DC input",
+                    "Definition": "current, which is supplied at the connection and accepted by an operating resource, upper limit value of each single direct voltage input",
+                    "Reason": "The data feature is about the maximum output current, not the maximum input current.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAS562002"
+                },
+                {
+                    "Name": "Output current at the digital output",
+                    "Definition": "maximum power output for digital signals (according to the specified operating conditions) (characterized by High and Low)",
+                    "Reason": "The data feature is about the maximum output current, not the maximum output for digital signals.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB430007"
+                },
+                {
+                    "Name": "max. just-operate current range",
+                    "Definition": "maximum current value an electrical device reacts to",
+                    "Reason": "The data feature is about the maximum output current, not the maximum current value the device reacts to.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF851003"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Max. output current",
+                "Definition": "The maximum current output by the sensor",
+                "SemanticIdentifier": "AAM482003"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Maximum Output Current",
+                "Definition": "The highest current outputted by the sensor",
+                "SemanticIdentifier": null
+            },
+            "Unit": "mA",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in engineering tasks related to sensor performance and output, such as system design, calibration, and troubleshooting."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Rise time",
+            "Definition": "The time it takes for the output signal to reach its maximum amplitude",
+            "Value": "3 ms",
+            "SourceDescription": "Input text"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Max. delay time with change of signal",
+                    "Definition": "Maximum required time at change of signal between when a required function is triggered and when execution of it is completed",
+                    "Reason": "This annotation is relevant because rise time is a type of delay time that is involved in the change of signal.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAD\u00a046007,00"
+                },
+                {
+                    "Name": "max. response delay time",
+                    "Definition": "Maximum value for the period between the moment in time when a change of the input variables is initiated and the moment in time when a corresponding change of the output variables commences",
+                    "Reason": "This annotation is relevant because rise time is a type of delay time that is involved in the response of the system.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAB791006"
+                },
+                {
+                    "Name": "max. delay-on energization time",
+                    "Definition": "maximal value for the time span between the point in time when a change of the initial variables is excited and the point in time when the analogical change of the output variables begins",
+                    "Reason": "This annotation is relevant because rise time is a type of delay time that is involved in the energization of the system.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAJ011003"
+                },
+                {
+                    "Name": "output time",
+                    "Definition": "output time describes the time interval with which the signal at the output is continuously updated (e.g. 1 ms)",
+                    "Reason": "This annotation is relevant because rise time is a type of time interval that is involved in the output of the system.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "ABD950001"
+                },
+                {
+                    "Name": "step response time t90",
+                    "Definition": "time duration from a step change in the input signal to a system for the change in output of the system to reach for the first time 90% of its final steady state value",
+                    "Reason": "This annotation is relevant because rise time is a type of time duration that is involved in the response of the system.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAM701004"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Max. delay time with change of signal",
+                "Definition": "Maximum required time at change of signal between when a required function is triggered and when execution of it is completed",
+                "SemanticIdentifier": "BAD\u00a046007,00"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Rise time",
+                "Definition": "The time it takes for the output signal to reach its maximum amplitude",
+                "SemanticIdentifier": null
+            },
+            "Unit": "ms",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The rise time of a pressure sensor can be used in various engineering applications such as control systems, signal processing, and system design to determine the responsiveness of the sensor and optimize its performance."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Max. load resistance current output",
+            "Definition": "The maximum load resistance for the sensor's output current",
+            "Value": "500 Ohm",
+            "SourceDescription": "Input text"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "max. measurement current",
+                    "Definition": "describes the maximum limit of the measurement current",
+                    "Reason": "The data feature is about the maximum load resistance for the sensor's output current, not the maximum limit of the measurement current.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "max. resistance test value",
+                    "Definition": "maximum value of an ohmic resistance which can be tested by a pass testing device",
+                    "Reason": "The data feature is about the maximum load resistance for the sensor's output current, not the maximum value of an ohmic resistance that can be tested.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "max. load of current circuit (explosion protection)",
+                    "Definition": "rated value of secondarily connected ohmic load in the intrinsically safe Ex-current circuit, general stated as a resistance",
+                    "Reason": "The data feature is about the maximum load resistance for the sensor's output current, not the rated value of secondarily connected ohmic load in the intrinsically safe Ex-current circuit.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "max. input current per DC input",
+                    "Definition": "current, which is supplied at the connection and accepted by an operating resource, upper limit value of each single direct voltage input",
+                    "Reason": "The data feature is about the maximum load resistance for the sensor's output current, not the upper limit value of each single direct voltage input.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "max. just-operate current range",
+                    "Definition": "maximum current value an electrical device reacts to",
+                    "Reason": "The data feature is about the maximum load resistance for the sensor's output current, not the maximum current value an electrical device reacts to.",
+                    "isRelevant": false
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Max. load resistance current output",
+                "Definition": "The maximum load resistance for the sensor's output current",
+                "SemanticIdentifier": "AAM482003"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Max. output current load resistance",
+                "Definition": "The maximum resistance that the sensor's output current can handle",
+                "SemanticIdentifier": null
+            },
+            "Unit": "Ohm",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in determining the compatibility of the sensor with different load resistances in engineering applications."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Min. load resistance voltage output",
+            "Definition": "The minimum load resistance for the sensor's output voltage",
+            "Value": "10 kOhm",
+            "SourceDescription": "Input text"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "min. output voltage",
+                    "Definition": "value of the minimum voltage which is available at the outlet of an operational medium",
+                    "Reason": "The annotation is relevant as it describes the minimum voltage at the output of the sensor.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAF692003"
+                },
+                {
+                    "Name": "supply voltage of sensor",
+                    "Definition": "heigth of the voltage for the operating of the detector",
+                    "Reason": "The annotation is not relevant as it describes the voltage for operating the sensor, not the minimum load resistance voltage output.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAE050004"
+                },
+                {
+                    "Name": "min. load at voltage in-/output",
+                    "Definition": "smallest load connected in series with an output circuit which ensures that it operates within the specified accuracy limits",
+                    "Reason": "The annotation is relevant as it describes the minimum load connected in series with the output circuit of the sensor.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAN258005"
+                },
+                {
+                    "Name": "Min. rated voltage",
+                    "Definition": "Manufacturer's value for minimum value of voltage, this results from measured values which are obtained under established conditions and rules",
+                    "Reason": "The annotation is not relevant as it describes the minimum rated voltage, not the minimum load resistance voltage output.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAH313005"
+                },
+                {
+                    "Name": "min. input voltage power supply",
+                    "Definition": "value of the minimal voltage during the power supply which is available at the input of an operating device",
+                    "Reason": "The annotation is not relevant as it describes the minimum input voltage, not the minimum load resistance voltage output.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAJ044003"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "min. load at voltage in-/output",
+                "Definition": "smallest load connected in series with an output circuit which ensures that it operates within the specified accuracy limits",
+                "SemanticIdentifier": "AAN258005"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Min. load resistance voltage output",
+                "Definition": "The minimum voltage required to maintain the specified load resistance for the sensor's output",
+                "SemanticIdentifier": null
+            },
+            "Unit": "kOhm",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in engineering tasks related to sensor operation and performance, such as circuit design and system integration."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    }
+]
