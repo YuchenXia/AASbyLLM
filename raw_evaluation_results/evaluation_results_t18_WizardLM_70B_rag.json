@@ -1,0 +1,473 @@
+[
+    {
+        "DataFeature": {
+            "Name": "ProductType",
+            "Definition": "Type of the product",
+            "Value": "Cable MIL-300",
+            "SourceDescription": "Product type designation"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "product type",
+                    "Definition": "characterization of the product with regard to its general type",
+                    "Reason": "The annotation is relevant as it describes the general type of the product.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO243004"
+                },
+                {
+                    "Name": "Product type",
+                    "Definition": "Additional information for describing products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                    "Reason": "The annotation is relevant as it describes the type of the product in a specific context.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO846001"
+                },
+                {
+                    "Name": "product-type designation",
+                    "Definition": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants",
+                    "Reason": "The annotation is relevant as it describes the specific designation of the product type.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAF542002"
+                },
+                {
+                    "Name": "Product type",
+                    "Definition": "Characteristic to differentiate between different products of a product family or special variants",
+                    "Reason": "The annotation is relevant as it describes the characteristic of the product type.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO057002"
+                },
+                {
+                    "Name": "Type description of the product group",
+                    "Definition": "The specifying type description (type name, type code, abbreviated name, article number) for distinguishing according to product group (variant) of the used bookstore product",
+                    "Reason": "The annotation is not relevant as it is specific to bookstore products and does not apply to the given product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO966001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "product type",
+                "Definition": "characterization of the product with regard to its general type",
+                "SemanticIdentifier": "AAO243004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Product Type",
+                "Definition": "General type of the product",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "Identifying and describing the product without getting into detailed technical specifications."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "4",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "ProductDescription",
+            "Definition": "Description of the product",
+            "Value": "For connection of the VIB-SENSOR S01 vibration sensor to the SIPLUS CMS2000 Basic Unit VIB or the SIPLUS CMS2000 VIB-MUX expansion module",
+            "SourceDescription": "Product description"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Manufacturer product background description",
+                    "Definition": "description of the product with additional information about the product",
+                    "Reason": "The annotation is too broad and includes additional information not directly related to the product description.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAU498001"
+                },
+                {
+                    "Name": "Manufacturer product description",
+                    "Definition": "Description of the product, it's technical features and implementation if needed (long text)",
+                    "Reason": "This annotation is relevant as it describes the product and its purpose.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAU734001"
+                },
+                {
+                    "Name": "Manufacturer product marketing description",
+                    "Definition": "description of the product to point out product highlights from the manufacturer perspective",
+                    "Reason": "This annotation is not relevant as it focuses on marketing highlights rather than the product's purpose.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAU500001"
+                },
+                {
+                    "Name": "Manufacturer product internet description",
+                    "Definition": "description of the product to use in the internet",
+                    "Reason": "This annotation is not relevant as it is intended for internet use rather than product description.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAU499001"
+                },
+                {
+                    "Name": "Supplier product description",
+                    "Definition": "Description of the product, it's technical features and implementation if needed (long text)",
+                    "Reason": "This annotation is relevant as it describes the product and its purpose.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAU730001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Manufacturer product description",
+                "Definition": "Description of the product, it's technical features and implementation if needed (long text)",
+                "SemanticIdentifier": "AAU734001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Product Description",
+                "Definition": "Description of the product's purpose and function",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 2,
+            "Affordance": "The product description can be used in various applications such as product manuals, marketing materials, and technical specifications."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "4",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "AmbientTemperature",
+            "Definition": "Temperature range during operation",
+            "Value": "min. -25 \u00b0C, max. 122 \u00b0C",
+            "SourceDescription": "Ambient temperature during operation"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Ambient temperature",
+                    "Definition": "Temperature in the outer area of the operating medium",
+                    "Reason": "The annotation is relevant as it describes the temperature of the operating environment.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAE540004"
+                },
+                {
+                    "Name": "max. ambient temperature during operation",
+                    "Definition": "Maximum limit value of specific temperature during operation surrounding the operating unit",
+                    "Reason": "The annotation is relevant as it describes the maximum temperature limit during operation.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAB906006"
+                },
+                {
+                    "Name": "Temperature range",
+                    "Definition": "Range from the smallest through to the largest temperature in the outer surroundings of the operating medium",
+                    "Reason": "The annotation is relevant as it describes the temperature range during operation.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO931001"
+                },
+                {
+                    "Name": "min. ambient temperature during operation",
+                    "Definition": "Minimum limit value of specific temperature during operation surrounding the operating unit",
+                    "Reason": "The annotation is relevant as it describes the minimum temperature limit during operation.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAC022006"
+                },
+                {
+                    "Name": "ambient temperature",
+                    "Definition": "temperature of the surrounding operating environment of a component or system",
+                    "Reason": "The annotation is relevant as it describes the temperature of the operating environment.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAZ842001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Ambient temperature",
+                "Definition": "Temperature in the outer area of the operating medium",
+                "SemanticIdentifier": "BAE540004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Temperature range during operation",
+                "Definition": "Range of temperature during operation of the product",
+                "SemanticIdentifier": null
+            },
+            "Unit": "\u00b0C",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to ensure the product operates within its specified temperature range, preventing damage or malfunction."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "InsulationType",
+            "Definition": "Type of insulation used",
+            "Value": "black polyurethane",
+            "SourceDescription": "Type of insulation"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Insulation material, class",
+                    "Definition": "Standardized classification for insulation materials which are used with electric operating resources and machines, together with specifications for the properties of the material and the recommended boundary temperature",
+                    "Reason": "The annotation is relevant as it provides a standardized classification for insulation materials used in electric operating resources and machines, which is related to the data feature of the type of insulation used.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO697002"
+                },
+                {
+                    "Name": "insulation present",
+                    "Definition": "specification whether there is an insulation",
+                    "Reason": "The annotation is not relevant as it only specifies whether there is insulation or not, not the type of insulation.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG307004"
+                },
+                {
+                    "Name": "material of the insulation",
+                    "Definition": "material of the insulation",
+                    "Reason": "The annotation is relevant as it provides the material of the insulation, which is related to the data feature of the type of insulation used.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAK320005"
+                },
+                {
+                    "Name": "coating",
+                    "Definition": "Coating or covering of the insulation",
+                    "Reason": "The annotation is not relevant as it specifies the coating or covering of the insulation, not the type of insulation.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAS818001"
+                },
+                {
+                    "Name": "type of fluid substance (liquid and gas) for insulation",
+                    "Definition": "Specification of the type of liquid substance (liquid and gas) for the insulation",
+                    "Reason": "The annotation is not relevant as it specifies the type of fluid substance for the insulation, not the type of insulation.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABF575001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Insulation material, class",
+                "Definition": "Standardized classification for insulation materials which are used with electric operating resources and machines, together with specifications for the properties of the material and the recommended boundary temperature",
+                "SemanticIdentifier": "AAO697002"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Type of insulation",
+                "Definition": "Specification of the type of insulation used",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The information can be used to identify the type of insulation used in electric operating resources and machines, which can be useful in determining the compatibility and performance of the insulation in specific applications."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "ShieldDesign",
+            "Definition": "Design of the shield",
+            "Value": "Braided shielding with stranded drain wire",
+            "SourceDescription": "Design of shield"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "design of shield",
+                    "Definition": "make of the conducting casing for protecting against electromagnetic or electrostatic interferences",
+                    "Reason": "The annotation is relevant as it describes the design of the shield, which is the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAF516001"
+                },
+                {
+                    "Name": "shield form",
+                    "Definition": "describes the geometric shape of the shield",
+                    "Reason": "The annotation is not relevant as it describes the geometric shape of the shield, not the design.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK765003"
+                },
+                {
+                    "Name": "Design of shield over cabling",
+                    "Definition": "Make or brand of conducting encasement around all conductors and cabled elements to protect them from electromagnetic and electrostatic interference",
+                    "Reason": "The annotation is not relevant as it describes the shield over cabling, not the design of the shield.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE039006"
+                },
+                {
+                    "Name": "Design of shield over cabled element",
+                    "Definition": "Make or brand of conducting encasement around intertwined conductors to protect them from electromagnetic and electrostatic interference",
+                    "Reason": "The annotation is not relevant as it describes the shield over cabled element, not the design of the shield.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE038006"
+                },
+                {
+                    "Name": "Design of safety block",
+                    "Definition": "Defined brand or make of safety block as a variant which clearly distinguishes it from the other objects within a group of similar or related objects through at least one attribute",
+                    "Reason": "The annotation is not relevant as it describes the design of a safety block, not the design of the shield.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAB943010"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "design of shield",
+                "Definition": "make of the conducting casing for protecting against electromagnetic or electrostatic interferences",
+                "SemanticIdentifier": "AAF516001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Braided shielding with stranded drain wire",
+                "Definition": "The specific design of the shield, which is a braided shielding with a stranded drain wire.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The information can be used to identify the specific shielding design of the cable, which can be useful in selecting cables with specific shielding requirements for electromagnetic or electrostatic interference protection."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "CableLength",
+            "Definition": "Length of the cable",
+            "Value": "3 m",
+            "SourceDescription": "Cable length"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Cable length can be configured",
+                    "Definition": "Specification if the cable length is variable",
+                    "Reason": "The data feature is about the length of the cable, not about its configurability.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "Length of the connecting cable",
+                    "Definition": "Cable length for data and energy transfer measured with connector",
+                    "Reason": "The data feature is about the length of the cable without connector.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "Length of the fixed connection cable",
+                    "Definition": "dimension between the endpoints of the cable",
+                    "Reason": "The data feature is about the length of the cable, which is a dimension between the endpoints.",
+                    "isRelevant": true
+                },
+                {
+                    "Name": "cable length measurement present",
+                    "Definition": "specification whether the product is equipped with cable length measurement",
+                    "Reason": "The data feature is about the length of the cable, not about whether it has a cable length measurement.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "Cable length",
+                    "Definition": "Length of a cable for data or energy transmission, measured without connector",
+                    "Reason": "The data feature is about the length of the cable, which is a length for data or energy transmission.",
+                    "isRelevant": true
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Cable length",
+                "Definition": "Length of a cable for data or energy transmission, measured without connector",
+                "SemanticIdentifier": "AAB733008"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Cable Length",
+                "Definition": "Length of the cable, measured without connector",
+                "SemanticIdentifier": null
+            },
+            "Unit": "m",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The cable length information can be used in various engineering tasks such as cable routing, distance calculations, and system design."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "ConnectionType",
+            "Definition": "Type of connection",
+            "Value": "MIL-C5015 / open cable end",
+            "SourceDescription": "Type of connection"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "type of connection (1)",
+                    "Definition": "description of type connection 1",
+                    "Reason": "Not relevant, as it does not match the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK163005"
+                },
+                {
+                    "Name": "type of connection (2)",
+                    "Definition": "description of type connection 2",
+                    "Reason": "Not relevant, as it does not match the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK164005"
+                },
+                {
+                    "Name": "connection type",
+                    "Definition": "information on how a connection is made constructively",
+                    "Reason": "Relevant, as it matches the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAH217002"
+                },
+                {
+                    "Name": "cable type connector connection 2",
+                    "Definition": "describes the kind of cable type connector connection 2",
+                    "Reason": "Not relevant, as it does not match the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK170003"
+                },
+                {
+                    "Name": "Type of network connection",
+                    "Definition": "designation of the design of the network connection",
+                    "Reason": "Not relevant, as it does not match the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW606001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "connection type",
+                "Definition": "information on how a connection is made constructively",
+                "SemanticIdentifier": "AAH217002"
+            },
+            "GeneratedAnnotation": {
+                "Name": "ConnectionType",
+                "Definition": "Type of connection",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "The information can be used to identify the specific type of connection used for the cable."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "3",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    }
+]

@@ -1,0 +1,1094 @@
+[
+    {
+        "DataFeature": {
+            "Name": "Manufacturer code",
+            "Definition": "The unique code assigned to the manufacturer of the product.",
+            "Value": "NEBC-D8G4-ES-0.5-N-S-D8G4-ET",
+            "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "product code",
+                    "Definition": "machine-readable string of the model of the machine, that might include options like the hardware configuration of the model",
+                    "Reason": "Not relevant as it is not specific to the manufacturer of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABA679001"
+                },
+                {
+                    "Name": "order code of manufacturer",
+                    "Definition": "by manufactures issued unique combination of numbers and letters used to identify the device for ordering",
+                    "Reason": "Not relevant as it is not specific to the manufacturer of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO227002"
+                },
+                {
+                    "Name": "model code of manufacturer",
+                    "Definition": "sequence of characters assigned in accordance with certain rules of the manufacturer's for designation of the model",
+                    "Reason": "Not relevant as it is not specific to the manufacturer of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE344005"
+                },
+                {
+                    "Name": "Product type description of the cable",
+                    "Definition": "A sequence of character formed according to specific rules used for coding the product type description of the cable",
+                    "Reason": "Not relevant as it is not specific to the manufacturer of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO848002"
+                },
+                {
+                    "Name": "Code of the manufacturer declaration",
+                    "Definition": "Code of the manufacturer explanations or notes for a component or device in text form",
+                    "Reason": "Not relevant as it is not specific to the manufacturer of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAQ197001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Manufacturer code",
+                "Definition": "The unique code assigned to the manufacturer of the product.",
+                "SemanticIdentifier": "the_given_semantic_identifier_x"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Manufacturer code",
+                "Definition": "The unique code assigned to the manufacturer of the product.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to identify the manufacturer of the product and potentially order more of the same product from the same manufacturer."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "4",
+            "definition": "5",
+            "affordance": "4",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Part number",
+            "Definition": "The unique number assigned to the product.",
+            "Value": "8065123",
+            "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Manufacturing part number",
+                    "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                    "Reason": "The given annotation is not relevant as it is specific to manufacturing and not applicable to the general product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO628001"
+                },
+                {
+                    "Name": "Spare parts lists - numbers",
+                    "Definition": "Reference to a document in which the part to be procured is described in greater detail and/or represented graphically",
+                    "Reason": "The given annotation is not relevant as it is specific to spare parts lists and not applicable to the general product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO606001"
+                },
+                {
+                    "Name": "number of the parts list",
+                    "Definition": "Description of the list that includes all individual parts required for manufacturing or assembling a product",
+                    "Reason": "The given annotation is not relevant as it is specific to parts lists and not applicable to the general product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO835001"
+                },
+                {
+                    "Name": "Product number",
+                    "Definition": "Coded series of characters which is used in place of the article (or service) by a body supplying administrative services and is thus the meaningful unit, for example, in planning and control systems or warehousing",
+                    "Reason": "The given annotation is relevant as it describes a unique number assigned to the product.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO607001"
+                },
+                {
+                    "Name": "drawing number of manufacturer",
+                    "Definition": "reference to a manufacturer document in which parts or features are described in detail and/or graphically depicted",
+                    "Reason": "The given annotation is not relevant as it is specific to manufacturer documents and not applicable to the general product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO684003"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Product number",
+                "Definition": "Coded series of characters which is used in place of the article (or service) by a body supplying administrative services and is thus the meaningful unit, for example, in planning and control systems or warehousing",
+                "SemanticIdentifier": "AAO607001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Product number",
+                "Definition": "The unique number assigned to the product.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "This information can be used for identifying and tracking the product in administrative systems and processes."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Based on norm",
+            "Definition": "The norm or standard that the product is based on.",
+            "Value": "EN 61076-2-114",
+            "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Reference norm of the connection, product line",
+                    "Definition": "The norm in fixed relation to the feature being described. This defines the parameters that influence the contents of the correlated feature. Type and number of the norm with issue year and issue month must be given, e.g. DIN ISO 4711:YYYY-MM.",
+                    "Reason": "Not relevant as it refers to the product line, not the specific product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAP993002"
+                },
+                {
+                    "Name": "Reference norm of the connection, outlet",
+                    "Definition": "The norm in fixed relation to the feature being described. This defines the parameters that influence the contents of the correlated feature. Type and number of the norm with issue year and issue month must be given, e.g. DIN ISO 4711:YYYY-MM.",
+                    "Reason": "Not relevant as it refers to the outlet, not the specific product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAP989002"
+                },
+                {
+                    "Name": "Reference norm material, centrifuge material",
+                    "Definition": "The norm in fixed relation to the feature being described. This defines the parameters that influence the contents of the correlated feature. Type and number of the norm with issue year and issue month must be given, e.g. DIN ISO 4711:YYYY-MM.",
+                    "Reason": "Not relevant as it refers to a centrifuge material, not a connecting cable.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAQ049002"
+                },
+                {
+                    "Name": "Reference norm material, design, room 3",
+                    "Definition": "The norm in fixed relation to the feature being described. This defines the parameters that influence the contents of the correlated feature. Type and number of the norm with issue year and issue month must be given, e.g. DIN ISO 4711:YYYY-MM.",
+                    "Reason": "Not relevant as it refers to a specific design and room, not the specific product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAQ045002"
+                },
+                {
+                    "Name": "Reference norm material, design, room 2",
+                    "Definition": "The norm in fixed relation to the feature being described. This defines the parameters that influence the contents of the correlated feature. Type and number of the norm with issue year and issue month must be given, e.g. DIN ISO 4711:YYYY-MM.",
+                    "Reason": "Not relevant as it refers to a specific design and room, not the specific product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAQ044002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Reference norm of the connection, product",
+                "Definition": "The norm in fixed relation to the feature being described. This defines the parameters that influence the contents of the correlated feature. Type and number of the norm with issue year and issue month must be given, e.g. DIN ISO 4711:YYYY-MM.",
+                "SemanticIdentifier": "AAP992002"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Reference norm of the connection, product",
+                "Definition": "The norm in fixed relation to the feature being described. This defines the parameters that influence the contents of the correlated feature. Type and number of the norm with issue year and issue month must be given, e.g. DIN ISO 4711:YYYY-MM.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "This information can be used to determine the applicable norm for the specific connecting cable in question."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Contact durability",
+            "Definition": "The number of times the product can be used before it needs to be replaced.",
+            "Value": "100",
+            "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "max. elctrical lifetime of control contacts (number of switching operations)",
+                    "Definition": "amount of switching cycles to failure under specified electrical strength and other operating conditions",
+                    "Reason": "Not relevant as it refers to the electrical lifetime of control contacts, not the number of times the product can be used before it needs to be replaced.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF849001"
+                },
+                {
+                    "Name": "operational reliability",
+                    "Definition": "actual reliability of an item considering operating modes, operating conditions and possible preventive maintenance actions carried out",
+                    "Reason": "Not relevant as it refers to the overall reliability of the product, not the number of times it can be used before it needs to be replaced.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABA737001"
+                },
+                {
+                    "Name": "max. mechanical lifetime of control contacts (number of switching operations)",
+                    "Definition": "anticipated mechanical number of cycles of the switch relay for an operation with nominal voltage in a de-energized state of the relay contacts",
+                    "Reason": "Not relevant as it refers to the mechanical lifetime of control contacts, not the number of times the product can be used before it needs to be replaced.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF857001"
+                },
+                {
+                    "Name": "suitable for cable management system height",
+                    "Definition": "specification for which combination of different items to fulfill the common purpose of sustainment of a cable a connector is suited",
+                    "Reason": "Not relevant as it refers to the suitability for a cable management system, not the number of times the product can be used before it needs to be replaced.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAH274003"
+                },
+                {
+                    "Name": "contact safe present",
+                    "Definition": "specification whether the unit is contact safe or has a contact protection",
+                    "Reason": "Not relevant as it refers to the safety of the product, not the number of times it can be used before it needs to be replaced.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG105005"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Contact durability",
+                "Definition": "The number of times the product can be used before it needs to be replaced.",
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "Contact durability",
+                "Definition": "The number of times the product can be used before it needs to be replaced.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the expected lifetime of the product and plan for replacements accordingly."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": [
+                "Unit"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Product weight",
+            "Definition": "The weight of the product.",
+            "Value": "43 g",
+            "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "net weight per length unit",
+                    "Definition": "indication of the physical mass per defined unit of length of a product",
+                    "Reason": "The annotation is not relevant as it is specific to length units, while the data feature is a weight in grams.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAJ171004"
+                },
+                {
+                    "Name": "net weight per length unit",
+                    "Definition": "specification of the physical mass of the weighing good without packing and transporting device, per specified unit of length of a product",
+                    "Reason": "The annotation is not relevant as it is specific to length units, while the data feature is a weight in grams.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAM376004"
+                },
+                {
+                    "Name": "weight of device",
+                    "Definition": "quantitative declaration of weight for a ready for use device",
+                    "Reason": "The annotation is not relevant as it is specific to devices, while the data feature is a weight in grams.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAR584003"
+                },
+                {
+                    "Name": "material weight",
+                    "Definition": "quantitative specification of the weight, measured in grams per square meter",
+                    "Reason": "The annotation is not relevant as it is specific to square meters, while the data feature is a weight in grams.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAH226004"
+                },
+                {
+                    "Name": "net weight per area unit",
+                    "Definition": "specification of the physical mass of the weighing good without packing and transporting device, per specified unit of area of a product",
+                    "Reason": "The annotation is not relevant as it is specific to area units, while the data feature is a weight in grams.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAM375005"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Product weight",
+                "Definition": "The weight of the product.",
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "Product weight",
+                "Definition": "The weight of the product.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "g",
+            "ClassifyingScore_GeneralOrTechnical": 3,
+            "Affordance": "This information can be used to determine the weight of the connecting cable for various engineering tasks, such as calculating load capacities or shipping costs."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "DC operating voltage range",
+            "Definition": "The range of DC voltages that the product can operate within.",
+            "Value": "0 V ... 30 V",
+            "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "max. operating voltage with DC",
+                    "Definition": "The maximum value of DC voltage (DC), that can be applied to operating unit under consideration of the conditions of use and which relates to the different product-specific tests (i.e. insulation, switching capacity)",
+                    "Reason": "The annotation is not relevant as it refers to the maximum operating voltage, while the data feature is about the operating voltage range.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB840008"
+                },
+                {
+                    "Name": "min. operating voltage with DC",
+                    "Definition": "The minimum value of DC voltage (DC), that can be applied to operating unit under consideration of the conditions of use and which relates to the different product-specific tests (i.e. insulation, switching capacity)",
+                    "Reason": "The annotation is not relevant as it refers to the minimum operating voltage, while the data feature is about the operating voltage range.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB973008"
+                },
+                {
+                    "Name": "max. voltage measuring range (at DC)",
+                    "Definition": "boundary value of the range of those values of the measured variable voltage where it is required for DC that the measurement deviations of the measuring device remain within defined limits and that the values are represented in conformity with the specifications",
+                    "Reason": "The annotation is not relevant as it refers to the voltage measuring range, while the data feature is about the operating voltage range.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG357004"
+                },
+                {
+                    "Name": "max. rated operating voltage Ue with DC",
+                    "Definition": "The maximum value of DC voltage, stipulated by the manufacturer that can be applied to an operating unit under consideration of the conditions of use",
+                    "Reason": "The annotation is not relevant as it refers to the rated operating voltage, while the data feature is about the operating voltage range.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB820008"
+                },
+                {
+                    "Name": "Operating voltage",
+                    "Definition": "voltage which, together with the rated operating current, determines the use of the device and to which the various tests and the use categories refer. With single pole devices the rated rated operating voltage is generally the voltage over the pole. With multi-pole devices it is generally given as chained voltage",
+                    "Reason": "The annotation is not relevant as it refers to the operating voltage, while the data feature is about the operating voltage range.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAB415008"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "DC operating voltage range",
+                "Definition": "The range of DC voltages that the product can operate within.",
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "DC operating voltage range",
+                "Definition": "The range of DC voltages that the product can operate within.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "V",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the appropriate DC operating voltage for the connecting cable in various engineering tasks and applications."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Nominal operating voltage DC",
+            "Definition": "The nominal DC voltage that the product operates at.",
+            "Value": "24 V",
+            "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Nominal voltage",
+                    "Definition": "nominal voltage is the specified value which shows the voltage in normal operation given by the manufacturer or supplier",
+                    "Reason": "The annotation is not relevant as it does not specify the DC voltage.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAC856007"
+                },
+                {
+                    "Name": "nominal voltage",
+                    "Definition": "nominal voltage is the specified value which shows the voltag in normal operation given by the manufacturer or supplier",
+                    "Reason": "The annotation is not relevant as it does not specify the DC voltage.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF583004"
+                },
+                {
+                    "Name": "nominal voltage (at DC)",
+                    "Definition": "describes the nominal voltage DC",
+                    "Reason": "The annotation is relevant as it specifies the DC voltage.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAI848004"
+                },
+                {
+                    "Name": "min. operating voltage with DC",
+                    "Definition": "The minimum value of DC voltage (DC), that can be applied to operating unit under consideration of the conditions of use and which relates to the different product-specific tests (i.e. insulation, switching capacity)",
+                    "Reason": "The annotation is not relevant as it does not specify the DC voltage.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB973008"
+                },
+                {
+                    "Name": "Max. nominal voltage",
+                    "Definition": "A suitable, maximum (usually rounded) value of a voltage which is used for the description, designation or identification of a part, device, operating resource, facility or set of equipment",
+                    "Reason": "The annotation is not relevant as it does not specify the DC voltage.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAC679007"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "nominal voltage (at DC)",
+                "Definition": "describes the nominal voltage DC",
+                "SemanticIdentifier": "AAI848004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Nominal DC voltage",
+                "Definition": "The nominal DC voltage that the product operates at.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "V",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the appropriate DC operating voltage for the connecting cable in various engineering tasks and applications."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Current rating at 40\u00b0 C",
+            "Definition": "The maximum current that the product can handle at a temperature of 40\u00b0 C.",
+            "Value": "3 A",
+            "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "maximum current rating",
+                    "Definition": "maximum electrical current drawn from the mains",
+                    "Reason": "Not relevant, as it refers to the maximum current drawn from the mains, not the maximum current the product can handle.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW135002"
+                },
+                {
+                    "Name": "max. load",
+                    "Definition": "maximal electrical amperage for which the cable is manufactured",
+                    "Reason": "Not relevant, as it refers to the maximum current the cable is manufactured for, not the maximum current the product can handle.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAJ848003"
+                },
+                {
+                    "Name": "max. rated current with AC",
+                    "Definition": "The maximum alternating current assigned by the manufacturer to an operating unit",
+                    "Reason": "Not relevant, as it refers to the maximum current assigned by the manufacturer to an operating unit, not the maximum current the product can handle.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB830008"
+                },
+                {
+                    "Name": "max. adjustable temperature",
+                    "Definition": "max. temperature supported",
+                    "Reason": "Not relevant, as it refers to the maximum temperature supported, not the maximum current the product can handle.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAE893005"
+                },
+                {
+                    "Name": "load current rating AC (UL 1449)",
+                    "Definition": "For two-port SPDs only. The maximum current which the SPD can carry continuously in normal operation",
+                    "Reason": "Not relevant, as it refers to the maximum current the SPD can carry, not the maximum current the product can handle.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABD490001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Current rating at 40\u00b0 C",
+                "Definition": "The maximum current that the product can handle at a temperature of 40\u00b0 C.",
+                "SemanticIdentifier": "the_given_semantic_identifier_x"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Maximum current rating at 40\u00b0 C",
+                "Definition": "The maximum current that the product can handle at a temperature of 40\u00b0 C.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "A",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the maximum current that the product can handle at a temperature of 40\u00b0 C, which is critical in determining its performance in a specific context."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Surge resistance",
+            "Definition": "The resistance of the product to sudden increases in voltage.",
+            "Value": "1.5 kV",
+            "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Surge current resistance",
+                    "Definition": "Resistance of a device against surge current",
+                    "Reason": "The annotation is not relevant as it refers to a different type of resistance.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAD\u00a03005,00"
+                },
+                {
+                    "Name": "Resistance",
+                    "Definition": "Property that hinders the flow of electrical charges, which is defined by the associated amperage as a quotient of a voltage",
+                    "Reason": "The annotation is not relevant as it is too general and does not specifically mention surge resistance.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAB113006"
+                },
+                {
+                    "Name": "Volume resistance",
+                    "Definition": "In the meaning of this standard the resistance, composed of the electrical conductor resistances and the transition resistances, measured between the connections of connected contact parts",
+                    "Reason": "The annotation is not relevant as it refers to a different type of resistance.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB525006"
+                },
+                {
+                    "Name": "Residual voltage (at 500 A, at (30/60) \u00b5s)",
+                    "Definition": "Peak value of the voltage, which occurs by the terminals of SPD (Surge Protective Device) during or immediately after the discharge current (at 500 A, at (30/60) \u00b5s)",
+                    "Reason": "The annotation is not relevant as it refers to a different type of voltage.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAX075002"
+                },
+                {
+                    "Name": "Residual voltage (at 10 kA, at (8/20) \u00b5s)",
+                    "Definition": "Peak value of the voltage, which occurs by the terminals of SPD (Surge Protective Device) during or immediately after the discharge current (at 10 kA, at (8/20) \u00b5s)",
+                    "Reason": "The annotation is not relevant as it refers to a different type of voltage.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAX045002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Resistance to surge voltage",
+                "Definition": "The ability of a product to withstand sudden increases in voltage.",
+                "SemanticIdentifier": "the_given_semantic_identifier_x"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Surge voltage resistance",
+                "Definition": "The ability of a product to withstand sudden increases in voltage.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "kV",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the suitability of the product for use in environments with potential voltage surges."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Reverse polarity protection",
+            "Definition": "Whether or not the product has protection against reverse polarity.",
+            "Value": "no",
+            "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Reverse polarity protection present",
+                    "Definition": "Mechanical or electrical device for protection against polarity reversal of a voltage across a component",
+                    "Reason": "The annotation is relevant as it directly addresses the data feature and provides additional information.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAW974001"
+                },
+                {
+                    "Name": "cable symmetry testing for two wire connections a-b-E present",
+                    "Definition": "specification whether the product is equipped with cable symmetry testing for two wire connections a-b-E",
+                    "Reason": "The annotation is not relevant as it does not directly address the data feature and is not applicable to the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABF092001"
+                },
+                {
+                    "Name": "reverse-power protection (ANSI 32R) present",
+                    "Definition": "Function, which ensures the care of possible dangers or damage / Protection as part of the multifunctional machine protection (generator and asynchronous motor protection) (Note: American National Standards Institute equipment number for the identification / design of electrical power supply systems, with the function description: 32R - directional relay or backflow relay (rotor))",
+                    "Reason": "The annotation is not relevant as it does not directly address the data feature and is not applicable to the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW958001"
+                },
+                {
+                    "Name": "Suitable for line differential protection",
+                    "Definition": "Condition for a product for use as: fulfilling a specific purpose for the intended use / protection function which serves the selective protection of overhead line and cables and also covers control and monitoring tasks and is suitable for use in high and medium voltage networks of all star-point versions (rigid, High-impedance grounded, international organization for standardized or compensated)",
+                    "Reason": "The annotation is not relevant as it does not directly address the data feature and is not applicable to the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW941001"
+                },
+                {
+                    "Name": "wire protection present",
+                    "Definition": "Rubber grommets or funnel-shaped cable entries prevent rectangular buckling of lines",
+                    "Reason": "The annotation is not relevant as it does not directly address the data feature and is not applicable to the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAC036007"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Reverse polarity protection present",
+                "Definition": "Mechanical or electrical device for protection against polarity reversal of a voltage across a component",
+                "SemanticIdentifier": "AAW974001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Reverse polarity protection present",
+                "Definition": "Mechanical or electrical device for protection against polarity reversal of a voltage across a component",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used for selecting a product with reverse polarity protection for a connecting cable in order to prevent damage or danger from voltage reversal."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "-",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Cable length",
+            "Definition": "The length of the cable.",
+            "Value": "0.5 m",
+            "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Cable length",
+                    "Definition": "Length of a cable for data or energy transmission, measured without connector",
+                    "Reason": "The given annotation provides a specific definition of cable length and does not contradict the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAB733008"
+                },
+                {
+                    "Name": "Length of the connecting cable",
+                    "Definition": "Cable length for data and energy transfer measured with connector",
+                    "Reason": "The given annotation provides a specific definition of cable length and does not contradict the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAB766006"
+                },
+                {
+                    "Name": "Length of cable",
+                    "Definition": "possible cable length for data and energy transfer measured with connector",
+                    "Reason": "The given annotation provides a general definition of cable length and does not contradict the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAW327002"
+                },
+                {
+                    "Name": "Cable length can be configured",
+                    "Definition": "Specification if the cable length is variable",
+                    "Reason": "The given annotation provides a specific definition of cable length and does not contradict the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAB734006"
+                },
+                {
+                    "Name": "cable length measurement present",
+                    "Definition": "specification whether the product is equipped with cable length measurement",
+                    "Reason": "The given annotation provides a specific definition of cable length and does not contradict the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "ABF091001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Length of the connecting cable",
+                "Definition": "Cable length for data and energy transfer measured with connector",
+                "SemanticIdentifier": "AAB766006"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Length of the connecting cable",
+                "Definition": "Cable length for data and energy transfer measured with connector",
+                "SemanticIdentifier": null
+            },
+            "Unit": "m",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the appropriate length of the connecting cable for data and energy transfer in a specific engineering task."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Cable characteristic",
+            "Definition": "The characteristic of the cable, such as its suitability for energy chains.",
+            "Value": "Suitable for energy chains",
+            "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Length of the connecting cable",
+                    "Definition": "Cable length for data and energy transfer measured with connector",
+                    "Reason": "Not relevant, as it only refers to the length of the cable and not its characteristic.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB766006"
+                },
+                {
+                    "Name": "Cable length",
+                    "Definition": "Length of a cable for data or energy transmission, measured without connector",
+                    "Reason": "Not relevant, as it only refers to the length of the cable and not its characteristic.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB733008"
+                },
+                {
+                    "Name": "cable type",
+                    "Definition": "describes the identifier of the conduct",
+                    "Reason": "Not relevant, as it only refers to the type of cable and not its characteristic.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK438002"
+                },
+                {
+                    "Name": "Length of cable",
+                    "Definition": "possible cable length for data and energy transfer measured with connector",
+                    "Reason": "Not relevant, as it only refers to the length of the cable and not its characteristic.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW327002"
+                },
+                {
+                    "Name": "Type of performance of data cable",
+                    "Definition": "Design and arrangement of conductors of a data cable",
+                    "Reason": "Not relevant, as it only refers to the performance of the cable and not its characteristic.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO731001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Cable characteristic",
+                "Definition": "The characteristic of the cable, such as its suitability for energy chains.",
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "Cable characteristic",
+                "Definition": "The characteristic of the cable, such as its suitability for energy chains.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the suitability of the cable for use in energy chains."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Connector cable test conditions",
+            "Definition": "The test conditions for the connector cable, which can be requested.",
+            "Value": "Test conditions on request",
+            "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Test connector, 28 way (RMLB-S28) present",
+                    "Definition": "Design, construction or function Assigned as more precise: electrical component, for the purpose of checking / determining the operability of (electrical) cables to a device (Note: electrical component which, on the physical level, provides a releasable connection between two lines and which generally has only a few contacts and is designed for rapid connection and disconnection (Note: Modular housing test component with 28 contacts for protective devices from Reyrolle |)",
+                    "Reason": "Not relevant as it is specific to a certain brand and product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW968001"
+                },
+                {
+                    "Name": "Test connector, 14 way (RMLB-S14) present",
+                    "Definition": "Design, construction or function Assigned as more precise: electrical component, for the purpose of checking / determining the operability of (electrical) cables to a device (Note: electrical component which, on the physical level, provides a re-releasable connection between two lines and which generally has only a few contacts and is designed for fast connection and disconnection (Note: Modular housing test component with 14 contacts for Reyrolle guards)",
+                    "Reason": "Not relevant as it is specific to a certain brand and product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW967001"
+                },
+                {
+                    "Name": "connector suitable for",
+                    "Definition": "indication for a connection whether it fulfills the intended use",
+                    "Reason": "Not relevant as it is too general and does not provide specific information about the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABD851001"
+                },
+                {
+                    "Name": "Test connector (plug, 2RMLB-S1, 2RMLB-S7, 2RMLB-S8, 2RMLB-S9) vorhanden",
+                    "Definition": "Design, construction or function Assigned as more precise: electrical component, for the purpose of checking / determining the operability of (electrical) cables to a device (Note: electrical component which implements on the physical level a disconnectable connection between two lines and which usually has only a few contacts and is designed for rapid connection and disconnection |) / designation of the additional devices as a multi-contact test plug with connection cables For protective devices from Reyrolle",
+                    "Reason": "Not relevant as it is specific to a certain brand and product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW964001"
+                },
+                {
+                    "Name": "cable symmetry testing for two wire connections a-b-E present",
+                    "Definition": "specification whether the product is equipped with cable symmetry testing for two wire connections a-b-E",
+                    "Reason": "Not relevant as it does not provide specific information about the data feature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABF092001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Test connector (plug, 2RMLB-S1, 2RMLB-S7, 2RMLB-S8, 2RMLB-S9) vorhanden",
+                "Definition": "Design, construction or function Assigned as more precise: electrical component, for the purpose of checking / determining the operability of (electrical) cables to a device (Note: electrical component which implements on the physical level a disconnectable connection between two lines and which usually has only a few contacts and is designed for rapid connection and disconnection |) / designation of the additional devices as a multi-contact test plug with connection cables For protective devices from Reyrolle",
+                "SemanticIdentifier": "AAW964001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Test connector (plug, 2RMLB-S1, 2RMLB-S7, 2RMLB-S8, 2RMLB-S9) present",
+                "Definition": "Design, construction or function Assigned as more precise: electrical component, for the purpose of checking / determining the operability of (electrical) cables to a device (Note: electrical component which implements on the physical level a disconnectable connection between two lines and which usually has only a few contacts and is designed for rapid connection and disconnection |) / designation of the additional devices as a multi-contact test plug with connection cables.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used for checking the operability of electrical cables in a device."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Bending radius, fixed cable installation",
+            "Definition": "The minimum bending radius for the cable when it is installed in a fixed position.",
+            "Value": "\u226520 mm",
+            "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "min. permitted bending radius (stationary application/permanent installation)",
+                    "Definition": "minimum limit value for the bending radius of a cable or wire for stationary application/permanent installation",
+                    "Reason": "The annotation is relevant as it provides the minimum bending radius for a fixed cable installation.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "ABE796001"
+                },
+                {
+                    "Name": "min. permitted bending radius (moving application/free movement)",
+                    "Definition": "minimum limit value for the bending radius of a cable or wire for moving application/free movement",
+                    "Reason": "The annotation is not relevant as it does not specify if it is for a fixed or moving cable installation.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABE795001"
+                },
+                {
+                    "Name": "min. permitted bending radius (moving application with forced guidance)",
+                    "Definition": "minimum limit value for the bending radius of a cable or wire for moving application with forced guidance",
+                    "Reason": "The annotation is not relevant as it does not specify if it is for a fixed or moving cable installation.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABE794001"
+                },
+                {
+                    "Name": "min. bending radius (horizontal)",
+                    "Definition": "lowest value of the radius located at the inner surface of the bent component after the bending in the horizontal level of the coordinate system",
+                    "Reason": "The annotation is not relevant as it does not specify if it is for a fixed or moving cable installation.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAH707004"
+                },
+                {
+                    "Name": "min. bending radius (vertical)",
+                    "Definition": "lowest value of the radius located at the inner surface of the bent component after the bending in the vertical level of the coordinate system",
+                    "Reason": "The annotation is not relevant as it does not specify if it is for a fixed or moving cable installation.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAH708004"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "min. permitted bending radius (stationary application/permanent installation)",
+                "Definition": "minimum limit value for the bending radius of a cable or wire for stationary application/permanent installation",
+                "SemanticIdentifier": "ABE796001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "min. permitted bending radius (stationary application/permanent installation)",
+                "Definition": "minimum limit value for the bending radius of a cable or wire for stationary application/permanent installation",
+                "SemanticIdentifier": null
+            },
+            "Unit": "mm",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the minimum bending radius for a fixed cable installation in a specific engineering task or application."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Degree of protection",
+            "Definition": "The level of protection against dust and water for the product.",
+            "Value": "IP65",
+            "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "degree of protection",
+                    "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and/or ingress of water and verified by standardized test methods, expressed as a IP rating",
+                    "Reason": "The annotation is relevant as it provides a clear definition of the degree of protection and its measurement method.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAG975013"
+                },
+                {
+                    "Name": "Degree of Protection",
+                    "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and against ingress of water",
+                    "Reason": "The annotation is not relevant as it does not mention the measurement method for the degree of protection.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAV695001"
+                },
+                {
+                    "Name": "degree of protection (IP) (UL1449)",
+                    "Definition": "Indicates the protection of the SPD against access to hazardous parts and ingress of solid particles and liquids",
+                    "Reason": "The annotation is not relevant as it is specific to a different type of product (SPD) and does not mention the measurement method for the degree of protection.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABD315001"
+                },
+                {
+                    "Name": "Degree of protection (IP) of the measuring head",
+                    "Definition": "Classification according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit for the component that is equipped with one or several emitters/transmitters and detectors/receivers and/or compensation sensors or facilities intended for measurement and correction of undesired magnitude influences",
+                    "Reason": "The annotation is not relevant as it is specific to a different type of product (measuring head) and does not mention the measurement method for the degree of protection.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAC107007"
+                },
+                {
+                    "Name": "Degree of protection (IP) of the evaluating electronics",
+                    "Definition": "Classification according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit for the electronic device that processes data and makes them useable",
+                    "Reason": "The annotation is not relevant as it is specific to a different type of product (evaluating electronics) and does not mention the measurement method for the degree of protection.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAC106007"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "degree of protection",
+                "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and/or ingress of water and verified by standardized test methods, expressed as a IP rating",
+                "SemanticIdentifier": "BAG975013"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Degree of protection (IP rating)",
+                "Definition": "The level of protection against dust and water for the product, measured using the IP rating system.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the level of protection against dust and water for the product, which is important for selecting the appropriate product for specific engineering tasks or applications."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "IP67",
+            "Definition": "The level of protection against dust and water for the product.",
+            "Value": "IP67",
+            "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Protection class (IP, rear side)",
+                    "Definition": "Numerical classification and designation system in accordance with International Electrotechnical Commission 60529 for the indication of degrees of protection, preceded by the symbol IP, for use in empty housings or housings of electrical equipment in order to protect persons against contact with live or moving parts (except smooth shafts or Similar parts) in the interior of the housing to ensure the protection of the (electrical) working medium against the penetration of solid foreign bodies or dust and, where specified by the classification, the protection of the electrical equipment against harmful ingress of vapors, moisture or water / Location specific: the return / return page",
+                    "Reason": "The annotation is not relevant as it does not specifically mention the IP67 rating and is too general.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW856001"
+                },
+                {
+                    "Name": "IP protection with water protection cover",
+                    "Definition": "extent of protection provided by a case with a water jacket from access to hazardous parts and penetration of solid debris and / or water confirmed by normalized test methods, given as IP rating",
+                    "Reason": "The annotation is not relevant as it does not specifically mention the IP67 rating and is too general.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAY994001"
+                },
+                {
+                    "Name": "degree of protection (IP) (UL1449)",
+                    "Definition": "Indicates the protection of the SPD against access to hazardous parts and ingress of solid particles and liquids",
+                    "Reason": "The annotation is not relevant as it does not specifically mention the IP67 rating and is too general.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABD315001"
+                },
+                {
+                    "Name": "IP protection class with connector",
+                    "Definition": "scope of protection that can be achieved with a fluidic device in combination with the connector recommended by the manufacturer with respect to the ingress of foreign bodies and water",
+                    "Reason": "The annotation is not relevant as it does not specifically mention the IP67 rating and is too general.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ971001"
+                },
+                {
+                    "Name": "IP protection class without connector",
+                    "Definition": "scope of protection that can be achieved with a fluidic device without connector with respect to the ingress of foreign bodies and water",
+                    "Reason": "The annotation is not relevant as it does not specifically mention the IP67 rating and is too general.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ972001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "IP protection class with connector",
+                "Definition": "scope of protection that can be achieved with a fluidic device in combination with the connector recommended by the manufacturer with respect to the ingress of foreign bodies and water",
+                "SemanticIdentifier": "AAZ971001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "IP protection class with connector",
+                "Definition": "The level of protection against dust and water for the product when used with the recommended connector.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the level of protection against dust and water for the product when used with the recommended connector."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "3",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": [
+                "Name"
+            ]
+        }
+    }
+]

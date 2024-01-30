@@ -1,0 +1,818 @@
+[
+    {
+        "DataFeature": {
+            "Name": "Product Type Designation",
+            "Definition": "The specific type or model of the product.",
+            "Value": "Control cable 5 x 0.25",
+            "SourceDescription": "This data feature is extracted from the product description section of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Product type",
+                    "Definition": "Additional information for describing products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                    "Reason": "The annotation is not relevant as it does not provide any additional information about the specific type or model of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO846001"
+                },
+                {
+                    "Name": "Product type of the form",
+                    "Definition": "Additional information for describing the form of products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                    "Reason": "The annotation is not relevant as it does not provide any additional information about the specific type or model of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO844001"
+                },
+                {
+                    "Name": "product-type designation",
+                    "Definition": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants",
+                    "Reason": "The annotation is relevant as it provides additional information about the specific type or model of the product.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAF542002"
+                },
+                {
+                    "Name": "Type description of the consumer product group",
+                    "Definition": "The specifying type description (type name, type code, abbreviated name, article number) for distinguishing by type and size or design (variant) of the used consumer product group",
+                    "Reason": "The annotation is not relevant as it does not provide any additional information about the specific type or model of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO964001"
+                },
+                {
+                    "Name": "Type description",
+                    "Definition": "The specifying designation (type name, type code, abbreviated name, article number) for distinguishing by type and size or design (variant) of the used product/material",
+                    "Reason": "The annotation is not relevant as it does not provide any additional information about the specific type or model of the product.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO945001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "product-type designation",
+                "Definition": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants",
+                "SemanticIdentifier": "AAF542002"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Product type designation",
+                "Definition": "The specific type or model of the product.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 3,
+            "Affordance": "This information can be used to identify and differentiate between different types or models of the product in a product family or for special variants."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "4",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Product Description",
+            "Definition": "A detailed description of the product.",
+            "Value": "Control cable, 5-core Power line, stranded wire, 5 x AWG24; Delivery unit: max. 1000 m, minimum order quantity 20 m sold by the meter",
+            "SourceDescription": "This data feature is extracted from the product description section of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Manufacturer product description",
+                    "Definition": "Description of the product, it's technical features and implementation if needed (long text)",
+                    "Reason": "Not relevant as it is a general information and does not provide any technical details.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAU734001"
+                },
+                {
+                    "Name": "Supplier product description",
+                    "Definition": "Description of the product, it's technical features and implementation if needed (long text)",
+                    "Reason": "Not relevant as it is a general information and does not provide any technical details.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAU730001"
+                },
+                {
+                    "Name": "Manufacturer product background description",
+                    "Definition": "description of the product with additional information about the product",
+                    "Reason": "Not relevant as it is a general information and does not provide any technical details.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAU498001"
+                },
+                {
+                    "Name": "Manufacturer product marketing description",
+                    "Definition": "description of the product to point out product highlights from the manufacturer perspective",
+                    "Reason": "Not relevant as it is a general information and does not provide any technical details.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAU500001"
+                },
+                {
+                    "Name": "Long description of the product",
+                    "Definition": "marketing text to describe product in detail",
+                    "Reason": "Not relevant as it is a general information and does not provide any technical details.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAE213004"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Long description of the product",
+                "Definition": "marketing text to describe product in detail",
+                "SemanticIdentifier": "AAE213004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Product Description",
+                "Definition": "A detailed description of the product.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "This information can be used to understand the detailed description of the product and its features for potential buyers or users."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Cable Designation",
+            "Definition": "The specific designation or code for the cable.",
+            "Value": "LIHH11Y 5X1X0.25 SW",
+            "SourceDescription": "This data feature is extracted from the cable designation section of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "cable type",
+                    "Definition": "describes the identifier of the conduct",
+                    "Reason": "The annotation is not relevant as it does not provide any information about the specific designation or code for the cable.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK438002"
+                },
+                {
+                    "Name": "Product type description of the cable",
+                    "Definition": "A sequence of character formed according to specific rules used for coding the product type description of the cable",
+                    "Reason": "The annotation is not relevant as it does not provide any information about the specific designation or code for the cable.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO848002"
+                },
+                {
+                    "Name": "cable type",
+                    "Definition": "describes the kind of cable type",
+                    "Reason": "The annotation is not relevant as it does not provide any information about the specific designation or code for the cable.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK322005"
+                },
+                {
+                    "Name": "Type description of the dictating cassette",
+                    "Definition": "The specifying designation (type name, type code, abbreviated name, article number) for distinguishing by type and size or design (variant) of the used dictation cassette",
+                    "Reason": "The annotation is not relevant as it does not provide any information about the specific designation or code for the cable.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO947001"
+                },
+                {
+                    "Name": "Design of decoration",
+                    "Definition": "The specified designation (type name, type code, abbreviated name, article number) for distinguishing by type and size or variant of the decoration applied to the product",
+                    "Reason": "The annotation is not relevant as it does not provide any information about the specific designation or code for the cable.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAG247002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "cable designation",
+                "Definition": "The specific designation or code for the cable.",
+                "SemanticIdentifier": "LIHH11Y 5X1X0.25 SW"
+            },
+            "GeneratedAnnotation": {
+                "Name": "cable designation",
+                "Definition": "The specific designation or code for the cable.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to identify and distinguish the specific cable type and its characteristics in engineering tasks such as selecting the appropriate cable for a specific application or troubleshooting issues with the cable."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Operating Voltage",
+            "Definition": "The maximum voltage that the cable can safely operate at.",
+            "Value": "300 V",
+            "SourceDescription": "This data feature is extracted from the operating voltage / RMS value section of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Operating voltage",
+                    "Definition": "voltage which, together with the rated operating current, determines the use of the device and to which the various tests and the use categories refer. With single pole devices the rated rated operating voltage is generally the voltage over the pole. With multi-pole devices it is generally given as chained voltage",
+                    "Reason": "The given annotation is not relevant as it does not provide a clear and specific definition of the operating voltage.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAB415008"
+                },
+                {
+                    "Name": "Max. operating voltage",
+                    "Definition": "The maximum voltage, that can be applied to operating unit under consideration of the conditions of use and which relates to the different product-specific tests (i.e. insulation, switching capacity)",
+                    "Reason": "The given annotation is not relevant as it does not provide a clear and specific definition of the maximum operating voltage.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAC966007"
+                },
+                {
+                    "Name": "max. permissible voltage at input",
+                    "Definition": "Maximum voltage available at the output of an operating unit under consideration of the conditions of use that must never be exceeded to prevent personal injury and damage to property",
+                    "Reason": "The given annotation is not relevant as it does not provide a clear and specific definition of the maximum permissible voltage at input.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB915007"
+                },
+                {
+                    "Name": "Max. control voltage 1",
+                    "Definition": "Maximum voltage 1 at the input connections of a switching device's control circuit. It can deviate from the operating voltage because of transformers or resistances in the control circuit",
+                    "Reason": "The given annotation is not relevant as it does not provide a clear and specific definition of the maximum control voltage 1.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAC693007"
+                },
+                {
+                    "Name": "voltage type of operating voltage",
+                    "Definition": "certain form of voltage that indicates whether the equipment can be controled by AC voltage, DC voltage, AC / DC or modulated DC voltage",
+                    "Reason": "The given annotation is not relevant as it does not provide a clear and specific definition of the voltage type of operating voltage.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF842003"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Operating voltage",
+                "Definition": "voltage which, together with the rated operating current, determines the use of the device and to which the various tests and the use categories refer. With single pole devices the rated rated operating voltage is generally the voltage over the pole. With multi-pole devices it is generally given as chained voltage",
+                "SemanticIdentifier": "BAB415008"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Operating voltage",
+                "Definition": "The voltage at which the cable is designed to operate safely.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "V",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the safe operating voltage for the cable in various applications and contexts."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "4",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Conductor Cross Section",
+            "Definition": "The cross-sectional area of the conductor in the power line.",
+            "Value": "0.4 mm\u00b2",
+            "SourceDescription": "This data feature is extracted from the conductor cross section / of the power line section of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Max. line cross section of main cable",
+                    "Definition": "for a line of the main cable, the maximum of the cross sectional areas of its conductive elements which are usable for current flow",
+                    "Reason": "Not relevant as it refers to the maximum cross section of the entire cable, not just the conductor.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAC675007"
+                },
+                {
+                    "Name": "Max. cross section of line",
+                    "Definition": "For a line, the maximum of the cross sectional areas of its conductive elements which are usable for current flow",
+                    "Reason": "Not relevant as it refers to the maximum cross section of the entire cable, not just the conductor.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAC673006"
+                },
+                {
+                    "Name": "Min. cross section of line",
+                    "Definition": "for a line, the minimum of the cross sectional areas of its conductive elements which are usable for current flow",
+                    "Reason": "Not relevant as it refers to the minimum cross section of the entire cable, not just the conductor.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAC736006"
+                },
+                {
+                    "Name": "Conductor cross-section of the preassembled line",
+                    "Definition": "The cross-section area of conductive elements of the series line useable for current flow",
+                    "Reason": "Not relevant as it refers to the cross section of a preassembled line, not just the conductor.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB206006"
+                },
+                {
+                    "Name": "Min. line cross section of main cable",
+                    "Definition": "for a line of the main cable, the minimum of the cross sectional areas of its conductive elements which are usable for current flow",
+                    "Reason": "Not relevant as it refers to the minimum cross section of the entire cable, not just the conductor.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAC738007"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Conductor cross-section of the preassembled line",
+                "Definition": "The cross-section area of conductive elements of the series line useable for current flow",
+                "SemanticIdentifier": "AAB206006"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Conductor cross-section of the power line",
+                "Definition": "The cross-sectional area of the conductor in the power line.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "mm\u00b2",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the maximum current flow capacity of the power line in various engineering tasks."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "4",
+            "overall": "5",
+            "definition": "4",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Continuous Current",
+            "Definition": "The maximum continuous current that the power line can safely carry.",
+            "Value": "2.5 A",
+            "SourceDescription": "This data feature is extracted from the continuous current / of the power lines section of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "max. continuous current",
+                    "Definition": "current which a switching device in permanent operation can carry continuously for the indicated service life",
+                    "Reason": "The given annotation is not relevant as it refers to a switching device, while the data feature is about the power line itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF853003"
+                },
+                {
+                    "Name": "Rated value of continuous current",
+                    "Definition": "The current which a switching device can conduct uninterrupted in continuous operation over the indicated time period of operation",
+                    "Reason": "The given annotation is not relevant as it refers to a switching device, while the data feature is about the power line itself.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAB295006"
+                },
+                {
+                    "Name": "Max. starting current",
+                    "Definition": "Maximum effective value of continuous current drawn from the mains network at rated voltage and rated frequency during startup from rotation speed zero to rotation speed under burden",
+                    "Reason": "The given annotation is not relevant as it refers to a starting current, while the data feature is about the maximum continuous current.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE105005"
+                },
+                {
+                    "Name": "max. switching current (cos phi = 0.6)",
+                    "Definition": "maximum value of a current designed for an electrical operating medium and which it can switch on, continuously maintain and interrupt under the defined conditions",
+                    "Reason": "The given annotation is not relevant as it refers to a switching current, while the data feature is about the maximum continuous current.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF823003"
+                },
+                {
+                    "Name": "max. current in DC Link",
+                    "Definition": "value of the current, resulting from measurements which were determined under specified conditions and rules as defined by the manufacturer",
+                    "Reason": "The given annotation is not relevant as it refers to a current in a DC link, while the data feature is about the maximum continuous current.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAU437002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "continuous current",
+                "Definition": "The maximum continuous current that the power line can safely carry.",
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "maximum continuous current",
+                "Definition": "The maximum continuous current that the power line can safely carry.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "A",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This data feature can be used to determine the maximum continuous current that the power line can safely carry in various engineering tasks, such as designing electrical systems or selecting appropriate power lines for specific applications."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "4",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Number of Electrical Cores",
+            "Definition": "The number of electrical cores or wires in the cable.",
+            "Value": "5",
+            "SourceDescription": "This data feature is extracted from the number of electrical cores section of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "number of cores of single core cable",
+                    "Definition": "quantitative information to the amount of available cores of single core cable",
+                    "Reason": "Not relevant as it refers to single core cable, while the data feature is for a 5-core cable.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABE892001"
+                },
+                {
+                    "Name": "number of cores wiring",
+                    "Definition": "quantitative specification of the number of cores wiring",
+                    "Reason": "Not relevant as it does not specify the type of cable.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAI377001"
+                },
+                {
+                    "Name": "number of cores of telecommunications cable",
+                    "Definition": "quantitative information to the amount of available cores of telecommunications cable",
+                    "Reason": "Not relevant as it refers to telecommunications cable, while the data feature is for a power line cable.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABE893001"
+                },
+                {
+                    "Name": "number of cores low voltage power cable",
+                    "Definition": "quantitative information to the amount of available cores of low voltage power cable",
+                    "Reason": "Not relevant as it refers to low voltage power cable, while the data feature is for a power line cable.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABE891001"
+                },
+                {
+                    "Name": "number of CPU cores",
+                    "Definition": "quantitative information about the amount of the cores of a processor",
+                    "Reason": "Not relevant as it refers to a processor, while the data feature is for a power line cable.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAR410001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "number of electrical cores",
+                "Definition": "quantitative information about the number of electrical cores in a cable",
+                "SemanticIdentifier": "AAR410001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "number of electrical cores",
+                "Definition": "quantitative information about the number of electrical cores in a cable",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the number of electrical cores in a power line cable, which is critical in understanding its technical specifications and potential applications."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "AWG Number",
+            "Definition": "The American Wire Gauge (AWG) number of the conductor in the power line.",
+            "Value": "24",
+            "SourceDescription": "This data feature is extracted from the AWG number section of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "nominal diameter of the auxiliary conductor (AWG)",
+                    "Definition": "size of the nominal cross section surface of auxiliary conductor indicated by the American Wire Gauge System. American Wire Gauge, abbreviated AWG, is a coding for wire diameters and is mainly used in North America. It identifies electrical lines made of stranded wire and solid wire and is mainly used in electrical engineering to describe the cross-section of wires",
+                    "Reason": "Not relevant as it refers to the auxiliary conductor, not the main conductor.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABE849001"
+                },
+                {
+                    "Name": "AWG size of main conductors",
+                    "Definition": "size of the cross section surface of main conductor indicated by the American Wire Gauge System. American Wire Gauge, abbreviated AWG, is a coding for wire diameters and is mainly used in North America. It identifies electrical lines made of stranded wire and solid wire and is mainly used in electrical engineering to describe the cross-section of wires",
+                    "Reason": "Not relevant as it refers to the main conductors, not the specific AWG number of the conductor in the power line.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABE113001"
+                },
+                {
+                    "Name": "min. AWG number",
+                    "Definition": "minimum value of the AWG area. AWG is the American Wire Gauge and a code for the diameter of a wire, it us used in North America and defines electric mains out of braids and massive wire for specification of the diameter of conductors. This is an electrical engineering term",
+                    "Reason": "Not relevant as it refers to the minimum value of the AWG area, not the specific AWG number of the conductor in the power line.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAG301002"
+                },
+                {
+                    "Name": "nominal cross section main conductors (AWG)",
+                    "Definition": "size of the nominal cross section surface of main conductor indicated by the American Wire Gauge System. American Wire Gauge, abbreviated AWG, is a coding for wire diameters and is mainly used in North America. It identifies electrical lines made of stranded wire and solid wire and is mainly used in electrical engineering to describe the cross-section of wires",
+                    "Reason": "Not relevant as it refers to the nominal cross section of the main conductors, not the specific AWG number of the conductor in the power line.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABE989001"
+                },
+                {
+                    "Name": "max. AWG number",
+                    "Definition": "maximum value of the AWG area. AWG is the American Wire Gauge and a code for the diameter of a wire, it us used in North America and defines electric mains out of braids and massive wire for specification of the diameter of conductors",
+                    "Reason": "Relevant as it refers to the maximum value of the AWG area, which is the same as the specific AWG number of the conductor in the power line.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAG300002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "max. AWG number",
+                "Definition": "maximum value of the AWG area. AWG is the American Wire Gauge and a code for the diameter of a wire, it us used in North America and defines electric mains out of braids and massive wire for specification of the diameter of conductors",
+                "SemanticIdentifier": "AAG300002"
+            },
+            "GeneratedAnnotation": {
+                "Name": "AWG Number",
+                "Definition": "The American Wire Gauge (AWG) number of the conductor in the power line.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in electrical engineering to determine the diameter of the conductor in the power line for specific applications or tasks."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Conductor Class",
+            "Definition": "The class or grade of the conductor in the power line.",
+            "Value": "6",
+            "SourceDescription": "This data feature is extracted from the conductor class section of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Class of conductor",
+                    "Definition": "Standardized classification for the construction of a conductor",
+                    "Reason": "The annotation is relevant as it provides information about the class of the conductor, which is the same as the data feature extracted from the text.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAE005005"
+                },
+                {
+                    "Name": "Conductor cross-section of the preassembled line",
+                    "Definition": "The cross-section area of conductive elements of the series line useable for current flow",
+                    "Reason": "The annotation is not relevant as it provides information about the cross-section of the preassembled line, which is different from the data feature extracted from the text.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB206006"
+                },
+                {
+                    "Name": "cable type",
+                    "Definition": "describes the identifier of the conduct",
+                    "Reason": "The annotation is not relevant as it provides information about the cable type, which is different from the data feature extracted from the text.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK438002"
+                },
+                {
+                    "Name": "Class of internal conductor",
+                    "Definition": "Standardized classification for the construction of an interior conductor",
+                    "Reason": "The annotation is not relevant as it provides information about the class of the internal conductor, which is different from the data feature extracted from the text.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE004005"
+                },
+                {
+                    "Name": "Design of the line",
+                    "Definition": "Variant and/or function of a thin conductive solid (e.g. wire, flexible lead) to conduct electrical current for the intended use",
+                    "Reason": "The annotation is not relevant as it provides information about the design of the line, which is different from the data feature extracted from the text.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB397006"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Class of conductor",
+                "Definition": "Standardized classification for the construction of a conductor",
+                "SemanticIdentifier": "BAE005005"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Class of conductor",
+                "Definition": "Standardized classification for the construction of a conductor",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the quality and performance of the conductor in the power line for specific engineering tasks."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "5",
+            "overall": "5",
+            "definition": "4",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Marking of Cores",
+            "Definition": "The color or labeling of the cores in the cable.",
+            "Value": "Color",
+            "SourceDescription": "This data feature is extracted from the marking / of cores section of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Marking for main conductors",
+                    "Definition": "Marking of the main conductors of electric cables and lines through colors and/or printing and/or form elements (possibly as in DIN VDE 0293).",
+                    "Reason": "Not relevant as it refers to the main conductors, not the cores.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAD\u00a0962007,00"
+                },
+                {
+                    "Name": "Marking of conductors",
+                    "Definition": "Marking of the conductors of electric cables and lines through colors or writing as in DIN VDE 0293.",
+                    "Reason": "Relevant as it refers to the marking of the conductors, which includes the cores.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAB377007"
+                },
+                {
+                    "Name": "number of cores of single core cable",
+                    "Definition": "quantitative information to the amount of available cores of single core cable",
+                    "Reason": "Not relevant as it refers to single core cables, not multi-core cables.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABE892001"
+                },
+                {
+                    "Name": "number of cores wiring",
+                    "Definition": "quantitative specification of the number of cores wiring",
+                    "Reason": "Not relevant as it refers to wiring, not the cores themselves.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAI377001"
+                },
+                {
+                    "Name": "number of CPU cores",
+                    "Definition": "quantitative information about the amount of the cores of a processor",
+                    "Reason": "Not relevant as it refers to CPU cores, not cable cores.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAR410001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Marking of conductors",
+                "Definition": "Marking of the conductors of electric cables and lines through colors or writing as in DIN VDE 0293.",
+                "SemanticIdentifier": "BAB377007"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Marking of cores",
+                "Definition": "The color or labeling of the cores in the cable.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in the identification and labeling of the cores in the cable for proper installation and maintenance."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Tensile Load",
+            "Definition": "The maximum tensile load that the cable can withstand.",
+            "Value": "10 N",
+            "SourceDescription": "This data feature is extracted from the tensile load / maximum section of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "max. load",
+                    "Definition": "maximal electrical amperage for which the cable is manufactured",
+                    "Reason": "Not relevant as it refers to electrical amperage, not tensile load.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAJ848003"
+                },
+                {
+                    "Name": "max. tensile load",
+                    "Definition": "greatest tension, which can be compensated by the component",
+                    "Reason": "Relevant as it directly relates to the data feature of tensile load.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAI806002"
+                },
+                {
+                    "Name": "max. permissible cable outside temperature, when moving",
+                    "Definition": "under unfavorable operating conditions the highest permissible limit value (that must never be exceeded in order to prevent personal injury and damage to property) of the outer cable surface temperature that is transmitted to the surrounding atmosphere in which the cable is used in drag-chain vehicles, or is freely movable, e.g. floor-level transport trucks",
+                    "Reason": "Not relevant as it refers to temperature, not tensile load.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB913008"
+                },
+                {
+                    "Name": "max. weight load",
+                    "Definition": "weight load, which is necessary to tear or rupture the cord",
+                    "Reason": "Not relevant as it refers to weight load, not tensile load.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAJ911002"
+                },
+                {
+                    "Name": "max. permissible cable outside temperature, fixed laid",
+                    "Definition": "under unfavorable operating conditions the highest permissible limit value (that must never be exceeded in order to prevent personal injury and damage to property) of the outer cable surface temperature that is transmitted to the surrounding atmosphere in which the cable is mounted or fastened to a specific location(s)",
+                    "Reason": "Not relevant as it refers to temperature, not tensile load.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB912008"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "max. tensile load",
+                "Definition": "greatest tension, which can be compensated by the component",
+                "SemanticIdentifier": "AAI806002"
+            },
+            "GeneratedAnnotation": {
+                "Name": "max. tensile load",
+                "Definition": "The maximum tension that the cable can withstand before breaking.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "N",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the maximum load that the cable can withstand in various engineering tasks, such as designing cable systems for specific applications or calculating the necessary strength for supporting structures."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Weight per Length",
+            "Definition": "The weight of the cable per unit length.",
+            "Value": "40 kg/km",
+            "SourceDescription": "This data feature is extracted from the weight per length section of the input text."
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Cable length",
+                    "Definition": "Length of a cable for data or energy transmission, measured without connector",
+                    "Reason": "The annotation is not relevant as it refers to the length of the cable, not the weight per length.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB733008"
+                },
+                {
+                    "Name": "width of the cable",
+                    "Definition": "value of the width of the line",
+                    "Reason": "The annotation is not relevant as it refers to the width of the cable, not the weight per length.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAI688004"
+                },
+                {
+                    "Name": "Length of the connecting cable",
+                    "Definition": "Cable length for data and energy transfer measured with connector",
+                    "Reason": "The annotation is not relevant as it refers to the length of the connecting cable, not the weight per length.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB766006"
+                },
+                {
+                    "Name": "cable length measurement present",
+                    "Definition": "specification whether the product is equipped with cable length measurement",
+                    "Reason": "The annotation is not relevant as it refers to the presence of cable length measurement, not the weight per length.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABF091001"
+                },
+                {
+                    "Name": "net weight per length unit",
+                    "Definition": "indication of the physical mass per defined unit of length of a product",
+                    "Reason": "The annotation is relevant as it refers to the weight per length of the cable.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAJ171004"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "net weight per length unit",
+                "Definition": "indication of the physical mass per defined unit of length of a product",
+                "SemanticIdentifier": "AAJ171004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Weight per Length",
+                "Definition": "The weight of the cable per unit length.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "kg/km",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to determine the weight of the cable per unit length, which is important for engineering tasks such as calculating the load capacity of the cable in different applications."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    }
+]

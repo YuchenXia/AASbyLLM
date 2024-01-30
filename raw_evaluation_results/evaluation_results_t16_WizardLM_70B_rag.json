@@ -1,0 +1,482 @@
+[
+    {
+        "DataFeature": {
+            "Name": "Connector_Type",
+            "Definition": "Type of connector",
+            "Value": "Male",
+            "SourceDescription": "Use"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Connector type",
+                    "Definition": "Constructive design of connector",
+                    "Reason": "It is relevant as it describes the type of connector.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAD\u00a022007,00"
+                },
+                {
+                    "Name": "cable type connector connection 2",
+                    "Definition": "describes the kind of cable type connector connection 2",
+                    "Reason": "It is not relevant as it does not directly describe the type of connector.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK170003"
+                },
+                {
+                    "Name": "Type of connector at device",
+                    "Definition": "type of plug connection of a cable which is used for device connection",
+                    "Reason": "It is relevant as it describes the type of connector used for device connection.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAA650004"
+                },
+                {
+                    "Name": "type of connection (1)",
+                    "Definition": "description of type connection 1",
+                    "Reason": "It is not relevant as it does not directly describe the type of connector.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK163005"
+                },
+                {
+                    "Name": "type of connection (2)",
+                    "Definition": "description of type connection 2",
+                    "Reason": "It is not relevant as it does not directly describe the type of connector.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK164005"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Type of connector at device",
+                "Definition": "type of plug connection of a cable which is used for device connection",
+                "SemanticIdentifier": "AAA650004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Connector Type",
+                "Definition": "Type of connector",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "Identifying the type of connector can help in selecting the appropriate cable and device for a specific application."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Connection_Type",
+            "Definition": "Type of connection",
+            "Value": "straight",
+            "SourceDescription": "Version"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "connection code type machine side",
+                    "Definition": "identifier for the main type of a connection on the machine side",
+                    "Reason": "The annotation is relevant as it describes the type of connection on the machine side, which is applicable to the data feature 'straight'",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAA763008"
+                },
+                {
+                    "Name": "type of connection (1)",
+                    "Definition": "description of type connection 1",
+                    "Reason": "The annotation is not relevant as it does not specifically describe the connection type 'straight'",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK163005"
+                },
+                {
+                    "Name": "type of connection (2)",
+                    "Definition": "description of type connection 2",
+                    "Reason": "The annotation is not relevant as it does not specifically describe the connection type 'straight'",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAK164005"
+                },
+                {
+                    "Name": "Installation side connection model",
+                    "Definition": "description of type connection",
+                    "Reason": "The annotation is relevant as it describes the type of connection, which is applicable to the data feature 'straight'",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAT107001"
+                },
+                {
+                    "Name": "type of connection thread",
+                    "Definition": "Version and construction of the thread",
+                    "Reason": "The annotation is not relevant as it describes the thread type, not the connection type 'straight'",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAS481004"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "connection code type machine side",
+                "Definition": "identifier for the main type of a connection on the machine side",
+                "SemanticIdentifier": "BAA763008"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Connection Type",
+                "Definition": "Type of connection",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 2,
+            "Affordance": "The information can be used to identify the type of connection used in the product, which can be helpful in determining compatibility with other components or systems."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "1",
+            "overall": "1",
+            "definition": "1",
+            "affordance": "1",
+            "isInaccurate": [
+                "Name",
+                "GeneratedDefinition",
+                "Affordance"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Operating_Current_Per_Contact",
+            "Definition": "Maximum operating current per contact",
+            "Value": "max. 4 A",
+            "SourceDescription": "Operating current per contact"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "max. operating current",
+                    "Definition": "maximum value stipulated by the manufacturer of current that is or must be present when operating the system or system components",
+                    "Reason": "The annotation is relevant because it describes the maximum operating current, which is related to the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "ABE741001"
+                },
+                {
+                    "Name": "suitable for max. current main contact unit",
+                    "Definition": "specification about the maximum current of main contact unit, for which the product is suitable",
+                    "Reason": "The annotation is not relevant because it is about the suitability of the product for a specific current, not the maximum operating current.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABE999001"
+                },
+                {
+                    "Name": "max. switching current (cos phi = 0.6)",
+                    "Definition": "maximum value of a current designed for an electrical operating medium and which it can switch on, continuously maintain and interrupt under the defined conditions",
+                    "Reason": "The annotation is relevant because it describes the maximum switching current, which is related to the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAF823003"
+                },
+                {
+                    "Name": "max. switching power (control contacts)",
+                    "Definition": "maximum power which may exist for the control contacts to function",
+                    "Reason": "The annotation is not relevant because it is about the maximum switching power, not the maximum operating current.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAF855002"
+                },
+                {
+                    "Name": "max. input current per DC input",
+                    "Definition": "current, which is supplied at the connection and accepted by an operating resource, upper limit value of each single direct voltage input",
+                    "Reason": "The annotation is not relevant because it is about the maximum input current, not the maximum operating current.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAS562002"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "max. operating current",
+                "Definition": "maximum value stipulated by the manufacturer of current that is or must be present when operating the system or system components",
+                "SemanticIdentifier": "ABE741001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "max. operating current",
+                "Definition": "Maximum operating current per contact",
+                "SemanticIdentifier": null
+            },
+            "Unit": "A",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The information can be used to determine the maximum current that a system or system components can handle during operation."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "4",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Operating_Voltage",
+            "Definition": "Maximum operating voltage",
+            "Value": "max. 32 V AC/DC",
+            "SourceDescription": "Operating voltage"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Max. operating voltage",
+                    "Definition": "The maximum voltage, that can be applied to operating unit under consideration of the conditions of use and which relates to the different product-specific tests (i.e. insulation, switching capacity)",
+                    "Reason": "This annotation is relevant because it describes the maximum voltage that can be applied to the operating unit, which is directly related to the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAC966007"
+                },
+                {
+                    "Name": "Operating voltage in Ex- Range",
+                    "Definition": "Value of operating voltage in Ex- Range",
+                    "Reason": "This annotation is not relevant because the data feature is about the maximum operating voltage, not the voltage in an Ex-Range.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE488005"
+                },
+                {
+                    "Name": "Operating voltage",
+                    "Definition": "voltage which, together with the rated operating current, determines the use of the device and to which the various tests and the use categories refer. With single pole devices the rated rated operating voltage is generally the voltage over the pole. With multi-pole devices it is generally given as chained voltage",
+                    "Reason": "This annotation is relevant because it describes the operating voltage of the device, which is directly related to the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAB415008"
+                },
+                {
+                    "Name": "Output voltage",
+                    "Definition": "Voltage available at the output of an operating unit",
+                    "Reason": "This annotation is not relevant because the data feature is about the maximum operating voltage, not the output voltage.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB427007"
+                },
+                {
+                    "Name": "Operating voltage in secure range",
+                    "Definition": "Value of operating voltage in secure range",
+                    "Reason": "This annotation is not relevant because the data feature is about the maximum operating voltage, not the operating voltage in a secure range.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE489004"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Max. operating voltage",
+                "Definition": "The maximum voltage, that can be applied to operating unit under consideration of the conditions of use and which relates to the different product-specific tests (i.e. insulation, switching capacity)",
+                "SemanticIdentifier": "AAC966007"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Maximum Operating Voltage",
+                "Definition": "The highest voltage that can be safely applied to the device during operation, considering the conditions of use and product-specific tests.",
+                "SemanticIdentifier": null
+            },
+            "Unit": "V",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in determining the safe operating conditions of the device, ensuring it is not over-voltaged which could lead to damage or failure."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Connection_Cross_Section",
+            "Definition": "Cross-section of connection",
+            "Value": "0.14 ... 0.34 mm2",
+            "SourceDescription": "Connection cross-section"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Connection cross section",
+                    "Definition": "Maximal cross section of a lead (including processed conductor ends) which can be connected",
+                    "Reason": "The annotation is relevant as it describes the cross-section of a lead that can be connected, which is applicable to the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAB401005"
+                },
+                {
+                    "Name": "connection cross section",
+                    "Definition": "surface area of the section which is dissected at a cut through the connection orthogonally to its longitudinal axis",
+                    "Reason": "The annotation is relevant as it describes the cross-section of a connection, which is applicable to the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAH628003"
+                },
+                {
+                    "Name": "connection cross section (solid-core)",
+                    "Definition": "surface of the connection cross section for leaders of the class 1 to norm",
+                    "Reason": "The annotation is relevant as it describes the cross-section of a connection for a specific class of leaders, which is applicable to the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAI159003"
+                },
+                {
+                    "Name": "min. connectable conductor cross-section",
+                    "Definition": "Min. permissible value of connector cross-section for the fastening element for description, designation or identification of a component",
+                    "Reason": "The annotation is relevant as it describes the minimum cross-section of a connector for a specific purpose, which is applicable to the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAB935006"
+                },
+                {
+                    "Name": "connection cross section (fine-strand)",
+                    "Definition": "surface of the connection cross section for leaders of the class 5 to norm",
+                    "Reason": "The annotation is relevant as it describes the cross-section of a connection for a specific class of leaders, which is applicable to the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAI160003"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Connection cross section",
+                "Definition": "Maximal cross section of a lead (including processed conductor ends) which can be connected",
+                "SemanticIdentifier": "BAB401005"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Connection Cross-Section",
+                "Definition": "Cross-section of connection",
+                "SemanticIdentifier": null
+            },
+            "Unit": "mm2",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The information can be used in engineering tasks related to electrical connections, such as determining the appropriate connector size, designing circuits, and ensuring compatibility between components."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "3",
+            "overall": "4",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "Ambient_Temperature",
+            "Definition": "Range of ambient temperature",
+            "Value": " -25\u00b0C to +85\u00b0C",
+            "SourceDescription": "Ambient temperature"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Ambient temperature",
+                    "Definition": "Temperature in the outer area of the operating medium",
+                    "Reason": "It is a general description of the temperature range in the operating environment.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAE540004"
+                },
+                {
+                    "Name": "ambient temperature",
+                    "Definition": "temperature of the surrounding operating environment of a component or system",
+                    "Reason": "It is a general description of the temperature range in the operating environment.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAZ842001"
+                },
+                {
+                    "Name": "actual ambient temperature",
+                    "Definition": "temperature of the surrounding operating environment of a component or system, determined at the time under consideration",
+                    "Reason": "It is a specific description of the temperature at a particular time in the operating environment.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC747001"
+                },
+                {
+                    "Name": "set ambient temperature",
+                    "Definition": "given temperature of the surrounding operating environment of a component or system",
+                    "Reason": "It is a specific description of a set temperature in the operating environment.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC751001"
+                },
+                {
+                    "Name": "actual maximum ambient temperature",
+                    "Definition": "maximum determined temperature of the surrounding operating environment of a component or system in a defined time interval",
+                    "Reason": "It is a specific description of the maximum temperature in a defined time interval in the operating environment.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC750001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Ambient temperature",
+                "Definition": "Temperature in the outer area of the operating medium",
+                "SemanticIdentifier": "BAE540004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Operating Temperature Range",
+                "Definition": "The range of temperatures within which the product can operate effectively",
+                "SemanticIdentifier": null
+            },
+            "Unit": "\u00b0C",
+            "ClassifyingScore_GeneralOrTechnical": 2,
+            "Affordance": "This information can be used to ensure the product is used within its specified temperature range, preventing damage or malfunction."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "5",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "IP_Rating",
+            "Definition": "IP rating",
+            "Value": "IP67 (inserted and locked)",
+            "SourceDescription": "IP rating"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Rating software",
+                    "Definition": "Program for establishing the required rating parameters of specified states of an object, machine or device",
+                    "Reason": "Not relevant to the IP rating of a connector",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAE955002"
+                },
+                {
+                    "Name": "Internet protocol address",
+                    "Definition": "addresses of the currently used IP comprise four bytes (integers between 0 and 255) which must be separated by periods. These integers identify the network and subnetworks as well as the computer itself. The IP addresses are generally only used internally. On the user interface, names in clear text are generally used instead. The assignment of names to addresses is carried out by a DNS. IP addresses for participation in the internet are assigned by the NIC's because they must be unique worldwide. The assignment takes place in certain network classes depending on the size of the company. The interpretation of the IP address is determined by network masks. Not all addresses (i.e. not all combinations of four integers 0-255) may be used. Many are reserved for special functions. Since with the boom in the use of the internet the number of available IP addresses will become insufficient, new IP protocols (IPv6) are under development. These use addresses with 16 bytes",
+                    "Reason": "Not relevant to the IP rating of a connector",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO695002"
+                },
+                {
+                    "Name": "nominal rating",
+                    "Definition": "alphanumeric designation of a pressure allowable within a piping system or piece of equipment, which is used for reference purposes",
+                    "Reason": "Not relevant to the IP rating of a connector",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO332005"
+                },
+                {
+                    "Name": "Rated power",
+                    "Definition": "value stipulated by the manufacturer for the electrical power for which the operating unit has been designed with due consideration of the specified ambient and operating condition",
+                    "Reason": "Not relevant to the IP rating of a connector",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAC970007"
+                },
+                {
+                    "Name": "Rated ambient temperature without de-rating",
+                    "Definition": "The value stipulated by the manufacturer for the temperature surrounding the operating unit established under defined conditions without consideration of the relationship between the current, the thereby induced temperature increase (power loss at the transfer resistor) and the ambient temperature",
+                    "Reason": "Not relevant to the IP rating of a connector",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB502006"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "IP_Rating",
+                "Definition": "IP rating",
+                "SemanticIdentifier": null
+            },
+            "GeneratedAnnotation": {
+                "Name": "IP_Rating",
+                "Definition": "IP rating",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The IP rating of a connector is used to define the level of protection the connector provides against intrusion from foreign bodies (like hands and dust) into the enclosure, as well as protection against water."
+        },
+        "UserRating": {
+            "userConfused": "1",
+            "impKnowledge": "1",
+            "overall": "1",
+            "definition": "1",
+            "affordance": "5",
+            "isInaccurate": []
+        }
+    }
+]

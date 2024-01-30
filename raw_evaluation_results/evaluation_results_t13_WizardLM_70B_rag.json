@@ -1,0 +1,491 @@
+[
+    {
+        "DataFeature": {
+            "Name": "ProductName",
+            "Definition": "Name of the product",
+            "Value": "SIMATIC S7-1500",
+            "SourceDescription": "Product type designation"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "product-type designation",
+                    "Definition": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants",
+                    "Reason": "The annotation is relevant as it describes the product type designation which is a unique identifier for the product.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAF542002"
+                },
+                {
+                    "Name": "Manufacturer product designation",
+                    "Definition": "Short description of the product (short text)",
+                    "Reason": "The annotation is not relevant as it does not specifically describe the product type.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAW338001"
+                },
+                {
+                    "Name": "Product type",
+                    "Definition": "Additional information for describing products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                    "Reason": "The annotation is relevant as it describes the product type which is a unique identifier for the product.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAO846001"
+                },
+                {
+                    "Name": "Type description of the product group",
+                    "Definition": "The specifying type description (type name, type code, abbreviated name, article number) for distinguishing according to product group (variant) of the used bookstore product",
+                    "Reason": "The annotation is not relevant as it does not specifically describe the product type of the given text.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAO966001"
+                },
+                {
+                    "Name": "product type description of processor",
+                    "Definition": "name of the product family or variant",
+                    "Reason": "The annotation is relevant as it describes the product type of the given text.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAR557001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Product type",
+                "Definition": "Additional information for describing products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                "SemanticIdentifier": "AAO846001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Product Name",
+                "Definition": "Name of the product",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 1,
+            "Affordance": "Identifying the product for sales, inventory, and customer support purposes."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "3",
+            "definition": "5",
+            "affordance": "4",
+            "isInaccurate": [
+                "Name"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "DegreeOfProtection",
+            "Definition": "Protection rating of the product",
+            "Value": "IP20 acc. to IEC 60 529",
+            "SourceDescription": "Degree of protection"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Index of protection class",
+                    "Definition": "Supplementary index of the protection class which contains the information necessary to achieve the specified degree of protection of the product",
+                    "Reason": "The annotation does not directly describe the degree of protection, but rather a supplementary index.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAZ336001"
+                },
+                {
+                    "Name": "Degree of Protection",
+                    "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and against ingress of water",
+                    "Reason": "The annotation is relevant as it describes the degree of protection, but it does not specify the standard.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAV695001"
+                },
+                {
+                    "Name": "degree of protection",
+                    "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and/or ingress of water and verified by standardized test methods, expressed as a IP rating",
+                    "Reason": "The annotation is highly relevant as it directly describes the degree of protection with a specific standard (IP rating).",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAG975013"
+                },
+                {
+                    "Name": "degree of protection (IP) (UL1449)",
+                    "Definition": "Indicates the protection of the SPD against access to hazardous parts and ingress of solid particles and liquids",
+                    "Reason": "The annotation is relevant, but it refers to a specific device (SPD) and a specific standard (UL1449).",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "ABD315001"
+                },
+                {
+                    "Name": "Degree of protection (IP) of the evaluating electronics",
+                    "Definition": "Classification according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit for the electronic device that processes data and makes them useable",
+                    "Reason": "The annotation is relevant, but it refers to the protection of a specific component (operating unit) and a specific device (electronic device).",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAC106007"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "degree of protection",
+                "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and/or ingress of water and verified by standardized test methods, expressed as a IP rating",
+                "SemanticIdentifier": "BAG975013"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Degree of Protection",
+                "Definition": "Protection rating of the product against access to hazardous parts, against ingress of solid foreign objects and against ingress of water, expressed as a IP rating",
+                "SemanticIdentifier": null
+            },
+            "Unit": "No unit",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used in various engineering tasks such as product design, quality control, and safety assessment."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "4",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": [
+                "Name"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "AmbientTemperature_HorizontalInstallation",
+            "Definition": "Temperature range for horizontal installation",
+            "Value": "0...60 \u00b0C",
+            "SourceDescription": "Ambient temperature"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "Ambient temperature",
+                    "Definition": "Temperature in the outer area of the operating medium",
+                    "Reason": "It is relevant to annotate the data feature 'AmbientTemperature_HorizontalInstallation' as it describes the temperature of the operating environment.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAE540004"
+                },
+                {
+                    "Name": "set ambient temperature",
+                    "Definition": "given temperature of the surrounding operating environment of a component or system",
+                    "Reason": "It is not relevant as it refers to a given temperature, not a range.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC751001"
+                },
+                {
+                    "Name": "specified maximum ambient temperature",
+                    "Definition": "maximum allowable temperature of the surrounding operating environment of a component or system",
+                    "Reason": "It is not relevant as it refers to the maximum allowable temperature, not the actual temperature range.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC746001"
+                },
+                {
+                    "Name": "maximum set ambient temperature",
+                    "Definition": "given maximum temperature of the surrounding operating environment of a component or system",
+                    "Reason": "It is not relevant as it refers to a given maximum temperature, not a range.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC753001"
+                },
+                {
+                    "Name": "max. ambient temperature during operation",
+                    "Definition": "Maximum limit value of specific temperature during operation surrounding the operating unit",
+                    "Reason": "It is not relevant as it refers to the maximum temperature during operation, not the ambient temperature.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB906006"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Ambient temperature",
+                "Definition": "Temperature in the outer area of the operating medium",
+                "SemanticIdentifier": "BAE540004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Temperature range for horizontal installation",
+                "Definition": "Range of temperature suitable for horizontal installation",
+                "SemanticIdentifier": null
+            },
+            "Unit": "Unit_of_the_data_property",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "Affordance_in_one_sentence"
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "3",
+            "definition": "5",
+            "affordance": "1",
+            "isInaccurate": [
+                "Name",
+                "Unit",
+                "Affordance"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "AmbientTemperature_VerticalInstallation",
+            "Definition": "Temperature range for vertical installation",
+            "Value": "0... 40 \u00b0C",
+            "SourceDescription": "Ambient temperature"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "specified maximum ambient temperature",
+                    "Definition": "maximum allowable temperature of the surrounding operating environment of a component or system",
+                    "Reason": "The annotation is not relevant because it refers to the maximum allowable temperature, not the actual temperature range for vertical installation.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC746001"
+                },
+                {
+                    "Name": "Ambient temperature",
+                    "Definition": "Temperature in the outer area of the operating medium",
+                    "Reason": "The annotation is relevant because it refers to the temperature of the operating environment, which includes the temperature range for vertical installation.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAE540004"
+                },
+                {
+                    "Name": "maximum set ambient temperature",
+                    "Definition": "given maximum temperature of the surrounding operating environment of a component or system",
+                    "Reason": "The annotation is not relevant because it refers to the maximum temperature set for the environment, not the actual temperature range for vertical installation.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC753001"
+                },
+                {
+                    "Name": "max. ambient temperature during operation",
+                    "Definition": "Maximum limit value of specific temperature during operation surrounding the operating unit",
+                    "Reason": "The annotation is not relevant because it refers to the maximum temperature limit during operation, not the actual temperature range for vertical installation.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "AAB906006"
+                },
+                {
+                    "Name": "set ambient temperature",
+                    "Definition": "given temperature of the surrounding operating environment of a component or system",
+                    "Reason": "The annotation is not relevant because it refers to the given temperature of the environment, not the actual temperature range for vertical installation.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "ABC751001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Ambient temperature",
+                "Definition": "Temperature in the outer area of the operating medium",
+                "SemanticIdentifier": "BAE540004"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Temperature range for vertical installation",
+                "Definition": "The temperature range that the device can operate in when installed vertically",
+                "SemanticIdentifier": null
+            },
+            "Unit": "\u00b0C",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "This information can be used to ensure the device is installed and operated within the specified temperature range for optimal performance and longevity."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "4",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": [
+                "Name"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "RelativeHumidity",
+            "Definition": "Humidity range for the product",
+            "Value": "10 %...95 %, no condensation",
+            "SourceDescription": "Relative humidity"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "reference humidity",
+                    "Definition": "relative humidity at which the performance of a device was tested",
+                    "Reason": "The data feature is about the range of humidity the product can operate in, not about the humidity at which it was tested.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "max. adjustment range of the relative air humidity",
+                    "Definition": "maximal value for the adjustment range of relative air humidity",
+                    "Reason": "The data feature is about the range of humidity the product can operate in, not about the adjustable range of humidity.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "min. adjustment range relative air humidity",
+                    "Definition": "minimal value for the adjustment range of relative ar humidity",
+                    "Reason": "The data feature is about the range of humidity the product can operate in, not about the adjustable range of humidity.",
+                    "isRelevant": false
+                },
+                {
+                    "Name": "min. application humidity range",
+                    "Definition": "indication of the minimum value of relative humidity at which the device can be operated properly",
+                    "Reason": "This annotation is relevant as it directly relates to the minimum humidity range for the product to operate properly.",
+                    "isRelevant": true
+                },
+                {
+                    "Name": "max. application humidity range",
+                    "Definition": "indication of the maximum value of relative humidity, at which the device can be operated properly",
+                    "Reason": "This annotation is relevant as it directly relates to the maximum humidity range for the product to operate properly.",
+                    "isRelevant": true
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "min. application humidity range",
+                "Definition": "indication of the minimum value of relative humidity at which the device can be operated properly",
+                "SemanticIdentifier": "AAK081002"
+            },
+            "GeneratedAnnotation": {
+                "Name": "OperatingHumidityRange",
+                "Definition": "Range of relative humidity within which the product can operate properly",
+                "SemanticIdentifier": null
+            },
+            "Unit": "Unit_of_the_data_property",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "Affordance_in_one_sentence"
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "3",
+            "definition": "5",
+            "affordance": "1",
+            "isInaccurate": [
+                "Name",
+                "Unit",
+                "Affordance"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "ElectromagneticCompatibility",
+            "Definition": "Electromagnetic compatibility requirements",
+            "Value": "Requirements of the EMC directive",
+            "SourceDescription": "Electromagnetic compatibility"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "electromagnetic compatibility",
+                    "Definition": "ability of an electric facility to function satisfactorily in its electromagnetic environment without affecting this environment in an inadmissible fashion",
+                    "Reason": "The annotation is relevant as it describes the general concept of electromagnetic compatibility, which is related to the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAB325005"
+                },
+                {
+                    "Name": "classification of electromagnetic compatibility",
+                    "Definition": "classification of the ability of measuring equipment or a measuring system to operate as specified in its electromagnetic environment without introducing intolerable electromagnetic disturbances to anything in that environment",
+                    "Reason": "The annotation is relevant as it describes a specific aspect of electromagnetic compatibility, which is related to the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAN054002"
+                },
+                {
+                    "Name": "Electromagnetic Compatibility (EMC standard)",
+                    "Definition": "shock resistance of electrical and electronic devices to electromagnetic faults, which are defined for different environments (such as industrial environments or home and business environments) and with multiple severity classifications",
+                    "Reason": "The annotation is relevant as it describes a specific standard related to electromagnetic compatibility, which is related to the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAZ246001"
+                },
+                {
+                    "Name": "EMC design present",
+                    "Definition": "Design in electromagnetic compatibility, i.e. there is no build-up of interfering electromagnetic fields",
+                    "Reason": "The annotation is relevant as it describes a design aspect of electromagnetic compatibility, which is related to the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAC218008"
+                },
+                {
+                    "Name": "Accuracy class for voltage and current measurement (IEC 61000-4-30, A) present",
+                    "Definition": "(As letter, number, letter and number) for a working medium accorDeutsche Industrienormg to its application, performance characteristics and measuring accuracy within specified limits / for the purpose / allocation: quantitative detection of electrical voltage as measured variable And Quantitative Measurement of electrical current as measured value / accorDeutsche Industrienormg to industry standard / standard: Description of the document from International Electrotechnical Commission International Electrotechnical Commission: TC 77: Electromagnetic compatibility: Electromagnetic compatibility (EMC) - Part 4-30: Testing and Measurement methods - Quality of the voltage when precise Measurements are required, eg for the resolution of differences of opinion in the context of contractual agreements, proof of compliance with standards, etc",
+                    "Reason": "The annotation is relevant as it describes a specific standard related to voltage and current measurement in the context of electromagnetic compatibility, which is related to the data feature.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAX035001"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "Electromagnetic Compatibility (EMC standard)",
+                "Definition": "shock resistance of electrical and electronic devices to electromagnetic faults, which are defined for different environments (such as industrial environments or home and business environments) and with multiple severity classifications",
+                "SemanticIdentifier": "AAZ246001"
+            },
+            "GeneratedAnnotation": {
+                "Name": "Electromagnetic Compatibility Requirements",
+                "Definition": "The requirements for ensuring the ability of an electric facility to function satisfactorily in its electromagnetic environment without affecting this environment in an inadmissible fashion",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The information can be used in various engineering tasks such as designing, testing, and ensuring compliance of electrical and electronic devices with electromagnetic compatibility standards."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "4",
+            "definition": "5",
+            "affordance": "5",
+            "isInaccurate": [
+                "Name"
+            ]
+        }
+    },
+    {
+        "DataFeature": {
+            "Name": "InterferenceImmunity",
+            "Definition": "Immunity to electromagnetic interference",
+            "Value": "interference immunity according to IEC 61000-6-2",
+            "SourceDescription": "Electromagnetic compatibility"
+        },
+        "Annotations": {
+            "EvaluatedAnnotations": [
+                {
+                    "Name": "interference immunity",
+                    "Definition": "electromagnetic environment in which the device is or must be designed to operate within the specified accuracy limits",
+                    "Reason": "The annotation is relevant as it describes the electromagnetic environment in which the device operates.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAN137002"
+                },
+                {
+                    "Name": "Interference resistance to magnetic fields",
+                    "Definition": "Operating medium is immune to influence from a magnetic field if the change of the effective switch distance - caused by the influence of a magnetic field - is not greater than the determined value",
+                    "Reason": "The annotation is not relevant as it is specific to magnetic fields and not general interference immunity.",
+                    "isRelevant": false,
+                    "SemanticIdentifier": "BAD\u00a0917006,00"
+                },
+                {
+                    "Name": "electromagnetic compatibility",
+                    "Definition": "ability of an electric facility to function satisfactorily in its electromagnetic environment without affecting this environment in an inadmissible fashion",
+                    "Reason": "The annotation is relevant as it describes the general concept of electromagnetic compatibility.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "BAB325005"
+                },
+                {
+                    "Name": "EMC design present",
+                    "Definition": "Design in electromagnetic compatibility, i.e. there is no build-up of interfering electromagnetic fields",
+                    "Reason": "The annotation is relevant as it describes the design aspect of electromagnetic compatibility.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAC218008"
+                },
+                {
+                    "Name": "Use in the industrial area permissible",
+                    "Definition": "The product fulfils the standard requirements expected of electromagnetic interference immunity and emitted interference in the industrial area",
+                    "Reason": "The annotation is relevant as it describes the use of the product in an industrial area.",
+                    "isRelevant": true,
+                    "SemanticIdentifier": "AAB538006"
+                }
+            ],
+            "BestAnnotation": {
+                "Name": "electromagnetic compatibility",
+                "Definition": "ability of an electric facility to function satisfactorily in its electromagnetic environment without affecting this environment in an inadmissible fashion",
+                "SemanticIdentifier": "BAB325005"
+            },
+            "GeneratedAnnotation": {
+                "Name": "InterferenceImmunity",
+                "Definition": "Immunity to electromagnetic interference",
+                "SemanticIdentifier": null
+            },
+            "Unit": "-",
+            "ClassifyingScore_GeneralOrTechnical": 5,
+            "Affordance": "The information can be used in various applications such as designing, testing, and ensuring the compatibility of electrical devices in different environments."
+        },
+        "UserRating": {
+            "userConfused": "0",
+            "impKnowledge": "0",
+            "overall": "3",
+            "definition": "5",
+            "affordance": "4",
+            "isInaccurate": [
+                "Name"
+            ]
+        }
+    }
+]
