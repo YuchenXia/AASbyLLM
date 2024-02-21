@@ -29,7 +29,7 @@ These works apply embedding language models in NLP for information processing:
 ### 2. Comparison of Different NLP Models for Semantic Interoperability of Heterogeneous Asset Administration Shells (2023)
 - **Summary**: The paper explores different natural language processing (NLP) embedding models to achieve semantic interoperability in heterogeneous AAS. It focuses on extending the Industrie 4.0 approach to heterogeneous semantics by automating the mapping of varied vocabularies to target semantics using NLP models. The paper compares existing embedding models, evaluates their mapping accuracy, and discusses the integration of structured knowledge via knowledge graphs. It shows that fine-tuning existing models to the target vocabulary based on the ECLASS standard significantly improves mapping accuracy.
 - **Authors**: Maximilian Both, Jochen Müller, Christian Diedrich
-- **DOI**: https://doi.org/10.1515/auto-2021-0050
+- **DOI**: https://doi.org/10.1109/INDIN51400.2023.10218154
 
 
 ### 3. Automated generation of Asset Administration Shell: a transfer learning approach with neural language model and semantic fingerprints (2022)
