@@ -81,7 +81,7 @@ These papers apply model transfromation and rule-based mappings, mainly utilizin
 ### 11. Enabling semantic interoperability of asset administration shells through an ontology-based modeling method (2022)
 - **Summary**: The paper describes a method for creating AAS using the Ontology Modeling Language (OML) to map AAS models to an ontology-compatible format (OWL). This involves selecting relevant MaRCO ontology concepts and integrating them into the OML vocabulary. The OML Adapter is then used to create a Unified Modeling Language (UML) profile from these OML files. The resulting MaRCO UML profile is applied to the AAS models as stereotypes, allowing the designer to refine them with specific properties. This process enables the conversion of AAS classes into OWL individuals, ensuring semantic interoperability.
 - **Authors**: Yining Huang, Saadia Dhouib, Luis Palacios Medinacelli, Jacques Malenfant
-- **DOI**: https://doi.org/10.1145/3550356.3561606
+- **DOI**: https://dl.acm.org/doi/10.1145/3550356.3561606
 
 ### 12. Increasing Interoperability between Digital Twin Standards and Specifications Transformation of DTDL to AAS (2023)
 - **Summary**: The work propose a mapping of the AAS element into DTDL model
