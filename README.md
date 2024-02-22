@@ -1,4 +1,4 @@
-# AASbyLLM
+# AASbyLLM  (still under construction)
 
 The web-application is hosted here: https://aasbyllmapp-v15-1-yawjvp4zbq-ew.a.run.app/ 
 (Note: It takes 30 seconds to 2 minutes for the elastic server system to boot up.)
