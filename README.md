@@ -1,6 +1,6 @@
 # AASbyLLM
 
-The web-application is hosted here: [https://aasbyllmapp-v15-1-yawjvp4zbq-ew.a.run.app/](https://aasbyllmappv16-yawjvp4zbq-ew.a.run.app)
+The web-application is hosted here: [https://aasbyllmappv16-yawjvp4zbq-ew.a.run.app](https://aasbyllmappv16-yawjvp4zbq-ew.a.run.app)
 (Note: It may take 30 seconds to 2 minutes for the elastic server system to boot up.)
 
 # The research paper (pre-print draft)
