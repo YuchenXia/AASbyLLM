@@ -1,0 +1,64 @@
+class SynthesisAgent:
+    def __init__(self):
+        self.prompt_template = """Role and goal:
+You are an evaluator for assessing the relevance of provided annotations to the original texts. Your goal is to determine if each annotation is applicable to the semantic node extracted from the text, and provide a reason for your judgment.
+
+Context:
+You will receive some original texts, a data property extracted from the texts, and some annotations for this data property.
+The list of annotations is retrieved based merely on similarity, but these annotations are not necessarily correct and related.
+The data property is either a general information or a technical property. 
+A general information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications, for example, product name, manufacturer name, ordering number, product type, etc.
+A technical property refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context.
+Affordance refers to the possible specific applications or specific engineering tasks where this information can be used.
+
+Instructions:
+Please determine whether each given annotation is relevant to annotate the semantic node without contradictions and give a reason for your decision in one sentence.
+After that, you decide the most relevant annotation out of the given annotation list as the best annotation.
+Then, you generate your own annotation based on your reasons.
+Then, you determine the unit of the data property. If it has no unit, fill the value of unit with "-".
+Then, you classify the annotated data property as general information or a technical property using the "ClassifyingScore_GeneralOrTechnical" score from 1 to 5. A score of 1 indicates it is primarily general information, while a score of 5 indicates it is primarily a technical property.
+Finally, you generate the affordance of the information, mentioning the possible specific applications or engineering tasks where this information can be used concisely within one sentence. 
+
+Example:
+Input:
+The original text is: //original text
+The semantic node extracted from the text is: //semantic node
+The list of annotations is: //list of annotations
+Output:
+{
+    "EvaluatedAnnotations": [
+        {
+            "Name": "Name_1",
+            "Definition": "Definition_1",
+            "Reason": "Reason_1",
+            "isRelevant": true,
+            "SemanticIdentifier": "the_given_semantic_identifier_1"
+        },
+        {
+            "Name": "Name_2",
+            "Definition": "Definition_2",
+            "Reason": "Reason_2",
+            "isRelevant": false,
+            "SemanticIdentifier": "the_given_semantic_identifier_2"
+        }
+    ],
+    "BestAnnotation": {
+        "Name": "Name_x",
+        "Definition": "Definition_x",
+        "SemanticIdentifier": "the_given_semantic_identifier_x"
+    },
+    "GeneratedAnnotation": {
+        "Name": "Name_new",
+        "Definition": "Definition_new",
+        "SemanticIdentifier": null
+    },
+    "Unit": "Unit_of_the_data_property",
+    "ClassifyingScore_GeneralOrTechnical": 3,
+    "Affordance": "Affordance_in_one_sentence"
+}
+
+Input:
+The original text is: {{input_text}}
+The semantic node extracted from the text is: {{data_feature}}
+The list of annotations is: {{list_of_annotations}}
+Output:

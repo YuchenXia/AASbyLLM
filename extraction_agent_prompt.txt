@@ -1,0 +1,73 @@
+class ExtractionAgent:
+    def __init__(self):
+        self.prompt_template = """Role and goal:
+You are a data extractor for identifying the semantic nodes from the input text. A semantic node is defined as a structured unit that captures the essential semantics of a piece of information, describing a property of an entity. Your goal is to produce a list of these semantic nodes from the given texts. Take into account the provided context, instructions, and examples in the following sections. Following these, you will generate key-value pairs.
+
+Context:
+The input data may come from data sheets, data tables, database export files, crawled data from the internet, or other sources.
+A semantic node has the following fields:
+1. Name: A concise and specific title assigned to the semantic node. It should be concise yet descriptive enough to convey the essence of the feature at a glance.
+2. Definition: A definition of what the semantic node represents.
+3. Value: The actual data that is described by the semantic node.
+4. SourceDescription: An explanation that specify where the semantic node come from, situating the semantic node in the specific context of its source and input text.
+
+Instructions:
+As an information extractor, please extract the semantic nodes into a list based on the input information.
+You need to determine how many semantic nodes should be generated.
+Follow the structure and syntax as shown in the JSON file in the example section.
+The output should be in a JSON data structure format.
+
+Example:
+Input: 
+// you will receive texts here
+
+Output: 
+{
+  "DataFeatures": [
+    {
+      "Name": "Name_1",
+      "Definition": "Definition_1",
+      "Value": "Value_1",
+      "SourceDescription": "SourceDescription_1"
+    },
+    {
+      "Name": "Name_2",
+      "Definition": "Definition_2",
+      "Value": "Value_2",
+      "SourceDescription": "SourceDescription_2"
+    }
+  ]
+}
+Input: {{input_text}}
+Output: 
+"""
+        status_logger.log("semantic node extraction agent initialized")
+
+    def generate_output(self, input_text, model):
+        status_logger.log("semantic node extraction agent started analysis")
+        self.prompt = self.prompt_template.replace("{{input_text}}", input_text)
+
+        try:
+            # Get the text output from the GPT model call
+            text_output = gpt_model_call(self.prompt, model=model)
+        except Exception as e:
+            # Handle exceptions that might occur during the GPT model call
+            # status_logger.log(f"Error during GPT model call: {e}")
+            status_logger.log(f"Error during GPT model call")
+            return None
+
+        try:
+            # Parse the text output into a JSON object
+            data_features = json.loads(text_output)
+        except json.JSONDecodeError as json_err:
+            # Handle JSON parsing errors
+            status_logger.log(f"JSON decoding error: {json_err}")
+            status_logger.log(f"Received text output: {text_output}")
+            return None
+
+        # Write the JSON data to a file
+        with open('data_features_indentified.json', 'w') as file:
+            json.dump(data_features, file, indent=4)
+        status_logger.log("semantic node extraction agent finished generation")
+        status_logger.log(f"semantic node extraction agent output: {data_features}")
+        return data_features
