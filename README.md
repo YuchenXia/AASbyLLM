@@ -6,6 +6,10 @@ The web-application is hosted here: [https://aasbyllmapp-v15-1-yawjvp4zbq-ew.a.r
 # The research paper (pre-print draft)
 [pre-print draft](https://github.com/YuchenXia/AASbyLLM/blob/main/research_paper/v3_Automated%20Generation%20of%20Asset%20Administration%20Shell%20with%20Large%20Language%20Model.pdf)
 
+![Graphical abstract](AASbyLLM_graphical_abstract.png)
+
+![LLM-Agent design](LLM_agent_design.png)
+
 # The Main Features of 'AASbyLLM' and Its Novel Contributions:
 ### Technologies:
 - First research prototype applying **generative LLM** for generating AAS
