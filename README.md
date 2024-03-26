@@ -1,10 +1,13 @@
 # AASbyLLM
 
-The web-application is hosted here: [https://aasbyllmapp-v15-1-yawjvp4zbq-ew.a.run.app/](https://aasbyllmappv16-yawjvp4zbq-ew.a.run.app/)
+The web-application is hosted here: [https://aasbyllmapp-v15-1-yawjvp4zbq-ew.a.run.app/](https://aasbyllmappv16-yawjvp4zbq-ew.a.run.app)
 (Note: It may take 30 seconds to 2 minutes for the elastic server system to boot up.)
 
 # The research paper (pre-print draft)
 [pre-print draft](https://github.com/YuchenXia/AASbyLLM/blob/main/research_paper/v3_Automated%20Generation%20of%20Asset%20Administration%20Shell%20with%20Large%20Language%20Model.pdf)
+
+This research introduces a novel approach for assisting the creation of Asset Administration Shell (AAS) instances for digital twin modeling within the context of Industry 4.0, aiming to enhance interoperability in smart manufacturing and reduce manual effort. We construct a “semantic node” data structure to capture the semantic essence of textual data. Then, a system powered by large language models is designed and implemented to process “semantic node” and generate AAS instance models from textual technical data. Our evaluation demonstrates a 62-79% effective generation rate, indicating a substantial proportion of manual creation effort can be converted into easier validation effort, thereby reducing the time and cost in creating AAS instance models. In our evaluation, a comparative analysis of different LLMs and an in-depth ablation study of Retrieval-Augmented Generation (RAG) mechanisms provide insights into the effectiveness of LLM systems for interpreting technical concepts. Our findings emphasize LLMs’ capability in automating AAS instance creation, enhancing semantic interoperability, and contributing to the broader field of semantic interoperability for digital twins in industrial applications.
+
 
 ### Graphical abstract:
 ![Graphical abstract](AASbyLLM_graphical_abstract.png)
