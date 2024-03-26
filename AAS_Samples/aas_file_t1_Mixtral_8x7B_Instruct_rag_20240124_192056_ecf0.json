@@ -1,0 +1,935 @@
+{
+    "assetAdministrationShells": [
+        {
+            "idShort": "AAS_Sample_Generated_by_LLM",
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                "specificAssetIds": []
+            },
+            "submodels": [
+                {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                }
+            ],
+            "modelType": "AssetAdministrationShell"
+        }
+    ],
+    "submodels": [
+        {
+            "idShort": "TechnicalData",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "Submodel containing techical data to the asset."
+                }
+            ],
+            "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+            "kind": "Instance",
+            "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                    {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                    }
+                ]
+            },
+            "submodelElements": [
+                {
+                    "idShort": "GeneralInformation",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                        }
+                    ],
+                    "semanticId": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                            }
+                        ]
+                    },
+                    "value": [
+                        {
+                            "idShort": "Manufacturer-article name",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The name of the manufacturer and the article"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5399_4203_7340_4865"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "Solenoid valve",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Part number",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "A unique identifier for the product assigned by the manufacturer"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9830_5316_8539_5872"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "574226",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Nominal size",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The physical size of the valve in terms of the nominal size of the ports"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8837_6511_0082_6786"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "4.6 mm",
+                            "modelType": "Property"
+                        }
+                    ],
+                    "modelType": "SubmodelElementCollection"
+                },
+                {
+                    "idShort": "TechnicalProperties",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                        }
+                    ],
+                    "semanticId": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                            }
+                        ]
+                    },
+                    "value": [
+                        {
+                            "idShort": "Valve function",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The number of ports and the direction of flow of the valve"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3679_4435_6410_9411"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "2x3/2 closed, monostable",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Type of actuation",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The method by which the valve is actuated or controlled, in this case, electrically"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4058_8012_4217_0919"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "electrical",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Valve size",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The physical size of the valve"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4399_6123_0617_4925"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "14 mm",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Operating pressure",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The range of pressures at which the valve can operate"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3759_4997_9767_1913"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "1.5 ... 8 bar",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Design structure",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The internal design of the valve that moves the valve piston into the de-energised position"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4327_5109_2751_3281"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "Piston slide",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Type of reset",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "specifies the method by which the valve is reset after actuation"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9634_3512_7109_9382"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "Air spring",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Protection class",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The level of protection provided by the valve against environmental factors, specifically in accordance with the International Electrotechnical Commission 60529 standard and classified as IP65."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0582_7281_6719_6542"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "IP65 with plug socket",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Switching time off",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The time it takes for the valve to switch off"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3069_0509_7339_5591"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "23 ms",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Switching time on",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The time it takes for the valve to switch on after the control signal is applied"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6691_1691_2114_7843"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "8 ms",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Duty cycle",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The ratio of the time the valve is on to the total time"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7782_5176_0795_1242"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "100 %",
+                            "modelType": "Property"
+                        }
+                    ],
+                    "modelType": "SubmodelElementCollection"
+                }
+            ],
+            "modelType": "Submodel"
+        }
+    ],
+    "conceptDescriptions": [
+        {
+            "idShort": "TechnicalProperty",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "GeneralInformation",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Manufacturer-article name",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The name of the manufacturer and the article"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5399_4203_7340_4865",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Manufacturer-article name"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The name of the manufacturer and the article"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Part number",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "A unique identifier for the product assigned by the manufacturer"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9830_5316_8539_5872",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Manufacturer part number"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "A unique identifier for the product assigned by the manufacturer"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Valve function",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The number of ports and the direction of flow of the valve"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3679_4435_6410_9411",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Valve function"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The number of ports and the direction of flow of the valve"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Type of actuation",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The method by which the valve is actuated or controlled, in this case, electrically"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4058_8012_4217_0919",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Type of actuation"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The method by which the valve is actuated or controlled, in this case, electrically"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Valve size",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The physical size of the valve"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4399_6123_0617_4925",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Valve size"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The physical size of the valve"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Operating pressure",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The range of pressures at which the valve can operate"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3759_4997_9767_1913",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Operating pressure range"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The range of pressures at which the valve can operate"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Design structure",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The internal design of the valve that moves the valve piston into the de-energised position"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4327_5109_2751_3281",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Design structure of the valve"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The internal design of the valve that moves the valve piston into the de-energised position"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Type of reset",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "specifies the method by which the valve is reset after actuation"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9634_3512_7109_9382",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "type of reset"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "specifies the method by which the valve is reset after actuation"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Protection class",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The level of protection provided by the valve against environmental factors, specifically in accordance with the International Electrotechnical Commission 60529 standard and classified as IP65."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0582_7281_6719_6542",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Protection class (IP65)"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The level of protection provided by the valve against environmental factors, specifically in accordance with the International Electrotechnical Commission 60529 standard and classified as IP65."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Nominal size",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The physical size of the valve in terms of the nominal size of the ports"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8837_6511_0082_6786",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Nominal size of the valve"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The physical size of the valve in terms of the nominal size of the ports"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Switching time off",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The time it takes for the valve to switch off"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3069_0509_7339_5591",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Switching time off"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The time it takes for the valve to switch off"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Switching time on",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The time it takes for the valve to switch on after the control signal is applied"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6691_1691_2114_7843",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Switching time on"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The time it takes for the valve to switch on after the control signal is applied"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Duty cycle",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The ratio of the time the valve is on to the total time"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7782_5176_0795_1242",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Duty cycle"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The ratio of the time the valve is on to the total time"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        }
+    ]
+}

@@ -1,0 +1,1061 @@
+{
+    "assetAdministrationShells": [
+        {
+            "idShort": "AAS_Sample_Generated_by_LLM",
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                "specificAssetIds": []
+            },
+            "submodels": [
+                {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                }
+            ],
+            "modelType": "AssetAdministrationShell"
+        }
+    ],
+    "submodels": [
+        {
+            "idShort": "TechnicalData",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "Submodel containing techical data to the asset."
+                }
+            ],
+            "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+            "kind": "Instance",
+            "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                    {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                    }
+                ]
+            },
+            "submodelElements": [
+                {
+                    "idShort": "GeneralInformation",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                        }
+                    ],
+                    "semanticId": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                            }
+                        ]
+                    },
+                    "value": [
+                        {
+                            "idShort": "Manufacturer code",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The unique identifier assigned to the manufacturer of the product."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2915_2256_6381_3193"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "SPAU-P2R-W-G18FD-L-PNLK-PNVBA-M8U",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Part number",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The unique identifier assigned to the product."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8524_2071_6567_8424"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "8001232",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Ambient temperature",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The temperature range of the environment that the sensor is in."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2921_6970_7498_7788"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "0 \u00b0C ... 50 \u00b0C",
+                            "modelType": "Property"
+                        }
+                    ],
+                    "modelType": "SubmodelElementCollection"
+                },
+                {
+                    "idShort": "TechnicalProperties",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                        }
+                    ],
+                    "semanticId": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                            }
+                        ]
+                    },
+                    "value": [
+                        {
+                            "idShort": "Start value for pressure measuring range",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The minimum value of the pressure that the sensor can measure."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4338_6203_5681_0554"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "0 bar",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "End value for pressure measuring range",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum value of the pressure that the sensor can measure."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6413_0841_7350_3201"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "2 bar",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Max. overload pressure",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum pressure that the sensor can withstand before it is damaged."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1816_6805_3286_6546"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "6 bar",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Media temperature",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The temperature range of the medium that the sensor is measuring."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2486_3917_4952_3654"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "0 \u00b0C ... 50 \u00b0C",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Resolution ADC",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The number of bits used to represent the analog-to-digital conversion of the sensor's output."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4134_4950_3122_8403"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "12 bit",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Accuracy in \u00b1 % FS",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum deviation of the sensor's output from the true value, expressed as a percentage of the full scale output."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3307_1409_6232_3878"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "1.5 %FS",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Repetition accuracy in \u00b1 % FS",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum deviation of the sensor's output from one measurement to the next, expressed as a percentage of the full scale output."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6935_5507_0209_4540"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "0.3 %FS",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Temperature coefficient in \u00b1 %FS/K",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The change in the sensor's output per degree change in temperature, expressed as a percentage of the full scale output per degree."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0294_3472_8521_3598"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "0.05 %FS/K",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Max. output current",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum current that the sensor's output can provide."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0512_4588_0097_5566"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "100 mA",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Rise time",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The time it takes for the sensor's output to rise from its minimum to its maximum value."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0098_9920_9553_5250"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "3 ms",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Max. load resistance current output",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum resistance that can be connected to the sensor's output while still providing the maximum current."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9649_2776_5835_1480"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "500 Ohm",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Min. load resistance voltage output",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The minimum resistance that can be connected to the sensor's output while still providing the minimum voltage."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5339_3956_8746_6088"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "10 kOhm",
+                            "modelType": "Property"
+                        }
+                    ],
+                    "modelType": "SubmodelElementCollection"
+                }
+            ],
+            "modelType": "Submodel"
+        }
+    ],
+    "conceptDescriptions": [
+        {
+            "idShort": "TechnicalProperty",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "GeneralInformation",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Manufacturer code",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The unique identifier assigned to the manufacturer of the product."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2915_2256_6381_3193",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Manufacturer code"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The unique identifier assigned to the manufacturer of the product."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Part number",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The unique identifier assigned to the product."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8524_2071_6567_8424",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Part number"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The unique identifier assigned to the product."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Start value for pressure measuring range",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The minimum value of the pressure that the sensor can measure."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4338_6203_5681_0554",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Start value for pressure measuring range"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The minimum value of the pressure that the sensor can measure."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "End value for pressure measuring range",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The maximum value of the pressure that the sensor can measure."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6413_0841_7350_3201",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "End value for pressure measuring range"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The maximum value of the pressure that the sensor can measure."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Max. overload pressure",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The maximum pressure that the sensor can withstand before it is damaged."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1816_6805_3286_6546",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Maximum overload pressure"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The maximum pressure that the sensor can withstand before it is damaged."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Media temperature",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The temperature range of the medium that the sensor is measuring."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2486_3917_4952_3654",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Media temperature"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The temperature range of the medium that the sensor is measuring."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Ambient temperature",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The temperature range of the environment that the sensor is in."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2921_6970_7498_7788",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Ambient temperature"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The temperature range of the environment that the sensor is in."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Resolution ADC",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The number of bits used to represent the analog-to-digital conversion of the sensor's output."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4134_4950_3122_8403",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Resolution ADC"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The number of bits used to represent the analog-to-digital conversion of the sensor's output."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Accuracy in \u00b1 % FS",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The maximum deviation of the sensor's output from the true value, expressed as a percentage of the full scale output."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3307_1409_6232_3878",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Accuracy"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The maximum deviation of the sensor's output from the true value, expressed as a percentage of the full scale output."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Repetition accuracy in \u00b1 % FS",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The maximum deviation of the sensor's output from one measurement to the next, expressed as a percentage of the full scale output."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6935_5507_0209_4540",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Repetition Accuracy"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The maximum deviation of the sensor's output from one measurement to the next, expressed as a percentage of the full scale output."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Temperature coefficient in \u00b1 %FS/K",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The change in the sensor's output per degree change in temperature, expressed as a percentage of the full scale output per degree."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0294_3472_8521_3598",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Temperature coefficient"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The change in the sensor's output per degree change in temperature, expressed as a percentage of the full scale output per degree."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Max. output current",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The maximum current that the sensor's output can provide."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0512_4588_0097_5566",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Maximum Output Current"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The maximum current that the sensor's output can provide."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Rise time",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The time it takes for the sensor's output to rise from its minimum to its maximum value."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0098_9920_9553_5250",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Rise time"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The time it takes for the sensor's output to rise from its minimum to its maximum value."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Max. load resistance current output",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The maximum resistance that can be connected to the sensor's output while still providing the maximum current."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9649_2776_5835_1480",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Maximum load resistance"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The maximum resistance that can be connected to the sensor's output while still providing the maximum current."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Min. load resistance voltage output",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The minimum resistance that can be connected to the sensor's output while still providing the minimum voltage."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5339_3956_8746_6088",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Minimum load resistance voltage output"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The minimum resistance that can be connected to the sensor's output while still providing the minimum voltage."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        }
+    ]
+}

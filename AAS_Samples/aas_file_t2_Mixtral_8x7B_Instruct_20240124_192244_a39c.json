@@ -1,0 +1,1250 @@
+{
+    "assetAdministrationShells": [
+        {
+            "idShort": "AAS_Sample_Generated_by_LLM",
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                "specificAssetIds": []
+            },
+            "submodels": [
+                {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                }
+            ],
+            "modelType": "AssetAdministrationShell"
+        }
+    ],
+    "submodels": [
+        {
+            "idShort": "TechnicalData",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "Submodel containing techical data to the asset."
+                }
+            ],
+            "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+            "kind": "Instance",
+            "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                    {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                    }
+                ]
+            },
+            "submodelElements": [
+                {
+                    "idShort": "GeneralInformation",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                        }
+                    ],
+                    "semanticId": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                            }
+                        ]
+                    },
+                    "value": [
+                        {
+                            "idShort": "Name_1",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "A unique identifier assigned to a product by its manufacturer for inventory control and ordering purposes."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8688_3324_2554_8413"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "OVEL-10-H-15-PQ-VQ6-UA-C-A-B2PNLK-H3",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Name_2",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "A unique identifier assigned to a specific product or component by the manufacturer."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2820_4561_4975_5773"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "8069572",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Name_6",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The position where the product can be mounted"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5613_4549_2757_4370"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "optional",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Name_8",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "A classification of the product that indicates it meets certain industry or regulatory requirements."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9824_3655_8737_4544"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "N/A",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Name_15",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The shape of the product"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9707_1281_4343_6279"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "T-shape",
+                            "modelType": "Property"
+                        }
+                    ],
+                    "modelType": "SubmodelElementCollection"
+                },
+                {
+                    "idShort": "TechnicalProperties",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                        }
+                    ],
+                    "semanticId": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                            }
+                        ]
+                    },
+                    "value": [
+                        {
+                            "idShort": "Name_3",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The inner diameter of the Laval nozzle, which is a part of the vacuum generator that accelerates the gas flow to create a vacuum."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5276_0308_7290_7504"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "0.95 mm",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Name_4",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The size of the holes in the grid of the vacuum generator."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1975_2921_3655_0524"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "15 mm",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Name_5",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The design of the silencer, which is the part of the vacuum generator that reduces noise."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9854_0729_4027_6052"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "Open",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Name_7",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "A property that describes the type of vacuum generated by the ejector."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1342_4241_3057_8872"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "High vacuum",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Name_9",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The size of the smallest particles that the vacuum generator can filter out."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2211_0430_5368_1544"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "40 \u00b5m",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Name_10",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "A feature that allows the user to manually override the system's default settings."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1903_6714_3975_6940"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "Non-detenting",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Name_11",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The function that is integrated into the system to perform a specific task, in this case, generating an electric ejector pulse."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8790_5294_7269_6173"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "Electric ejector pulse",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Name_12",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "A data property that measures the amount of fluid or gas that flows through a system or component, often controlled or regulated by a valve or sensor."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0024_7878_8525_3451"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "Pressure sensor",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Name_13",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "A type of valve that is controlled by an electric signal and can open or close to allow or prevent the flow of fluid through it."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4519_3484_6737_8450"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "N/A",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Name_14",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "A component that separates solid particles from a fluid by means of a porous substance (sieve, screen, membrane, etc.)"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9107_0087_9394_9311"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "Open silencer",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Name_16",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The function of the switching element in the vacuum generator, which is a contact that does not conduct electricity when the switch is open."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0319_5335_9029_2282"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "N/C contact",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Name_17",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "A contact that can be switched between normally closed (N/C) and normally open (N/O) states."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5511_6971_7984_8904"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "Switchable",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Name_18",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The ability of a device to change its state or behavior in response to a specific input or condition."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9258_8855_5170_9820"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "Freely programmable",
+                            "modelType": "Property"
+                        }
+                    ],
+                    "modelType": "SubmodelElementCollection"
+                }
+            ],
+            "modelType": "Submodel"
+        }
+    ],
+    "conceptDescriptions": [
+        {
+            "idShort": "TechnicalProperty",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "GeneralInformation",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Name_1",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "A unique identifier assigned to a product by its manufacturer for inventory control and ordering purposes."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8688_3324_2554_8413",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Manufacturer code"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "A unique identifier assigned to a product by its manufacturer for inventory control and ordering purposes."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Name_2",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "A unique identifier assigned to a specific product or component by the manufacturer."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2820_4561_4975_5773",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Part number"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "A unique identifier assigned to a specific product or component by the manufacturer."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Name_3",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The inner diameter of the Laval nozzle, which is a part of the vacuum generator that accelerates the gas flow to create a vacuum."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5276_0308_7290_7504",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Nominal size, Laval nozzle"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The inner diameter of the Laval nozzle, which is a part of the vacuum generator that accelerates the gas flow to create a vacuum."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Name_4",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The size of the holes in the grid of the vacuum generator."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1975_2921_3655_0524",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Grid dimension"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The size of the holes in the grid of the vacuum generator."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Name_5",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The design of the silencer, which is the part of the vacuum generator that reduces noise."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9854_0729_4027_6052",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Silencer design"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The design of the silencer, which is the part of the vacuum generator that reduces noise."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Name_6",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The position where the product can be mounted"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5613_4549_2757_4370",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Mounting position"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The position where the product can be mounted"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Name_7",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "A property that describes the type of vacuum generated by the ejector."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1342_4241_3057_8872",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Ejector characteristic"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "A property that describes the type of vacuum generated by the ejector."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Name_8",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "A classification of the product that indicates it meets certain industry or regulatory requirements."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9824_3655_8737_4544",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Standard"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "A classification of the product that indicates it meets certain industry or regulatory requirements."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Name_9",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The size of the smallest particles that the vacuum generator can filter out."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2211_0430_5368_1544",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Grade of filtration"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The size of the smallest particles that the vacuum generator can filter out."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Name_10",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "A feature that allows the user to manually override the system's default settings."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1903_6714_3975_6940",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Manual override"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "A feature that allows the user to manually override the system's default settings."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Name_11",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The function that is integrated into the system to perform a specific task, in this case, generating an electric ejector pulse."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8790_5294_7269_6173",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Integrated function"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The function that is integrated into the system to perform a specific task, in this case, generating an electric ejector pulse."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Name_12",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "A data property that measures the amount of fluid or gas that flows through a system or component, often controlled or regulated by a valve or sensor."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0024_7878_8525_3451",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Flow control"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "A data property that measures the amount of fluid or gas that flows through a system or component, often controlled or regulated by a valve or sensor."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Name_13",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "A type of valve that is controlled by an electric signal and can open or close to allow or prevent the flow of fluid through it."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4519_3484_6737_8450",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Electric on-off valve"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "A type of valve that is controlled by an electric signal and can open or close to allow or prevent the flow of fluid through it."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Name_14",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "A component that separates solid particles from a fluid by means of a porous substance (sieve, screen, membrane, etc.)"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9107_0087_9394_9311",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Filter"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "A component that separates solid particles from a fluid by means of a porous substance (sieve, screen, membrane, etc.)"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Name_15",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The shape of the product"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9707_1281_4343_6279",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Design"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The shape of the product"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Name_16",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The function of the switching element in the vacuum generator, which is a contact that does not conduct electricity when the switch is open."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0319_5335_9029_2282",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Switching element function"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The function of the switching element in the vacuum generator, which is a contact that does not conduct electricity when the switch is open."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Name_17",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "A contact that can be switched between normally closed (N/C) and normally open (N/O) states."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5511_6971_7984_8904",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Switchable contact"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "A contact that can be switched between normally closed (N/C) and normally open (N/O) states."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Name_18",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The ability of a device to change its state or behavior in response to a specific input or condition."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9258_8855_5170_9820",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Switching function"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The ability of a device to change its state or behavior in response to a specific input or condition."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        }
+    ]
+}

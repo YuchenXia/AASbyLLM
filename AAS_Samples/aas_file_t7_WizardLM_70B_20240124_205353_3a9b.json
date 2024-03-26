@@ -1,0 +1,998 @@
+{
+    "assetAdministrationShells": [
+        {
+            "idShort": "AAS_Sample_Generated_by_LLM",
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                "specificAssetIds": []
+            },
+            "submodels": [
+                {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                }
+            ],
+            "modelType": "AssetAdministrationShell"
+        }
+    ],
+    "submodels": [
+        {
+            "idShort": "TechnicalData",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "Submodel containing techical data to the asset."
+                }
+            ],
+            "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+            "kind": "Instance",
+            "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                    {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                    }
+                ]
+            },
+            "submodelElements": [
+                {
+                    "idShort": "GeneralInformation",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                        }
+                    ],
+                    "semanticId": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                            }
+                        ]
+                    },
+                    "value": [
+                        {
+                            "idShort": "Designation",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The specific name or identifier of the product"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5832_1880_8503_0108"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "BNS 819-X1002-99-R-10",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Part number",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The unique identifier for the product within the company or system"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0089_4862_0214_1254"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "R913048215",
+                            "modelType": "Property"
+                        }
+                    ],
+                    "modelType": "SubmodelElementCollection"
+                },
+                {
+                    "idShort": "TechnicalProperties",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                        }
+                    ],
+                    "semanticId": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                            }
+                        ]
+                    },
+                    "value": [
+                        {
+                            "idShort": "Functional principle",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The mechanical principle on which the switch operates"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9322_4203_2879_0946"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "mechanical, roller",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Operating voltage",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The range of voltage required for the switch to operate"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5513_5675_8634_1771"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "10 - 30 VDC",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Load current",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum current the switch can handle"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0348_9112_9740_9337"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "\u2264 200 mA",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Switching function",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The type of switching action the switch performs"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5100_1688_9402_0092"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "PNP/NC",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Connection type",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The type of connection the switch uses"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8134_8860_8329_5796"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "Cable 0.2 m and plug M8 x 1, 3-pin with knurled screw",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Switching frequency",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum frequency at which the switch can switch"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1680_1600_2224_2831"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "3.3 Hz",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Max. perm. starting velocity",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum velocity at which the switch can start functioning without any damage or malfunction"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6086_6130_9498_7839"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "1 m/s",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Cable diameter",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The diameter of the cable used with the switch"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6209_1718_1471_4862"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "4.3 \u00b10.2 mm",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Static bending radius",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The minimum radius of curvature the cable can withstand without damage when static"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5313_7883_7765_8433"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "12 mm",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Dynamic bending radius",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The minimum radius of curvature the cable can withstand without damage when in motion"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2660_4897_4826_6064"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "12 mm",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Ambient temperature",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The range of temperature in which the switch can operate"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7536_0141_6480_0080"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "-5 \u00b0C to +70 \u00b0C",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "IP rating",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The level of protection the switch provides against intrusion from foreign bodies and moisture"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7234_4914_6325_8213"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "IP65",
+                            "modelType": "Property"
+                        }
+                    ],
+                    "modelType": "SubmodelElementCollection"
+                }
+            ],
+            "modelType": "Submodel"
+        }
+    ],
+    "conceptDescriptions": [
+        {
+            "idShort": "TechnicalProperty",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "GeneralInformation",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Designation",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The specific name or identifier of the product"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5832_1880_8503_0108",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Designation"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The specific name or identifier of the product"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Part number",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The unique identifier for the product within the company or system"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0089_4862_0214_1254",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Part number"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The unique identifier for the product within the company or system"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Functional principle",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The mechanical principle on which the switch operates"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9322_4203_2879_0946",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "FunctionalPrinciple"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The mechanical principle on which the switch operates"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Operating voltage",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The range of voltage required for the switch to operate"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5513_5675_8634_1771",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Operating voltage"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The range of voltage required for the switch to operate"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Load current",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The maximum current the switch can handle"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0348_9112_9740_9337",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Load current"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The maximum current the switch can handle"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Switching function",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The type of switching action the switch performs"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5100_1688_9402_0092",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Switching function"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The type of switching action the switch performs"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Connection type",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The type of connection the switch uses"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8134_8860_8329_5796",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Connection type"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The type of connection the switch uses"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Switching frequency",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The maximum frequency at which the switch can switch"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1680_1600_2224_2831",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Switching frequency"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The maximum frequency at which the switch can switch"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Max. perm. starting velocity",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The maximum velocity at which the switch can start functioning without any damage or malfunction"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6086_6130_9498_7839",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Maximum Permissible Starting Velocity"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The maximum velocity at which the switch can start functioning without any damage or malfunction"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Cable diameter",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The diameter of the cable used with the switch"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6209_1718_1471_4862",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Cable diameter"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The diameter of the cable used with the switch"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Static bending radius",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The minimum radius of curvature the cable can withstand without damage when static"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5313_7883_7765_8433",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Static bending radius"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The minimum radius of curvature the cable can withstand without damage when static"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Dynamic bending radius",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The minimum radius of curvature the cable can withstand without damage when in motion"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2660_4897_4826_6064",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Dynamic bending radius"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The minimum radius of curvature the cable can withstand without damage when in motion"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Ambient temperature",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The range of temperature in which the switch can operate"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7536_0141_6480_0080",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Ambient temperature"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The range of temperature in which the switch can operate"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "IP rating",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The level of protection the switch provides against intrusion from foreign bodies and moisture"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7234_4914_6325_8213",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "IP rating"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The level of protection the switch provides against intrusion from foreign bodies and moisture"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        }
+    ]
+}
