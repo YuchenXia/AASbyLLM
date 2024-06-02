@@ -6,7 +6,7 @@ The web-application is hosted here: [https://aasbyllmappv16-yawjvp4zbq-ew.a.run.
 # Demo: Generating AAS structured information model from PDF
 ![Demo GIF](Demo_AAS_generation.gif)
 
-A Demo Video with higher resolution: [Demo VideoDemo_AAS_generation.mov](Demo_AAS_generation.mov)
+A demo Video with higher resolution is availabe: [Demo VideoDemo_AAS_generation.mov](Demo_AAS_generation.mov)
 
 
 # The research paper (pre-print paper)
