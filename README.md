@@ -1,6 +1,7 @@
 # AASbyLLM
 
-The web-application is hosted here: [https://aasbyllmappv16-yawjvp4zbq-ew.a.run.app](https://aasbyllmappv16-yawjvp4zbq-ew.a.run.app)
+A web-application is hosted here (prototype version): [https://aasbyllmappv16-yawjvp4zbq-ew.a.run.app](https://aasbyllmappv16-yawjvp4zbq-ew.a.run.app)
+
 (Note: It may take 30 seconds to 2 minutes for the elastic server system to boot up.)
 
 # Demo: Generating AAS structured information model from PDF
@@ -9,8 +10,25 @@ The web-application is hosted here: [https://aasbyllmappv16-yawjvp4zbq-ew.a.run.
 A demo Video with higher resolution is availabe: [Demo VideoDemo_AAS_generation.mov](Demo_AAS_generation.mov)
 
 
-# The research paper (pre-print paper)
-[pre-print paper](https://github.com/YuchenXia/AASbyLLM/blob/main/research_paper/v3_Automated%20Generation%20of%20Asset%20Administration%20Shell%20with%20Large%20Language%20Model.pdf)
+## The Research Paper
+Details of this work has been documented in a pre-print paper, which is currently under review:
+
+The Paper: [https://arxiv.org/abs/2405.18092](https://arxiv.org/abs/2403.17209)
+
+>Xia, Y., Xiao, Z., Jazdi, N., & Weyrich, M. (2024). Generation of Asset Administration Shell with Large Language Model Agents: Towards Semantic Interoperability in Digital Twins in the Context of Industry 4.0. ArXiv. /abs/2403.17209
+
+
+```bibtex
+@misc{xia2024generation,
+      title={Generation of Asset Administration Shell with Large Language Model Agents: Towards Semantic Interoperability in Digital Twins in the Context of Industry 4.0}, 
+      author={Yuchen Xia and Zhewen Xiao and Nasser Jazdi and Michael Weyrich},
+      year={2024},
+      eprint={2403.17209},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+```
+
 ### Abstract
 This research introduces a novel approach for achieving semantic interoperability in digital twins and assisting the creation of Asset Administration Shell (AAS) as digital twin model within the context of Industry 4.0. The foundational idea of our research is that the communication based on semantics and the generation of meaningful textual data are directly linked, and we posit that these processes are equivalent if the exchanged information can be serialized in text form. Based on this, we construct a “semantic node” data structure in our research to capture the semantic essence of textual data. Then, a system powered by large language models is designed and implemented to process the “semantic node” and generate standardized digital twin models (AAS instance models in the context of Industry 4.0) from raw textual data collected from datasheets describing technical assets. Our evaluation demonstrates an effective generation rate of 62-79%, indicating a substantial proportion of the information from the source text can be translated error-free to the target digital twin instance model with the generative capability of large language models. This result has a direct application in the context of Industry 4.0, and the designed system is implemented as a data model generation tool for reducing the manual effort in creating AAS model by automatically translating unstructured textual data into a standardized AAS model. The generated AAS model can be integrated into AAS-compliant digital twin software for seamless information exchange and communication. In our evaluation, a comparative analysis of different LLMs and an in-depth ablation study of Retrieval-Augmented Generation (RAG) mechanisms provide insights into the effectiveness of LLM systems for interpreting technical concepts and translating data. Our findings emphasize LLMs’ capability to automate AAS instance creation and contribute to the broader field of semantic interoperability for digital twins in industrial applications.
 
