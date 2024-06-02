@@ -3,6 +3,12 @@
 The web-application is hosted here: [https://aasbyllmappv16-yawjvp4zbq-ew.a.run.app](https://aasbyllmappv16-yawjvp4zbq-ew.a.run.app)
 (Note: It may take 30 seconds to 2 minutes for the elastic server system to boot up.)
 
+# Demo: Generating AAS structured information model from PDF
+![Demo GIF](Demo_AAS_generation.gif)
+
+A Demo Video with higher resolution: [Demo VideoDemo_AAS_generation.mov](Demo_AAS_generation.mov)
+
+
 # The research paper (pre-print paper)
 [pre-print paper](https://github.com/YuchenXia/AASbyLLM/blob/main/research_paper/v3_Automated%20Generation%20of%20Asset%20Administration%20Shell%20with%20Large%20Language%20Model.pdf)
 ### Abstract
