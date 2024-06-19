@@ -1,0 +1,1686 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://cdn.jsdelivr.net/npm/json-formatter-js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AASbyLLM - generating digital twin models with large language models</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .input-section, .output-section {
+            margin-bottom: 20px;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            height: 300px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 14px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        button:disabled {
+            background-color: #cccccc;
+            color: #666666;
+            cursor: default;
+            pointer-events: none;
+        }
+        .output {
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: #fafafa;
+            border-radius: 4px;
+            height: 200px;
+            overflow-y: auto;
+            font-family: 'Consolas', monospace;
+            font-size: 14px;
+        }
+
+        .output-json {
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: #fafafa;
+            border-radius: 4px;
+            height: 400px;
+            overflow-y: auto;
+            font-family: 'Consolas', monospace;
+            font-size: 14px;
+        }
+        label {
+            font-weight: bold;
+        }
+        .popover {
+          max-width: 350px;
+        }
+
+        .tooltip-inner {
+        max-width: 450px;
+        }
+
+        .btn-group {
+            display: flex;
+            margin-bottom: 0;
+        }
+        .btn-group .btn {
+            width: 20%;
+        }
+        .btn-group button {
+            flex: 1;
+            border: 1px solid #007bff;
+            background-color: #f8f9fa;
+            color: #007bff;
+            padding: 10px 15px;
+            margin: 0 5px;
+            border-radius: 0.25rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-group button:hover {
+            background-color: #e7f0fe;
+        }
+
+        .btn-group button.active {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        .btn-group button:first-child {
+            margin-left: 0;
+        }
+        .btn-group button:last-child {
+            margin-right: 0;
+        }
+        .char-count-green {
+            color: green;
+        }
+
+        .char-count-yellow {
+            color: orange;
+        }
+
+        .char-count-red {
+            color: red;
+        }
+
+        .data-features-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .data-feature-container {
+            position: relative;
+            width: 646px;
+            height: 445px;
+            margin-bottom: 20px;
+        }
+
+        .data-feature {
+            background: url('/static/images/semantic_node.png') no-repeat center center;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        .data-text {
+            position: absolute;
+            padding: 5px;
+            font-size: 14px;
+            line-height: 1.2;
+            margin: 4px;
+            width: 150px;
+            height: 70px;
+            overflow: auto;
+        }
+
+        .scroll-container {
+            max-height: 400px; /* 或您希望的任何高度 */
+            overflow-y: auto; /* 启用垂直滚动 */
+            border: 1px solid #ccc; /* 可选的边框样式 */
+        }
+
+
+        /* Positioning styles for data text */
+        .number {position: absolute; top: 16px; left: 270px; width: 100px; font-size: 20px;}
+        .name { top: 57px; left: 80px; width: 200px;}
+        .conceptual-definition { top: 57px; left: 365px; width: 200px;}
+        .value-type { top: 210px; left: 40px; width: 160px;}
+        .data-value { top: 197px; left: 257px; width: 100px;}
+        .unit { top: 207px; left: 470px; width: 150px;}
+        .contextual-description { top: 327px; left: 85px; width: 200px;}
+        .affordance { top: 327px; left: 370px; width: 200px;}
+
+
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">AASbyLLM</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/YuchenXia/AASbyLLM/tree/main/research_paper" target="_blank">Research Paper</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/YuchenXia/AASbyLLM" target="_blank"><b>GitHub</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples" target="_blank">Dataset</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/YuchenXia/AASbyLLM/tree/main/related_works" target="_blank"><b>Related Works</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/YuchenXia/AASbyLLM" target="_blank">About</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <h1 class="section-heading"><b>AASbyLLM</b><br> </h1>
+    <h3 class="section-heading">generating digital twin models with large language models</h3>
+    <p>This is a research prototype for generating digital twin models using large language models (LLMs). It receives technical properties of an asset as texts input from users and then generates a digital representation (Asset Administration Shell - AAS) in JSON format. The site also allows for downloading these models and provides tools for evaluating the generated information for research purposes.</p>
+    <div class="button-group">
+        <a href="/" class="btn btn-secondary">Try the application and test</a>
+        <a href="/eval" class="btn btn-primary">View research evaluation process</a>
+    </div>
+</div>
+
+<div class="container">
+    <form id="aasForm" class="input-section">
+        <h6>Select a test case: </h6>
+        <div class="form-group">
+            <div class="scroll-container">
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample1" class="btn btn-sm" value="t1" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog [DKI3WebDataSheet_0004.pdf] published at https://www.festo.com/" style="color: black; border: none; background-color: transparent;" disabled>Test 1: Actuator</button>
+                    <button type="button" class="download-pdf-button" data-id="sample_1">download the source PDF of sample 1</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample1_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t1"  >Eval 1_1: GPT-3.5</button>
+                    <button type="button" id="btnExample1_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t1">Eval 1_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample1_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t1">Eval 1_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample1_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t1">Eval 1_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample1_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t1">Eval 1_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample1_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t1">Eval 1_6: Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample1_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t1">Eval 1_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample1_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t1">Eval 1_8: WizardLM_70B RAG</button>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample2" class="btn btn-sm" value="t2" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog [DKI3WebDataSheet_0008.pdf] published at https://www.festo.com/" style="color: black; border: none; background-color: transparent;" disabled>Test 2: Actuator</button>
+                    <button type="button" type="button" class="download-pdf-button" data-id="sample_2">download the source PDF of sample 2</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample2_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t2"  >Eval 2_1: GPT-3.5</button>
+                    <button type="button" id="btnExample2_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t2">Eval 2_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample2_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t2">Eval 2_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample2_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t2">Eval 2_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample2_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t2">Eval 2_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample2_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t2">Eval 2_6: Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample2_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t2">Eval 2_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample2_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t2">Eval 2_8: WizardLM_70B RAG</button>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample3" class="btn btn-sm" value="t3" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog [A6V10331068_Fast running actuators for air dampers  GAP19.._en.pdf page 5] published at https://www.siemens.com/" style="color: black; border: none; background-color: transparent;" disabled>Test 3: Actuator</button>
+                    <button type="button" type="button" class="download-pdf-button" data-id="sample_3 page_5">download the source PDF of sample 3</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample3_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t3"  >Eval 3_1: GPT-3.5</button>
+                    <button type="button" id="btnExample3_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t3">Eval 3_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample3_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t3">Eval 3_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample3_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t3">Eval 3_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample3_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t3">Eval 3_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample3_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t3">Eval 3_6: Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample3_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t3">Eval 3_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample3_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t3">Eval 3_8: WizardLM_70B RAG</button>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample4" class="btn btn-sm" value="t4" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog [A6V10416352_2- and 3-port valves PN 25 with flanged connection_en.pdf page 13] published at https://www.siemens.com/" style="color: black; border: none; background-color: transparent;" disabled>Test 4: Actuator</button>
+                    <button type="button" class="download-pdf-button" data-id="sample_4 page_13">download the source PDF of sample 4</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample4_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t4"  >Eval 4_1: GPT-3.5</button>
+                    <button type="button" id="btnExample4_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t4">Eval 4_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample4_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t4">Eval 4_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample4_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t4">Eval 4_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample4_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t4">Eval 4_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample4_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t4">Eval 4_6: Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample4_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t4">Eval 4_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample4_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t4">Eval 4_8: WizardLM_70B RAG</button>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample5" class="btn btn-sm" value="t5" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog [pmt-hps-61-86-03-14-herculine-2000-series.pdf page 7] published at https://www.process.honeywell.com" style="color: black; border: none; background-color: transparent;" disabled>Test 5: Actuator</button>
+                    <button type="button" class="download-pdf-button" data-id="sample_5 page_7">download the source PDF of sample 5</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample5_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t5"  >Eval 5_1: GPT-3.5</button>
+                    <button type="button" id="btnExample5_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t5">Eval 5_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample5_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t5">Eval 5_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample5_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t5">Eval 5_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample5_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t5">Eval 5_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample5_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t5">Eval 5_6: Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample5_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t5">Eval 5_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample5_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t5">Eval 5_8: WizardLM_70B RAG</button>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample6" class="btn btn-sm" value="t6" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog [R999000499_2019_03_EN_18_07_2019_CKx page 101] published at https://www.boschrexroth.com" style="color: black; border: none; background-color: transparent;" disabled>Test 6: Sensor</button>
+                    <button type="button" class="download-pdf-button" data-id="sample_6 page_101">download the source PDF of sample 6</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample6_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t6"  >Eval 6_1: GPT-3.5</button>
+                    <button type="button" id="btnExample6_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t6">Eval 6_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample6_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t6">Eval 6_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample6_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t6">Eval 6_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample6_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t6">Eval 6_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample6_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t6">Eval 6_6: (JSON Format Error) Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample6_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t6">Eval 6_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample6_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t6">Eval 6_8: WizardLM_70B RAG</button>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample7" class="btn btn-sm" value="t7" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog [R999000499_2019_03_EN_18_07_2019_CKx page 110] published at https://www.boschrexroth.com" style="color: black; border: none; background-color: transparent;" disabled>Test 7: Sensor</button>
+                    <button type="button" class="download-pdf-button" data-id="sample_7 page_110">download the source PDF of sample 7</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample7_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t7"  >Eval 7_1: GPT-3.5</button>
+                    <button type="button" id="btnExample7_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t7">Eval 7_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample7_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t7">Eval 7_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample7_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t7">Eval 7_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample7_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t7">Eval 7_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample7_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t7">Eval 7_6: Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample7_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t7">Eval 7_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample7_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t7">Eval 7_8: WizardLM_70B RAG</button>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample8" class="btn btn-sm" value="t8" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog [6AT80024AB00_datasheet_en.pdf] published at https://www.siemens.com/" style="color: black; border: none; background-color: transparent;" style="color: black; border: none; background-color: transparent;" disabled>Test 8: Sensor</button>
+                    <button type="button" class="download-pdf-button" data-id="sample_8">download the source PDF of sample 8</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample8_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t8"  >Eval 8_1: GPT-3.5</button>
+                    <button type="button" id="btnExample8_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t8">Eval 8_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample8_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t8">Eval 8_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample8_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t8">Eval 8_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample8_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t8">Eval 8_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample8_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t8">Eval 8_6: Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample8_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t8">Eval 8_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample8_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t8">Eval 8_8: WizardLM_70B RAG</button>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample9" class="btn btn-sm" value="t9" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog [DKI3WebDataSheet_0007.pdf] published at https://www.festo.com/" style="color: black; border: none; background-color: transparent;" style="color: black; border: none; background-color: transparent;" disabled>Test 9: Sensor</button>
+                    <button type="button" class="download-pdf-button" data-id="sample_9">download the source PDF of sample 9</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample9_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t9"  >Eval 9_1: GPT-3.5</button>
+                    <button type="button" id="btnExample9_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t9">Eval 9_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample9_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t9">Eval 9_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample9_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t9">Eval 9_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample9_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t9">Eval 9_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample9_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t9">Eval 9_6: Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample9_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t9">Eval 9_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample9_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t9">Eval 9_8: WizardLM_70B RAG</button>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample11" class="btn btn-sm" value="t11" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog [D15000100149063.pdf page 4] published at https://www.festo.com/" style="color: black; border: none; background-color: transparent;" disabled>Test 10: Sensor</button>
+                    <button type="button" class="download-pdf-button" data-id="sample_10">download the source PDF of sample 10</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample10_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t10"  >Eval 10_1: GPT-3.5</button>
+                    <button type="button" id="btnExample10_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t10">Eval 10_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample10_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t10">Eval 10_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample10_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t10">Eval 10_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample10_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t10">Eval 10_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample10_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t10">Eval 10_6: Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample10_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t10">Eval 10_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample10_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t10">Eval 10_8: WizardLM_70B RAG</button>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample10" class="btn btn-sm" value="t10" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog [sps-siot-citytech-1co-analog-sensor-datasheet.pdf] published at https://www.process.honeywell.com" style="color: black; border: none; background-color: transparent;" disabled>Test 10: Sensor</button>
+                    <button type="button" class="download-pdf-button" data-id="sample_11 page_4">download the source PDF of sample 11</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample11_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t11"  >Eval 11_1: GPT-3.5</button>
+                    <button type="button" id="btnExample11_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t11">Eval 11_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample11_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t11">Eval 11_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample11_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t11">Eval 11_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample11_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t11">Eval 11_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample11_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t11">Eval 11_6: Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample11_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t11">Eval 11_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample11_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t11">Eval 11_8: WizardLM_70B RAG</button>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample12" class="btn btn-sm" value="t10" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog [sps-siot-citytech-1co-analog-sensor-datasheet.pdf] published at https://www.process.honeywell.com" style="color: black; border: none; background-color: transparent;" disabled>Test 10: Sensor</button>
+                    <button type="button" class="download-pdf-button" data-id="sample_12 page_73">download the source PDF of sample 12</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample12_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t12"  >Eval 12_1: GPT-3.5</button>
+                    <button type="button" id="btnExample12_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t12">Eval 12_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample12_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t12">Eval 12_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample12_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t12">Eval 12_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample12_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t12">Eval 12_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample12_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t12">Eval 12_6: Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample12_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t12">Eval 12_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample12_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t12">Eval 12_8: WizardLM_70B RAG</button>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample13" class="btn btn-sm" value="t13" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog published at https://mall.industry.siemens.com/mall/en/WW/Catalog/Products" style="color: black; border: none; background-color: transparent;" disabled>Test 13: Controller</button>
+                    <button type="button" class="download-pdf-button" data-id="sample_13 page_264">download the source PDF of sample 13</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample13_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t13"  >Eval 13_1: GPT-3.5</button>
+                    <button type="button" id="btnExample13_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t13">Eval 13_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample13_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t13">Eval 13_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample13_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t13">Eval 13_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample13_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t13">Eval 13_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample13_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t13">Eval 13_6: Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample13_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t13">Eval 13_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample13_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t13">Eval 13_8: WizardLM_70B RAG</button>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample14" class="btn btn-sm" value="t14" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog [9AKK108394.pdf page 22] published at https://new.abb.com/motors-generators" style="color: black; border: none; background-color: transparent;" disabled>Test 14: Controller</button>
+                    <button type="button" class="download-pdf-button" data-id="sample_14 page_22">download the source PDF of sample 14</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample14_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t14"  >Eval 14_1: GPT-3.5</button>
+                    <button type="button" id="btnExample14_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t14">Eval 14_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample14_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t14">Eval 14_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample14_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t14">Eval 14_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample14_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t14">Eval 14_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample14_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t14">Eval 14_6: Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample14_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t14">Eval 14_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample14_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t14">Eval 14_8: WizardLM_70B RAG</button>
+                </div>
+
+
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample15" class="btn btn-sm" value="t15" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog [9AKK108394.pdf page 23] published at https://new.abb.com/motors-generators" style="color: black; border: none; background-color: transparent;" disabled>Test 15: Controller</button>
+                    <button type="button" class="download-pdf-button" data-id="sample_15 page_23">download the source PDF of sample 15</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample15_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t15"  >Eval 15_1: GPT-3.5</button>
+                    <button type="button" id="btnExample15_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t15">Eval 15_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample15_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t15">Eval 15_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample15_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t15">Eval 15_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample15_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t15">Eval 15_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample15_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t15">Eval 15_6: Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample15_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t15">Eval 15_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample15_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t15">Eval 15_8: WizardLM_70B RAG</button>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample16" class="btn btn-sm" value="t16" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog [R999000499_2019_03_EN_18_07_2019_CKx page 114] published at https://www.boschrexroth.com/" style="color: black; border: none; background-color: transparent;" disabled>Test 16: Connectivity</button>
+                    <button type="button" class="download-pdf-button" data-id="sample_16 page_114">download the source PDF of sample 16</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample16_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t16"  >Eval 16_1: GPT-3.5</button>
+                    <button type="button" id="btnExample16_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t16">Eval 16_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample16_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t16">Eval 16_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample16_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t16">Eval 16_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample16_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t16">Eval 16_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample16_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t16">Eval 16_6: Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample16_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t16">Eval 16_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample16_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t16">Eval 16_8: WizardLM_70B RAG</button>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample17" class="btn btn-sm" value="t17" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog [R999000499_2019_03_EN_18_07_2019_CKx page 116] published at https://www.boschrexroth.com/" style="color: black; border: none; background-color: transparent;" disabled>Test 17: Connectivity</button>
+                    <button type="button" class="download-pdf-button" data-id="sample_17 page_116">download the source PDF of sample 17</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample17_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t17"  >Eval 17_1: GPT-3.5</button>
+                    <button type="button" id="btnExample17_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t17">Eval 17_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample17_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t17">Eval 17_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample17_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t17">Eval 17_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample17_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t17">Eval 17_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample17_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t17">Eval 17_6: Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample17_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t17">Eval 17_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample17_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t17">Eval 17_8: WizardLM_70B RAG</button>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample18" class="btn btn-sm" value="t18" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog [6AT80024AC03_datasheet_en.pdf] published at https://www.siemens.com/" style="color: black; border: none; background-color: transparent;" disabled>Test 18: Connectivity</button>
+                    <button type="button" class="download-pdf-button" data-id="sample_18">download the source PDF of sample 18</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample18_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t18"  >Eval 18_1: GPT-3.5</button>
+                    <button type="button" id="btnExample18_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t18">Eval 18_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample18_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t18">Eval 18_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample18_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t18">Eval 18_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample18_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t18">Eval 18_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample18_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t18">Eval 18_6: Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample18_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t18">Eval 18_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample18_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t18">Eval 18_8: WizardLM_70B RAG</button>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample19" class="btn btn-sm" value="t19" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog [6XV18012C_datasheet_en.pdf] published at https://www.siemens.com/" style="color: black; border: none; background-color: transparent;" disabled>Test 19: Connectivity</button>
+                    <button type="button" class="download-pdf-button" data-id="sample_19">download the source PDF of sample 19</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample19_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t19"  >Eval 19_1: GPT-3.5</button>
+                    <button type="button" id="btnExample19_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t19">Eval 19_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample19_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t19">Eval 19_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample19_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t19">Eval 19_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample19_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t19">Eval 19_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample19_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t19">Eval 19_6: Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample19_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t19">Eval 19_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample19_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t19">Eval 19_8: WizardLM_70B RAG</button>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample20" class="btn btn-sm" value="t20" data-toggle="tooltip" data-placement="top" title="Source: Information collected from the product catalog [8065123datasheet.pdf] published at https://www.festo.com/" style="color: black; border: none; background-color: transparent;" disabled>Test 20: Connectivity</button>
+                    <button type="button" class="download-pdf-button" data-id="sample_20">download the source PDF of sample 20</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="btnExample20_e1" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="false" value="t20"  >Eval 20_1: GPT-3.5</button>
+                    <button type="button" id="btnExample20_e2" class="btn btn-sm example-btn" data-model="gpt-3.5-turbo-instruct" data-rag="true" value="t20">Eval 20_2: GPT-3.5 RAG</button>
+                    <button type="button" id="btnExample20_e3" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="false" value="t20">Eval 20_3: Llama_2_70B</button>
+                    <button type="button" id="btnExample20_e4" class="btn btn-sm example-btn" data-model="Llama_2_70B_HF" data-rag="true" value="t20">Eval 20_4: Llama_2_70B RAG</button>
+                    <button type="button" id="btnExample20_e5" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="false" value="t20">Eval 20_5: Mixtral_8x7B</button>
+                    <button type="button" id="btnExample20_e6" class="btn btn-sm example-btn" data-model="Mixtral_8x7B_Instruct" data-rag="true" value="t20">Eval 20_6: Mixtral_8x7B RAG</button>
+                    <button type="button" id="btnExample20_e7" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="false" value="t20">Eval 20_7: WizardLM_70B</button>
+                    <button type="button" id="btnExample20_e8" class="btn btn-sm example-btn" data-model="WizardLM_70B" data-rag="true" value="t20">Eval 20_8: WizardLM_70B RAG</button>
+                </div>
+            </div>
+            <input type="hidden" id="activeExampleButtonValue" name="activeExampleButtonValue" value="t1">
+            <textarea id="userInput" name="userInput" placeholder="Input raw text here..." disabled>Manufacturer-article name
+Solenoid valve
+Manufacturer code
+VUVG-L14-T32C-AT-G18-1R8L
+Part number
+574226
+Valve function
+2x3/2 closed, monostable
+Type of actuation
+electrical
+Valve size
+14 mm
+Standard nominal flow rate
+560 l/min
+Operating pressure
+1.5 ... 8 bar
+Design structure
+Piston slide
+Type of reset
+Air spring
+Protection class
+IP65 with plug socket
+Nominal size
+4.6 mm
+Switching time off
+23 ms
+Switching time on
+8 ms
+Duty cycle
+100 %</textarea>
+        <span id="charCount">0</span> <span><strong>/600</strong></span>
+        </div>
+        <div class="form-group">
+            <label for="modelSelect">Choose the backend LLM: <span class="fas fa-info-circle" data-toggle="tooltip" title="This dropdown list allows for the selection of the specific Large Language Model (LLM) used to implement the LLM-agents."></span></label>
+            <select class="form-control" id="modelSelect" name="modelSelect" disabled>
+                <option value="Mixtral_8x7B_Instruct">Mixtral 8x7B Instruct</option>
+                <option value="gpt-3.5-turbo-instruct">GPT-3.5 Turbo Instruct (proprietary API from OpenAI)</option>
+                <option value="Llama_2_70B_HF">Llama 2 70B HF</option>
+                <option value="WizardLM_70B">WizardLM 70B</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="useExternalLibrary" disabled>
+                <label class="custom-control-label" for="useExternalLibrary">Integrate external library (ECLASS) for AAS generation <span class="fas fa-info-circle" data-toggle="tooltip" title="This checkbox configures the system's generation mechanism. When checked, it integrates the ECLASS library to guide the generation process (Retrieval Augmented Generation). When unchecked, it performs pure generation using LLMs only (without RAG)."></span></label>
+            </div>
+        </div>
+        <button type="submit" id="generateButton" disabled>Generate AAS</button> <span> AAS has been generated.</span>
+    </form>
+</div>
+<div class="container">
+
+    <div class="output-section">
+        <label>Result evaluation section: <span class="fas fa-info-circle" data-toggle="tooltip" title="This section evaluates the software's information processing capabilities. It displays 5 data property definitions searched from ECLASS based on semantic similarity. The AI selects the most appropriate definition (best of 5)  and then generates a concept definition for the data feature. 'Affordance' annotates the data's practical applications or usages. "></span></label>
+
+        <div id="dataFeatureEvaluationSection" class="evaluation-section">
+            <div class="data-feature-container">
+                <div class="data-feature">
+                    <div class="data-text number"><b># </b></div>
+                    <div class="data-text name"><b>Name:</b> </div>
+                    <div class="data-text conceptual-definition"><b>Conceptual Definition:</b></div>
+                    <div class="data-text value-type"><b>Value Type:</b></div>
+                    <div class="data-text data-value"><b>Data Value:</b></div>
+                    <div class="data-text unit"><b>Unit:</b></div>
+                    <div class="data-text contextual-description"><b>Contextual Description:</b></div>
+                    <div class="data-text affordance"><b>Affordance:</b></div>
+                </div>
+            </div>
+            <a href="#evaluationDetailsDivId_example" data-toggle="collapse" aria-expanded="false">
+                <b>LLM reasoning details (Click to expand)</b>
+            </a>
+            <div id="evaluationDetailsDivId_example" class="collapse">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Data Feature Name</th>
+                            <th>Value</th>
+                            <th>Best Semantic Annotation Selected from ECLASS</th>
+                            <th>Searched Semantic Annotations from ECLASS (top 5)</th>
+                            <th>AI Generated Annotation</th>
+                            <th>Affordance</th>
+                            <th>User Rating</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        <button type="submit" id="submitRatingsButton" disabled>Submit Ratings</button> <span class="fas fa-info-circle" data-toggle="tooltip" title="'User Rating' collects feedback on data accuracy and usefulness, which we used for evaluating the system's performance. For this specific demo version of the software in this website, we do not collect any data. After the client disconnects, all the information sent to the server will be lost."></span>
+        <button id="downloadEvaluationBtn" style="float: right; border: 1px solid #ddd;" onclick="downloadEvaluation()" disabled>Download evaluation.json</button>
+    </div>
+    <br>
+    <br>
+        <div class="output-section">
+        <label>Program debug information: <span class="fas fa-info-circle" data-toggle="popover" data-placement="top" title="AASbyLLM System Components Diagram" data-html="true" data-trigger="hover" data-content="<img src='/static/images/AASbyLLM_system_components_diagram.png' alt='System Components Diagram' style='max-width:100%; height:auto; display:block; margin:0 auto;'>"> system components diagram</span></label>
+        <div class="output" id="statusUpdates"></div>
+    </div>
+    <div class="output-section">
+        <label>The generated AAS serialized in JSON format:</label>
+        <div class="output-json " id="output"></div>
+        <button id="downloadButton" onclick="downloadAAS()" disabled>Download this AAS</button>
+        <p>Open the downloaded file by right-clicking and using
+            <a href="https://github.com/admin-shell-io/aasx-package-explorer/releases" target="_blank">AasxPackageExplorer <i class="fas fa-external-link-alt"></i></a>, or open the file in ".json" format through the AasxPackageExplorer Windows application.
+        </p>
+        <a href="#imageInstructions" data-toggle="collapse" aria-expanded="false" aria-controls="imageInstructions">
+            View screenshot images for instructions (Click to expand)
+        </a>
+        <div id="imageInstructions" class="collapse">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Open File (Method 1)</th>
+                        <th>Open File (Method 2)</th>
+                        <th>Final Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="/static/images/open_with_right_click_aasx.png" alt="Right Click Instructions" class="img-fluid">
+                        </td>
+                        <td>
+                            <img src="/static/images/open_in_app_aasx.png" alt="Open in App Instructions" class="img-fluid">
+                        </td>
+                        <td>
+                            <img src="/static/images/aasx_display.png" alt="AAS Display" class="img-fluid">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h2 class="section-heading">Main Features and the Novelties of AASbyLLM</h2>
+    <div class="features-list">
+        <h4>Technologies:</h4>
+        <ul>
+            <li>First research prototype applying <strong>generative LLM</strong> for generating AAS.</li>
+            <li>Apply generative LLMs for <strong>inferencing</strong> and embedding LLMs for <strong>similarity retrieval</strong>.</li>
+        </ul>
+
+        <h4>Benefits:</h4>
+        <ul>
+            <li>Wider range of <strong>input flexibility</strong> and format independent.</li>
+            <li><strong>Generally applicable</strong> to different disciplinary domains.</li>
+            <li>Utilizes the knowledge learned in LLMs instead of relying on manually crafted mapping rules.</li>
+            <li>The system adds proper <strong>semantic annotation</strong> for disambiguating the <strong>concepts of the data property</strong>.</li>
+            <li>The system optimizes relevant details to enhance the quality of AAS.</li>
+        </ul>
+
+        <h4>Implications:</h4>
+        <ul>
+            <li>This prototype demonstrates the machine capability to <strong>semantically understand and generate</strong> data properties.</li>
+            <li>This capability can enable:
+                <ol>
+                    <li>An <strong>interoperable</strong> information exchange in the context of <strong>digitalization</strong>.</li>
+                    <li>A higher degree of <strong>task automation</strong> in the context of <strong>autonomization</strong>.</li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+    <h5 class="section-heading">More context and related research works are being updated at this <a href="https://github.com/YuchenXia/AASbyLLM/blob/main/related_works/README.md" target="_blank" >GitHub Repository <i class="fas fa-external-link-alt"></i></a></h5>
+</div>
+
+<script>
+    var polling;
+    var noNewDataCount = 0;
+    var evaluationFileName = '';
+    var session_key = '';
+    var textExamples = {
+            'btnExample1': `Manufacturer-article name
+Solenoid valve
+Manufacturer code
+VUVG-L14-T32C-AT-G18-1R8L
+Part number
+574226
+Valve function
+2x3/2 closed, monostable
+Type of actuation
+electrical
+Valve size
+14 mm
+Standard nominal flow rate
+560 l/min
+Operating pressure
+1.5 ... 8 bar
+Design structure
+Piston slide
+Type of reset
+Air spring
+Protection class
+IP65 with plug socket
+Nominal size
+4.6 mm
+Switching time off
+23 ms
+Switching time on
+8 ms
+Duty cycle
+100 %`,
+            'btnExample2': `Name
+vacuum generator
+Manufacturer code
+OVEL-10-H-15-PQ-VQ6-UA-C-A-B2PNLK-H3
+Part number
+8069572
+Nominal size, Laval nozzle
+0.95 mm
+Grid dimension
+15 mm
+Silencer design
+Open
+Mounting position
+optional
+Ejector characteristic
+High vacuum
+Standard
+Grade of filtration
+40 µm
+Manual override
+Non-detenting
+Integrated function
+Electric ejector pulse
+Flow control
+Pressure sensor
+Electric on-off valve
+Filter
+Open silencer
+Design
+T-shape
+Switching element function
+N/C contact
+N/C or N/O contact, switchable
+Switchable
+Switching function
+Freely programmable`,
+            'btnExample3': `Name
+air damper
+Product No.
+GAP191.1E/IHT
+Stock No.
+S55499-D639
+Torque
+6 Nm
+Holding torque
+6 Nm
+Air damper area
+1 m²
+Angular rotation
+90°
+Power consumption
+20 VA, 13 W
+Positioning time
+2 s
+Cable length
+0.9 m
+Positioning signal
+DC 0(2)...10 V, 0(4)...20 mA
+Degree of protection
+IP54
+Ambient temperature, operation
+-32…55 °C
+Medium temperature
+-32…50 °C
+Ambient humidity, operation
+95 % r.h.
+Dimensions (W x H x D)
+81 x 192 x 63 mm
+Operating voltage
+AC/DC 24 V
+Auxiliary switch
+0`,
+            'btnExample4': `Name
+seat valve
+Product No.
+VVF53.100-150K
+Stock No.
+S55208-V158
+Stroke
+40 mm, DN 50: 20 mm;From DN 65: 40 mm
+Leakage rate
+0...0.01 % of kvs value
+DN
+100
+kvs
+150 m³/h
+Medium temperature
+-5…220 °C
+Valve characteristic
+Equal percentage, kvs 220/315 linear
+Rangeability
+> 100
+Permissible operating pressure
+2500 kPa
+Material, valve body
+Ductile iron
+Material, inside set
+CrNi steel
+PN class
+PN 25`,
+
+            'btnExample5': `Name
+electric actuator
+Product type designation
+herculine 2000
+Part number
+2000
+Weight
+25 lb. (11.36 kg)
+Enclosure
+Precision-machined die-cast aluminum housing finished in light gray powder coat
+epoxy.
+Factory set at 90° or 150° (+/-5°)
+Storage Temperature
+–40 °C to +93 °C (–40 °C to +200 °F)
+Relative Humidity
+0 % to 99 % R.H. non-condensing over the full operating temperature range
+Scale
+0 % to 100 % corresponding to full crank arm travel
+Lubrication
+Texaco Starplex 2 EP Grease
+Clamp Bolt
+88 lb-in (10 N-m)`,
+
+            'btnExample6': `Name
+Magnetic sensor with free cable end
+Part number
+R347600903
+Use
+Reference, limit switch
+Part number
+R347600903
+Designation
+R12212
+Functional principle
+magnetic
+Operating voltage
+max. 30 V DC
+Load current
+500 mA
+Switching function
+REED/changeover contact: (NC: C+NC, NO: C+NO)
+Activation point (dimension "X")
+9 mm
+Connection type
+Cable 2.0 m, 3-pin
+Switching frequency
+2.5 kHz
+Max. permissible starting speed
+2 m/s
+Cable cross-section
+3 x 0.14 mm2
+Cable diameter D
+3.2 ±0.20 mm
+Ambient temperature
+-40 °C to +85 °C
+IP rating
+IP66`,
+
+            'btnExample7': `Name
+Mechanical switch with M8x1 plug
+Use
+Limit switch
+Part number
+R913048215
+Designation
+BNS 819-X1002-99-R-10
+Functional principle
+mechanical, roller
+Operating voltage
+10 - 30 VDC
+Load current
+≤ 200 mA
+Switching function
+PNP/NC
+Connection type
+Cable 0.2 m and plug M8 x 1, 3-pin with knurled screw
+Switching frequency
+3.3 Hz
+Max. perm. starting velocity
+1 m/s
+Cable diameter
+4.3 ±0.2 mm
+Static bending radius
+12 mm
+Dynamic bending radius
+12 mm
+Ambient temperature
+-5 °C to +70 °C
+IP rating
+IP65`,
+
+            'btnExample8': `Name
+vibration sensor
+part number
+6AT8002-4AB00
+Product type designation
+VIB sensor S01
+Product description
+piezoelectric sensor for connection to the SIPLUS CMS2000 Basic Unit VIB or
+the SIPLUS CMS2000 VIB-MUX expansion module
+Installation and mounting instructions
+incl. mounting bolts UNF1/4-28 on M6 and M8
+Type of power supply
+IEPE 2 to 10 mA
+Encoder signals, IEPE
+Signal voltage (DC), min. 10 V
+Signal voltage (DC), max. 14 V
+IP degree of protection
+IP65
+Cable length, max.
+30 m
+Type of connection
+MIL-C5015
+Material of housing
+Stainless steel`,
+
+            'btnExample9': `Manufacturer-article name
+pressure sensor
+Manufacturer code
+SPAU-P2R-W-G18FD-L-PNLK-PNVBA-M8U
+Part number
+8001232
+Start value for pressure measuring range
+0 bar
+End value for pressure measuring range
+2 bar
+Max. overload pressure
+6 bar
+Media temperature
+0 °C ... 50 °C
+Ambient temperature
+0 °C ... 50 °C
+Resolution ADC
+12 bit
+Accuracy in ± % FS
+1.5 %FS
+Repetition accuracy in ± %FS
+0.3 %FS
+Temperature coefficient in ± %FS/K
+0.05 %FS/K
+Max. output current
+100 mA
+Rise time
+3 ms
+Max. load resistance current output
+500 Ohm
+Min. load resistance voltage output
+10 kOhm`,
+
+            'btnExample10': `Name
+gas sensor
+part number
+AB010-RO1A-CIT
+Product type designation
+1CO Carbon Monoxide (CO) Sensor
+Technology
+Electrochemical
+Measurement Range
+0.5 ppm CO to 1000 ppm CO
+(EN 45544 applications)
+Maximum Overload
+2000 ppm CO
+Sensitivity
+50 nA/ppm ±10 nA/ppm
+Repeatability
+< ±2% of measured value
+Linearity
+Linear ± 5%
+(0 ppm CO to 2000 ppm CO)
+Operating Temperature Range
+-40°C to +60°C
+Operating Pressure Range
+600 mbar to 1200 mbar
+Expected Operating Life
+5 years in air`,
+
+            'btnExample11': `Name
+Motor controller
+Product type designation
+Motor controllers CMMB-AS, for servo motors
+Type of mounting
+Screwed onto connection plate
+Display
+Seven-segment display
+Parameterisation interface
+RS232 (up to 38400 bits/s)
+Number of analogue inputs
+2
+Operating range of analogue inputs [V]
+±10
+Characteristics of analogue inputs
+Differential inputs
+Configurable for rotational speed / current
+Number of digital logic outputs
+5
+Number of digital logic inputs
+7
+Operating range of logic inputs [V]
+12.5 ... 30
+Degree of protection
+IP20`,
+
+            'btnExample12': `Name
+basic controller
+Product type designation
+SIMATIC S7-1200
+Degree of protection
+IP20 acc. to IEC 529
+Ambient temperature
+Operation
+(95% humidity)
+Horizontal installation
+-20 … +60 °C
+Vertical installation
+-20 … +50 °C
+Transportation and storage
+-40 ... +70 °C
+With 95% humidity
+25 ... 55 °C
+Electromagnetic compatibility
+Requirements of the EMC directive
+Noise immunity acc. to EN 50082-2
+Test acc. to:
+IEC 801-2, IEC 801-3, IEC 801-4, EN 50141, EN 50204, IEC 801-5, VDE 0160`,
+
+            'btnExample13': `Name
+advanced controller
+Product type designation
+SIMATIC S7-1500
+Degree of protection
+IP20 acc. to IEC 60 529
+Ambient temperature
+Horizontal installation
+0...60 °C
+Vertical installation
+0... 40 °C
+Relative humidity
+10 %...95 %, no condensation
+Electromagnetic compatibility
+Requirements of the EMC directive
+interference immunity according to IEC 61000-6-2`,
+
+            'btnExample14': `Name
+DC control
+Product type designation
+BC138
+Product ID
+7BBC138
+Enclosure
+NEMA1
+Control type
+Reversible
+AC Line input (VAC 50/60Hz)
+115
+Max. AC Load current (RMS)
+5.0
+DC Armature voltage nominal (VDC)
+90
+Max. DC Load current (ADC)
+3.5
+Shunt field power supply (VDC)
+50/100
+Control of speed or torque
+Speed
+IR Compensation adjustable (VDC)
+0 - 24
+Tachometer feedback input
+No
+AC Line fuse
+Included
+AC Line switch
+Standard
+Electrical connection to control barrier terminal block
+Standard
+Current sensing relay/overload protector
+No
+AC Line filter for CE
+Opt-BC24-LF`,
+
+            'btnExample15': `Name
+Line regenerative DC control
+Product type designation
+BC254-FBR
+Product ID
+7BBC254-FBR
+Enclosure
+NEMA4X
+Control type
+Regenerative
+AC Line input (VAC 50/60Hz)
+230
+Max. AC Load current (RMS)
+15
+DC Armature voltage nominal (VDC)
+180
+Max. DC Load current (ADC)
+11
+Shunt field power supply (VDC)
+100/200
+Control of speed or torque
+Speed or Torque
+IR Compensation adjustable (VDC)
+0 - 30
+Tachometer feedback input
+Yes
+AC Line fuse
+External
+Electrical connection to control barrier terminal block
+Standard
+Current sensing relay/overload protector
+Standard`,
+
+            'btnExample16': `Name
+Connector
+Use
+Male connector, single
+Part number
+R901388333
+Designation
+7000-08331-0000000
+Version
+straight
+Operating current per contact
+max. 4 A
+Operating voltage
+max. 32 V AC/DC
+Connection type
+Male connector, straight, M8x1, 3-pin Insulation displacement, self-locking screw thread
+Connection cross-section
+0.14 ... 0.34 mm2
+Ambient temperature
+-25°C to +85°C
+IP rating
+IP67 (inserted and locked)`,
+
+            'btnExample17': `Name
+Distributor
+Use
+Passive distributor
+Part number
+R901425737
+Designation
+8000-84070-0000000
+Version
+straight, for 1 - 4 sensors
+Operating current per contact
+max. 2 A
+Operating voltage
+24 VDC
+Switching logic
+PNP
+1st connection type
+4x female connector, straight, M8x1, 3-pin, self-locking screw thread
+2nd connection type
+Straight plug, M12x1, 8-pin, IDC, self-locking screw thread
+Function indicator
+Yes
+Operating voltage indicator
+Yes
+Ambient temperature
+–20 °C to +70 °C
+IP rating
+IP67 (inserted and locked)`,
+
+            'btnExample18': `Name
+cable
+part number
+6AT8002-4AC03
+Product type designation
+Cable MIL-300
+Product description
+For connection of the VIB-SENSOR S01 vibration sensor to the SIPLUS
+CMS2000 Basic Unit VIB or the SIPLUS CMS2000 VIB-MUX expansion
+module
+Ambient temperature during operation
+min. -25 °C
+max. 122 °C
+Type of insulation
+black polyurethane
+Design of shield
+Braided shielding with stranded drain wire
+Cable length
+3 m
+Type of connection
+MIL-C5015 / open cable end`,
+
+            'btnExample19': `Name
+control cable
+part number
+6XV1801-2C
+Product type designation
+Control cable 5 x 0.25
+Product description
+Control cable, 5-core Power line, stranded wire, 5 x AWG24; Delivery unit: max. 1000 m, minimum order quantity 20 m sold by the meter
+cable designation
+LIHH11Y 5X1X0.25 SW
+operating voltage / RMS value
+300 V
+conductor cross section / of the power line
+0.4 mm²
+continuous current / of the power lines
+2.5 A
+number of electrical cores
+5
+AWG number
+24
+conductor class
+6
+marking / of cores
+Color
+tensile load / maximum
+10 N
+weight per length
+40 kg/km`,
+
+            'btnExample20': `Name
+Connecting cable
+Manufacturer code
+NEBC-D8G4-ES-0.5-N-S-D8G4-ET
+Part number
+8065123
+Based on norm
+EN 61076-2-114
+Contact durability
+100
+Product weight
+43 g
+DC operating voltage range
+0 V ... 30 V
+Nominal operating voltage DC
+24 V
+Current rating at 40° C
+3 A
+Surge resistance
+1.5 kV
+Reverse polarity protection
+no
+Cable length
+0.5 m
+Cable characteristic
+Suitable for energy chains
+Connector cable test conditions
+Test conditions on request
+Bending radius, fixed cable installation
+≥20 mm
+Degree of protection
+IP65
+IP67`,
+
+            'btnExampleClear': ``
+        };
+
+    $('[data-toggle="tooltip"]').tooltip({ html: true});
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+    });
+
+    document.querySelectorAll('.example-btn').forEach(button => {
+        button.addEventListener('click', function() {
+            const value = this.value;
+            const model = this.getAttribute('data-model');
+            const rag = this.getAttribute('data-rag');
+
+            const data = { value, model, rag };
+
+            fetch('/eval/case', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            })
+            .then(response => response.json())
+            .then(data => {
+                session_key = data.session_key;
+                populateDataFeatureEvaluationSection(data.resultsForHumanEvaluation);
+                var jsonViewer = new JSONFormatter(data.aas, 3);
+                var viewerElement = document.getElementById('output');
+                viewerElement.innerHTML = '';
+                viewerElement.appendChild(jsonViewer.render());
+
+                const numberOfDataFeatures = data['numberOfDataFeatures'];
+                if (numberOfDataFeatures !== undefined) {
+                    button.innerHTML += " <b>(" + numberOfDataFeatures + ")</b>";
+                }
+
+                document.getElementById('downloadButton').disabled = false;
+                generateButton.disabled = true;
+                document.getElementById('submitRatingsButton').disabled = false;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('output').textContent = 'Error displaying AAS.';
+                generateButton.disabled = true;
+            });
+        });
+    });
+
+    document.addEventListener('DOMContentLoaded', (event) => {
+
+        const ExampleButtons = document.querySelectorAll('.btn-group .btn');
+        const activeExampleButtonInput = document.getElementById('activeExampleButtonValue');
+
+        ExampleButtons.forEach(button => {
+            button.addEventListener('click', (e) => {
+                activeExampleButtonInput.value = e.currentTarget.value;
+                const model = e.currentTarget.getAttribute('data-model');
+                const rag = e.currentTarget.getAttribute('data-rag') === 'true';
+                document.getElementById('modelSelect').value = model;
+                document.getElementById('useExternalLibrary').checked = rag;
+                document.getElementById('modelSelect').disabled = true;
+                document.getElementById('useExternalLibrary').disabled = true;
+            });
+        });
+
+        // Character count functionality
+        const textArea = document.getElementById('userInput');
+        const charCountSpan = document.getElementById('charCount');
+
+        // Function to update character count
+        const updateCharCount = () => {
+            const currentLength = textArea.value.length;
+            charCountSpan.textContent = `${currentLength}`;
+
+            if (currentLength <= 400) {
+                charCountSpan.className = 'char-count-green';
+            } else if (currentLength > 400 && currentLength <= 600) {
+                charCountSpan.className = 'char-count-yellow';
+            } else {
+                charCountSpan.className = 'char-count-red';
+            }
+        };
+
+        textArea.addEventListener('input', updateCharCount);
+
+        updateCharCount();
+
+
+        // Modify form submission
+        const originalFormSubmit = document.getElementById('aasForm').onsubmit;
+        document.getElementById('aasForm').onsubmit = function(event) {
+            if (textArea.value.length > 600) {
+                alert('Character limit exceeded. Please limit the input to 600 characters for this research prototype.');
+                event.preventDefault();
+                return;
+            }
+            originalFormSubmit.call(this, event);
+        };
+
+
+        const buttons = Array.from(document.querySelectorAll('.btn-group button'));
+        buttons[0].classList.add('active');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Update the textarea value with the text corresponding to the clicked button
+                let display_text = textExamples[this.id];
+                if (display_text === undefined) {
+                    const newId = this.id.slice(0, -3);
+                    display_text = textExamples[newId];
+                }
+                document.getElementById('userInput').value = display_text
+                buttons.forEach(btn => btn.classList.remove('active'));
+                updateCharCount();
+                this.classList.add('active');
+            });
+        });
+    });
+
+    function downloadEvaluation() {
+        if (evaluationFileName) {
+            window.location.href = `/download-evaluation/${evaluationFileName}`;
+        }
+    }
+
+    function downloadAAS() {
+        if (session_key) {
+            window.location.href = `/download-aas/aas_file_${session_key}`;
+        }
+    }
+
+    function downloadSamplePDF1() {
+            window.location.href = `/downloadSamplePDF`;
+    }
+
+    document.querySelectorAll('.download-pdf-button').forEach(button => {
+        button.addEventListener('click', function() {
+            var pdfId = this.getAttribute('data-id');
+            window.open('/downloadSamplePDF/' + pdfId, '_blank');
+
+        });
+    });
+
+
+
+
+    document.getElementById('aasForm').onsubmit = function(event) {
+        event.preventDefault();
+        var generateButton = document.getElementById('generateButton');
+        var statusBox = document.getElementById('statusUpdates');
+        statusBox.innerHTML = '';
+        statusBox.innerHTML += 'Connecting the server, initializing...<br>';
+        document.getElementById('output').innerHTML = '';
+        document.getElementById('dataFeatureEvaluationSection').innerHTML = '';
+        generateButton.disabled = true;
+        document.getElementById('downloadButton').disabled = true;
+        document.getElementById('submitRatingsButton').disabled = true;
+
+        var inputText = document.getElementById('userInput').value;
+        var selectedModel = document.getElementById('modelSelect').value;
+        var useExternalLibrary = document.getElementById('useExternalLibrary').checked;
+        var activeExampleButtonValue = document.getElementById('activeExampleButtonValue').value;
+
+
+        fetch('/generate', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ textInput: inputText, model: selectedModel, useExternalLibrary: useExternalLibrary, activeExampleButton: activeExampleButtonValue}),
+        })
+
+        .then(response => response.json())
+        .then(data => {
+            session_key = data.session_key;
+            populateDataFeatureEvaluationSection(data.resultsForHumanEvaluation);
+            var jsonViewer = new JSONFormatter(data.aas, 3);
+            var viewerElement = document.getElementById('output');
+            viewerElement.innerHTML = '';
+            viewerElement.appendChild(jsonViewer.render());
+            document.getElementById('downloadButton').disabled = false;
+            generateButton.disabled = true;
+            document.getElementById('submitRatingsButton').disabled = false;
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            document.getElementById('output').textContent = 'Error generating AAS.';
+            generateButton.disabled = true;
+        });
+    };
+
+
+
+    document.getElementById('submitRatingsButton').addEventListener('click', function() {
+        const ratingsData = [];
+        document.querySelectorAll('.data-feature-container').forEach((container, index) => {
+            const selectedRating_e0 = document.querySelector(`input[name="userConfused-${index}"]:checked`)?.value;
+            const selectedRating_e0_1 = document.querySelector(`input[name="rating${index}-e0-1"]:checked`)?.value;
+            const selectedRating_e1_1 = document.querySelector(`input[name="rating${index}-e1-1"]:checked`)?.value;
+            const selectedRating_e1_2 = document.querySelector(`input[name="rating${index}-e1-2"]:checked`)?.value;
+            const selectedRating_e1 = document.querySelector(`input[name="rating${index}-e1"]:checked`)?.value;
+            let inaccurateElements = [];
+            container.querySelectorAll('.data-text').forEach((element) => {
+                if (element.getAttribute('data-inaccurate') === 'true') {
+                    inaccurateElements.push(element.getAttribute('data-name'));
+                }
+            });
+            ratingsData.push({index, userConfused: selectedRating_e0 || '-', impKnowledge: selectedRating_e0_1 || '-', overall: selectedRating_e1 || '-', definition: selectedRating_e1_1 || '-', affordance: selectedRating_e1_2 || '-', isInaccurate: inaccurateElements});
+        });
+        let shortened_session_key = session_key.slice(0, -21);
+        document.getElementById('statusUpdates').innerHTML += 'Ratings submitted.<br>';
+        fetch(`/submitRatings/${shortened_session_key}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ratingsData}),
+        })
+        .then(response => response.json())
+        .then(data => {
+            evaluationFileName = data.evaluationFileName;
+            document.getElementById('statusUpdates').innerHTML += 'Ratings received.<br>';
+            document.getElementById('statusUpdates').scrollTop = document.getElementById('statusUpdates').scrollHeight;
+            document.getElementById('downloadEvaluationBtn').disabled = false;
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
+
+    function populateDataFeatureEvaluationSection(results) {
+        const dataFeatureEvaluationSection = document.getElementById('dataFeatureEvaluationSection');
+        dataFeatureEvaluationSection.innerHTML = '';
+
+        results.forEach((result, index) => {
+            const dataFeature = result.DataFeature;
+            const annotations = result.Annotations;
+
+            const ratingRadioButtonsHTML_e0_1 = [1, 2, 3, 4, 5].map(num => `
+                <div class="form-check form-check-inline" id="form-check-${index}-e0-1-${num}">
+                    <input class="form-check-input" type="radio" name="rating${index}-e0-1" id="rating${index}-e0-1-${num}" value="${num}">
+                    <label class="form-check-label" for="rating${index}-e0-1-${num}">${num}</label>
+                </div>
+            `).join('');
+
+            const ratingRadioButtonsHTML_e1 = [1, 2, 3, 4, 5].map(num => `
+                <div class="form-check form-check-inline" id="form-check-${index}-e1-${num}">
+                    <input class="form-check-input" type="radio" name="rating${index}-e1" id="rating${index}-e1-${num}" value="${num}">
+                    <label class="form-check-label" for="rating${index}-e1-${num}">${num}</label>
+                </div>
+            `).join('');
+
+            const ratingRadioButtonsHTML_e1_1 = [1, 2, 3, 4, 5].map(num => `
+                <div class="form-check form-check-inline" id="form-check-${index}-e1-1-${num}">
+                    <input class="form-check-input" type="radio" name="rating${index}-e1-1" id="rating${index}-e1-1-${num}" value="${num}">
+                    <label class="form-check-label" for="rating${index}-e1-1-${num}">${num}</label>
+                </div>
+            `).join('');
+
+            const ratingRadioButtonsHTML_e1_2 = [1, 2, 3, 4, 5].map(num => `
+                <div class="form-check form-check-inline" id="form-check-${index}-e1-2-${num}">
+                    <input class="form-check-input" type="radio" name="rating${index}-e1-2" id="rating${index}-e1-2-${num}" value="${num}">
+                    <label class="form-check-label" for="rating${index}-e1-2-${num}">${num}</label>
+                </div>
+            `).join('');
+
+
+            let annotationsHTML = annotations.EvaluatedAnnotations.map(annotation => {
+                const icon = annotation.isRelevant ? '✔️' : '❌';
+                const tooltip = `<strong>Name:</strong> ${annotation.Name}<br>
+            <strong>Definition:</strong> ${annotation.Definition}<br>
+            <strong>ID:</strong> ${annotation.SemanticIdentifier}<br>
+            <strong>AI's Judgement:</strong> ${annotation.isRelevant ? 'relevant' : 'not relevant'}<br>
+            <strong>AI's Reason:</strong> ${annotation.Reason}`;
+                return `<div data-toggle="tooltip" title="${tooltip}">${icon} ${annotation.Name}</div>`;
+            }).join('');
+
+            let evaluationDetailsDivId = `evaluationDetails_${index}`;
+
+            let dataFeatureEvaluationResultHTML = `
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="data-feature-container" data-index="${index}">
+                            <div class="data-feature">
+                                <div class="number" data-inaccurate="false"><b># ${index}</b></div>
+                                <div class="data-text name" data-name="Name" data-inaccurate="false">${dataFeature.Name}</div>
+                                <div class="data-text value-type" data-name="ValueType" data-inaccurate="false">String</div>
+                                <div class="data-text data-value" data-name="Value" data-inaccurate="false">${dataFeature.Value}</div>
+                                <div id="dynamicDataFeatureContent-${index}" style="display: none;">
+                                    <div class="data-text conceptual-definition" data-name="GeneratedDefinition" data-inaccurate="false">${annotations.GeneratedAnnotation.Definition}</div>
+                                    <div class="data-text unit" data-name="Unit" data-inaccurate="false"> ${annotations.Unit} </div>
+                                    <div class="data-text contextual-description" data-name="SourceDescription" data-inaccurate="false">${dataFeature.SourceDescription}</div>
+                                    <div class="data-text affordance" data-name="Affordance" data-inaccurate="false">${annotations.Affordance}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center justify-content-end">
+                        <div>
+                            <h5>E0. I understand the meaning just by reading this name and value at the first glance. <span class="fas fa-info-circle" data-toggle="tooltip" title="This addresses the problem of implicit knowledge assumptions: Assuming the reader has prior knowledge of certain aspects can lead to confusion, this hidden prior knowledge can be covered by the new generated texts."></span></h5>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="userConfused-${index}" id="userConfused_No-${index}" value="0">
+                                <label class="form-check-label" for="userConfused_No-${index}">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="userConfused-${index}" id="userConfused_Yes-${index}" value="1">
+                                <label class="form-check-label" for="userConfused_Yes-${index}">No, uncertain or confused</label>
+                            </div>
+                            <div id="ratingRadioButtonsWrapper-${index}" style="display: none;">
+                                <h7>Does the newly generated information help you understand the technical property better and correctly?</h7>
+                                ${ratingRadioButtonsHTML_e0_1}
+                            </div>
+                            <br>
+                            <h5>E1. Evalutate "df:ConceptualDefinition", "df:Affordance" and the overall quality of all the information: <span class="fas fa-info-circle" data-toggle="tooltip" title="Any text that actually caused confusion and misunderstanding shall be considered unclear."></span> <span class="fas fa-info-circle" data-toggle="tooltip" title="1: not at all; 2: has some good part; 3: medium; 4. good but not perfect; 5. very good"></span></h5>
+                            <h7>E1.1. Concept Definition: The generated definition correctly defines the technical property.</h7>
+                            <div>${ratingRadioButtonsHTML_e1_1}</div>
+                            <br>
+                            <h7>E1.2. Affordance: The system generates a reasonable potential usage for the data.</h7>
+                            <div>${ratingRadioButtonsHTML_e1_2}</div>
+                            <br>
+                            <h7>E1.3 Overall: How is the overall quality of this data feature describing the technical property?</h5>
+                            <span>In other words, does this information have the quality to be used without human modification and further improvement?</span>
+                            <div>${ratingRadioButtonsHTML_e1}</div>
+                            <br>
+                            <h5>E2. Identify any inaccuracies by clicking on the text in the left diagram.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a href="#${evaluationDetailsDivId}" data-toggle="collapse" aria-expanded="false" aria-controls="imageInstructions">
+                       <b>LLM reasoning details (Click to expand)</b>
+                    </a>
+                    <div id="${evaluationDetailsDivId}" class="collapse">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Data Feature Name</th>
+                                    <th>Value</th>
+                                    <th>Best Semantic Annotation Selected from ECLASS <a href="https://eclass.eu/eclass-standard/content-suche/search" target="_blank">ECLASS Search <i class="fas fa-external-link-alt"></i></a></th>
+                                    <th>Searched Semantic Annotations from ECLASS (top 5)</th>
+                                    <th>AI Generated Annotation</th>
+                                    <th>Affordance</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>${dataFeature.Name}</td>
+                                    <td>${dataFeature.Value}</td>
+                                    <td><strong>${annotations.BestAnnotation.Name}</strong>: ${annotations.BestAnnotation.Definition}<br><strong>ECLASS ID</strong>: ${annotations.BestAnnotation.SemanticIdentifier}</td>
+                                    <td>${annotationsHTML}</td>
+                                    <td><strong>${annotations.GeneratedAnnotation.Name}</strong>: ${annotations.GeneratedAnnotation.Definition}</td>
+                                    <td>${annotations.Affordance}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <hr>
+            `;
+
+            dataFeatureEvaluationSection.insertAdjacentHTML('beforeend', dataFeatureEvaluationResultHTML);
+
+
+            document.querySelectorAll('.data-feature-container .data-text').forEach(element => {
+            element.addEventListener('click', toggleDataInaccuracy);
+
+            document.getElementById(`userConfused_Yes-${index}`).addEventListener('change', function() {
+                if (this.checked) {
+                    document.getElementById(`ratingRadioButtonsWrapper-${index}`).style.display = 'block';
+                    document.getElementById(`dynamicDataFeatureContent-${index}`).style.display = 'block';
+                }
+            });
+
+            document.getElementById(`userConfused_No-${index}`).addEventListener('change', function() {
+                if (this.checked) {
+                    document.getElementById(`ratingRadioButtonsWrapper-${index}`).style.display = 'none';
+                    document.getElementById(`dynamicDataFeatureContent-${index}`).style.display = 'block';
+                }
+            });
+        });
+    });
+
+    function toggleDataInaccuracy(event) {
+        let element = event.currentTarget;
+        let isDataInaccurate = element.getAttribute('data-inaccurate') === 'true';
+
+        if (isDataInaccurate) {
+            element.innerHTML = element.innerHTML.replace('<span style="color: red; font-weight: bold;">[inaccurate] </span>', '');
+            element.setAttribute('data-inaccurate', 'false');
+        } else {
+            element.innerHTML = '<span style="color: red; font-weight: bold;">[inaccurate] </span>' + element.innerHTML;
+            element.setAttribute('data-inaccurate', 'true');
+        }
+    }
+
+
+    $('[data-toggle="tooltip"]').tooltip({ html: true});
+}
+</script>
+</body>
+</html>

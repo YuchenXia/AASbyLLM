@@ -1,0 +1,1596 @@
+{
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Product name",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The name of the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7533_1775_4912_8134"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Vacuum and Pressure Sensor",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Part no.",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The part number of the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7532_9010_9298_5748"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "10.06.02.00226",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Protection type IP",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The level of protection against solid objects and liquids for the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7359_9906_9325_1249"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "IP 40",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Type",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The type of the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0861_4027_0468_6244"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "VS-V-SA ST",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Measured medium",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The medium that is being measured by the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3672_2518_5511_7389"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Non-aggressive gases; dry, oil-free air",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Measuring range [bar]",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Range of those values of the quantity to be measured for which it is required that the measurement error of a measuring device stays within prescribed boundaries"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1882_7305_4571_7251"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "-1,00 ... 0,00 bar",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Inputs/outputs",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Design, position, type and purpose of the input/output."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5162_3643_4766_0509"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Analog: 1...5 V",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Repeatability",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The level of accuracy and consistency in the product's measurements."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0321_3985_7929_4105"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "\u00b1 1% of full-scale value",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Voltage",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The required voltage for the product to operate."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6060_4999_7776_8276"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "10-24V DC",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Operating temperature [\u00b0C]",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The range of temperatures in which the product can operate."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5921_6036_0886_8340"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0 ... 50 \u00b0C",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Length of cable Lk [m]",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Length of the cable for the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6173_3077_0819_3409"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "3",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Weight [g]",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The weight of the product itself, excluding any additional packaging or materials."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2354_9311_6371_7165"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "5",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Product name",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The name of the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7533_1775_4912_8134",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product name"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The name of the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Type",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The type of the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0861_4027_0468_6244",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Type"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The type of the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Part no.",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The part number of the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7532_9010_9298_5748",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Part no."
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The part number of the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Measured medium",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The medium that is being measured by the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3672_2518_5511_7389",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Measured medium"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The medium that is being measured by the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Measuring range [bar]",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Range of those values of the quantity to be measured for which it is required that the measurement error of a measuring device stays within prescribed boundaries"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1882_7305_4571_7251",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Measurement range"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Range of those values of the quantity to be measured for which it is required that the measurement error of a measuring device stays within prescribed boundaries"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Inputs/outputs",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Design, position, type and purpose of the input/output."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5162_3643_4766_0509",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Design and purpose of input/output"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Design, position, type and purpose of the input/output."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Repeatability",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The level of accuracy and consistency in the product's measurements."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0321_3985_7929_4105",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Repeatability"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The level of accuracy and consistency in the product's measurements."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Voltage",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The required voltage for the product to operate."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6060_4999_7776_8276",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Operating voltage"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The required voltage for the product to operate."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Protection type IP",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The level of protection against solid objects and liquids for the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7359_9906_9325_1249",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "IP protection class"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The level of protection against solid objects and liquids for the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Operating temperature [\u00b0C]",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The range of temperatures in which the product can operate."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5921_6036_0886_8340",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Operating temperature range"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The range of temperatures in which the product can operate."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Length of cable Lk [m]",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Length of the cable for the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6173_3077_0819_3409",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Cable length"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Length of the cable for the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Weight [g]",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The weight of the product itself, excluding any additional packaging or materials."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2354_9311_6371_7165",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product weight [g]"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The weight of the product itself, excluding any additional packaging or materials."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "Product name",
+                "Definition": "The name of the product.",
+                "Value": "Vacuum and Pressure Sensor",
+                "SourceDescription": "The product name is listed in the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Material description of the product line",
+                        "Definition": "Usual name or brand name of the material in general language",
+                        "Reason": "Not relevant as it does not provide specific information about the product name.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP078002"
+                    },
+                    {
+                        "Name": "Manufacturer product designation",
+                        "Definition": "Short description of the product (short text)",
+                        "Reason": "Not relevant as it does not provide specific information about the product name.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW338001"
+                    },
+                    {
+                        "Name": "Supplier product designation",
+                        "Definition": "Short description of the product (short text)",
+                        "Reason": "Not relevant as it does not provide specific information about the product name.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAM551002"
+                    },
+                    {
+                        "Name": "name plate present",
+                        "Definition": "information whether the product has a marked off area for written name details",
+                        "Reason": "Not relevant as it does not provide specific information about the product name.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAL972004"
+                    },
+                    {
+                        "Name": "Use for product",
+                        "Definition": "description, type name or article number of another product with which, or for which, the product/material can be used",
+                        "Reason": "Not relevant as it does not provide specific information about the product name.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAF281003"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Product name",
+                    "Definition": "The name of the product.",
+                    "SemanticIdentifier": "the_given_semantic_identifier_x"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Product name",
+                    "Definition": "The name of the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "This data feature can be used to identify and describe the product in a general sense."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Type",
+                "Definition": "The type of the product.",
+                "Value": "VS-V-SA ST",
+                "SourceDescription": "The type is listed in the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Type description of the product group",
+                        "Definition": "The specifying type description (type name, type code, abbreviated name, article number) for distinguishing according to product group (variant) of the used bookstore product",
+                        "Reason": "Not relevant as it is specific to a used bookstore product and not applicable to a vacuum sensor.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO966001"
+                    },
+                    {
+                        "Name": "Product type",
+                        "Definition": "Additional information for describing products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                        "Reason": "Not relevant as it is not specific to the VS-V-SA ST vacuum sensor.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO846001"
+                    },
+                    {
+                        "Name": "Type description of the input channels",
+                        "Definition": "The specifying designation (type name, type code, abbreviated name, article number) for the input channel that a product has",
+                        "Reason": "Not relevant as it is not specific to the VS-V-SA ST vacuum sensor.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO948001"
+                    },
+                    {
+                        "Name": "Product type of the form",
+                        "Definition": "Additional information for describing the form of products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                        "Reason": "Not relevant as it is not specific to the VS-V-SA ST vacuum sensor.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO844001"
+                    },
+                    {
+                        "Name": "product type",
+                        "Definition": "characterization of the product with regard to its general type",
+                        "Reason": "Not relevant as it is not specific to the VS-V-SA ST vacuum sensor.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO243004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Type",
+                    "Definition": "The type of the product.",
+                    "SemanticIdentifier": "AAO243004"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Type",
+                    "Definition": "The type of the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This data feature can be used to identify and distinguish the VS-V-SA ST vacuum sensor from other products in its product family or design variants."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Part no.",
+                "Definition": "The part number of the product.",
+                "Value": "10.06.02.00226",
+                "SourceDescription": "The part number is listed in the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Manufacturing part number",
+                        "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                        "Reason": "Not relevant as it describes the name of a part, not the part number.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO628001"
+                    },
+                    {
+                        "Name": "number of the parts list",
+                        "Definition": "Description of the list that includes all individual parts required for manufacturing or assembling a product",
+                        "Reason": "Not relevant as it describes a list, not a specific part number.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO835001"
+                    },
+                    {
+                        "Name": "Spare parts lists - numbers",
+                        "Definition": "Reference to a document in which the part to be procured is described in greater detail and/or represented graphically",
+                        "Reason": "Not relevant as it describes a document, not a specific part number.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO606001"
+                    },
+                    {
+                        "Name": "item list number of manufacturer",
+                        "Definition": "description of a manufacturer list containing all the individual components required for production or assembly of a product",
+                        "Reason": "Not relevant as it describes a list, not a specific part number.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO683003"
+                    },
+                    {
+                        "Name": "number of parts",
+                        "Definition": "describes the number of the parts of the object",
+                        "Reason": "Not relevant as it describes the number of parts, not a specific part number.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK546003"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Part no.",
+                    "Definition": "The part number of the product.",
+                    "SemanticIdentifier": "AAO628001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Part no.",
+                    "Definition": "The part number of the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "This part number can be used to identify and order the specific product."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Measured medium",
+                "Definition": "The medium that is being measured by the product.",
+                "Value": "Non-aggressive gases; dry, oil-free air",
+                "SourceDescription": "The measured medium is listed in the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "dimensions",
+                        "Definition": "quantities to be measured or the measured value resulting from a measurement",
+                        "Reason": "Not relevant as it does not describe the medium being measured.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO744003"
+                    },
+                    {
+                        "Name": "Measurement time",
+                        "Definition": "Time which a measuring device needs to carry out the required measurement",
+                        "Reason": "Not relevant as it does not describe the medium being measured.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAB184004"
+                    },
+                    {
+                        "Name": "Type of measurement",
+                        "Definition": "if the measuring principle indicates",
+                        "Reason": "Not relevant as it does not describe the medium being measured.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAN485004"
+                    },
+                    {
+                        "Name": "Measurement image",
+                        "Definition": "Measurement picture of the product",
+                        "Reason": "Not relevant as it does not describe the medium being measured.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAV246001"
+                    },
+                    {
+                        "Name": "Type of measured value acquisition of operational measured values, standard",
+                        "Definition": "Specific manner, form or category as a closer determination: Process for carrying out a measurement and for the determination of a measured variable / as a more precise determination: digitally or analogously outputted value of the measured variable, which enables optimized operation guidance as well as simplification during commissioning Focus on the critical values \u200b\u200b(U, I, f) which are critical for differential protection / in general quality and performance level",
+                        "Reason": "Not relevant as it does not describe the medium being measured.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW783001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Measured medium",
+                    "Definition": "The medium that is being measured by the product.",
+                    "SemanticIdentifier": "the_given_semantic_identifier_x"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Measured medium",
+                    "Definition": "The medium that is being measured by the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This data feature can be used to determine the type of medium being measured by the product, allowing for optimized operation guidance and simplification during commissioning."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Measuring range [bar]",
+                "Definition": "The range of pressure that the product can measure.",
+                "Value": "-1,00 ... 0,00 bar",
+                "SourceDescription": "The measuring range is listed in the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Measurement range",
+                        "Definition": "Range of those values of the quantity to be measured for which it is required that the measurement error of a measuring device stays within prescribed boundaries",
+                        "Reason": "The definition of the annotation is not specific enough to determine if it is relevant or not.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAA413004"
+                    },
+                    {
+                        "Name": "measuring range",
+                        "Definition": "range of the values of the measuring size for which it is required that the errors of measurement of a measuring device keep within defined boundaries",
+                        "Reason": "The definition of the annotation is not specific enough to determine if it is relevant or not.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAH095003"
+                    },
+                    {
+                        "Name": "measurement range of the counter",
+                        "Definition": "describes the measurement range of the counter in meter",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAI980004"
+                    },
+                    {
+                        "Name": "Measuring range",
+                        "Definition": "Measuring range",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAV542002"
+                    },
+                    {
+                        "Name": "measurement range",
+                        "Definition": "describes the measurement range/wall gauge of the locating device",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAM404004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Measuring range",
+                    "Definition": "Range of those values of the quantity to be measured for which it is required that the measurement error of a measuring device stays within prescribed boundaries",
+                    "SemanticIdentifier": "BAA413004"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Measurement range",
+                    "Definition": "Range of those values of the quantity to be measured for which it is required that the measurement error of a measuring device stays within prescribed boundaries",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "bar",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This data feature can be used to determine the pressure range that the product can measure, which is important for selecting the appropriate product for a specific application."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Inputs/outputs",
+                "Definition": "The inputs and outputs of the product.",
+                "Value": "Analog: 1...5 V",
+                "SourceDescription": "The inputs and outputs are listed in the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "function of input/output",
+                        "Definition": "purpose for which an auxiliary input or an output is provided",
+                        "Reason": "The given annotation is relevant as it describes the purpose of the input/output.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAN019002"
+                    },
+                    {
+                        "Name": "Number of in-/outputs",
+                        "Definition": "Quantitative information on the quantity Assigned as more precise: Interface for electrical input and output variables",
+                        "Reason": "The given annotation is not relevant as it does not provide any information about the purpose or design of the input/output.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW998001"
+                    },
+                    {
+                        "Name": "Number of inputs",
+                        "Definition": "Quantitative statement about the set of inputs",
+                        "Reason": "The given annotation is not relevant as it does not provide any information about the purpose or design of the input/output.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP506001"
+                    },
+                    {
+                        "Name": "type of output",
+                        "Definition": "specification of what type of output the equipment is",
+                        "Reason": "The given annotation is not relevant as it does not provide any information about the purpose or design of the input/output.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE293001"
+                    },
+                    {
+                        "Name": "Design of additional inputs and outputs",
+                        "Definition": "Design, position, type and number of additional inputs and outputs of a device",
+                        "Reason": "The given annotation is not relevant as it does not provide any information about the purpose or design of the input/output.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAB473005"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "function of input/output",
+                    "Definition": "purpose for which an auxiliary input or an output is provided",
+                    "SemanticIdentifier": "AAN019002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Design and purpose of input/output",
+                    "Definition": "Design, position, type and purpose of the input/output.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The inputs and outputs can be used for connecting the sensor to other devices and for receiving and sending electrical signals."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Repeatability",
+                "Definition": "The level of accuracy and consistency in the product's measurements.",
+                "Value": "\u00b1 1% of full-scale value",
+                "SourceDescription": "The repeatability is listed in the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "repeatability",
+                        "Definition": "for a device, percentage degree of deviation between the results of successive measurements of a quantity, carried out under the same conditions of measurement",
+                        "Reason": "The definition of repeatability provided in the annotation is the most relevant and accurate for the data feature extracted from the text.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAN079004"
+                    },
+                    {
+                        "Name": "repeatability",
+                        "Definition": "degree of agreement for a number of subsequent measurements of the output signal for the same value of the input variable under the same conditions, when the output variable, originating from the same direction, passes through all variables in its range",
+                        "Reason": "The definition of repeatability provided in the annotation is not specific enough for the data feature extracted from the text.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAQ350003"
+                    },
+                    {
+                        "Name": "Repeatability, maximum",
+                        "Definition": "Repeatability, maximum",
+                        "Reason": "The annotation is not relevant as it does not provide a definition or explanation for the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC251001"
+                    },
+                    {
+                        "Name": "Repeatability",
+                        "Definition": "accuracy with which a motion system achieves a target position over several attempts under identical conditions",
+                        "Reason": "The definition of repeatability provided in the annotation is not relevant as it is specific to a motion system and not applicable to the data feature extracted from the text.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ285001"
+                    },
+                    {
+                        "Name": "Reproducibility",
+                        "Definition": "Reproducibility for balances. Degree of agreement for a number of subsequent measurements of the output signal for the same value of the input variable under the same conditions, when the output variable, originating from the same direction, passes through all variables in its range",
+                        "Reason": "The annotation is not relevant as it is specific to balances and not applicable to the data feature extracted from the text.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAE571006"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "repeatability",
+                    "Definition": "for a device, percentage degree of deviation between the results of successive measurements of a quantity, carried out under the same conditions of measurement",
+                    "SemanticIdentifier": "AAN079004"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Repeatability",
+                    "Definition": "The level of accuracy and consistency in the product's measurements.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The repeatability data feature can be used to assess the accuracy and consistency of the product's measurements in various applications and industries."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Voltage",
+                "Definition": "The voltage required for the product to operate.",
+                "Value": "10-24V DC",
+                "SourceDescription": "The voltage is listed in the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "voltage type of operating voltage",
+                        "Definition": "certain form of voltage that indicates whether the equipment can be controled by AC voltage, DC voltage, AC / DC or modulated DC voltage",
+                        "Reason": "Not relevant as it does not specify the required voltage for the product to operate.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF842003"
+                    },
+                    {
+                        "Name": "Supply voltage",
+                        "Definition": "Required voltage as electro-motoric force that must be applied to the supply input of an electrical operating medium for a certain period of time or all the time to maintain the function of the operating medium",
+                        "Reason": "Not relevant as it does not specify the required voltage for the product to operate.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAI991007"
+                    },
+                    {
+                        "Name": "Operating voltage type",
+                        "Definition": "Type of voltage required for operation of the device",
+                        "Reason": "Not relevant as it does not specify the required voltage for the product to operate.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAC064008"
+                    },
+                    {
+                        "Name": "Input voltage, type",
+                        "Definition": "Required type of voltage at the voltage input of the device",
+                        "Reason": "Not relevant as it does not specify the required voltage for the product to operate.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAC065007"
+                    },
+                    {
+                        "Name": "Voltage type",
+                        "Definition": "Specific form of the voltage that shows that the operating medium can be supplied and/or controlled with AC voltage (AC), DC voltage (DC), AC/DC current (AC/DC) or modulated DC voltage (UC)",
+                        "Reason": "Not relevant as it does not specify the required voltage for the product to operate.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAD\u00a0915006,00"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Voltage",
+                    "Definition": "The voltage required for the product to operate.",
+                    "SemanticIdentifier": null
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Operating voltage",
+                    "Definition": "The required voltage for the product to operate.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "V",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The voltage can be used to determine the power supply requirements for the product."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Protection type IP",
+                "Definition": "The level of protection against solid objects and liquids for the product.",
+                "Value": "IP 40",
+                "SourceDescription": "The protection type is listed in the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Protection class (IP, rear side)",
+                        "Definition": "Numerical classification and designation system in accordance with International Electrotechnical Commission 60529 for the indication of degrees of protection, preceded by the symbol IP, for use in empty housings or housings of electrical equipment in order to protect persons against contact with live or moving parts (except smooth shafts or Similar parts) in the interior of the housing to ensure the protection of the (electrical) working medium against the penetration of solid foreign bodies or dust and, where specified by the classification, the protection of the electrical equipment against harmful ingress of vapors, moisture or water / Location specific: the return / return page",
+                        "Reason": "The given annotation is not relevant as it is not specific to the product and does not mention the IP rating of the product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW856001"
+                    },
+                    {
+                        "Name": "IP protection with water protection cover",
+                        "Definition": "extent of protection provided by a case with a water jacket from access to hazardous parts and penetration of solid debris and / or water confirmed by normalized test methods, given as IP rating",
+                        "Reason": "The given annotation is not relevant as it does not mention the specific IP rating of the product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAY994001"
+                    },
+                    {
+                        "Name": "Protection class in accordance with EN 60 730-1",
+                        "Definition": "The - for a device or component - prescribed protection class in accordance with EN 60 730-1",
+                        "Reason": "The given annotation is not relevant as it does not mention the specific IP rating of the product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAD\u00a0781006,00"
+                    },
+                    {
+                        "Name": "IP protection class with connector",
+                        "Definition": "scope of protection that can be achieved with a fluidic device in combination with the connector recommended by the manufacturer with respect to the ingress of foreign bodies and water",
+                        "Reason": "The given annotation is not relevant as it does not mention the specific IP rating of the product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ971001"
+                    },
+                    {
+                        "Name": "IP protection class without connector",
+                        "Definition": "scope of protection that can be achieved with a fluidic device without connector with respect to the ingress of foreign bodies and water",
+                        "Reason": "The given annotation is not relevant as it does not mention the specific IP rating of the product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ972001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "IP protection class",
+                    "Definition": "The level of protection against solid objects and liquids for the product.",
+                    "SemanticIdentifier": "IP protection class"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "IP protection class",
+                    "Definition": "The level of protection against solid objects and liquids for the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "This data feature can be used to determine the level of protection against solid objects and liquids for the product, which can be useful for selecting the appropriate product for specific environments or applications."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Operating temperature [\u00b0C]",
+                "Definition": "The temperature range in which the product can operate.",
+                "Value": "0 ... 50 \u00b0C",
+                "SourceDescription": "The operating temperature is listed in the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Max. operating temperature",
+                        "Definition": "maximum limit value of the typically arising temperature in the immediate surrounding area of the operating unit which arises as a result of rated operation",
+                        "Reason": "Not relevant as it refers to the surrounding area of the operating unit, not the product itself.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC821006"
+                    },
+                    {
+                        "Name": "Min. operating temperature",
+                        "Definition": "minimum limit value of the typically arising temperature in the immediate surrounding area of the operating unit which arises as a result of rated operation",
+                        "Reason": "Not relevant as it refers to the surrounding area of the operating unit, not the product itself.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC820006"
+                    },
+                    {
+                        "Name": "short-run operating temperature",
+                        "Definition": "value of the temperature typically resulting from the nominal operation in the immediate vicinity of the product",
+                        "Reason": "Not relevant as it refers to the nominal operation, not the operating temperature range.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE998001"
+                    },
+                    {
+                        "Name": "Max. permissible operating temperature at TS1, room2",
+                        "Definition": "The operating temperature TS1 is the maximum value of the operating temperature defined from a safety point of view by the manufacturer of the system for the various components. The temperature point TS1 is in correlation to the pressures  PS1+ and PS1-",
+                        "Reason": "Not relevant as it refers to the operating temperature of the system, not the product itself.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAH750007"
+                    },
+                    {
+                        "Name": "Working temperature range (combination)",
+                        "Definition": "defined by the higher minimum and lower maximum value of the operating temperature range of the encoder and mechanics",
+                        "Reason": "Not relevant as it refers to the encoder and mechanics, not the product itself.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ239001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Operating temperature range",
+                    "Definition": "The range of temperatures in which the product can operate.",
+                    "SemanticIdentifier": "the_given_semantic_identifier_x"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Operating temperature range",
+                    "Definition": "The range of temperatures in which the product can operate.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "\u00b0C",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The operating temperature range can be used to determine the suitable environment for the product to function properly."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Length of cable Lk [m]",
+                "Definition": "The length of the cable for the product.",
+                "Value": "3",
+                "SourceDescription": "The length of the cable is listed in the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "cable length measurement present",
+                        "Definition": "specification whether the product is equipped with cable length measurement",
+                        "Reason": "The annotation is not relevant as it does not provide any information about the actual length of the cable.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABF091001"
+                    },
+                    {
+                        "Name": "Cable length",
+                        "Definition": "Length of a cable for data or energy transmission, measured without connector",
+                        "Reason": "The annotation is relevant as it provides information about the length of the cable.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAB733008"
+                    },
+                    {
+                        "Name": "Cable length can be configured",
+                        "Definition": "Specification if the cable length is variable",
+                        "Reason": "The annotation is not relevant as it does not provide any information about the actual length of the cable.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB734006"
+                    },
+                    {
+                        "Name": "length of connection cable",
+                        "Definition": "expansion of the physical object along straight lines in application to a connection cable",
+                        "Reason": "The annotation is not relevant as it does not provide any information about the actual length of the cable.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAA769008"
+                    },
+                    {
+                        "Name": "Max. length of cable for mounting on wall",
+                        "Definition": "With mounting on a wall, the greatest possible length for the connecting line, due to the properties for the product, this length may not be exceeded",
+                        "Reason": "The annotation is not relevant as it does not provide any information about the actual length of the cable.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO759002"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Cable length",
+                    "Definition": "Length of a cable for data or energy transmission, measured without connector",
+                    "SemanticIdentifier": "AAB733008"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Cable length",
+                    "Definition": "Length of the cable for the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "m",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The length of the cable can be used to determine the appropriate placement and installation of the product in a specific context."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Weight [g]",
+                "Definition": "The weight of the product.",
+                "Value": "5",
+                "SourceDescription": "The weight is listed in the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "gross weight",
+                        "Definition": "Quantitative statement of the mass of an object, including packaging",
+                        "Reason": "The given annotation is not relevant as it refers to the weight of the product including packaging, while the data feature is specifically for the weight of the product itself.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAF368004"
+                    },
+                    {
+                        "Name": "material weight",
+                        "Definition": "quantitative specification of the weight, measured in grams per square meter",
+                        "Reason": "The given annotation is not relevant as it refers to the weight of the material used in the product, not the weight of the product itself.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAH226004"
+                    },
+                    {
+                        "Name": "Battery weight",
+                        "Definition": "Total weight of batteries in grams (g)",
+                        "Reason": "The given annotation is not relevant as it refers to the weight of the batteries used in the product, not the weight of the product itself.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAY739002"
+                    },
+                    {
+                        "Name": "weight without weighting",
+                        "Definition": "indication of the physical mass of the product, excluding any necessary weights",
+                        "Reason": "The given annotation is not relevant as it refers to the weight of the product without any additional weights, while the data feature is specifically for the weight of the product itself.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABD800001"
+                    },
+                    {
+                        "Name": "Gross weight",
+                        "Definition": "mass of the packed product",
+                        "Reason": "The given annotation is not relevant as it refers to the weight of the product including packaging, while the data feature is specifically for the weight of the product itself.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAE622005"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Weight [g]",
+                    "Definition": "The weight of the product.",
+                    "SemanticIdentifier": null
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Product weight [g]",
+                    "Definition": "The weight of the product itself, excluding any additional packaging or materials.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "g",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This data feature can be used to determine the weight of the product, which can be useful for shipping, transportation, and other logistical purposes."
+            }
+        }
+    ]
+}

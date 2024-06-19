@@ -1,0 +1,872 @@
+{
+    "assetAdministrationShells": [
+        {
+            "idShort": "AAS_Sample_Generated_by_LLM",
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                "specificAssetIds": []
+            },
+            "submodels": [
+                {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                }
+            ],
+            "modelType": "AssetAdministrationShell"
+        }
+    ],
+    "submodels": [
+        {
+            "idShort": "TechnicalData",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "Submodel containing techical data to the asset."
+                }
+            ],
+            "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+            "kind": "Instance",
+            "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                    {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                    }
+                ]
+            },
+            "submodelElements": [
+                {
+                    "idShort": "GeneralInformation",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                        }
+                    ],
+                    "semanticId": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                            }
+                        ]
+                    },
+                    "value": [
+                        {
+                            "idShort": "Product name",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The name of the product."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7533_1775_4912_8134"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "Vacuum and Pressure Sensor",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Part no.",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The part number of the product."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7532_9010_9298_5748"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "10.06.02.00226",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Protection type IP",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The level of protection against solid objects and liquids for the product."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7359_9906_9325_1249"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "IP 40",
+                            "modelType": "Property"
+                        }
+                    ],
+                    "modelType": "SubmodelElementCollection"
+                },
+                {
+                    "idShort": "TechnicalProperties",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                        }
+                    ],
+                    "semanticId": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                            }
+                        ]
+                    },
+                    "value": [
+                        {
+                            "idShort": "Type",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The type of the product."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0861_4027_0468_6244"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "VS-V-SA ST",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Measured medium",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The medium that is being measured by the product."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3672_2518_5511_7389"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "Non-aggressive gases; dry, oil-free air",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Measuring range [bar]",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Range of those values of the quantity to be measured for which it is required that the measurement error of a measuring device stays within prescribed boundaries"
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1882_7305_4571_7251"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "-1,00 ... 0,00 bar",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Inputs/outputs",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Design, position, type and purpose of the input/output."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5162_3643_4766_0509"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "Analog: 1...5 V",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Repeatability",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The level of accuracy and consistency in the product's measurements."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0321_3985_7929_4105"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "\u00b1 1% of full-scale value",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Voltage",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The required voltage for the product to operate."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6060_4999_7776_8276"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "10-24V DC",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Operating temperature [\u00b0C]",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The range of temperatures in which the product can operate."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5921_6036_0886_8340"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "0 ... 50 \u00b0C",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Length of cable Lk [m]",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Length of the cable for the product."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6173_3077_0819_3409"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "3",
+                            "modelType": "Property"
+                        },
+                        {
+                            "idShort": "Weight [g]",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "The weight of the product itself, excluding any additional packaging or materials."
+                                }
+                            ],
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2354_9311_6371_7165"
+                                    }
+                                ]
+                            },
+                            "valueType": "xs:string",
+                            "value": "5",
+                            "modelType": "Property"
+                        }
+                    ],
+                    "modelType": "SubmodelElementCollection"
+                }
+            ],
+            "modelType": "Submodel"
+        }
+    ],
+    "conceptDescriptions": [
+        {
+            "idShort": "TechnicalProperty",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "GeneralInformation",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Product name",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The name of the product."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7533_1775_4912_8134",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Product name"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The name of the product."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Type",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The type of the product."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0861_4027_0468_6244",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Type"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The type of the product."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Part no.",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The part number of the product."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7532_9010_9298_5748",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Part no."
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The part number of the product."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Measured medium",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The medium that is being measured by the product."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3672_2518_5511_7389",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Measured medium"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The medium that is being measured by the product."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Measuring range [bar]",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "Range of those values of the quantity to be measured for which it is required that the measurement error of a measuring device stays within prescribed boundaries"
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1882_7305_4571_7251",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Measurement range"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "Range of those values of the quantity to be measured for which it is required that the measurement error of a measuring device stays within prescribed boundaries"
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Inputs/outputs",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "Design, position, type and purpose of the input/output."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5162_3643_4766_0509",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Design and purpose of input/output"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "Design, position, type and purpose of the input/output."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Repeatability",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The level of accuracy and consistency in the product's measurements."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0321_3985_7929_4105",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Repeatability"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The level of accuracy and consistency in the product's measurements."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Voltage",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The required voltage for the product to operate."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6060_4999_7776_8276",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Operating voltage"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The required voltage for the product to operate."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Protection type IP",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The level of protection against solid objects and liquids for the product."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7359_9906_9325_1249",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "IP protection class"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The level of protection against solid objects and liquids for the product."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Operating temperature [\u00b0C]",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The range of temperatures in which the product can operate."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5921_6036_0886_8340",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Operating temperature range"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The range of temperatures in which the product can operate."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Length of cable Lk [m]",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "Length of the cable for the product."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6173_3077_0819_3409",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Cable length"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "Length of the cable for the product."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        },
+        {
+            "idShort": "Weight [g]",
+            "description": [
+                {
+                    "language": "en",
+                    "text": "The weight of the product itself, excluding any additional packaging or materials."
+                }
+            ],
+            "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2354_9311_6371_7165",
+            "embeddedDataSpecifications": [
+                {
+                    "dataSpecification": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                            }
+                        ]
+                    },
+                    "dataSpecificationContent": {
+                        "preferredName": [
+                            {
+                                "language": "en",
+                                "text": "Product weight [g]"
+                            }
+                        ],
+                        "unit": "",
+                        "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                        "dataType": "STRING",
+                        "definition": [
+                            {
+                                "language": "en",
+                                "text": "The weight of the product itself, excluding any additional packaging or materials."
+                            }
+                        ],
+                        "modelType": "DataSpecificationIec61360"
+                    }
+                }
+            ],
+            "modelType": "ConceptDescription"
+        }
+    ]
+}

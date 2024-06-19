@@ -1,0 +1,114 @@
+{
+  "assetAdministrationShells": [
+    {
+      "idShort": "AAS_Sample_Generated_by_LLM",
+      "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+      "assetInformation": {
+        "assetKind": "Instance",
+        "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+        "specificAssetIds": []
+      },
+      "submodels": [
+        {
+          "type": "ExternalReference",
+          "keys": [
+            {
+              "type": "Submodel",
+              "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+            }
+          ]
+        }
+      ],
+      "modelType": "AssetAdministrationShell"
+    }
+  ],
+  "submodels": [
+    {
+      "idShort": "TechnicalData",
+      "description": [
+        {
+          "language": "en",
+          "text": "Submodel containing techical data to the asset."
+        }
+      ],
+      "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+      "kind": "Instance",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+          }
+        ]
+      },
+      "submodelElements": [
+        {
+          "idShort": "GeneralInformation",
+          "description": [
+            {
+              "language": "en",
+              "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+              }
+            ]
+          },
+          "value": [],
+          "modelType": "SubmodelElementCollection"
+        },
+        {
+          "idShort": "TechnicalProperties",
+          "description": [
+            {
+              "language": "en",
+              "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+              }
+            ]
+          },
+          "value": [],
+          "modelType": "SubmodelElementCollection"
+        }
+      ],
+      "modelType": "Submodel"
+    }
+  ],
+  "conceptDescriptions": [
+    {
+      "idShort": "TechnicalProperty",
+      "description": [
+        {
+          "language": "en",
+          "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+        }
+      ],
+      "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+      "modelType": "ConceptDescription"
+    },
+    {
+      "idShort": "GeneralInformation",
+      "description": [
+        {
+          "language": "en",
+          "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+        }
+      ],
+      "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+      "modelType": "ConceptDescription"
+    }
+  ]
+}
