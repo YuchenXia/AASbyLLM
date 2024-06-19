@@ -1,0 +1,858 @@
+{
+    "session_key": "t13_Llama_2_70B_HF_rag_20240125_001945_1b60",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Name",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Name of the product"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3353_2766_9206_4330"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "advanced controller",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Product type designation",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The product type designation is extracted from the second line of the input text."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3423_5790_4242_1902"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "SIMATIC S7-1500",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Degree of protection",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "extent of protection provided by an enclosure against ingress of solid foreign objects and against ingress of water"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0861_6049_5133_9496"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "IP20 acc. to IEC 60 529",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Ambient temperature",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Temperature in the outer area of the operating medium"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9310_3766_3380_4706"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Horizontal installation 0...60 \u00b0C Vertical installation 0... 40 \u00b0C",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Relative humidity",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Relative humidity"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7514_2065_8830_8467"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "10 %...95 %, no condensation",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Electromagnetic compatibility",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Electromagnetic compatibility"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7140_2157_0588_7382"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Requirements of the EMC directive interference immunity according to IEC 61000-6-2",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Name",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Name of the product"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3353_2766_9206_4330",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Name"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Name of the product"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Product type designation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The product type designation is extracted from the second line of the input text."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3423_5790_4242_1902",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product type designation"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The product type designation is extracted from the second line of the input text."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Degree of protection",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "extent of protection provided by an enclosure against ingress of solid foreign objects and against ingress of water"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0861_6049_5133_9496",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Degree of protection"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "extent of protection provided by an enclosure against ingress of solid foreign objects and against ingress of water"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Ambient temperature",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Temperature in the outer area of the operating medium"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9310_3766_3380_4706",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Ambient temperature"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Temperature in the outer area of the operating medium"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Relative humidity",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Relative humidity"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7514_2065_8830_8467",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Relative humidity"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Relative humidity"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Electromagnetic compatibility",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Electromagnetic compatibility"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7140_2157_0588_7382",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Electromagnetic compatibility"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Electromagnetic compatibility"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "Name",
+                "Definition": "Name of the product",
+                "Value": "advanced controller",
+                "SourceDescription": "The name of the product is extracted from the first line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Manufacturing part number",
+                        "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                        "Reason": "The data feature is not a manufacturing part number.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO628001"
+                    },
+                    {
+                        "Name": "Material description of the product line",
+                        "Definition": "Usual name or brand name of the material in general language",
+                        "Reason": "The data feature is not a material description of the product line.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP078002"
+                    },
+                    {
+                        "Name": "Type description of the input channels",
+                        "Definition": "The specifying designation (type name, type code, abbreviated name, article number) for the input channel that a product has",
+                        "Reason": "The data feature is not a type description of the input channels.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO948001"
+                    },
+                    {
+                        "Name": "identification code on the product",
+                        "Definition": "a series of characters according to specific rules that are used for describing (also part of) a sentence",
+                        "Reason": "The data feature is not an identification code on the product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO688002"
+                    },
+                    {
+                        "Name": "Salesperson name",
+                        "Definition": "characterizing name of the salesperson",
+                        "Reason": "The data feature is not a salesperson name.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP001002"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Name",
+                    "Definition": "Name of the product",
+                    "SemanticIdentifier": "AAO628001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Name",
+                    "Definition": "Name of the product",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "Unit_of_the_data_property",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Affordance_in_one_sentence"
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Product type designation",
+                "Definition": "Product type designation",
+                "Value": "SIMATIC S7-1500",
+                "SourceDescription": "The product type designation is extracted from the second line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "product-type designation",
+                        "Definition": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants",
+                        "Reason": "The data feature is the product type designation of the product, which is extracted from the second line of the input text.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAF542002"
+                    },
+                    {
+                        "Name": "Type description of the product group",
+                        "Definition": "The specifying type description (type name, type code, abbreviated name, article number) for distinguishing according to product group (variant) of the used bookstore product",
+                        "Reason": "The data feature is the product type designation of the product, which is extracted from the second line of the input text.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO966001"
+                    },
+                    {
+                        "Name": "Type description of the input channels",
+                        "Definition": "The specifying designation (type name, type code, abbreviated name, article number) for the input channel that a product has",
+                        "Reason": "The data feature is the product type designation of the product, which is extracted from the second line of the input text.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO948001"
+                    },
+                    {
+                        "Name": "Product type",
+                        "Definition": "Additional information for describing products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                        "Reason": "The data feature is the product type designation of the product, which is extracted from the second line of the input text.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO846001"
+                    },
+                    {
+                        "Name": "Product type of the form",
+                        "Definition": "Additional information for describing the form of products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                        "Reason": "The data feature is the product type designation of the product, which is extracted from the second line of the input text.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO844001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "product-type designation",
+                    "Definition": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants",
+                    "SemanticIdentifier": "AAF542002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Product type designation",
+                    "Definition": "The product type designation is extracted from the second line of the input text.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "Unit_of_the_data_property",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "Affordance_in_one_sentence"
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Degree of protection",
+                "Definition": "Degree of protection",
+                "Value": "IP20 acc. to IEC 60 529",
+                "SourceDescription": "The degree of protection is extracted from the third line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Index of protection class",
+                        "Definition": "Supplementary index of the protection calss which contains the information necessary to achieve the specified degree of protection of the product",
+                        "Reason": "The data feature is not a supplementary index of the protection class.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ336001"
+                    },
+                    {
+                        "Name": "degree of protection",
+                        "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and/or ingress of water and verified by standardized test methods, expressed as a IP rating",
+                        "Reason": "The data feature is not verified by standardized test methods.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAG975013"
+                    },
+                    {
+                        "Name": "Degree of Protection",
+                        "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and against ingress of water",
+                        "Reason": "The data feature is not against access to hazardous parts.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAV695001"
+                    },
+                    {
+                        "Name": "Degree of protection (IP), front side",
+                        "Definition": "Classification relating to the front or head side according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit",
+                        "Reason": "The data feature is not a classification relating to the front or head side.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAD217010"
+                    },
+                    {
+                        "Name": "Degree of protection (IP) of the evaluating electronics",
+                        "Definition": "Classification according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit for the electronic device that processes data and makes them useable",
+                        "Reason": "The data feature is not a classification according to the protection of the operating unit.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC106007"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "degree of protection",
+                    "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and/or ingress of water and verified by standardized test methods, expressed as a IP rating",
+                    "SemanticIdentifier": "BAG975013"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Degree of protection",
+                    "Definition": "extent of protection provided by an enclosure against ingress of solid foreign objects and against ingress of water",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "IP",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "The information can be used to determine the extent of protection provided by an enclosure against ingress of solid foreign objects and against ingress of water."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Ambient temperature",
+                "Definition": "Ambient temperature",
+                "Value": "Horizontal installation 0...60 \u00b0C Vertical installation 0... 40 \u00b0C",
+                "SourceDescription": "The ambient temperature is extracted from the fourth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Ambient temperature",
+                        "Definition": "Temperature in the outer area of the operating medium",
+                        "Reason": "The definition of the annotation is not correct.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAE540004"
+                    },
+                    {
+                        "Name": "actual ambient temperature",
+                        "Definition": "temperature of the surrounding operating environment of a component or system, determined at the time under consideration",
+                        "Reason": "The definition of the annotation is not correct.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC747001"
+                    },
+                    {
+                        "Name": "ambient temperature",
+                        "Definition": "temperature of the surrounding operating environment of a component or system",
+                        "Reason": "The definition of the annotation is not correct.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ842001"
+                    },
+                    {
+                        "Name": "last ambient temperature",
+                        "Definition": "last determined temperature of the surrounding operating environment of a component or system",
+                        "Reason": "The definition of the annotation is not correct.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC748001"
+                    },
+                    {
+                        "Name": "actual maximum ambient temperature",
+                        "Definition": "maximum determined temperature of the surrounding operating environment of a component or system in a defined time interval",
+                        "Reason": "The definition of the annotation is not correct.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC750001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Ambient temperature",
+                    "Definition": "Temperature in the outer area of the operating medium",
+                    "SemanticIdentifier": "BAE540004"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Ambient temperature",
+                    "Definition": "Temperature in the outer area of the operating medium",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "\u00b0C",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "The ambient temperature is used to determine the operating temperature range of the product."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Relative humidity",
+                "Definition": "Relative humidity",
+                "Value": "10 %...95 %, no condensation",
+                "SourceDescription": "The relative humidity is extracted from the fifth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "reference humidity",
+                        "Definition": "relative humidity at which the performance of a device was tested",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAA023007"
+                    },
+                    {
+                        "Name": "permitted relative humidity (during transport)",
+                        "Definition": "value for ratio of the actual compression of water vapour in the atmosphere and the saturation vapour pressure during transport",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW296001"
+                    },
+                    {
+                        "Name": "permitted relative humidity (during storage)",
+                        "Definition": "value for ratio of the actual compression of water vapour in the atmosphere and the saturation vapour pressure during storage",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW297001"
+                    },
+                    {
+                        "Name": "reference humidity",
+                        "Definition": "reference humidity at which the device specifications apply",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAN146002"
+                    },
+                    {
+                        "Name": "ambient humidity",
+                        "Definition": "measured ambient humidity",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC147001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "reference humidity",
+                    "Definition": "relative humidity at which the performance of a device was tested",
+                    "SemanticIdentifier": "BAA023007"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Relative humidity",
+                    "Definition": "Relative humidity",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "percentage",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "The relative humidity is used to determine the humidity of the environment where the product is used."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Electromagnetic compatibility",
+                "Definition": "Electromagnetic compatibility",
+                "Value": "Requirements of the EMC directive interference immunity according to IEC 61000-6-2",
+                "SourceDescription": "The electromagnetic compatibility is extracted from the sixth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "classification of electromagnetic compatibility",
+                        "Definition": "classification of the ability of measuring equipment or a measuring system to operate as specified in its electromagnetic environment without introducing intolerable electromagnetic disturbances to anything in that environment",
+                        "Reason": "The data feature is not a classification of electromagnetic compatibility.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAN054002"
+                    },
+                    {
+                        "Name": "electromagnetic compatibility",
+                        "Definition": "ability of an electric facility to function satisfactorily in its electromagnetic environment without affecting this environment in an inadmissible fashion",
+                        "Reason": "The data feature is not the ability of an electric facility to function satisfactorily in its electromagnetic environment without affecting this environment in an inadmissible fashion.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAB325005"
+                    },
+                    {
+                        "Name": "Accuracy class for voltage and current measurement (IEC 61000-4-30, A) present",
+                        "Definition": "(As letter, number, letter and number) for a working medium accorDeutsche Industrienormg to its application, performance characteristics and measuring accuracy within specified limits / for the purpose / allocation: quantitative detection of electrical voltage as measured variable And Quantitative Measurement of electrical current as measured value / accorDeutsche Industrienormg to industry standard / standard: Description of the document from International Electrotechnical Commission International Electrotechnical Commission: TC 77: Electromagnetic compatibility: Electromagnetic compatibility (EMC) - Part 4-30: Testing and Measurement methods - Quality of the voltage when precise Measurements are required, eg for the resolution of differences of opinion in the context of contractual agreements, proof of compliance with standards, etc",
+                        "Reason": "The data feature is not the accuracy class for voltage and current measurement.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAX035001"
+                    },
+                    {
+                        "Name": "Accuracy class for voltage and current Measurement (acc. IEC 61000-4-30) present",
+                        "Definition": "(As letter, number, letter and number) for a working medium accorDeutsche Industrienormg to its application, performance characteristics and measuring accuracy within specified limits / for the purpose / allocation: quantitative detection of electrical voltage as measured variable And Quantitative Measurement of electrical current as measured variable, / accorDeutsche Industrienormg to industry standard / standard: Description of the document from International Electrotechnical Commission International Electrotechnical Commission: TC 77: Electromagnetic compatibility: Electromagnetic compatibility (EMC) - Part 4-30: Testing and measuring methods - Measurement of the voltage quality",
+                        "Reason": "The data feature is not the accuracy class for voltage and current measurement.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAX034001"
+                    },
+                    {
+                        "Name": "Accuracy class of measuring device (acc. IEC 61000-4-30) present",
+                        "Definition": "(As letter, number, letter and number) for a working medium accorDeutsche Industrienormg to its application, performance characteristics and measuring accuracy within specified limits / as a closer determination: device which is to be used alone or in combination with additional devices for Measurements / accorDeutsche Industrienormg to Industrie- Standard / Standard: Designation of the document by International Electrotechnical Commission International Electrotechnical Commission: TC 77: Electromagnetic compatibility: Electromagnetic compatibility (EMC) - Part 4-30: Test and Measurement methods - Methods for measuring the voltage quality",
+                        "Reason": "The data feature is not the accuracy class of measuring device.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAX038001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "electromagnetic compatibility",
+                    "Definition": "ability of an electric facility to function satisfactorily in its electromagnetic environment without affecting this environment in an inadmissible fashion",
+                    "SemanticIdentifier": "BAB325005"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Electromagnetic compatibility",
+                    "Definition": "Electromagnetic compatibility",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "unit_of_the_data_property",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "affordance_in_one_sentence"
+            }
+        }
+    ]
+}

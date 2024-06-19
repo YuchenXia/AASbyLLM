@@ -1,0 +1,1597 @@
+{
+    "session_key": "t8_Mixtral_8x7B_Instruct_rag_20240124_205325_1b98",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Name_1",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The name of the product as mentioned in the first line of the text"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0803_6300_5499_3323"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "vibration sensor",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Name_2",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The unique identifier of a product assigned by the manufacturer"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8550_0773_0168_2235"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "6AT8002-4AB00",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Name_3",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1122_7404_3469_0995"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "VIB sensor S01",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Name_5",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "instructions on how to install and mount the device"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4022_3977_4938_5067"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "incl. mounting bolts UNF1/4-28 on M6 and M8",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Name_12",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The material from which the housing is made"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7922_0189_4926_7582"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Stainless steel",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Name_4",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Detailed description of the product's technical features"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4068_5188_0173_7812"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "piezoelectric sensor for connection to the SIPLUS CMS2000 Basic Unit VIB or the SIPLUS CMS2000 VIB-MUX expansion module",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Name_6",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Type of power supply for the device"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1072_0132_4386_2933"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "IEPE 2 to 10 mA",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Name_7",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The minimum voltage of the encoder signals, IEPE in direct current."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9671_1971_9266_1414"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Signal voltage (DC), min. 10 V",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Name_8",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The maximum voltage of the signal from the encoder."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6334_5921_2867_4064"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Signal voltage (DC), max. 14 V",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Name_9",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The degree of protection provided by the enclosure of the product against the ingress of solid foreign objects and water"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1130_5952_5145_4650"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "IP65",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Name_10",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The maximum length of the cable that can be used with the device"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8581_2895_8698_5896"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "30 m",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Name_11",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "MIL-C5015"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4946_5211_1150_7844"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "MIL-C5015",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Name_1",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The name of the product as mentioned in the first line of the text"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0803_6300_5499_3323",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product name"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The name of the product as mentioned in the first line of the text"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Name_2",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The unique identifier of a product assigned by the manufacturer"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8550_0773_0168_2235",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Manufacturer part number"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The unique identifier of a product assigned by the manufacturer"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Name_3",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1122_7404_3469_0995",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product type designation"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Name_4",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Detailed description of the product's technical features"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4068_5188_0173_7812",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product technical description"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Detailed description of the product's technical features"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Name_5",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "instructions on how to install and mount the device"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4022_3977_4938_5067",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "mounting instructions"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "instructions on how to install and mount the device"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Name_6",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Type of power supply for the device"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1072_0132_4386_2933",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Type of power supply"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Type of power supply for the device"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Name_7",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The minimum voltage of the encoder signals, IEPE in direct current."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9671_1971_9266_1414",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Signal voltage (DC) of encoder signals, IEPE"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The minimum voltage of the encoder signals, IEPE in direct current."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Name_8",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The maximum voltage of the signal from the encoder."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6334_5921_2867_4064",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Signal voltage of the encoder"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum voltage of the signal from the encoder."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Name_9",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The degree of protection provided by the enclosure of the product against the ingress of solid foreign objects and water"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1130_5952_5145_4650",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "IP degree of protection"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The degree of protection provided by the enclosure of the product against the ingress of solid foreign objects and water"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Name_10",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The maximum length of the cable that can be used with the device"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8581_2895_8698_5896",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Maximum cable length"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum length of the cable that can be used with the device"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Name_11",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "MIL-C5015"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4946_5211_1150_7844",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Type of connection"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "MIL-C5015"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Name_12",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The material from which the housing is made"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7922_0189_4926_7582",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Material of housing"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The material from which the housing is made"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "Name_1",
+                "Definition": "The name of the product",
+                "Value": "vibration sensor",
+                "SourceDescription": "The name of the product is mentioned in the input text as the first line"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "name plate present",
+                        "Definition": "information whether the product has a marked off area for written name details",
+                        "Reason": "This annotation is not relevant to the data feature as it does not provide information about the name of the product",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAL972004"
+                    },
+                    {
+                        "Name": "Type description of the input channels",
+                        "Definition": "The specifying designation (type name, type code, abbreviated name, article number) for the input channel that a product has",
+                        "Reason": "This annotation is not relevant to the data feature as it does not provide information about the name of the product",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO948001"
+                    },
+                    {
+                        "Name": "Manufacturing part number",
+                        "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                        "Reason": "This annotation is relevant to the data feature as it provides information about the name of the product",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO628001"
+                    },
+                    {
+                        "Name": "Manufacturer product designation",
+                        "Definition": "Short description of the product (short text)",
+                        "Reason": "This annotation is relevant to the data feature as it provides information about the name of the product",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAW338001"
+                    },
+                    {
+                        "Name": "Material description of the product line",
+                        "Definition": "Usual name or brand name of the material in general language",
+                        "Reason": "This annotation is not relevant to the data feature as it does not provide information about the name of the product",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP078002"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Manufacturing part number",
+                    "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                    "SemanticIdentifier": "AAO628001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Product name",
+                    "Definition": "The name of the product as mentioned in the first line of the text",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "The name of the product can be used for identifying the product in a database or for searching for additional information about the product"
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Name_2",
+                "Definition": "The part number of the product",
+                "Value": "6AT8002-4AB00",
+                "SourceDescription": "The part number of the product is mentioned in the input text as the second line"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Manufacturing part number",
+                        "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                        "Reason": "The part number is a sequence of characters for identifying a manufacturing part",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO628001"
+                    },
+                    {
+                        "Name": "number of the parts list",
+                        "Definition": "Description of the list that includes all individual parts required for manufacturing or assembling a product",
+                        "Reason": "The part number is not a description of the list that includes all individual parts required for manufacturing or assembling a product",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO835001"
+                    },
+                    {
+                        "Name": "item list number of manufacturer",
+                        "Definition": "description of a manufacturer list containing all the individual components required for production or assembly of a product",
+                        "Reason": "The part number is not a description of a manufacturer list containing all the individual components required for production or assembly of a product",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO683003"
+                    },
+                    {
+                        "Name": "product article number of manufacturer",
+                        "Definition": "unique product identifier of the manufacturer",
+                        "Reason": "The part number is a unique product identifier of the manufacturer",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO676003"
+                    },
+                    {
+                        "Name": "Manufacturer product order suffix",
+                        "Definition": "By the manufacturer awarded string for the identification of additional attributes, not by a structured manufacturer item number may be expressed",
+                        "Reason": "The part number is not a string for the identification of additional attributes, not by a structured manufacturer item number",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAU733001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Manufacturing part number",
+                    "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                    "SemanticIdentifier": "AAO628001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Manufacturer part number",
+                    "Definition": "The unique identifier of a product assigned by the manufacturer",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Used for identifying the product in the manufacturing process"
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Name_3",
+                "Definition": "The product type designation",
+                "Value": "VIB sensor S01",
+                "SourceDescription": "The product type designation is mentioned in the input text as the third line"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Type description of the input channels",
+                        "Definition": "The specifying designation (type name, type code, abbreviated name, article number) for the input channel that a product has",
+                        "Reason": "This annotation is not relevant because it refers to the input channels, not the product type designation",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO948001"
+                    },
+                    {
+                        "Name": "Type description of the product group",
+                        "Definition": "The specifying type description (type name, type code, abbreviated name, article number) for distinguishing according to product group (variant) of the used bookstore product",
+                        "Reason": "This annotation is not relevant because it refers to the product group, not the product type designation",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO966001"
+                    },
+                    {
+                        "Name": "connection type 3 present",
+                        "Definition": "specification whether the product is equipped with a connection type 3",
+                        "Reason": "This annotation is not relevant because it refers to the connection type, not the product type designation",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE380001"
+                    },
+                    {
+                        "Name": "Product type",
+                        "Definition": "Additional information for describing products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                        "Reason": "This annotation is relevant because it refers to the product type, which is the product type designation",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO846001"
+                    },
+                    {
+                        "Name": "product-type designation",
+                        "Definition": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants",
+                        "Reason": "This annotation is relevant because it refers to the product-type designation, which is the product type designation",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAF542002"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Product type",
+                    "Definition": "Additional information for describing products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                    "SemanticIdentifier": "AAO846001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Product type designation",
+                    "Definition": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "This information can be used to identify the product type designation in the product catalog or inventory management system."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Name_4",
+                "Definition": "The product description",
+                "Value": "piezoelectric sensor for connection to the SIPLUS CMS2000 Basic Unit VIB or the SIPLUS CMS2000 VIB-MUX expansion module",
+                "SourceDescription": "The product description is mentioned in the input text as the fourth line"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Manufacturer product description",
+                        "Definition": "Description of the product, it's technical features and implementation if needed (long text)",
+                        "Reason": "The product description is a long text describing the product and its technical features",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAU734001"
+                    },
+                    {
+                        "Name": "Manufacturer product internet description",
+                        "Definition": "description of the product to use in the internet",
+                        "Reason": "The product description is not intended for internet use",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAU499001"
+                    },
+                    {
+                        "Name": "Supplier product description",
+                        "Definition": "Description of the product, it's technical features and implementation if needed (long text)",
+                        "Reason": "The product description is not provided by a supplier",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAU730001"
+                    },
+                    {
+                        "Name": "Long description of the product",
+                        "Definition": "marketing text to describe product in detail",
+                        "Reason": "The product description is not a marketing text",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAE213004"
+                    },
+                    {
+                        "Name": "name plate present",
+                        "Definition": "information whether the product has a marked off area for written name details",
+                        "Reason": "The product description does not provide information about a name plate",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAL972004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Manufacturer product description",
+                    "Definition": "Description of the product, it's technical features and implementation if needed (long text)",
+                    "SemanticIdentifier": "AAU734001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Product technical description",
+                    "Definition": "Detailed description of the product's technical features",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Used for understanding the product's technical features and capabilities"
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Name_5",
+                "Definition": "The installation and mounting instructions",
+                "Value": "incl. mounting bolts UNF1/4-28 on M6 and M8",
+                "SourceDescription": "The installation and mounting instructions are mentioned in the input text as the fifth line"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "mounting method of the installation unit",
+                        "Definition": "information on the way the installation unit is mounted",
+                        "Reason": "The annotation is relevant as it describes the method of mounting the installation unit, which is included in the installation and mounting instructions.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAG033004"
+                    },
+                    {
+                        "Name": "mounting type",
+                        "Definition": "information on how to set up, attach or integrated the device",
+                        "Reason": "The annotation is relevant as it describes the type of mounting, which is included in the installation and mounting instructions.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAB431013"
+                    },
+                    {
+                        "Name": "shape of the installation area",
+                        "Definition": "information about the design of the product, which describes the shape of the surface required for mounting the product",
+                        "Reason": "The annotation is not relevant as it describes the shape of the installation area, which is not included in the installation and mounting instructions.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABD845001"
+                    },
+                    {
+                        "Name": "type of mounting",
+                        "Definition": "specific manner for installation or mounting of an operating unit",
+                        "Reason": "The annotation is relevant as it describes the type of mounting, which is included in the installation and mounting instructions.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAB451012"
+                    },
+                    {
+                        "Name": "mounting cover insertion present",
+                        "Definition": "specification whether ther is a mounting cover insertion",
+                        "Reason": "The annotation is not relevant as it describes whether there is a mounting cover insertion, which is not included in the installation and mounting instructions.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAG054004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "mounting method of the installation unit",
+                    "Definition": "information on the way the installation unit is mounted",
+                    "SemanticIdentifier": "AAG033004"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "mounting instructions",
+                    "Definition": "instructions on how to install and mount the device",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "The mounting instructions can be used for installing and mounting the device in the field."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Name_6",
+                "Definition": "The type of power supply",
+                "Value": "IEPE 2 to 10 mA",
+                "SourceDescription": "The type of power supply is mentioned in the input text as the sixth line"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Type of the input voltage",
+                        "Definition": "POWER SUPPLY: type of electricity",
+                        "Reason": "This annotation is not relevant as it refers to the type of electricity, not the type of power supply.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAX656001"
+                    },
+                    {
+                        "Name": "power supply (acquisition)",
+                        "Definition": "Type of power supply for acquisition",
+                        "Reason": "This annotation is relevant as it refers to the type of power supply.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAV570001"
+                    },
+                    {
+                        "Name": "separate power supply present",
+                        "Definition": "information on whether a device has a seperate power supply or not",
+                        "Reason": "This annotation is not relevant as it refers to whether a device has a separate power supply, not the type of power supply.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAM109004"
+                    },
+                    {
+                        "Name": "built-in USB power supply present",
+                        "Definition": "specification whether a connected device can be powered via the USB cable connections",
+                        "Reason": "This annotation is not relevant as it refers to the USB power supply, not the type of power supply.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE336001"
+                    },
+                    {
+                        "Name": "Supply voltage type",
+                        "Definition": "Type of voltage required for supplying the device",
+                        "Reason": "This annotation is relevant as it refers to the type of voltage required for supplying the device.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAC078007"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "power supply (acquisition)",
+                    "Definition": "Type of power supply for acquisition",
+                    "SemanticIdentifier": "AAV570001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Type of power supply",
+                    "Definition": "Type of power supply for the device",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "mA",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in selecting the appropriate power supply for the device and ensuring compatibility with other systems."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Name_7",
+                "Definition": "Encoder signals, IEPE",
+                "Value": "Signal voltage (DC), min. 10 V",
+                "SourceDescription": "Encoder signals, IEPE is mentioned in the input text as the seventh line"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "encoder present",
+                        "Definition": "Converter for data or messages or command for transmission or further processing to a target system",
+                        "Reason": "The annotation is not relevant to the data feature as it is not describing the signal voltage of the encoder signals.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB512007"
+                    },
+                    {
+                        "Name": "input signal",
+                        "Definition": "information on the incoming information",
+                        "Reason": "The annotation is not relevant to the data feature as it is not describing the signal voltage of the encoder signals.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF945002"
+                    },
+                    {
+                        "Name": "Encoder protocol",
+                        "Definition": "protocol between encoder and control",
+                        "Reason": "The annotation is not relevant to the data feature as it is not describing the signal voltage of the encoder signals.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAU444001"
+                    },
+                    {
+                        "Name": "Encoder type",
+                        "Definition": "encoder type",
+                        "Reason": "The annotation is not relevant to the data feature as it is not describing the signal voltage of the encoder signals.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ291001"
+                    },
+                    {
+                        "Name": "Encoder type",
+                        "Definition": "Encoder type",
+                        "Reason": "The annotation is not relevant to the data feature as it is not describing the signal voltage of the encoder signals.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAV555001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "encoder present",
+                    "Definition": "Converter for data or messages or command for transmission or further processing to a target system",
+                    "SemanticIdentifier": "AAB512007"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Signal voltage (DC) of encoder signals, IEPE",
+                    "Definition": "The minimum voltage of the encoder signals, IEPE in direct current.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "V",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Used in the design and implementation of the encoder signals, IEPE in the vibration sensor."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Name_8",
+                "Definition": "Encoder signals, IEPE",
+                "Value": "Signal voltage (DC), max. 14 V",
+                "SourceDescription": "Encoder signals, IEPE is mentioned in the input text as the eighth line"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "encoder present",
+                        "Definition": "Converter for data or messages or command for transmission or further processing to a target system",
+                        "Reason": "The annotation is not relevant to the data feature as it is not describing the signal voltage of the encoder.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB512007"
+                    },
+                    {
+                        "Name": "input signal",
+                        "Definition": "information on the incoming information",
+                        "Reason": "The annotation is relevant to the data feature as it is describing the signal voltage of the encoder.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAF945002"
+                    },
+                    {
+                        "Name": "PCE category and function",
+                        "Definition": "alphanumeric character sequence identifying the category and function of a process control engineering request letter that designates the kind of process control engineering request",
+                        "Reason": "The annotation is not relevant to the data feature as it is not describing the signal voltage of the encoder.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAN193002"
+                    },
+                    {
+                        "Name": "Encoder type",
+                        "Definition": "encoder type",
+                        "Reason": "The annotation is not relevant to the data feature as it is not describing the signal voltage of the encoder.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ291001"
+                    },
+                    {
+                        "Name": "Encoder protocol",
+                        "Definition": "protocol between encoder and control",
+                        "Reason": "The annotation is not relevant to the data feature as it is not describing the signal voltage of the encoder.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAU444001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "input signal",
+                    "Definition": "information on the incoming information",
+                    "SemanticIdentifier": "AAF945002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Signal voltage of the encoder",
+                    "Definition": "The maximum voltage of the signal from the encoder.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "V",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The signal voltage of the encoder can be used to determine if the encoder is functioning properly and if the signal is strong enough to be read by the control system."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Name_9",
+                "Definition": "IP degree of protection",
+                "Value": "IP65",
+                "SourceDescription": "IP degree of protection is mentioned in the input text as the ninth line"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "protection class (acc. IP)",
+                        "Definition": "indicates the protection class acc. IP of a laser level gage",
+                        "Reason": "The annotation is relevant as it refers to the protection class according to IP, which is the same as the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAJ501002"
+                    },
+                    {
+                        "Name": "Degree of protection (IP), front side",
+                        "Definition": "Classification relating to the front or head side according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit",
+                        "Reason": "The annotation is not relevant as it refers to the front side of the operating unit, which is not mentioned in the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAD217010"
+                    },
+                    {
+                        "Name": "max. degree of protection (IP) conduit dependant",
+                        "Definition": "maximal conduit dependent degree of protection IP",
+                        "Reason": "The annotation is not relevant as it refers to the maximal conduit dependent degree of protection IP, which is not mentioned in the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAJ152001"
+                    },
+                    {
+                        "Name": "Index of protection class",
+                        "Definition": "Supplementary index of the protection calss which contains the information necessary to achieve the specified degree of protection of the product",
+                        "Reason": "The annotation is not relevant as it refers to the supplementary index of the protection class, which is not mentioned in the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ336001"
+                    },
+                    {
+                        "Name": "Designation of security level (pursuant to DIN 66399)",
+                        "Definition": "specifying designation for the security level",
+                        "Reason": "The annotation is not relevant as it refers to the designation of security level pursuant to DIN 66399, which is not mentioned in the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAR934001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "protection class (acc. IP)",
+                    "Definition": "indicates the protection class acc. IP of a laser level gage",
+                    "SemanticIdentifier": "AAJ501002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "IP degree of protection",
+                    "Definition": "The degree of protection provided by the enclosure of the product against the ingress of solid foreign objects and water",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The IP degree of protection can be used to determine the suitability of the product for use in different environments, such as wet or dusty conditions."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Name_10",
+                "Definition": "Cable length, max.",
+                "Value": "30 m",
+                "SourceDescription": "Cable length, max. is mentioned in the input text as the tenth line"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Cable length can be configured",
+                        "Definition": "Specification if the cable length is variable",
+                        "Reason": "This annotation is not relevant as it does not specify the maximum cable length",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB734006"
+                    },
+                    {
+                        "Name": "width of the cable",
+                        "Definition": "value of the width of the line",
+                        "Reason": "This annotation is not relevant as it does not specify the maximum cable length",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAI688004"
+                    },
+                    {
+                        "Name": "height of the cable",
+                        "Definition": "value of the height of the line",
+                        "Reason": "This annotation is not relevant as it does not specify the maximum cable length",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAI690004"
+                    },
+                    {
+                        "Name": "max. cable length",
+                        "Definition": "maximum possible length of cable with which the device can be operated still remaining within the specified accuracy limits",
+                        "Reason": "This annotation is relevant as it specifies the maximum cable length",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAR853004"
+                    },
+                    {
+                        "Name": "Cable diameter",
+                        "Definition": "states the diameter of a cable",
+                        "Reason": "This annotation is not relevant as it does not specify the maximum cable length",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAE365006"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "max. cable length",
+                    "Definition": "maximum possible length of cable with which the device can be operated still remaining within the specified accuracy limits",
+                    "SemanticIdentifier": "AAR853004"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Maximum cable length",
+                    "Definition": "The maximum length of the cable that can be used with the device",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "m",
+                "ClassifyingScore_GeneralOrTechnical": 4,
+                "Affordance": "Determining the maximum cable length that can be used with the device for installation and operation purposes"
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Name_11",
+                "Definition": "Type of connection",
+                "Value": "MIL-C5015",
+                "SourceDescription": "Type of connection is mentioned in the input text as the eleventh line"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "type of connection (1)",
+                        "Definition": "description of type connection 1",
+                        "Reason": "The annotation is relevant as it describes the type of connection.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAK163005"
+                    },
+                    {
+                        "Name": "type of connection (2)",
+                        "Definition": "description of type connection 2",
+                        "Reason": "The annotation is not relevant as it does not describe the type of connection.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK164005"
+                    },
+                    {
+                        "Name": "connection code type machine side",
+                        "Definition": "identifier for the main type of a connection on the machine side",
+                        "Reason": "The annotation is not relevant as it is not describing the type of connection.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAA763008"
+                    },
+                    {
+                        "Name": "connection code form type machine side",
+                        "Definition": "identifier for the more specified design of a connection on the machine side",
+                        "Reason": "The annotation is not relevant as it is not describing the type of connection.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAA842004"
+                    },
+                    {
+                        "Name": "connection type 1 present",
+                        "Definition": "specification whether the product is equipped with a connection type 1",
+                        "Reason": "The annotation is not relevant as it does not describe the type of connection.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE373001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "type of connection (1)",
+                    "Definition": "description of type connection 1",
+                    "SemanticIdentifier": "AAK163005"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Type of connection",
+                    "Definition": "MIL-C5015",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Used for determining the type of connection required for the product."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Name_12",
+                "Definition": "Material of housing",
+                "Value": "Stainless steel",
+                "SourceDescription": "Material of housing is mentioned in the input text as the twelfth line"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "material of housing",
+                        "Definition": "name of material from which the housing is made",
+                        "Reason": "The annotation is relevant as it describes the material of the housing",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAD737007"
+                    },
+                    {
+                        "Name": "material of housing",
+                        "Definition": "material from which the housing is made",
+                        "Reason": "The annotation is relevant as it describes the material of the housing",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAC461015"
+                    },
+                    {
+                        "Name": "material of the housing or handle",
+                        "Definition": "designation of the material for the production of the housing or handle",
+                        "Reason": "The annotation is not relevant as it mentions the handle, which is not mentioned in the input text",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABF427001"
+                    },
+                    {
+                        "Name": "plastic housing present",
+                        "Definition": "specification whether there is a plastic housing",
+                        "Reason": "The annotation is not relevant as it specifies whether there is a plastic housing, but the input text mentions that the housing is made of stainless steel",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAG042004"
+                    },
+                    {
+                        "Name": "Material of housing",
+                        "Definition": "Designation of substances/ working materials for production of housing",
+                        "Reason": "The annotation is relevant as it describes the material of the housing",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAF653002"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "material of housing",
+                    "Definition": "material from which the housing is made",
+                    "SemanticIdentifier": "BAC461015"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Material of housing",
+                    "Definition": "The material from which the housing is made",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "The material of the housing can be used to determine the compatibility of the sensor with the environment and the application"
+            }
+        }
+    ]
+}
