@@ -1,0 +1,1 @@
+This folder stored the pdf data where the raw text are used to test the system.
