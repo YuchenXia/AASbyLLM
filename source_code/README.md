@@ -9,7 +9,7 @@ The server automatically shuts down after being idle for 10 minutes and clears a
 ## Installation
 To set up the project locally, follow these steps:
 
-1. Download the code and open with IDE
+1. Download the code and open with IDE, **python 3.9** is recommended for the environment.
 
 2. Install the required dependencies:
    ```
