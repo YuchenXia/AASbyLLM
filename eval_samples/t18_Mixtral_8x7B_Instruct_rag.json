@@ -1,0 +1,1105 @@
+{
+    "session_key": "t18_Mixtral_8x7B_Instruct_rag_20240124_234219_dfee",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Part Number",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "A unique identifier for a product"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0802_6206_9672_7664"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "6AT8002-4AC03",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Product Type Designation",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "A designation that describes the type of product, which is defined by the manufacturer as an identification code to differentiate single products of a product family or special variants."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6911_4741_9652_9246"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Cable MIL-300",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Product Description",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "A description of the product and its intended use"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1135_3426_5408_5363"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "For connection of the VIB-SENSOR S01 vibration sensor to the SIPLUS CMS2000 Basic Unit VIB or the SIPLUS CMS2000 VIB-MUX expansion module",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Type of Insulation",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The material used for the insulation of the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7470_4064_0098_9914"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "black polyurethane",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Type of Connection",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "type of connection used for connecting a cable to a device"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4006_1169_0218_8546"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "MIL-C5015 / open cable end",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Ambient Temperature During Operation",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Minimum limit value of specific temperature during operation surrounding the operating unit"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6273_6607_5281_9835"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "min. -25 \u00b0C max. 122 \u00b0C",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Design of Shield",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The design of the conducting casing used for protecting against electromagnetic or electrostatic interferences"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7756_6667_2910_9566"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Braided shielding with stranded drain wire",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Cable Length",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The length of the cable for data and energy transmission, measured without connector"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4528_7269_4974_5861"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "3 m",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Part Number",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A unique identifier for a product"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0802_6206_9672_7664",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Part Number"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "A unique identifier for a product"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Product Type Designation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A designation that describes the type of product, which is defined by the manufacturer as an identification code to differentiate single products of a product family or special variants."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6911_4741_9652_9246",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product Type Designation"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "A designation that describes the type of product, which is defined by the manufacturer as an identification code to differentiate single products of a product family or special variants."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Product Description",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A description of the product and its intended use"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1135_3426_5408_5363",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product Description"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "A description of the product and its intended use"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Ambient Temperature During Operation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Minimum limit value of specific temperature during operation surrounding the operating unit"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6273_6607_5281_9835",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "minimum ambient temperature during operation"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Minimum limit value of specific temperature during operation surrounding the operating unit"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Type of Insulation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The material used for the insulation of the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7470_4064_0098_9914",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Type of insulation material"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The material used for the insulation of the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Design of Shield",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The design of the conducting casing used for protecting against electromagnetic or electrostatic interferences"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7756_6667_2910_9566",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Design of shield"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The design of the conducting casing used for protecting against electromagnetic or electrostatic interferences"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Cable Length",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The length of the cable for data and energy transmission, measured without connector"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4528_7269_4974_5861",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Length of the cable for data and energy transmission"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The length of the cable for data and energy transmission, measured without connector"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Type of Connection",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "type of connection used for connecting a cable to a device"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4006_1169_0218_8546",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Type of connection at device"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "type of connection used for connecting a cable to a device"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "Part Number",
+                "Definition": "A unique identifier for a product",
+                "Value": "6AT8002-4AC03",
+                "SourceDescription": "This data feature is found in the input text as 'part number 6AT8002-4AC03'."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Manufacturing part number",
+                        "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                        "Reason": "This annotation is relevant because it describes a unique identifier for a manufacturing part.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO628001"
+                    },
+                    {
+                        "Name": "product identifier",
+                        "Definition": "unique identifier of the product",
+                        "Reason": "This annotation is relevant because it describes a unique identifier for a product.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "ABA671001"
+                    },
+                    {
+                        "Name": "product article number of manufacturer",
+                        "Definition": "unique product identifier of the manufacturer",
+                        "Reason": "This annotation is relevant because it describes a unique identifier for a product from the manufacturer.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO676003"
+                    },
+                    {
+                        "Name": "Designating digits",
+                        "Definition": "Established sequences of characters as written or numeric characters for identifying parts or products",
+                        "Reason": "This annotation is relevant because it describes a unique identifier for a part or product.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAT085001"
+                    },
+                    {
+                        "Name": "serial number of manufacturer",
+                        "Definition": "unique identification of the manufacturer for the identity of the object",
+                        "Reason": "This annotation is not relevant because it is not describing a unique identifier for a product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABF465001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "product identifier",
+                    "Definition": "unique identifier of the product",
+                    "SemanticIdentifier": "ABA671001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Part Number",
+                    "Definition": "A unique identifier for a product",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Used for identifying the product in the inventory management system."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Product Type Designation",
+                "Definition": "A designation that describes the type of product",
+                "Value": "Cable MIL-300",
+                "SourceDescription": "This data feature is found in the input text as 'Product type designation Cable MIL-300'."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "product-type designation",
+                        "Definition": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants",
+                        "Reason": "This annotation is relevant because it describes the product type designation as an identification code that differentiates single products of a product family or special variants.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAF542002"
+                    },
+                    {
+                        "Name": "Product type",
+                        "Definition": "Additional information for describing products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                        "Reason": "This annotation is not relevant because it does not describe the product type designation as an identification code.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO846001"
+                    },
+                    {
+                        "Name": "Type description",
+                        "Definition": "The specifying designation (type name, type code, abbreviated name, article number) for distinguishing by type and size or design (variant) of the used product/material",
+                        "Reason": "This annotation is not relevant because it does not describe the product type designation as an identification code.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO945001"
+                    },
+                    {
+                        "Name": "Type description of the input channels",
+                        "Definition": "The specifying designation (type name, type code, abbreviated name, article number) for the input channel that a product has",
+                        "Reason": "This annotation is not relevant because it does not describe the product type designation as an identification code.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO948001"
+                    },
+                    {
+                        "Name": "Product type description of the cable",
+                        "Definition": "A sequence of character formed according to specific rules used for coding the product type description of the cable",
+                        "Reason": "This annotation is relevant because it describes the product type designation as a sequence of characters formed according to specific rules used for coding the product type description of the cable.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO848002"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "product-type designation",
+                    "Definition": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants",
+                    "SemanticIdentifier": "AAF542002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Product Type Designation",
+                    "Definition": "A designation that describes the type of product, which is defined by the manufacturer as an identification code to differentiate single products of a product family or special variants.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "This information can be used to identify the product type designation of the cable, which can be useful for selecting the appropriate cable for a specific application or system."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Product Description",
+                "Definition": "A description of the product and its intended use",
+                "Value": "For connection of the VIB-SENSOR S01 vibration sensor to the SIPLUS CMS2000 Basic Unit VIB or the SIPLUS CMS2000 VIB-MUX expansion module",
+                "SourceDescription": "This data feature is found in the input text as 'Product description For connection of the VIB-SENSOR S01 vibration sensor to the SIPLUS CMS2000 Basic Unit VIB or the SIPLUS CMS2000 VIB-MUX expansion module'."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Mechanical version",
+                        "Definition": "combined specification relating to the sensor\u2019s mechanical interface design. Contains the properties of the shaft and flange",
+                        "Reason": "This annotation is not relevant to the data feature as it is not related to the product description",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ261001"
+                    },
+                    {
+                        "Name": "suitable for monitoring tactile sensors",
+                        "Definition": "whether the component is suitable for monitoring tactile sensors",
+                        "Reason": "This annotation is not relevant to the data feature as it is not related to the product description",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB706008"
+                    },
+                    {
+                        "Name": "frequency indication",
+                        "Definition": "information on the device to signal the number of vibrations per time unit",
+                        "Reason": "This annotation is not relevant to the data feature as it is not related to the product description",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAM335003"
+                    },
+                    {
+                        "Name": "Sensitivity vibration acceleration sensor (mV/gravity g)",
+                        "Definition": "with a vibration acceleration sensor the ratio of the receiver output parameter voltage and the receiver input parameter acceleration as a multiple of the gravitational acceleration",
+                        "Reason": "This annotation is not relevant to the data feature as it is not related to the product description",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAS543002"
+                    },
+                    {
+                        "Name": "suitable for touch sensor connector for bus system",
+                        "Definition": "specification whether the unit is designed for data or energy connection between an electric device an a momentary switch over a system for exchange of data or energy between hardware components",
+                        "Reason": "This annotation is not relevant to the data feature as it is not related to the product description",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF568004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": null,
+                    "Definition": null,
+                    "SemanticIdentifier": null
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Product Description",
+                    "Definition": "A description of the product and its intended use",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "This information can be used to understand the product and its intended use"
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Ambient Temperature During Operation",
+                "Definition": "The temperature range in which the product can operate",
+                "Value": "min. -25 \u00b0C max. 122 \u00b0C",
+                "SourceDescription": "This data feature is found in the input text as 'Ambient temperature during operation min. -25 \u00b0C max. 122 \u00b0C'."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "min. ambient temperature during operation",
+                        "Definition": "Minimum limit value of specific temperature during operation surrounding the operating unit",
+                        "Reason": "This annotation is relevant because it matches the data feature name and definition.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAC022006"
+                    },
+                    {
+                        "Name": "minimum ambient temperature (during operation)",
+                        "Definition": "minimal permitted temperature of the atmosphere surrounding the operating resource during operation",
+                        "Reason": "This annotation is relevant because it matches the data feature name and definition.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAW301002"
+                    },
+                    {
+                        "Name": "max. ambient temperature during operation",
+                        "Definition": "Maximum limit value of specific temperature during operation surrounding the operating unit",
+                        "Reason": "This annotation is not relevant because it does not match the data feature value.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB906006"
+                    },
+                    {
+                        "Name": "specified minimum ambient temperature",
+                        "Definition": "minimum allowed temperature of the surrounding operating environment of a component or system",
+                        "Reason": "This annotation is not relevant because it does not match the data feature name.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC745001"
+                    },
+                    {
+                        "Name": "minimum set ambient temperature",
+                        "Definition": "given minimum temperature of the surrounding operating environment of a component or system",
+                        "Reason": "This annotation is not relevant because it does not match the data feature name.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC752001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "min. ambient temperature during operation",
+                    "Definition": "Minimum limit value of specific temperature during operation surrounding the operating unit",
+                    "SemanticIdentifier": "AAC022006"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "minimum ambient temperature during operation",
+                    "Definition": "Minimum limit value of specific temperature during operation surrounding the operating unit",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "\u00b0C",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine if the product can operate in the desired temperature range."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Type of Insulation",
+                "Definition": "The type of insulation used in the product",
+                "Value": "black polyurethane",
+                "SourceDescription": "This data feature is found in the input text as 'Type of insulation black polyurethane'."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "insulation present",
+                        "Definition": "specification whether there is an insulation",
+                        "Reason": "This annotation is not relevant because it does not specify the type of insulation.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAG307004"
+                    },
+                    {
+                        "Name": "type of fluid substance (liquid and gas) for insulation",
+                        "Definition": "Specification of the type of liquid substance (liquid and gas) for the insulation",
+                        "Reason": "This annotation is not relevant because it is not specifying the type of insulation.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABF575001"
+                    },
+                    {
+                        "Name": "Insulation material, class",
+                        "Definition": "Standardized classification for insulation materials which are used with electric operating resources and machines, together with specifications for the properties of the material and the recommended boundary temperature",
+                        "Reason": "This annotation is not relevant because it is not specifying the type of insulation.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO697002"
+                    },
+                    {
+                        "Name": "material insulation",
+                        "Definition": "substance from which an insulation is manufactured",
+                        "Reason": "This annotation is relevant because it specifies the type of insulation.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAG117007"
+                    },
+                    {
+                        "Name": "Insulation present",
+                        "Definition": "whether the product is equipped with insulation",
+                        "Reason": "This annotation is not relevant because it does not specify the type of insulation.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAD\u00a0383008,00"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "material insulation",
+                    "Definition": "substance from which an insulation is manufactured",
+                    "SemanticIdentifier": "AAG117007"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Type of insulation material",
+                    "Definition": "The material used for the insulation of the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "This information can be used in the design and manufacturing of the product to ensure proper insulation and safety standards."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Design of Shield",
+                "Definition": "The design of the shield used in the product",
+                "Value": "Braided shielding with stranded drain wire",
+                "SourceDescription": "This data feature is found in the input text as 'Design of shield Braided shielding with stranded drain wire'."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "design of shield",
+                        "Definition": "make of the conducting casing for protecting against electromagnetic or electrostatic interferences",
+                        "Reason": "This annotation is relevant as it describes the design of the shield used in the product.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAF516001"
+                    },
+                    {
+                        "Name": "Design of shield over cabling",
+                        "Definition": "Make or brand of conducting encasement around all conductors and cabled elements to protect them from electromagnetic and electrostatic interference",
+                        "Reason": "This annotation is not relevant as it describes the shield over cabling, not the shield used in the product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAE039006"
+                    },
+                    {
+                        "Name": "shield form",
+                        "Definition": "describes the geometric shape of the shield",
+                        "Reason": "This annotation is not relevant as it describes the geometric shape of the shield, not the design of the shield used in the product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK765003"
+                    },
+                    {
+                        "Name": "Design of shield over cabled element",
+                        "Definition": "Make or brand of conducting encasement around intertwined conductors to protect them from electromagnetic and electrostatic interference",
+                        "Reason": "This annotation is not relevant as it describes the shield over cabled element, not the shield used in the product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAE038006"
+                    },
+                    {
+                        "Name": "Surface protection, delivery conditions",
+                        "Definition": "Reference to the delivery conditions, in which the design of the used surface protection is defined",
+                        "Reason": "This annotation is not relevant as it refers to the delivery conditions, not the design of the shield used in the product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAE454003"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "design of shield",
+                    "Definition": "make of the conducting casing for protecting against electromagnetic or electrostatic interferences",
+                    "SemanticIdentifier": "AAF516001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Design of shield",
+                    "Definition": "The design of the conducting casing used for protecting against electromagnetic or electrostatic interferences",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 4,
+                "Affordance": "This information can be used in the design of the product to ensure proper protection against electromagnetic and electrostatic interferences."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Cable Length",
+                "Definition": "The length of the cable",
+                "Value": "3 m",
+                "SourceDescription": "This data feature is found in the input text as 'Cable length 3 m'."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Length of the connecting cable",
+                        "Definition": "Cable length for data and energy transfer measured with connector",
+                        "Reason": "This annotation is relevant because it describes the length of the cable for data and energy transfer, which matches the definition of the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAB766006"
+                    },
+                    {
+                        "Name": "Cable length",
+                        "Definition": "Length of a cable for data or energy transmission, measured without connector",
+                        "Reason": "This annotation is relevant because it describes the length of the cable for data or energy transmission, which matches the definition of the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAB733008"
+                    },
+                    {
+                        "Name": "Length of cable",
+                        "Definition": "possible cable length for data and energy transfer measured with connector",
+                        "Reason": "This annotation is relevant because it describes the length of the cable for data and energy transfer, which matches the definition of the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAW327002"
+                    },
+                    {
+                        "Name": "cable length measurement present",
+                        "Definition": "specification whether the product is equipped with cable length measurement",
+                        "Reason": "This annotation is not relevant because it describes whether the product is equipped with cable length measurement, not the length of the cable itself.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABF091001"
+                    },
+                    {
+                        "Name": "Cable length can be configured",
+                        "Definition": "Specification if the cable length is variable",
+                        "Reason": "This annotation is not relevant because it describes whether the cable length is variable, not the length of the cable itself.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB734006"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Cable length",
+                    "Definition": "Length of a cable for data or energy transmission, measured without connector",
+                    "SemanticIdentifier": "AAB733008"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Length of the cable for data and energy transmission",
+                    "Definition": "The length of the cable for data and energy transmission, measured without connector",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "m",
+                "ClassifyingScore_GeneralOrTechnical": 4,
+                "Affordance": "This information can be used to determine the physical space required for cable installation and to ensure that the cable is long enough for the intended application."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Type of Connection",
+                "Definition": "The type of connection used in the product",
+                "Value": "MIL-C5015 / open cable end",
+                "SourceDescription": "This data feature is found in the input text as 'Type of connection MIL-C5015 / open cable end'."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "type of connector connection 1",
+                        "Definition": "indication of the detail design of the device for seperating and connecting cables to port 1",
+                        "Reason": "This annotation is not relevant to the data feature because it refers to a specific port, while the data feature is about the type of connection in general.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK422006"
+                    },
+                    {
+                        "Name": "type of connector connection 2",
+                        "Definition": "indication of the detail design of the device for seperating and connecting cables to port 2",
+                        "Reason": "This annotation is not relevant to the data feature because it refers to a specific port, while the data feature is about the type of connection in general.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK423006"
+                    },
+                    {
+                        "Name": "Type of connector at device",
+                        "Definition": "type of plug connection of a cable which is used for device connection",
+                        "Reason": "This annotation is relevant to the data feature because it refers to the type of connector used for device connection, which is consistent with the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAA650004"
+                    },
+                    {
+                        "Name": "connection type",
+                        "Definition": "physical design of the connection point via which electrical equipment can be connected",
+                        "Reason": "This annotation is relevant to the data feature because it refers to the type of connection, which is consistent with the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "ABC264001"
+                    },
+                    {
+                        "Name": "cable type connector connection 2",
+                        "Definition": "describes the kind of cable type connector connection 2",
+                        "Reason": "This annotation is not relevant to the data feature because it refers to a specific connector connection, while the data feature is about the type of connection in general.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK170003"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Type of connector at device",
+                    "Definition": "type of plug connection of a cable which is used for device connection",
+                    "SemanticIdentifier": "AAA650004"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Type of connection at device",
+                    "Definition": "type of connection used for connecting a cable to a device",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "This information can be used in selecting the appropriate cable for device connection and in designing the device interface for cable connection."
+            }
+        }
+    ]
+}

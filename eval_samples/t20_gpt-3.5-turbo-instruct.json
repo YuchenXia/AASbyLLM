@@ -1,0 +1,1705 @@
+{
+    "session_key": "t20_gpt-3.5-turbo-instruct_20240124_233031_26a4",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Part number",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The unique number assigned to the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7867_6758_9468_8652"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "8065123",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Manufacturer code",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The unique code assigned to the manufacturer of the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0284_0891_9212_0220"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "NEBC-D8G4-ES-0.5-N-S-D8G4-ET",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Based on norm",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The norm or standard that the product is based on."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3526_7362_1829_2240"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "EN 61076-2-114",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Contact durability",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The number of times the product can be used before it needs to be replaced."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6301_6862_6050_0432"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "100",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Product weight",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The weight of the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3065_3790_8774_3722"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "43 g",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "DC operating voltage range",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The range of DC voltages that the product can operate within."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9906_3815_0497_8111"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0 V ... 30 V",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Nominal operating voltage DC",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The nominal DC voltage that the product operates at."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3461_1063_0302_3995"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "24 V",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Current rating at 40\u00b0 C",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The maximum current that the product can handle at a temperature of 40\u00b0 C."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0059_8662_2283_2182"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "3 A",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Surge resistance",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The ability of a product to withstand sudden increases in voltage."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5417_8650_3688_4158"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "1.5 kV",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Reverse polarity protection",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Whether or not the product has protection against reverse polarity."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5305_1956_1061_9559"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "no",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Cable length",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The length of the cable."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7678_2906_8039_1937"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0.5 m",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Cable characteristic",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The characteristic of the cable, such as its ability to be used in energy chains."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5349_5146_3788_8788"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Suitable for energy chains",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Connector cable test conditions",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The test conditions for the connector cable."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6118_7666_2572_0822"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Test conditions on request",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Bending radius, fixed cable installation",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The minimum bending radius for the cable when it is installed in a fixed position."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5958_1608_3275_9685"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "\u226520 mm",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Degree of protection",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The level of protection against dust and water for the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0677_3757_0022_1196"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "IP65",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "IP67",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The level of protection against dust and water for the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0331_7478_8582_9061"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "IP67",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Manufacturer code",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The unique code assigned to the manufacturer of the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0284_0891_9212_0220",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Manufacturer code"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The unique code assigned to the manufacturer of the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Part number",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The unique number assigned to the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7867_6758_9468_8652",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Part number"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The unique number assigned to the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Based on norm",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The norm or standard that the product is based on."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3526_7362_1829_2240",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Based on norm"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The norm or standard that the product is based on."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Contact durability",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The number of times the product can be used before it needs to be replaced."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6301_6862_6050_0432",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Contact durability"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The number of times the product can be used before it needs to be replaced."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Product weight",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The weight of the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3065_3790_8774_3722",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product weight"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The weight of the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "DC operating voltage range",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The range of DC voltages that the product can operate within."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9906_3815_0497_8111",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "DC operating voltage range"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The range of DC voltages that the product can operate within."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Nominal operating voltage DC",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The nominal DC voltage that the product operates at."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3461_1063_0302_3995",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Nominal operating voltage DC"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The nominal DC voltage that the product operates at."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Current rating at 40\u00b0 C",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The maximum current that the product can handle at a temperature of 40\u00b0 C."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0059_8662_2283_2182",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Current rating at 40\u00b0 C"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum current that the product can handle at a temperature of 40\u00b0 C."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Surge resistance",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The ability of a product to withstand sudden increases in voltage."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5417_8650_3688_4158",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Surge resistance"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The ability of a product to withstand sudden increases in voltage."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Reverse polarity protection",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Whether or not the product has protection against reverse polarity."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5305_1956_1061_9559",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Reverse polarity protection"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Whether or not the product has protection against reverse polarity."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Cable length",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The length of the cable."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7678_2906_8039_1937",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Cable length"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The length of the cable."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Cable characteristic",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The characteristic of the cable, such as its ability to be used in energy chains."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5349_5146_3788_8788",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Cable characteristic"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The characteristic of the cable, such as its ability to be used in energy chains."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Connector cable test conditions",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The test conditions for the connector cable."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6118_7666_2572_0822",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Connector cable test conditions"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The test conditions for the connector cable."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Bending radius, fixed cable installation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The minimum bending radius for the cable when it is installed in a fixed position."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5958_1608_3275_9685",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Bending radius, fixed cable installation"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The minimum bending radius for the cable when it is installed in a fixed position."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Degree of protection",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The level of protection against dust and water for the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0677_3757_0022_1196",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Degree of protection"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The level of protection against dust and water for the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "IP67",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The level of protection against dust and water for the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0331_7478_8582_9061",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Protection_level"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The level of protection against dust and water for the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "Manufacturer code",
+                "Definition": "The unique code assigned to the manufacturer of the product.",
+                "Value": "NEBC-D8G4-ES-0.5-N-S-D8G4-ET",
+                "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Manufacturer code",
+                    "Definition": "The unique code assigned to the manufacturer of the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This data property can be used to identify the manufacturer of the product and can be used for quality control purposes in the manufacturing process.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Part number",
+                "Definition": "The unique number assigned to the product.",
+                "Value": "8065123",
+                "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Part number",
+                    "Definition": "The unique number assigned to the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "This data property can be used to identify and track the product, as well as for ordering and inventory purposes.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Based on norm",
+                "Definition": "The norm or standard that the product is based on.",
+                "Value": "EN 61076-2-114",
+                "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Based on norm",
+                    "Definition": "The norm or standard that the product is based on.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 4,
+                "Affordance": "This information can be used to determine the compatibility and compliance of the product with other systems or components that adhere to the same norm or standard.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Contact durability",
+                "Definition": "The number of times the product can be used before it needs to be replaced.",
+                "Value": "100",
+                "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Contact durability",
+                    "Definition": "The number of times the product can be used before it needs to be replaced.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This data property can be used to determine the durability and lifespan of the product, making it useful for engineers and designers in selecting the appropriate product for their specific application needs.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Product weight",
+                "Definition": "The weight of the product.",
+                "Value": "43 g",
+                "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Product weight",
+                    "Definition": "The weight of the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "g",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the weight of the product and its impact on the overall weight of a system or installation. It can also be used for weight-based calculations and design considerations.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "DC operating voltage range",
+                "Definition": "The range of DC voltages that the product can operate within.",
+                "Value": "0 V ... 30 V",
+                "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "DC operating voltage range",
+                    "Definition": "The range of DC voltages that the product can operate within.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "V",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the appropriate power supply for the product and to ensure it is within the safe operating range.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Nominal operating voltage DC",
+                "Definition": "The nominal DC voltage that the product operates at.",
+                "Value": "24 V",
+                "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Nominal operating voltage DC",
+                    "Definition": "The nominal DC voltage that the product operates at.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "V",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This data property can be used to determine the appropriate operating voltage for the product in various engineering tasks, such as designing a power supply or selecting compatible components.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Current rating at 40\u00b0 C",
+                "Definition": "The maximum current that the product can handle at a temperature of 40\u00b0 C.",
+                "Value": "3 A",
+                "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Current rating at 40\u00b0 C",
+                    "Definition": "The maximum current that the product can handle at a temperature of 40\u00b0 C.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "A",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This data property can be used to determine the maximum current that the product can handle at a temperature of 40\u00b0 C, which is important for designing and selecting appropriate power sources and components for the product.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Surge resistance",
+                "Definition": "The ability of the product to withstand sudden increases in voltage.",
+                "Value": "1.5 kV",
+                "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Surge resistance",
+                    "Definition": "The ability of a product to withstand sudden increases in voltage.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "kV",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the suitability of the product for applications where sudden increases in voltage may occur, such as in industrial settings or power distribution systems.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Reverse polarity protection",
+                "Definition": "Whether or not the product has protection against reverse polarity.",
+                "Value": "no",
+                "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Reverse polarity protection",
+                    "Definition": "Whether or not the product has protection against reverse polarity.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the safety and reliability of the product in various electrical systems and applications.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Cable length",
+                "Definition": "The length of the cable.",
+                "Value": "0.5 m",
+                "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Cable length",
+                    "Definition": "The length of the cable.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "m",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This data property can be used to determine the appropriate length of cable needed for a specific engineering task, such as connecting two components in a system.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Cable characteristic",
+                "Definition": "The characteristic of the cable, such as its ability to be used in energy chains.",
+                "Value": "Suitable for energy chains",
+                "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Cable characteristic",
+                    "Definition": "The characteristic of the cable, such as its ability to be used in energy chains.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the suitability of the cable for use in energy chains, which is important for engineering tasks involving cable installation and protection.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Connector cable test conditions",
+                "Definition": "The test conditions for the connector cable.",
+                "Value": "Test conditions on request",
+                "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Connector cable test conditions",
+                    "Definition": "The test conditions for the connector cable.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the specific testing conditions for the connector cable in various engineering tasks.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Bending radius, fixed cable installation",
+                "Definition": "The minimum bending radius for the cable when it is installed in a fixed position.",
+                "Value": "\u226520 mm",
+                "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Bending radius, fixed cable installation",
+                    "Definition": "The minimum bending radius for the cable when it is installed in a fixed position.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "mm",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This data property can be used to determine the minimum bending radius for a connecting cable when it is installed in a fixed position, which is important for ensuring proper functioning and durability of the cable in various engineering tasks and applications.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Degree of protection",
+                "Definition": "The level of protection against dust and water for the product.",
+                "Value": "IP65",
+                "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Degree of protection",
+                    "Definition": "The level of protection against dust and water for the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the suitability of the product for specific environments or applications where protection against dust and water is important, such as outdoor or industrial settings.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "IP67",
+                "Definition": "The level of protection against dust and water for the product.",
+                "Value": "IP67",
+                "SourceDescription": "This data feature is extracted from a data sheet for a connecting cable."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Protection_level",
+                    "Definition": "The level of protection against dust and water for the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the suitability of the product for use in environments with high levels of dust and water, such as outdoor or industrial settings.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        }
+    ]
+}
