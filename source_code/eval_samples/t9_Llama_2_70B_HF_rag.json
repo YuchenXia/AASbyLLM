@@ -1,0 +1,2089 @@
+{
+    "session_key": "t9_Llama_2_70B_HF_rag_20240124_201307_e97a",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Manufacturer-article name",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The name of the manufacturer and the article name"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1420_5115_7047_6649"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "pressure sensor",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Manufacturer code",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The manufacturer code of the article"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4873_7055_8106_0292"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "SPAU-P2R-W-G18FD-L-PNLK-PNVBA-M8U",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Part number",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The part number of the article"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4294_4507_7933_7598"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "8001232",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Start value for pressure measuring range",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The start value for the pressure measuring range"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8796_4636_6390_8292"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0 bar",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "End value for pressure measuring range",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The end value for the pressure measuring range"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3798_6512_5973_1000"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "2 bar",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Media temperature",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The media temperature is the temperature at which the performance of a device was tested or to which calculated values refer."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0102_1610_6598_8115"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0 \u00b0C ... 50 \u00b0C",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Ambient temperature",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Temperature in the outer area of the operating medium"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0296_3437_4914_9734"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0 \u00b0C ... 50 \u00b0C",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Max. output current",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The maximum output current"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9341_1348_3530_6942"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "100 mA",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Rise time",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The time required for the rising process between the lower and upper terminal positions"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3265_6575_9791_0464"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "3 ms",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Max. load resistance current output",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The maximum load resistance current output"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0438_2387_4987_3536"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "500 Ohm",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Max. overload pressure",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The maximum overload pressure"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4267_3642_0293_6354"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "6 bar",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Resolution ADC",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The resolution of the analog inputs"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5653_7794_8340_5212"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "12 bit",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Accuracy in \u00b1 % FS",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The accuracy in \u00b1 % FS"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5709_3205_2114_9380"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "1.5 %FS",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Repetition accuracy in \u00b1 % FS",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "degree of agreement for a number of subsequent measurements of the output signal for the same value of the input variable under the same conditions, when the output variable, originating from the same direction, passes through all variables in its range"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5517_9988_8191_6765"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0.3 %FS",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Temperature coefficient in \u00b1 % FS/K",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The temperature coefficient in \u00b1 % FS/K is the third value of the eighth line of the input text."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5351_2801_2185_5812"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0.05 %FS/K",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Min. load resistance voltage output",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The minimum load resistance voltage output is the minimum load resistance voltage output of the sensor."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6937_1768_4105_9318"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "10 kOhm",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Manufacturer-article name",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The name of the manufacturer and the article name"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1420_5115_7047_6649",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Manufacturer-article name"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The name of the manufacturer and the article name"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Manufacturer code",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The manufacturer code of the article"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4873_7055_8106_0292",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Manufacturer code"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The manufacturer code of the article"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Part number",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The part number of the article"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4294_4507_7933_7598",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Part number"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The part number of the article"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Start value for pressure measuring range",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The start value for the pressure measuring range"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8796_4636_6390_8292",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Start value for pressure measuring range"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The start value for the pressure measuring range"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "End value for pressure measuring range",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The end value for the pressure measuring range"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3798_6512_5973_1000",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "End value for pressure measuring range"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The end value for the pressure measuring range"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Max. overload pressure",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The maximum overload pressure"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4267_3642_0293_6354",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Max. overload pressure"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum overload pressure"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Media temperature",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The media temperature is the temperature at which the performance of a device was tested or to which calculated values refer."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0102_1610_6598_8115",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Media temperature"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The media temperature is the temperature at which the performance of a device was tested or to which calculated values refer."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Ambient temperature",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Temperature in the outer area of the operating medium"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0296_3437_4914_9734",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Ambient temperature"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Temperature in the outer area of the operating medium"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Resolution ADC",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The resolution of the analog inputs"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5653_7794_8340_5212",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Resolution of the analog inputs"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The resolution of the analog inputs"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Accuracy in \u00b1 % FS",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The accuracy in \u00b1 % FS"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5709_3205_2114_9380",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Accuracy in \u00b1 % FS"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The accuracy in \u00b1 % FS"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Repetition accuracy in \u00b1 % FS",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "degree of agreement for a number of subsequent measurements of the output signal for the same value of the input variable under the same conditions, when the output variable, originating from the same direction, passes through all variables in its range"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5517_9988_8191_6765",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "repeatability"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "degree of agreement for a number of subsequent measurements of the output signal for the same value of the input variable under the same conditions, when the output variable, originating from the same direction, passes through all variables in its range"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Temperature coefficient in \u00b1 % FS/K",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The temperature coefficient in \u00b1 % FS/K is the third value of the eighth line of the input text."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5351_2801_2185_5812",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Temperature coefficient in \u00b1 % FS/K"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The temperature coefficient in \u00b1 % FS/K is the third value of the eighth line of the input text."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Max. output current",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The maximum output current"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9341_1348_3530_6942",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Max. output current"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum output current"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Rise time",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The time required for the rising process between the lower and upper terminal positions"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3265_6575_9791_0464",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Rise time"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The time required for the rising process between the lower and upper terminal positions"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Max. load resistance current output",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The maximum load resistance current output"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0438_2387_4987_3536",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Max. load resistance current output"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum load resistance current output"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Min. load resistance voltage output",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The minimum load resistance voltage output is the minimum load resistance voltage output of the sensor."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6937_1768_4105_9318",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "min. load resistance voltage output"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The minimum load resistance voltage output is the minimum load resistance voltage output of the sensor."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "Manufacturer-article name",
+                "Definition": "The name of the manufacturer and the article name",
+                "Value": "pressure sensor",
+                "SourceDescription": "The manufacturer-article name is the first line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "product article number of manufacturer",
+                        "Definition": "unique product identifier of the manufacturer",
+                        "Reason": "The data feature is the name of the manufacturer and the article name, which is the same as the definition of the annotation.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO676003"
+                    },
+                    {
+                        "Name": "product article number of supplier",
+                        "Definition": "unique product order identifier of the supplier",
+                        "Reason": "The data feature is the name of the manufacturer and the article name, which is different from the definition of the annotation.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO736004"
+                    },
+                    {
+                        "Name": "Designation of manufacturer",
+                        "Definition": "The specifying designation (company name) for the product manufacturer/ publishers (card, book, other publication or CD)",
+                        "Reason": "The data feature is the name of the manufacturer and the article name, which is different from the definition of the annotation.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP923001"
+                    },
+                    {
+                        "Name": "Design of contents in reference to its main parts.",
+                        "Definition": "The specifying designation (type name, type code, abbreviated name, article number) of the basic parts of the product",
+                        "Reason": "The data feature is the name of the manufacturer and the article name, which is different from the definition of the annotation.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAE602005"
+                    },
+                    {
+                        "Name": "Manufacturer product designation",
+                        "Definition": "Short description of the product (short text)",
+                        "Reason": "The data feature is the name of the manufacturer and the article name, which is different from the definition of the annotation.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW338001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "product article number of manufacturer",
+                    "Definition": "unique product identifier of the manufacturer",
+                    "SemanticIdentifier": "AAO676003"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Manufacturer-article name",
+                    "Definition": "The name of the manufacturer and the article name",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "The manufacturer-article name can be used to identify the product."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Manufacturer code",
+                "Definition": "The manufacturer code of the article",
+                "Value": "SPAU-P2R-W-G18FD-L-PNLK-PNVBA-M8U",
+                "SourceDescription": "The manufacturer code is the second line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Code of the manufacturer declaration",
+                        "Definition": "Code of the manufacturer explanations or notes for a component or device in text form",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAQ197001"
+                    },
+                    {
+                        "Name": "model code of manufacturer",
+                        "Definition": "sequence of characters assigned in accordance with certain rules of the manufacturer's for designation of the model",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAE344005"
+                    },
+                    {
+                        "Name": "product code",
+                        "Definition": "machine-readable string of the model of the machine, that might include options like the hardware configuration of the model",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABA679001"
+                    },
+                    {
+                        "Name": "product article number of manufacturer",
+                        "Definition": "unique product identifier of the manufacturer",
+                        "Reason": "The definition of the annotation is relevant to the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO676003"
+                    },
+                    {
+                        "Name": "Manufacturer product designation",
+                        "Definition": "Short description of the product (short text)",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW338001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "product article number of manufacturer",
+                    "Definition": "unique product identifier of the manufacturer",
+                    "SemanticIdentifier": "AAO676003"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Manufacturer code",
+                    "Definition": "The manufacturer code of the article",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "none",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "The manufacturer code can be used to identify the article."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Part number",
+                "Definition": "The part number of the article",
+                "Value": "8001232",
+                "SourceDescription": "The part number is the third line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Spare parts lists - numbers",
+                        "Definition": "Reference to a document in which the part to be procured is described in greater detail and/or represented graphically",
+                        "Reason": "The part number is not a reference to a document in which the part to be procured is described in greater detail and/or represented graphically.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO606001"
+                    },
+                    {
+                        "Name": "Manufacturing part number",
+                        "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                        "Reason": "The part number is not a sequence of characters for identifying name of a manufacturing part.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO628001"
+                    },
+                    {
+                        "Name": "number of the parts list",
+                        "Definition": "Description of the list that includes all individual parts required for manufacturing or assembling a product",
+                        "Reason": "The part number is not a description of the list that includes all individual parts required for manufacturing or assembling a product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO835001"
+                    },
+                    {
+                        "Name": "number of parts",
+                        "Definition": "describes the number of the parts of the object",
+                        "Reason": "The part number is not the number of the parts of the object.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK546003"
+                    },
+                    {
+                        "Name": "Design of contents in reference to its main parts.",
+                        "Definition": "The specifying designation (type name, type code, abbreviated name, article number) of the basic parts of the product",
+                        "Reason": "The part number is not the specifying designation (type name, type code, abbreviated name, article number) of the basic parts of the product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAE602005"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Manufacturing part number",
+                    "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                    "SemanticIdentifier": "AAO628001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Part number",
+                    "Definition": "The part number of the article",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "none",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "The part number can be used to identify the article."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Start value for pressure measuring range",
+                "Definition": "The start value for the pressure measuring range",
+                "Value": "0 bar",
+                "SourceDescription": "The start value for the pressure measuring range is the first value of the fourth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "measurement method for pressure flow",
+                        "Definition": "start value for flow rate measuring range is the lower nominal value of the input signal range in which the (accuracy) specifications apply",
+                        "Reason": "The definition of the annotation is not related to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABD902001"
+                    },
+                    {
+                        "Name": "initial value of the measuring range (pressure)",
+                        "Definition": "lower limit value of the range of those values of the measurand pressure for which it is required that the measurement deviations of the measuring equipment remain within specified limits and that the values are represented in accordance with the specifications",
+                        "Reason": "The definition of the annotation is related to the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ803001"
+                    },
+                    {
+                        "Name": "Initial value of pressure measuring range",
+                        "Definition": "lower limit of the range of values for a measured variable for which the measurement deviations of a measuring device must remain within defined limits",
+                        "Reason": "The definition of the annotation is related to the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ403002"
+                    },
+                    {
+                        "Name": "start value for sensing range",
+                        "Definition": "end value for sensing range is the upper nominal value of the sensing range. The sensor can sense values in the sensing range. However, there is no specified relationship between input and output signal. Only repeatability can be given",
+                        "Reason": "The definition of the annotation is not related to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABD903001"
+                    },
+                    {
+                        "Name": "initial value of the measuring range (temperature)",
+                        "Definition": "lower limit value of the range of those values of the measurand temperature for which it is required that the measuring deviations of the measuring device remain within specified limits and that the values are represented in accordance with the specifications",
+                        "Reason": "The definition of the annotation is not related to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ804001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "initial value of the measuring range (pressure)",
+                    "Definition": "lower limit value of the range of those values of the measurand pressure for which it is required that the measurement deviations of the measuring equipment remain within specified limits and that the values are represented in accordance with the specifications",
+                    "SemanticIdentifier": "AAZ803001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Start value for pressure measuring range",
+                    "Definition": "The start value for the pressure measuring range",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "bar",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "The start value for the pressure measuring range is the first value of the fourth line of the input text."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "End value for pressure measuring range",
+                "Definition": "The end value for the pressure measuring range",
+                "Value": "2 bar",
+                "SourceDescription": "The end value for the pressure measuring range is the second value of the fourth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "end value of the measuring range (pressure)",
+                        "Definition": "upper limit value of the range of the measured variable pressure",
+                        "Reason": "The definition is too general and does not match the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC508001"
+                    },
+                    {
+                        "Name": "end value of the measuring range (pressure)",
+                        "Definition": "upper limit value of the range of those values of the measurand pressure for which it is required that the measuring deviations of the measuring equipment remain within specified limits and that the values are represented in accordance with the specifications",
+                        "Reason": "The definition is too general and does not match the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ821001"
+                    },
+                    {
+                        "Name": "final value of pressure measuring range",
+                        "Definition": "upper limit of the range of values for a measured variable for which the measurement deviations of a measuring device must remain within defined limits",
+                        "Reason": "The definition is too general and does not match the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ921001"
+                    },
+                    {
+                        "Name": "Greatest value of measuring range for pressure",
+                        "Definition": "Upper value of the measuring range for pressure for which it is required that the measurement errors of the measuring device stay within preestablished boundaries",
+                        "Reason": "The definition is too general and does not match the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAG950008"
+                    },
+                    {
+                        "Name": "end value of the measuring range (temperature)",
+                        "Definition": "upper limit value of the range of those values of the measurand temperature for which it is required that the measuring deviations of the measuring device remain within specified limits and that the values are represented in accordance with the specifications",
+                        "Reason": "The definition is too general and does not match the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ822001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "end value of the measuring range (pressure)",
+                    "Definition": "upper limit value of the range of the measured variable pressure",
+                    "SemanticIdentifier": "ABC508001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "End value for pressure measuring range",
+                    "Definition": "The end value for the pressure measuring range",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "bar",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "The end value for the pressure measuring range is used to determine the range of the pressure sensor."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Max. overload pressure",
+                "Definition": "The maximum overload pressure",
+                "Value": "6 bar",
+                "SourceDescription": "The maximum overload pressure is the first value of the fifth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "max. operation overpressure",
+                        "Definition": "largest permissible pressure at proper operation of the device or component",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAI725005"
+                    },
+                    {
+                        "Name": "max. operating pressure",
+                        "Definition": "Max. pressure which occurs or may occur in an operating system (under normal operating conditions)",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB836007"
+                    },
+                    {
+                        "Name": "max. operation pressure",
+                        "Definition": "greatest pressure that occurs in a system in operation or shall occur, indicated in the derived SI unit of pressure",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAJ845005"
+                    },
+                    {
+                        "Name": "max. overload protector",
+                        "Definition": "maximum value of the current which triggers an overload in a power circuit",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAH655003"
+                    },
+                    {
+                        "Name": "max. operation pressure (imperial)",
+                        "Definition": "maximum pressure which occurs/ may occur in a system in operation",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAG878006"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "max. operation overpressure",
+                    "Definition": "largest permissible pressure at proper operation of the device or component",
+                    "SemanticIdentifier": "AAI725005"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Max. overload pressure",
+                    "Definition": "The maximum overload pressure",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "bar",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The information can be used to determine the maximum pressure that the device can withstand without damage."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Media temperature",
+                "Definition": "The media temperature",
+                "Value": "0 \u00b0C ... 50 \u00b0C",
+                "SourceDescription": "The media temperature is the first value of the sixth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "reference temperature",
+                        "Definition": "temperature at which the performance of a device was tested or to which calculated values refer",
+                        "Reason": "The media temperature is the temperature at which the performance of a device was tested or to which calculated values refer.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAQ336005"
+                    },
+                    {
+                        "Name": "min. storage temperature",
+                        "Definition": "temperature above which the device may be stored or transported without any permanent impairment to its operability",
+                        "Reason": "The media temperature is not the temperature above which the device may be stored or transported without any permanent impairment to its operability.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAQ342005"
+                    },
+                    {
+                        "Name": "storage temperature",
+                        "Definition": "Temperature at which a component is stored",
+                        "Reason": "The media temperature is not the temperature at which a component is stored.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ830001"
+                    },
+                    {
+                        "Name": "operating medium",
+                        "Definition": "temperature at which the specified accuracy data are valid. For deviations from the nominal temperature, the specified temperature coefficients must be must be added to the specified accuracies",
+                        "Reason": "The media temperature is not the temperature at which the specified accuracy data are valid. For deviations from the nominal temperature, the specified temperature coefficients must be must be added to the specified accuracies.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABD905001"
+                    },
+                    {
+                        "Name": "max. storage temperature",
+                        "Definition": "temperature up to which the device may be stored or transported without any permanent impairment to its operability",
+                        "Reason": "The media temperature is not the temperature up to which the device may be stored or transported without any permanent impairment to its operability.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAQ341005"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "reference temperature",
+                    "Definition": "temperature at which the performance of a device was tested or to which calculated values refer",
+                    "SemanticIdentifier": "AAQ336005"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Media temperature",
+                    "Definition": "The media temperature is the temperature at which the performance of a device was tested or to which calculated values refer.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "\u00b0C",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "The media temperature is the temperature at which the performance of a device was tested or to which calculated values refer."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Ambient temperature",
+                "Definition": "The ambient temperature",
+                "Value": "0 \u00b0C ... 50 \u00b0C",
+                "SourceDescription": "The ambient temperature is the second value of the sixth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "actual ambient temperature",
+                        "Definition": "temperature of the surrounding operating environment of a component or system, determined at the time under consideration",
+                        "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "ABC747001"
+                    },
+                    {
+                        "Name": "ambient temperature",
+                        "Definition": "temperature of the surrounding operating environment of a component or system",
+                        "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ842001"
+                    },
+                    {
+                        "Name": "Ambient temperature",
+                        "Definition": "Temperature in the outer area of the operating medium",
+                        "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAE540004"
+                    },
+                    {
+                        "Name": "last ambient temperature",
+                        "Definition": "last determined temperature of the surrounding operating environment of a component or system",
+                        "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "ABC748001"
+                    },
+                    {
+                        "Name": "actual minimum ambient temperature",
+                        "Definition": "minimum temperature of the surrounding operating environment of a component or system determined in a defined time interval",
+                        "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "ABC749001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "ambient temperature",
+                    "Definition": "temperature of the surrounding operating environment of a component or system",
+                    "SemanticIdentifier": "AAZ842001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Ambient temperature",
+                    "Definition": "Temperature in the outer area of the operating medium",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "\u00b0C",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "The ambient temperature is used to determine the operating conditions of the product."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Resolution ADC",
+                "Definition": "The resolution ADC",
+                "Value": "12 bit",
+                "SourceDescription": "The resolution ADC is the first value of the seventh line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Resolution of the analog inputs",
+                        "Definition": "Number of bits with which an analog value that can be digitalized at the analog output - the resolution of the A/D or D/A converter, together with the selected input range, determines the smallest voltage difference (increment) that can be resolved",
+                        "Reason": "The data feature is the resolution of the analog inputs.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAC831007"
+                    },
+                    {
+                        "Name": "Resolution of the analog outputs",
+                        "Definition": "Number of bits with which an analog value that can be digitalized at the analog output - the resolution of the A/D converter and D/A converter determines, together with the selected input range, the smallest voltage difference (increment) that can be resolved",
+                        "Reason": "The data feature is the resolution of the analog inputs.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAC832007"
+                    },
+                    {
+                        "Name": "Resolution",
+                        "Definition": "Resolution is a quantitative measure of the ability of a display or output signal to distinguish clearly between given neighboring measured values",
+                        "Reason": "The data feature is the resolution of the analog inputs.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAG959004"
+                    },
+                    {
+                        "Name": "Designation of computer resolution",
+                        "Definition": "The specifying designation (short form, abbreviated name) for distinguishing by the number of smallest representable monitor points as a measure for the accuracy of representations",
+                        "Reason": "The data feature is the resolution of the analog inputs.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP918001"
+                    },
+                    {
+                        "Name": "Interpolated resolution",
+                        "Definition": "Quantitative statement of the ability of the display or output signal to distinguish unambiguously between neighboring measured values by applying methods of interpolation",
+                        "Reason": "The data feature is the resolution of the analog inputs.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAF461003"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Resolution of the analog inputs",
+                    "Definition": "Number of bits with which an analog value that can be digitalized at the analog output - the resolution of the A/D or D/A converter, together with the selected input range, determines the smallest voltage difference (increment) that can be resolved",
+                    "SemanticIdentifier": "AAC831007"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Resolution of the analog inputs",
+                    "Definition": "The resolution of the analog inputs",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "bit",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The resolution of the analog inputs is used to determine the smallest voltage difference (increment) that can be resolved."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Accuracy in \u00b1 % FS",
+                "Definition": "The accuracy in \u00b1 % FS",
+                "Value": "1.5 %FS",
+                "SourceDescription": "The accuracy in \u00b1 % FS is the first value of the eighth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "accuracy (according to DIN 862)",
+                        "Definition": "specification whether the measuring device is conform to the formality of accuracy according to norm or not",
+                        "Reason": "The data feature is not about the conformity of the measuring device to the accuracy according to norm.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAH986005"
+                    },
+                    {
+                        "Name": "accuracy (per day)",
+                        "Definition": "quantitative specification of chronometry, time display or synchrony, deviation of a pulse or an oscillation frequency from their standard value per day, measured in seconds",
+                        "Reason": "The data feature is not about the deviation of a pulse or an oscillation frequency from their standard value per day.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAH258004"
+                    },
+                    {
+                        "Name": "Signal range at the input",
+                        "Definition": "An interval defined by two values of the input variables in which an evaluation can be carried out within the specified accuracy",
+                        "Reason": "The data feature is not about the signal range at the input.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAA239007"
+                    },
+                    {
+                        "Name": "accuracy class",
+                        "Definition": "information on the catergorization within a nominal hierarchy in reference to the allowed deviation of measurements",
+                        "Reason": "The data feature is not about the catergorization within a nominal hierarchy in reference to the allowed deviation of measurements.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAH933002"
+                    },
+                    {
+                        "Name": "Safety-related accuracy",
+                        "Definition": "specifies the measurement accuracy which can be used for a safety evaluation",
+                        "Reason": "The data feature is not about the measurement accuracy which can be used for a safety evaluation.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ278001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "accuracy (according to DIN 862)",
+                    "Definition": "specification whether the measuring device is conform to the formality of accuracy according to norm or not",
+                    "SemanticIdentifier": "AAH986005"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Accuracy in \u00b1 % FS",
+                    "Definition": "The accuracy in \u00b1 % FS",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "FS",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The accuracy in \u00b1 % FS is used to evaluate the accuracy of the sensor."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Repetition accuracy in \u00b1 % FS",
+                "Definition": "The repetition accuracy in \u00b1 % FS",
+                "Value": "0.3 %FS",
+                "SourceDescription": "The repetition accuracy in \u00b1 % FS is the second value of the eighth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "rel. repeat precision",
+                        "Definition": "output signal changes under determined conditions relating to the output signal, expressed in percent",
+                        "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAQ331002"
+                    },
+                    {
+                        "Name": "repeatability",
+                        "Definition": "degree of agreement for a number of subsequent measurements of the output signal for the same value of the input variable under the same conditions, when the output variable, originating from the same direction, passes through all variables in its range",
+                        "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAQ350003"
+                    },
+                    {
+                        "Name": "repeatability",
+                        "Definition": "for a device, percentage degree of deviation between the results of successive measurements of a quantity, carried out under the same conditions of measurement",
+                        "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAN079004"
+                    },
+                    {
+                        "Name": "Repeatability",
+                        "Definition": "accuracy with which a motion system achieves a target position over several attempts under identical conditions",
+                        "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ285001"
+                    },
+                    {
+                        "Name": "run-out accuracy",
+                        "Definition": "indicates the run-out accuracy",
+                        "Reason": "The definition of the annotation is similar to the definition of the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAJ515003"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "repeatability",
+                    "Definition": "degree of agreement for a number of subsequent measurements of the output signal for the same value of the input variable under the same conditions, when the output variable, originating from the same direction, passes through all variables in its range",
+                    "SemanticIdentifier": "AAQ350003"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "repeatability",
+                    "Definition": "degree of agreement for a number of subsequent measurements of the output signal for the same value of the input variable under the same conditions, when the output variable, originating from the same direction, passes through all variables in its range",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "FS",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The information can be used to determine the degree of agreement for a number of subsequent measurements of the output signal for the same value of the input variable under the same conditions, when the output variable, originating from the same direction, passes through all variables in its range."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Temperature coefficient in \u00b1 % FS/K",
+                "Definition": "The temperature coefficient in \u00b1 % FS/K",
+                "Value": "0.05 %FS/K",
+                "SourceDescription": "The temperature coefficient in \u00b1 % FS/K is the third value of the eighth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "reference temperature",
+                        "Definition": "temperature at which the performance of a device was tested or to which calculated values refer",
+                        "Reason": "The temperature coefficient in \u00b1 % FS/K is the third value of the eighth line of the input text.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAQ336005"
+                    },
+                    {
+                        "Name": "operating medium",
+                        "Definition": "temperature at which the specified accuracy data are valid. For deviations from the nominal temperature, the specified temperature coefficients must be must be added to the specified accuracies",
+                        "Reason": "The temperature coefficient in \u00b1 % FS/K is the third value of the eighth line of the input text.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABD905001"
+                    },
+                    {
+                        "Name": "temperature range from minus",
+                        "Definition": "indicates the temperature range from minus of an object",
+                        "Reason": "The temperature coefficient in \u00b1 % FS/K is the third value of the eighth line of the input text.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAJ230003"
+                    },
+                    {
+                        "Name": "coefficient of linear expansion",
+                        "Definition": "is the ratio of the relative change in length of a glass sample when heated from -30\u00b0C to +70\u00b0C to the corresponding temperature difference of 100 K",
+                        "Reason": "The temperature coefficient in \u00b1 % FS/K is the third value of the eighth line of the input text.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAV109002"
+                    },
+                    {
+                        "Name": "specific heat capacity(at 20\u00b0C)",
+                        "Definition": "measure of that energy which one needs to warm up 1 kilogramme of a material around 1 Kelvin",
+                        "Reason": "The temperature coefficient in \u00b1 % FS/K is the third value of the eighth line of the input text.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAR460003"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "operating medium",
+                    "Definition": "temperature at which the specified accuracy data are valid. For deviations from the nominal temperature, the specified temperature coefficients must be must be added to the specified accuracies",
+                    "SemanticIdentifier": "ABD905001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Temperature coefficient in \u00b1 % FS/K",
+                    "Definition": "The temperature coefficient in \u00b1 % FS/K is the third value of the eighth line of the input text.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "K",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The temperature coefficient in \u00b1 % FS/K is the third value of the eighth line of the input text."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Max. output current",
+                "Definition": "The maximum output current",
+                "Value": "100 mA",
+                "SourceDescription": "The maximum output current is the first value of the ninth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "max. output current 1",
+                        "Definition": "maximum power output of the current specified by digit 1 (according to the specified operating conditions) at which a signal, energy, power or information is provided by an operating unit",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAI720004"
+                    },
+                    {
+                        "Name": "max. output current 4",
+                        "Definition": "Maximum power output of the current specified by digit 4 (according to the specified operating conditions) at which a signal, energy, power or information is provided by an operating unit",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW284002"
+                    },
+                    {
+                        "Name": "max. output current 2",
+                        "Definition": "Maximum power output of the current specified by digit 2 (according to the specified operating conditions) at which a signal, energy, power or information is provided by an operating unit",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB807007"
+                    },
+                    {
+                        "Name": "max. output current 3",
+                        "Definition": "Maximum power output of the current specified by digit 3 (according to the specified operating conditions) at which a signal, energy, power or information is provided by an operating unit",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB808007"
+                    },
+                    {
+                        "Name": "max. just-operate current range",
+                        "Definition": "maximum current value an electrical device reacts to",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF851003"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "max. output current 1",
+                    "Definition": "maximum power output of the current specified by digit 1 (according to the specified operating conditions) at which a signal, energy, power or information is provided by an operating unit",
+                    "SemanticIdentifier": "AAI720004"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Max. output current",
+                    "Definition": "The maximum output current",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "mA",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "The maximum output current is used to determine the maximum current that can be output by the sensor."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Rise time",
+                "Definition": "The rise time",
+                "Value": "3 ms",
+                "SourceDescription": "The rise time is the second value of the ninth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "up time",
+                        "Definition": "time interval throughout which an item is in an up state",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABA729001"
+                    },
+                    {
+                        "Name": "Lowering time",
+                        "Definition": "The time required for the lowering process between the upper and lower terminal positions",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAI771004"
+                    },
+                    {
+                        "Name": "rise time",
+                        "Definition": "min. supply pressure is used as necessary in order to have a further differentiating term for a second pressure based on the primary operating pressure, here the min. supply pressure",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABD909001"
+                    },
+                    {
+                        "Name": "pump kick time",
+                        "Definition": "absolute time of a pump kick, if pump kick mode is operator specific. the time for the next pump kick results of the sum of pump kick time and pump kick time difference",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC144001"
+                    },
+                    {
+                        "Name": "Initialization time",
+                        "Definition": "Initialization time",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAV537002"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "rise time",
+                    "Definition": "min. supply pressure is used as necessary in order to have a further differentiating term for a second pressure based on the primary operating pressure, here the min. supply pressure",
+                    "SemanticIdentifier": "ABD909001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Rise time",
+                    "Definition": "The time required for the rising process between the lower and upper terminal positions",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "ms",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "The rise time is used to determine the time required for the rising process between the lower and upper terminal positions."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Max. load resistance current output",
+                "Definition": "The maximum load resistance current output",
+                "Value": "500 Ohm",
+                "SourceDescription": "The maximum load resistance current output is the first value of the tenth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "max. response value current strength 1",
+                        "Definition": "Maximum value for the adjustable limit value of the first effective magnitude of the current which, when reached, triggers a (required) reaction",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB795007"
+                    },
+                    {
+                        "Name": "max. output power with linear load and rated output voltage",
+                        "Definition": "Maximum power output which is provided by the operating unit (with linear load and rated output voltage) with due consideration of the specified ambient and operating conditions (as a product from voltage and current)",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB782008"
+                    },
+                    {
+                        "Name": "Max. output current",
+                        "Definition": "Greatest possible boundary value for load current at output, which may not be exceeded due to properties/ characteristics that must be assured",
+                        "Reason": "The definition of the annotation is relevant to the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAC640006"
+                    },
+                    {
+                        "Name": "max. load of current circuit (explosion protection)",
+                        "Definition": "rated value of secondarily connected ohmic load in the intrinsically safe Ex-current circuit, general stated as a resistance",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAB497008"
+                    },
+                    {
+                        "Name": "max. just-operate current range",
+                        "Definition": "maximum current value an electrical device reacts to",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF851003"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Max. output current",
+                    "Definition": "Greatest possible boundary value for load current at output, which may not be exceeded due to properties/ characteristics that must be assured",
+                    "SemanticIdentifier": "BAC640006"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Max. load resistance current output",
+                    "Definition": "The maximum load resistance current output",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "Ohm",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "The information can be used to determine the maximum load resistance current output of the pressure sensor."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Min. load resistance voltage output",
+                "Definition": "The minimum load resistance voltage output",
+                "Value": "10 kOhm",
+                "SourceDescription": "The minimum load resistance voltage output is the second value of the tenth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "min. output voltage",
+                        "Definition": "value of the minimum voltage which is available at the outlet of an operational medium",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF692003"
+                    },
+                    {
+                        "Name": "min. load at voltage in-/output",
+                        "Definition": "smallest load connected in series with an output circuit which ensures that it operates within the specified accuracy limits",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAN258005"
+                    },
+                    {
+                        "Name": "min. permissible voltage at output",
+                        "Definition": "Minimum voltage available at the output of an operating unit under consideration of the conditions of use that must never be exceeded to prevent personal injury and damage to property",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC030008"
+                    },
+                    {
+                        "Name": "min. 1. output voltage",
+                        "Definition": "Minimum effective value of the voltage specified by a digit applied to the windings of a transformer or voltage transformer which takes up the power that is to be transformed",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB925007"
+                    },
+                    {
+                        "Name": "min. 1. output voltage",
+                        "Definition": "Minimum effective value of the voltage specified by a digit applied to the windings of a transformer or voltage transformer which takes up the power that is to be transformed",
+                        "Reason": "The definition of the annotation is not relevant to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB926009"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "min. load at voltage in-/output",
+                    "Definition": "smallest load connected in series with an output circuit which ensures that it operates within the specified accuracy limits",
+                    "SemanticIdentifier": "AAN258005"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "min. load resistance voltage output",
+                    "Definition": "The minimum load resistance voltage output is the minimum load resistance voltage output of the sensor.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "Ohm",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The minimum load resistance voltage output is used to determine the minimum load resistance voltage output of the sensor."
+            }
+        }
+    ]
+}

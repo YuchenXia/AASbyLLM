@@ -1,0 +1,1708 @@
+{
+    "session_key": "t17_WizardLM_70B_rag_20240124_234857_42a7",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Distributor",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Identifies the distributor"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6683_7337_1801_9061"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Passive distributor",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Part number",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Identification number of the part"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8160_0169_3080_8495"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "R901425737",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Designation",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Unique identifier for the part"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7770_0209_3674_8690"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "8000-84070-0000000",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "1st connection type",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Description of the first connection type"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4897_7385_6187_8031"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "4x female connector, straight, M8x1, 3-pin, self-locking screw thread",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Function indicator",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Description of the function indicator"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1675_6973_4091_2930"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Yes",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Version",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Version of the specific hardware part"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4735_3750_1927_1082"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "straight, for 1 - 4 sensors",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Operating current per contact",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Maximum operating current per contact"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4006_0847_5006_6751"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "max. 2 A",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Operating voltage",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The voltage required for the device to operate"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2687_0844_7951_6273"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "24 VDC",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Switching logic",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Type of switching logic used"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5701_6854_2968_3055"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "PNP",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "2nd connection type",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Second connection type"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6340_8666_0027_8084"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Straight plug, M12x1, 8-pin, IDC, self-locking screw thread",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Operating voltage indicator",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Information about the display of the operating voltage"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3709_2774_9338_2157"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Yes",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Ambient temperature",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The temperature range in which the product can operate effectively"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1432_9958_4330_5686"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "\u201320 \u00b0C to +70 \u00b0C",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "IP rating",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Ingress Protection rating"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0878_7070_1809_9356"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "IP67 (inserted and locked)",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Distributor",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Identifies the distributor"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6683_7337_1801_9061",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Name of the distributor"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Identifies the distributor"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Part number",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Identification number of the part"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8160_0169_3080_8495",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Part number"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Identification number of the part"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Designation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Unique identifier for the part"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7770_0209_3674_8690",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Part Designation"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Unique identifier for the part"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Version",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Version of the specific hardware part"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4735_3750_1927_1082",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Part version"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Version of the specific hardware part"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Operating current per contact",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Maximum operating current per contact"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4006_0847_5006_6751",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Operating current per contact"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Maximum operating current per contact"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Operating voltage",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The voltage required for the device to operate"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2687_0844_7951_6273",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Operating voltage"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The voltage required for the device to operate"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Switching logic",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Type of switching logic used"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5701_6854_2968_3055",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Switching logic type"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Type of switching logic used"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "1st connection type",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Description of the first connection type"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4897_7385_6187_8031",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "1st connection type"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Description of the first connection type"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "2nd connection type",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Second connection type"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6340_8666_0027_8084",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "2nd connection type"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Second connection type"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Function indicator",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Description of the function indicator"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1675_6973_4091_2930",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Function Indicator Description"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Description of the function indicator"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Operating voltage indicator",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Information about the display of the operating voltage"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3709_2774_9338_2157",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Operating voltage display"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Information about the display of the operating voltage"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Ambient temperature",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The temperature range in which the product can operate effectively"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1432_9958_4330_5686",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Operating temperature range"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The temperature range in which the product can operate effectively"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "IP rating",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Ingress Protection rating"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0878_7070_1809_9356",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "IP rating"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Ingress Protection rating"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "Distributor",
+                "Definition": "Name of the distributor",
+                "Value": "Passive distributor",
+                "SourceDescription": "Name"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "type of distributor",
+                        "Definition": "describes the construction of the distributor",
+                        "Reason": "The data feature is the name of the distributor, not the type.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK195003"
+                    },
+                    {
+                        "Name": "name of supplier",
+                        "Definition": "name of supplier which provides the customer with a product or a service",
+                        "Reason": "The data feature is the name of the distributor, not the supplier.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO735003"
+                    },
+                    {
+                        "Name": "Designation of manufacturer",
+                        "Definition": "The specifying designation (company name) for the product manufacturer/ publishers (card, book, other publication or CD)",
+                        "Reason": "The data feature is the name of the distributor, not the manufacturer.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP923001"
+                    },
+                    {
+                        "Name": "Material description of the distributing plate",
+                        "Definition": "Usual name or brand name of the material in general language",
+                        "Reason": "The data feature is the name of the distributor, not the material description.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP163002"
+                    },
+                    {
+                        "Name": "Supplier product designation",
+                        "Definition": "Short description of the product (short text)",
+                        "Reason": "The data feature is the name of the distributor, not the supplier product designation.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAM551002"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "name of supplier",
+                    "Definition": "name of supplier which provides the customer with a product or a service",
+                    "SemanticIdentifier": "AAO735003"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Name of the distributor",
+                    "Definition": "Identifies the distributor",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Identifying the distributor for the product"
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Part number",
+                "Definition": "Identification number of the part",
+                "Value": "R901425737",
+                "SourceDescription": "Part number"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Manufacturing part number",
+                        "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                        "Reason": "The annotation is relevant as it describes the sequence of characters for identifying the name of a manufacturing part, which is applicable to the part number of the product.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO628001"
+                    },
+                    {
+                        "Name": "number of parts",
+                        "Definition": "describes the number of the parts of the object",
+                        "Reason": "The annotation is not relevant as it describes the number of parts of an object, which is not applicable to the part number of a specific product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK546003"
+                    },
+                    {
+                        "Name": "Spare parts lists - numbers",
+                        "Definition": "Reference to a document in which the part to be procured is described in greater detail and/or represented graphically",
+                        "Reason": "The annotation is not relevant as it refers to a document describing a part to be procured, which is not applicable to the part number of a specific product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO606001"
+                    },
+                    {
+                        "Name": "Number of parts",
+                        "Definition": "Quantitative statement about the set of parts, which e.g. are present in a set",
+                        "Reason": "The annotation is not relevant as it describes the quantitative statement about a set of parts, which is not applicable to the part number of a specific product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP619001"
+                    },
+                    {
+                        "Name": "number of the parts list",
+                        "Definition": "Description of the list that includes all individual parts required for manufacturing or assembling a product",
+                        "Reason": "The annotation is not relevant as it describes a list of all individual parts required for manufacturing or assembling a product, which is not applicable to the part number of a specific product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO835001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Manufacturing part number",
+                    "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                    "SemanticIdentifier": "AAO628001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Part number",
+                    "Definition": "Identification number of the part",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "The part number can be used to identify and order the specific product, and to track its inventory and maintenance."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Designation",
+                "Definition": "Designation of the part",
+                "Value": "8000-84070-0000000",
+                "SourceDescription": "Designation"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Designation of type of design",
+                        "Definition": "Designation of the subgroup of a type which has certain properties and measures. A design can contain different variants which are generally of a mechanical nature",
+                        "Reason": "The data feature is a specific designation of a part, not a general designation of a type or subgroup.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO708002"
+                    },
+                    {
+                        "Name": "Design of decoration",
+                        "Definition": "The specified designation (type name, type code, abbreviated name, article number) for distinguishing by type and size or variant of the decoration applied to the product",
+                        "Reason": "The data feature is a designation of a part, not a decoration.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAG247002"
+                    },
+                    {
+                        "Name": "Design of unit",
+                        "Definition": "Constructive design of a device for the required assembly",
+                        "Reason": "The data feature is a designation of a part, not a constructive design of a device.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB710006"
+                    },
+                    {
+                        "Name": "design of device",
+                        "Definition": "classification of a device according to its mechanical construction",
+                        "Reason": "The data feature is a designation of a part, not a classification of a device.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAB311006"
+                    },
+                    {
+                        "Name": "Design of reduction divisions",
+                        "Definition": "Describes the designation and the various reduction divisions of a drawing instrument",
+                        "Reason": "The data feature is a designation of a part, not a designation for a drawing instrument.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAF887003"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Designation",
+                    "Definition": "Designation of the part",
+                    "SemanticIdentifier": "AAO708002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Part Designation",
+                    "Definition": "Unique identifier for the part",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Identifying the specific part in inventory, ordering, and customer service."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Version",
+                "Definition": "Version of the part",
+                "Value": "straight, for 1 - 4 sensors",
+                "SourceDescription": "Version"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "software version",
+                        "Definition": "version of the software used by the device",
+                        "Reason": "The data feature is about the version of a hardware part, not software.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "hardware version",
+                        "Definition": "version of the hardware supplied with the device",
+                        "Reason": "The data feature is about the version of a specific hardware part.",
+                        "isRelevant": true
+                    },
+                    {
+                        "Name": "level",
+                        "Definition": "information about the version of the level",
+                        "Reason": "The data feature is about the version of a hardware part, not a level.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "firmware version",
+                        "Definition": "version of the firmware supplied with the device",
+                        "Reason": "The data feature is about the version of a hardware part, not firmware.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "built-in version",
+                        "Definition": "describes the the built-in version",
+                        "Reason": "The data feature is about the version of a hardware part, not a built-in version.",
+                        "isRelevant": false
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "hardware version",
+                    "Definition": "version of the hardware supplied with the device"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Part version",
+                    "Definition": "Version of the specific hardware part"
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to identify the specific version of the hardware part and its compatibility with other components."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Operating current per contact",
+                "Definition": "Maximum operating current per contact",
+                "Value": "max. 2 A",
+                "SourceDescription": "Operating current per contact"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "number of contacts",
+                        "Definition": "number of contacts on an electrode that are available for current delivery",
+                        "Reason": "The data feature is about the maximum operating current per contact, not the number of contacts.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "suitable for max. current main contact unit",
+                        "Definition": "specification about the maximum current of main contact unit, for which the product is suitable",
+                        "Reason": "The data feature is about the maximum operating current per contact, not the maximum current of main contact unit.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "Number of power contacts",
+                        "Definition": "Quantitative information on the number of power contacts",
+                        "Reason": "The data feature is about the maximum operating current per contact, not the number of power contacts.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "type of contact load (Ohm/inductive)",
+                        "Definition": "classification of the contact load according to the type of current",
+                        "Reason": "The data feature is about the maximum operating current per contact, not the type of contact load.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "number of contacts per channel",
+                        "Definition": "number of contacts per channel that are available for power delivery",
+                        "Reason": "The data feature is about the maximum operating current per contact, not the number of contacts per channel.",
+                        "isRelevant": false
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "max. 2 A",
+                    "Definition": "Maximum operating current per contact",
+                    "SemanticIdentifier": null
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Operating current per contact",
+                    "Definition": "Maximum operating current per contact",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "A",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the product's capacity to handle current and its suitability for specific applications."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Operating voltage",
+                "Definition": "Operating voltage of the part",
+                "Value": "24 VDC",
+                "SourceDescription": "Operating voltage"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Operating voltage",
+                        "Definition": "voltage which, together with the rated operating current, determines the use of the device and to which the various tests and the use categories refer. With single pole devices the rated rated operating voltage is generally the voltage over the pole. With multi-pole devices it is generally given as chained voltage",
+                        "Reason": "This annotation is relevant because it describes the voltage required for the device to operate, which is the same as the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAB415008"
+                    },
+                    {
+                        "Name": "Output voltage",
+                        "Definition": "Voltage available at the output of an operating unit",
+                        "Reason": "This annotation is not relevant because it describes the voltage at the output, not the operating voltage.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB427007"
+                    },
+                    {
+                        "Name": "Operating voltage in Ex- Range",
+                        "Definition": "Value of operating voltage in Ex- Range",
+                        "Reason": "This annotation is not relevant because it describes the operating voltage in an Ex-Range, not the general operating voltage.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAE488005"
+                    },
+                    {
+                        "Name": "Operating voltage in secure range",
+                        "Definition": "Value of operating voltage in secure range",
+                        "Reason": "This annotation is not relevant because it describes the operating voltage in a secure range, not the general operating voltage.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAE489004"
+                    },
+                    {
+                        "Name": "operating voltage DC",
+                        "Definition": "DC voltage which is necessary to operate the device",
+                        "Reason": "This annotation is not relevant because it only describes the type of voltage, not the specific operating voltage.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABD345001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Operating voltage",
+                    "Definition": "voltage which, together with the rated operating current, determines the use of the device and to which the various tests and the use categories refer. With single pole devices the rated rated operating voltage is generally the voltage over the pole. With multi-pole devices it is generally given as chained voltage",
+                    "SemanticIdentifier": "BAB415008"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Operating voltage",
+                    "Definition": "The voltage required for the device to operate",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "VDC",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to ensure the device is operated at the correct voltage, and to select appropriate power sources."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Switching logic",
+                "Definition": "Logic used for switching",
+                "Value": "PNP",
+                "SourceDescription": "Switching logic"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Switching protocol present",
+                        "Definition": "whether a switching protocol is available",
+                        "Reason": "The data feature is about the switching logic, which is related to switching protocols.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAG130008"
+                    },
+                    {
+                        "Name": "Design of the switching element",
+                        "Definition": "Design and/or mode of operation of an element that implements a switching function",
+                        "Reason": "The data feature is about the switching logic, which is a mode of operation of a switching element.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAB412007"
+                    },
+                    {
+                        "Name": "electronic version present",
+                        "Definition": "Design and/or mode of operation of the device that implements electronic switching",
+                        "Reason": "The data feature is about the switching logic, which is a mode of operation of a device that implements electronic switching.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAB540007"
+                    },
+                    {
+                        "Name": "correcting variable switching",
+                        "Definition": "specification whether the correcting variable is switching",
+                        "Reason": "The data feature is about the switching logic, which is not directly related to correcting variables.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF712004"
+                    },
+                    {
+                        "Name": "logic object present",
+                        "Definition": "specification whether the switching unit is a logic obect, which generates simple products out of complex products",
+                        "Reason": "The data feature is about the switching logic, which is not directly related to a logic object.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF735004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Switching protocol present",
+                    "Definition": "whether a switching protocol is available",
+                    "SemanticIdentifier": "BAG130008"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Switching logic type",
+                    "Definition": "Type of switching logic used",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The information can be used in determining the compatibility of different devices or systems, and in troubleshooting issues related to switching operations."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "1st connection type",
+                "Definition": "First connection type",
+                "Value": "4x female connector, straight, M8x1, 3-pin, self-locking screw thread",
+                "SourceDescription": "1st connection type"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "type of connection (1)",
+                        "Definition": "description of type connection 1",
+                        "Reason": "The annotation is not relevant because it does not match the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK163005"
+                    },
+                    {
+                        "Name": "type of connection (2)",
+                        "Definition": "description of type connection 2",
+                        "Reason": "The annotation is not relevant because it does not match the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK164005"
+                    },
+                    {
+                        "Name": "connection type",
+                        "Definition": "information on how a connection is made constructively",
+                        "Reason": "The annotation is relevant because it matches the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAH217002"
+                    },
+                    {
+                        "Name": "connection code type machine side",
+                        "Definition": "identifier for the main type of a connection on the machine side",
+                        "Reason": "The annotation is not relevant because it does not match the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAA763008"
+                    },
+                    {
+                        "Name": "connection type 1 present",
+                        "Definition": "specification whether the product is equipped with a connection type 1",
+                        "Reason": "The annotation is not relevant because it does not match the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE373001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "connection type",
+                    "Definition": "information on how a connection is made constructively",
+                    "SemanticIdentifier": "AAH217002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "1st connection type",
+                    "Definition": "Description of the first connection type",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "The information can be used to identify the specific type of connection used for the first connection."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "2nd connection type",
+                "Definition": "Second connection type",
+                "Value": "Straight plug, M12x1, 8-pin, IDC, self-locking screw thread",
+                "SourceDescription": "2nd connection type"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "type of connection (2)",
+                        "Definition": "description of type connection 2",
+                        "Reason": "The annotation is relevant as it directly describes the second connection type.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAK164005"
+                    },
+                    {
+                        "Name": "type of connection (1)",
+                        "Definition": "description of type connection 1",
+                        "Reason": "The annotation is not relevant as it describes the first connection type.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK163005"
+                    },
+                    {
+                        "Name": "connection type 2 present",
+                        "Definition": "specification whether the product is equipped with a connection type 2",
+                        "Reason": "The annotation is not relevant as it does not directly describe the connection type.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE379001"
+                    },
+                    {
+                        "Name": "cable type connector connection 2",
+                        "Definition": "describes the kind of cable type connector connection 2",
+                        "Reason": "The annotation is not relevant as it does not directly describe the connection type.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK170003"
+                    },
+                    {
+                        "Name": "connection code type machine side",
+                        "Definition": "identifier for the main type of a connection on the machine side",
+                        "Reason": "The annotation is not relevant as it does not directly describe the connection type.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAA763008"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "type of connection (2)",
+                    "Definition": "description of type connection 2",
+                    "SemanticIdentifier": "AAK164005"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "2nd connection type",
+                    "Definition": "Second connection type",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "No unit",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The information can be used in engineering tasks related to product design, manufacturing, and quality control, as well as in customer support and sales."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Function indicator",
+                "Definition": "Indicator for function",
+                "Value": "Yes",
+                "SourceDescription": "Function indicator"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Indicator light",
+                        "Definition": "describes which functions are displayed by indicator lights",
+                        "Reason": "The data feature is about a function indicator, not a light indicator.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAR954001"
+                    },
+                    {
+                        "Name": "End of cycle indicator",
+                        "Definition": "kind of function that indicates when the working cycle is finished",
+                        "Reason": "The data feature is about a function indicator, not a cycle indicator.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF010005"
+                    },
+                    {
+                        "Name": "Warning or malfunction signal",
+                        "Definition": "warning indication in case of function failure",
+                        "Reason": "The data feature is about a function indicator, not a warning or malfunction signal.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAE457007"
+                    },
+                    {
+                        "Name": "Style of indicator",
+                        "Definition": "Classification of the indicator according to the number of digits displayed",
+                        "Reason": "The data feature is about a function indicator, not a style of indicator.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAN212001"
+                    },
+                    {
+                        "Name": "color of pointer",
+                        "Definition": "color of the pointer of an indicator",
+                        "Reason": "The data feature is about a function indicator, not a color of pointer.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAA194007"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Function indicator",
+                    "Definition": "Indicator for function",
+                    "SemanticIdentifier": "the_given_semantic_identifier"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Function Indicator Description",
+                    "Definition": "Description of the function indicator",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "This information can be used to understand the presence and purpose of the function indicator in the device."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Operating voltage indicator",
+                "Definition": "Indicator for operating voltage",
+                "Value": "Yes",
+                "SourceDescription": "Operating voltage indicator"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "type of voltage indication",
+                        "Definition": "indication of the type of voltage display of the device",
+                        "Reason": "The data feature is about the operating voltage indicator, not the type of voltage indication.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK410005"
+                    },
+                    {
+                        "Name": "Power on indicator",
+                        "Definition": "availability and kind of function of displaying the appliance status",
+                        "Reason": "The data feature is about the operating voltage indicator, not the power on indicator.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAR632003"
+                    },
+                    {
+                        "Name": "monitoring voltage",
+                        "Definition": "information about the kind of voltage which is intended for the surveillance of the operating status of an equipment",
+                        "Reason": "The data feature is about the operating voltage indicator, not the monitoring voltage.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF830004"
+                    },
+                    {
+                        "Name": "Optical charging indicator",
+                        "Definition": "presence of an optical indicator which provides information about the rechargeable battery charging status",
+                        "Reason": "The data feature is about the operating voltage indicator, not the optical charging indicator.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF397006"
+                    },
+                    {
+                        "Name": "Power on indicator",
+                        "Definition": "presence of signal that indicates that the appliance is turned on",
+                        "Reason": "The data feature is about the operating voltage indicator, not the power on indicator.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAE565008"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Operating voltage indicator",
+                    "Definition": "Indicator for operating voltage",
+                    "SemanticIdentifier": null
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Operating voltage display",
+                    "Definition": "Information about the display of the operating voltage",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The operating voltage display can be used to identify the device's operating voltage and ensure compatibility with other devices."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Ambient temperature",
+                "Definition": "Temperature range for operation",
+                "Value": "\u201320 \u00b0C to +70 \u00b0C",
+                "SourceDescription": "Ambient temperature"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Ambient temperature",
+                        "Definition": "Temperature in the outer area of the operating medium",
+                        "Reason": "The annotation is relevant as it describes the temperature range in the operating environment.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAE540004"
+                    },
+                    {
+                        "Name": "ambient temperature",
+                        "Definition": "temperature of the surrounding operating environment of a component or system",
+                        "Reason": "The annotation is relevant as it describes the temperature range in the operating environment.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ842001"
+                    },
+                    {
+                        "Name": "max. ambient temperature during operation",
+                        "Definition": "Maximum limit value of specific temperature during operation surrounding the operating unit",
+                        "Reason": "The annotation is not relevant as it is too specific and does not describe the entire temperature range.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB906006"
+                    },
+                    {
+                        "Name": "min. ambient temperature during operation",
+                        "Definition": "Minimum limit value of specific temperature during operation surrounding the operating unit",
+                        "Reason": "The annotation is not relevant as it is too specific and does not describe the entire temperature range.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC022006"
+                    },
+                    {
+                        "Name": "set ambient temperature",
+                        "Definition": "given temperature of the surrounding operating environment of a component or system",
+                        "Reason": "The annotation is not relevant as it does not describe a range of temperatures.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC751001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Ambient temperature",
+                    "Definition": "Temperature in the outer area of the operating medium",
+                    "SemanticIdentifier": "BAE540004"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Operating temperature range",
+                    "Definition": "The temperature range in which the product can operate effectively",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to ensure the product is used within its specified temperature range, preventing damage or malfunction."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "IP rating",
+                "Definition": "Ingress Protection rating",
+                "Value": "IP67 (inserted and locked)",
+                "SourceDescription": "IP rating"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "IP protection with water protection cover",
+                        "Definition": "extent of protection provided by a case with a water jacket from access to hazardous parts and penetration of solid debris and / or water confirmed by normalized test methods, given as IP rating",
+                        "Reason": "The annotation is relevant because it describes the protection provided by a case with a water jacket, which is related to the IP rating.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAY994001"
+                    },
+                    {
+                        "Name": "max. degree of protection (IP) conduit dependant",
+                        "Definition": "maximal conduit dependent degree of protection IP",
+                        "Reason": "The annotation is not relevant because it describes the maximum degree of protection, not the specific IP rating.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAJ152001"
+                    },
+                    {
+                        "Name": "rated lightning impulse withstand voltage (Up) common value",
+                        "Definition": "rated withstand voltage of insulation between phases and phase to earth with the shape of the impulse voltage having a front time of 1,2 \u00b5s and a time to half-value of 50 \u00b5s",
+                        "Reason": "The annotation is not relevant because it describes the lightning impulse withstand voltage, not the IP rating.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABF589001"
+                    },
+                    {
+                        "Name": "Protection class (IP, rear side)",
+                        "Definition": "Numerical classification and designation system in accordance with International Electrotechnical Commission 60529 for the indication of degrees of protection, preceded by the symbol IP, for use in empty housings or housings of electrical equipment in order to protect persons against contact with live or moving parts (except smooth shafts or Similar parts) in the interior of the housing to ensure the protection of the (electrical) working medium against the penetration of solid foreign bodies or dust and, where specified by the classification, the protection of the electrical equipment against harmful ingress of vapors, moisture or water / Location specific: the return / return page",
+                        "Reason": "The annotation is not relevant because it describes the protection class for electrical equipment, not the specific IP rating.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW856001"
+                    },
+                    {
+                        "Name": "IP protection class with connector",
+                        "Definition": "scope of protection that can be achieved with a fluidic device in combination with the connector recommended by the manufacturer with respect to the ingress of foreign bodies and water",
+                        "Reason": "The annotation is relevant because it describes the protection class with a connector, which is related to the IP rating.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ971001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "IP protection with water protection cover",
+                    "Definition": "extent of protection provided by a case with a water jacket from access to hazardous parts and penetration of solid debris and / or water confirmed by normalized test methods, given as IP rating",
+                    "SemanticIdentifier": "AAY994001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "IP rating",
+                    "Definition": "Ingress Protection rating",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The IP rating can be used to determine the level of protection a device provides against solid objects and water, which can be useful in selecting devices for specific environments or applications."
+            }
+        }
+    ]
+}

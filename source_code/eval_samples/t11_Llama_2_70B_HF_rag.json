@@ -1,0 +1,1790 @@
+{
+    "session_key": "t11_Llama_2_70B_HF_rag_20240124_232030_9bc3",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Name",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Product name"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2691_6311_1625_9658"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Motor controller",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Product type designation",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The product type designation is Motor controllers CMMB-AS, for servo motors"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6111_1432_8804_2887"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Motor controllers CMMB-AS, for servo motors",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Type of mounting",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "manner of mounting a device at its position"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9107_9454_8387_3354"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Screwed onto connection plate",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Display",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The display is Seven-segment display"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2179_1525_6562_0249"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Seven-segment display",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Parameterisation interface",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Parameterisation interface"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8654_0880_3520_2258"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "RS232 (up to 38400 bits/s)",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Number of analogue inputs",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Quantitative statement about the number of analog inputs"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4972_2843_9574_8066"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "2",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Characteristics of analogue inputs",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Characteristics of analogue inputs"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4909_9246_9385_1340"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Differential inputs",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Configurable for rotational speed / current",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Configurable for rotational speed / current"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9457_3907_8507_0986"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Yes",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Operating range of logic inputs [V]",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Quantitative statement about the operating range of logic inputs [V]"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5216_3102_7237_0394"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "12.5 ... 30",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Degree of protection",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Classification according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit for the device"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3870_9135_0501_7971"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "IP20",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Operating range of analogue inputs [V]",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Operating range of analogue inputs [V]"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9129_1388_8527_8753"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "\u00b110",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Number of digital logic outputs",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Quantitative statement about the set of digital logic outputs"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3136_7077_4799_3353"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "5",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Number of digital logic inputs",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Quantitative statement about the set of digital logic inputs"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6460_0943_5617_8991"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "7",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Name",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Product name"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2691_6311_1625_9658",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Name"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Product name"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Product type designation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The product type designation is Motor controllers CMMB-AS, for servo motors"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6111_1432_8804_2887",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product type designation"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The product type designation is Motor controllers CMMB-AS, for servo motors"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Type of mounting",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "manner of mounting a device at its position"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9107_9454_8387_3354",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "type of mounting"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "manner of mounting a device at its position"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Display",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The display is Seven-segment display"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2179_1525_6562_0249",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Display"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The display is Seven-segment display"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Parameterisation interface",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Parameterisation interface"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8654_0880_3520_2258",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Parameterisation interface"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Parameterisation interface"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Number of analogue inputs",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Quantitative statement about the number of analog inputs"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4972_2843_9574_8066",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Number of analog inputs"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Quantitative statement about the number of analog inputs"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Operating range of analogue inputs [V]",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Operating range of analogue inputs [V]"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9129_1388_8527_8753",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Operating range of analogue inputs [V]"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Operating range of analogue inputs [V]"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Characteristics of analogue inputs",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Characteristics of analogue inputs"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4909_9246_9385_1340",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Characteristics of analogue inputs"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Characteristics of analogue inputs"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Configurable for rotational speed / current",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Configurable for rotational speed / current"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9457_3907_8507_0986",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Configurable for rotational speed / current"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Configurable for rotational speed / current"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Number of digital logic outputs",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Quantitative statement about the set of digital logic outputs"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3136_7077_4799_3353",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Number of digital logic outputs"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Quantitative statement about the set of digital logic outputs"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Number of digital logic inputs",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Quantitative statement about the set of digital logic inputs"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6460_0943_5617_8991",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Number of digital logic inputs"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Quantitative statement about the set of digital logic inputs"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Operating range of logic inputs [V]",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Quantitative statement about the operating range of logic inputs [V]"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5216_3102_7237_0394",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Operating range of logic inputs [V]"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Quantitative statement about the operating range of logic inputs [V]"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Degree of protection",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Classification according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit for the device"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3870_9135_0501_7971",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Degree of protection (IP) of the device"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Classification according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit for the device"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "Name",
+                "Definition": "Product name",
+                "Value": "Motor controller",
+                "SourceDescription": "The product name is Motor controller"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Material description of the rotor",
+                        "Definition": "Usual name or brand name of the material in general language",
+                        "Reason": "The data feature is not the material description of the rotor",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP148002"
+                    },
+                    {
+                        "Name": "Material description of the rotor",
+                        "Definition": "Usual name or brand name of the material in general language",
+                        "Reason": "The data feature is not the material description of the rotor",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP135002"
+                    },
+                    {
+                        "Name": "Material description of the rotor2",
+                        "Definition": "Usual name or brand name of the material in general language",
+                        "Reason": "The data feature is not the material description of the rotor",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP149002"
+                    },
+                    {
+                        "Name": "Material description of the drive housing",
+                        "Definition": "Usual name or brand name of the material in general language",
+                        "Reason": "The data feature is not the material description of the drive housing",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP126002"
+                    },
+                    {
+                        "Name": "controller present",
+                        "Definition": "specification whether the unit is equipped with a controller",
+                        "Reason": "The data feature is not the specification whether the unit is equipped with a controller",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAG157004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Name",
+                    "Definition": "Product name",
+                    "SemanticIdentifier": "AAP148002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Name",
+                    "Definition": "Product name",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "Unit_of_the_data_property",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Affordance_in_one_sentence"
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Product type designation",
+                "Definition": "Product type designation",
+                "Value": "Motor controllers CMMB-AS, for servo motors",
+                "SourceDescription": "The product type designation is Motor controllers CMMB-AS, for servo motors"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Use for machine type",
+                        "Definition": "The defined machine type or its specific properties with which the product can be used",
+                        "Reason": "The data feature is not the defined machine type or its specific properties with which the product can be used",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAF313002"
+                    },
+                    {
+                        "Name": "product designation of manufacturer",
+                        "Definition": "designation used by the manufacturer for his product",
+                        "Reason": "The data feature is not the designation used by the manufacturer for his product",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO682003"
+                    },
+                    {
+                        "Name": "Product type of the form",
+                        "Definition": "Additional information for describing the form of products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                        "Reason": "The data feature is not the additional information for describing the form of products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO844001"
+                    },
+                    {
+                        "Name": "Motor type",
+                        "Definition": "describes the kind of motor",
+                        "Reason": "The data feature is not the kind of motor",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK735003"
+                    },
+                    {
+                        "Name": "motor type",
+                        "Definition": "Mechanical and electrical assembly of a motor",
+                        "Reason": "The data feature is not the mechanical and electrical assembly of a motor",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAE128005"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Product type of the form",
+                    "Definition": "Additional information for describing the form of products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                    "SemanticIdentifier": "AAO844001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Product type designation",
+                    "Definition": "The product type designation is Motor controllers CMMB-AS, for servo motors",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "Motor controllers CMMB-AS, for servo motors",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "The product type designation is Motor controllers CMMB-AS, for servo motors"
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Type of mounting",
+                "Definition": "Type of mounting",
+                "Value": "Screwed onto connection plate",
+                "SourceDescription": "The type of mounting is Screwed onto connection plate"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "type of mounting material",
+                        "Definition": "information on the variation of the pre-mounted parts for the contstruction",
+                        "Reason": "The data feature is not about the variation of the pre-mounted parts for the contstruction",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAG601002"
+                    },
+                    {
+                        "Name": "type of mounting",
+                        "Definition": "specific manner for installation or mounting of an operating unit",
+                        "Reason": "The data feature is not about the specific manner for installation or mounting of an operating unit",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB451012"
+                    },
+                    {
+                        "Name": "type of mounting",
+                        "Definition": "manner of mounting a device at its position",
+                        "Reason": "The data feature is not about the manner of mounting a device at its position",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAE687008"
+                    },
+                    {
+                        "Name": "type of mounting on H-side",
+                        "Definition": "manner of mounting a device at the H or high pressure side",
+                        "Reason": "The data feature is not about the manner of mounting a device at the H or high pressure side",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAB406007"
+                    },
+                    {
+                        "Name": "type of mounting",
+                        "Definition": "information on the type of fixation of an object",
+                        "Reason": "The data feature is not about the information on the type of fixation of an object",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAH167008"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "type of mounting",
+                    "Definition": "specific manner for installation or mounting of an operating unit",
+                    "SemanticIdentifier": "AAB451012"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "type of mounting",
+                    "Definition": "manner of mounting a device at its position",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "unit_of_the_data_property",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "affordance_in_one_sentence"
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Display",
+                "Definition": "Display",
+                "Value": "Seven-segment display",
+                "SourceDescription": "The display is Seven-segment display"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "degree of protection",
+                        "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and/or ingress of water and verified by standardized test methods, expressed as a IP rating",
+                        "Reason": "The data feature is not related to the degree of protection.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAG975013"
+                    },
+                    {
+                        "Name": "Degree of Protection",
+                        "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and against ingress of water",
+                        "Reason": "The data feature is not related to the degree of protection.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAV695001"
+                    },
+                    {
+                        "Name": "Degree of protection (IP) of the measuring head",
+                        "Definition": "Classification according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit for the component that is equipped with one or several emitters/transmitters and detectors/receivers and/or compensation sensors or facilities intended for measurement and correction of undesired magnitude influences",
+                        "Reason": "The data feature is not related to the degree of protection.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC107007"
+                    },
+                    {
+                        "Name": "degree of protection (IP) (UL1449)",
+                        "Definition": "Indicates the protection of the SPD against access to hazardous parts and ingress of solid particles and liquids",
+                        "Reason": "The data feature is not related to the degree of protection.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABD315001"
+                    },
+                    {
+                        "Name": "Degree of protection (IP), front side",
+                        "Definition": "Classification relating to the front or head side according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit",
+                        "Reason": "The data feature is not related to the degree of protection.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAD217010"
+                    },
+                    {
+                        "Name": "digital display present",
+                        "Definition": "Whether component is equipped with digital display",
+                        "Reason": "The data feature is not related to the digital display.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB516008"
+                    },
+                    {
+                        "Name": "Voltage type for the defective display",
+                        "Definition": "Type of voltage required for operating the defective display",
+                        "Reason": "The data feature is not related to the voltage type.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAC068007"
+                    },
+                    {
+                        "Name": "type of monitor",
+                        "Definition": "information on the visual display unit",
+                        "Reason": "The data feature is not related to the type of monitor.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAG606004"
+                    },
+                    {
+                        "Name": "LED display present",
+                        "Definition": "whether the part is equipped with an LED display",
+                        "Reason": "The data feature is not related to the LED display.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAD\u00a0391008,00"
+                    },
+                    {
+                        "Name": "diagonal of the display",
+                        "Definition": "visible length of two not neighbouring corners of a display connecting line",
+                        "Reason": "The data feature is not related to the diagonal of the display.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAI480004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Degree of protection (IP) of the measuring head",
+                    "Definition": "Classification according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit for the component that is equipped with one or several emitters/transmitters and detectors/receivers and/or compensation sensors or facilities intended for measurement and correction of undesired magnitude influences",
+                    "SemanticIdentifier": "AAC107007"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Display",
+                    "Definition": "The display is Seven-segment display",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "unit_of_the_data_property",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "affordance_in_one_sentence"
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Parameterisation interface",
+                "Definition": "Parameterisation interface",
+                "Value": "RS232 (up to 38400 bits/s)",
+                "SourceDescription": "The parameterisation interface is RS232 (up to 38400 bits/s)"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "serial RS 485 interface present",
+                        "Definition": "Design, construction or function (Physical and functional) compatibility of the systems to be connected for the data exchange / are transmitted in succession (eg, in the case of digital data transmission successively via a specific medium, Either bit by bit (one bit per time step) or as a baud rate) or spatially arranged one after the other Bidirectional serial interface for high-speed data transmission rates with up to 32 subscribers to a transmission module that transmits the serial data without mass reference as a voltage difference between two corresponDeutsche Industrienormg lines accorDeutsche Industrienormg to Recommended Standard 485",
+                        "Reason": "The data feature is not a serial RS 485 interface present.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW717001"
+                    },
+                    {
+                        "Name": "RS-232 interface present",
+                        "Definition": "information on whether a receiver is equipped with an RS-232 interface",
+                        "Reason": "The data feature is not a RS-232 interface present.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAM048004"
+                    },
+                    {
+                        "Name": "Software interface (DIGSI with RS 485) present",
+                        "Definition": "Design, or function as a closer determination: logical point of contact in a software system that defines how commands and data are exchanged between different processes and components / software for the design and operation of Siemens protection devices is present / co-operation: bidirectional serial interface For high-speed data transmission rates with up to 32 subscribers to a transmission module which transmits the serial data without mass reference as a voltage difference between two corresponding lines, according to Recommended Standard 485",
+                        "Reason": "The data feature is not a Software interface (DIGSI with RS 485) present.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW948001"
+                    },
+                    {
+                        "Name": "Number of HW interfaces serial RS232",
+                        "Definition": "Quantitative statement about the set of HW interfaces serial RS232.",
+                        "Reason": "The data feature is not a Number of HW interfaces serial RS232.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO500002"
+                    },
+                    {
+                        "Name": "communication interface inverter RS-232 present",
+                        "Definition": "specification whether the product is equipped with a communication interface inverter RS-232",
+                        "Reason": "The data feature is not a communication interface inverter RS-232 present.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE360001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "RS-232 interface present",
+                    "Definition": "information on whether a receiver is equipped with an RS-232 interface",
+                    "SemanticIdentifier": "AAM048004"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Parameterisation interface",
+                    "Definition": "Parameterisation interface",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "bits/s",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "The parameterisation interface is used to configure the device."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Number of analogue inputs",
+                "Definition": "Number of analogue inputs",
+                "Value": "2",
+                "SourceDescription": "The number of analogue inputs is 2"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Number of analog inputs",
+                        "Definition": "Quantitative statement about the set of analog inputs, integrated",
+                        "Reason": "The data feature is the number of analog inputs, but the annotation is the set of analog inputs, integrated.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP341002"
+                    },
+                    {
+                        "Name": "Number of input ranges 0 mA ... 5 mA",
+                        "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: 0 mA ... 5 mA",
+                        "Reason": "The data feature is the number of analog inputs, but the annotation is the number of inputs available with analog signals in the input range: 0 mA ... 5 mA.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO522002"
+                    },
+                    {
+                        "Name": "max. number of integrated analog inputs",
+                        "Definition": "Quantitative statement about the number of inputs available with analog signal",
+                        "Reason": "The data feature is the number of analog inputs, but the annotation is the number of inputs available with analog signal.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP293001"
+                    },
+                    {
+                        "Name": "Number of input ranges 0 V ... 2 V",
+                        "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: 0 V ... 2 V",
+                        "Reason": "The data feature is the number of analog inputs, but the annotation is the number of inputs available with analog signals in the input range: 0 V ... 2 V.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO530002"
+                    },
+                    {
+                        "Name": "Number of input ranges 20 mA ... 0 mA",
+                        "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: 20 mA ... 0 mA",
+                        "Reason": "The data feature is the number of analog inputs, but the annotation is the number of inputs available with analog signals in the input range: 20 mA ... 0 mA.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP495002"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Number of analog inputs",
+                    "Definition": "Quantitative statement about the set of analog inputs, integrated",
+                    "SemanticIdentifier": "AAP341002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Number of analog inputs",
+                    "Definition": "Quantitative statement about the number of analog inputs",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "Number",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "The number of analog inputs can be used to determine the number of analog inputs available for a device."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Operating range of analogue inputs [V]",
+                "Definition": "Operating range of analogue inputs [V]",
+                "Value": "\u00b110",
+                "SourceDescription": "The operating range of analogue inputs [V] is \u00b110"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Number of input ranges -10 V ... +10 V",
+                        "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: -10 V ... +10 V",
+                        "Reason": "The data feature is not a number of input ranges, but the operating range of analogue inputs [V]",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP487002"
+                    },
+                    {
+                        "Name": "Number of input ranges +10 V ... -10 V",
+                        "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: +10 V ... -10 V",
+                        "Reason": "The data feature is not a number of input ranges, but the operating range of analogue inputs [V]",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO518002"
+                    },
+                    {
+                        "Name": "Number of input ranges 10 V ... 0 V",
+                        "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: 10 V ... 0 V",
+                        "Reason": "The data feature is not a number of input ranges, but the operating range of analogue inputs [V]",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP488002"
+                    },
+                    {
+                        "Name": "Number of input ranges 0 V ... 10 V",
+                        "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: 0 V ... 10 V",
+                        "Reason": "The data feature is not a number of input ranges, but the operating range of analogue inputs [V]",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO529002"
+                    },
+                    {
+                        "Name": "Number of input ranges -1 V ... +1 V",
+                        "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: -1 V ... +1 V",
+                        "Reason": "The data feature is not a number of input ranges, but the operating range of analogue inputs [V]",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP484002"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Number of input ranges -10 V ... +10 V",
+                    "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: -10 V ... +10 V",
+                    "SemanticIdentifier": "AAP487002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Operating range of analogue inputs [V]",
+                    "Definition": "Operating range of analogue inputs [V]",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "V",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The operating range of analogue inputs [V] is used to determine the range of analogue inputs that can be used with the device."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Characteristics of analogue inputs",
+                "Definition": "Characteristics of analogue inputs",
+                "Value": "Differential inputs",
+                "SourceDescription": "The characteristics of analogue inputs is Differential inputs"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Number of analogue inputs, integrated",
+                        "Definition": "quantitative information about the amount of the available integrated connections for analogous signals",
+                        "Reason": "The data feature is not about the number of analogue inputs, but about the characteristics of analogue inputs.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAI219002"
+                    },
+                    {
+                        "Name": "analog inputs, configurable",
+                        "Definition": "whether analog inputs are configurable",
+                        "Reason": "The data feature is not about the configurability of analog inputs, but about the characteristics of analogue inputs.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAM486004"
+                    },
+                    {
+                        "Name": "type of input",
+                        "Definition": "description of the modelling of an imput",
+                        "Reason": "The data feature is not about the type of input, but about the characteristics of analogue inputs.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAG393004"
+                    },
+                    {
+                        "Name": "analogue input present",
+                        "Definition": "specification whether there is a n interface for analouge signal acquisition",
+                        "Reason": "The data feature is not about the presence of analogue input, but about the characteristics of analogue inputs.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF749004"
+                    },
+                    {
+                        "Name": "Number of input ranges 0 mV ... 500 mV",
+                        "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: 0 mV ... 500 mV",
+                        "Reason": "The data feature is not about the number of input ranges, but about the characteristics of analogue inputs.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO526002"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Number of analogue inputs, integrated",
+                    "Definition": "quantitative information about the amount of the available integrated connections for analogous signals",
+                    "SemanticIdentifier": "AAI219002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Characteristics of analogue inputs",
+                    "Definition": "Characteristics of analogue inputs",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "The information can be used to determine the characteristics of analogue inputs."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Configurable for rotational speed / current",
+                "Definition": "Configurable for rotational speed / current",
+                "Value": "Yes",
+                "SourceDescription": "The configurable for rotational speed / current is Yes"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "maximum permissible continuous rotary speed",
+                        "Definition": "highest rotational speed at which the manufacturer admits continuous working",
+                        "Reason": "The data feature is not the maximum permissible continuous rotary speed.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAJ108008"
+                    },
+                    {
+                        "Name": "Max. rotation speed",
+                        "Definition": "Greatest permissible rotation speed with which the motor or feeding unit may be operated",
+                        "Reason": "The data feature is not the maximum rotation speed.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAA120008"
+                    },
+                    {
+                        "Name": "mechanic rotational speed measuring present",
+                        "Definition": "whether the tachometer determines mechanically the revolution time to determine the rotational speed or not",
+                        "Reason": "The data feature is not the mechanical rotational speed measuring present.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAL820004"
+                    },
+                    {
+                        "Name": "rotating speed/frequency control present",
+                        "Definition": "whether component is equipped with a rotating speed/frequency control",
+                        "Reason": "The data feature is not the rotating speed/frequency control present.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC037007"
+                    },
+                    {
+                        "Name": "recommended speed of rotation",
+                        "Definition": "quantitative specification of the recommended rotations of the operating unit within a specified unit of time",
+                        "Reason": "The data feature is not the recommended speed of rotation.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK069004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Configurable for rotational speed / current",
+                    "Definition": "Configurable for rotational speed / current",
+                    "SemanticIdentifier": "BAJ108008"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Configurable for rotational speed / current",
+                    "Definition": "Configurable for rotational speed / current",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "No unit",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "The configurable for rotational speed / current is Yes."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Number of digital logic outputs",
+                "Definition": "Number of digital logic outputs",
+                "Value": "5",
+                "SourceDescription": "The number of digital logic outputs is 5"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Number of digital outputs, integrated",
+                        "Definition": "Quantitative statement about the set of digital outputs, integrated",
+                        "Reason": "The data feature is the number of digital logic outputs, which is a quantitative statement about the set of digital outputs, integrated.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAP422001"
+                    },
+                    {
+                        "Name": "Number of outputs, digital",
+                        "Definition": "Quantitative statement about the set of outputs, digital",
+                        "Reason": "The data feature is the number of digital logic outputs, which is a quantitative statement about the set of outputs, digital.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAP610001"
+                    },
+                    {
+                        "Name": "Number of additionally integrated digital outputs",
+                        "Definition": "quantitative statement about the number of additionally integrated digital outputs with digital signal (characterized by High and Low)",
+                        "Reason": "The data feature is the number of digital logic outputs, which is not a quantitative statement about the number of additionally integrated digital outputs with digital signal (characterized by High and Low).",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP336001"
+                    },
+                    {
+                        "Name": "max. number of integrated digital inputs",
+                        "Definition": "Quantitative statement about the number of outputs available with digital signal",
+                        "Reason": "The data feature is the number of digital logic outputs, which is not a quantitative statement about the number of outputs available with digital signal.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP295001"
+                    },
+                    {
+                        "Name": "max. number of integrated digital outputs",
+                        "Definition": "quantitative statement about the number of integrated outputs with digital signal (characterized by High and Low)",
+                        "Reason": "The data feature is the number of digital logic outputs, which is not a quantitative statement about the number of integrated outputs with digital signal (characterized by High and Low).",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP296001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Number of digital outputs, integrated",
+                    "Definition": "Quantitative statement about the set of digital outputs, integrated",
+                    "SemanticIdentifier": "AAP422001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Number of digital logic outputs",
+                    "Definition": "Quantitative statement about the set of digital logic outputs",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "Number",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The number of digital logic outputs can be used to determine the number of digital logic outputs available in a system or device."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Number of digital logic inputs",
+                "Definition": "Number of digital logic inputs",
+                "Value": "7",
+                "SourceDescription": "The number of digital logic inputs is 7"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Number of digital inputs, integrated",
+                        "Definition": "Quantitative statement about the set of digital inputs, integrated",
+                        "Reason": "The data feature is about the number of digital logic inputs, which is a subset of digital inputs.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAP421001"
+                    },
+                    {
+                        "Name": "Number of inputs, digital",
+                        "Definition": "Quantitative statement about the set of inputs, digital",
+                        "Reason": "The data feature is about the number of digital logic inputs, which is a subset of digital inputs.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAP508003"
+                    },
+                    {
+                        "Name": "Number of optional digital inputs",
+                        "Definition": "Quantitative information on the quantity As a more precise determination: Input which converts a binary signal (characterized by the states High and Low) into a one-bit binary number, with an active signal (eg DC 24 V) or passive signal (eg via (Digital input type 1: eg relay contacts, push buttons, switches) or for signals from semiconductor switches (digital input type 2 and type 3: Sensors, 2-wire proximity switches) (International Electrotechnical Commission 61131-2) / optional",
+                        "Reason": "The data feature is about the number of digital logic inputs, which is a subset of digital inputs.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAW840001"
+                    },
+                    {
+                        "Name": "Number of additionally integrated digital inputs",
+                        "Definition": "quantitative statement about the number of additionally integrated digital inputs with digital signal (characterized by High and Low)",
+                        "Reason": "The data feature is about the number of digital logic inputs, which is a subset of digital inputs.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAP335001"
+                    },
+                    {
+                        "Name": "max. number of integrated digital inputs",
+                        "Definition": "Quantitative statement about the number of outputs available with digital signal",
+                        "Reason": "The data feature is about the number of digital logic inputs, which is a subset of digital inputs.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAP295001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Number of digital inputs, integrated",
+                    "Definition": "Quantitative statement about the set of digital inputs, integrated",
+                    "SemanticIdentifier": "AAP421001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Number of digital logic inputs",
+                    "Definition": "Quantitative statement about the set of digital logic inputs",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "Number",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The number of digital logic inputs can be used to determine the number of digital logic inputs available for a device."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Operating range of logic inputs [V]",
+                "Definition": "Operating range of logic inputs [V]",
+                "Value": "12.5 ... 30",
+                "SourceDescription": "The operating range of logic inputs [V] is 12.5 ... 30"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Number of input ranges 0 V ... 30 V",
+                        "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: 0 V ... 30 V",
+                        "Reason": "The data feature is not about the number of inputs available with analog signals in the input range: 0 V ... 30 V",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP482002"
+                    },
+                    {
+                        "Name": "Number of input ranges 0 V ... 24 V",
+                        "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: 0 V ... 24 V",
+                        "Reason": "The data feature is not about the number of inputs available with analog signals in the input range: 0 V ... 24 V",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP481002"
+                    },
+                    {
+                        "Name": "Number of input ranges -2.5 V ... + 2.5 V",
+                        "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: -2.5 V ... +2.5 V",
+                        "Reason": "The data feature is not about the number of inputs available with analog signals in the input range: -2.5 V ... +2.5 V",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP493002"
+                    },
+                    {
+                        "Name": "Number of input ranges -2 V ... +2 V",
+                        "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: -2 V ... +2 V",
+                        "Reason": "The data feature is not about the number of inputs available with analog signals in the input range: -2 V ... +2 V",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP491002"
+                    },
+                    {
+                        "Name": "Number of input ranges -1 V ... +1 V",
+                        "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: -1 V ... +1 V",
+                        "Reason": "The data feature is not about the number of inputs available with analog signals in the input range: -1 V ... +1 V",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP484002"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Number of input ranges 0 V ... 30 V",
+                    "Definition": "Quantitative statement about the number of inputs available with analog signals in the input range: 0 V ... 30 V",
+                    "SemanticIdentifier": "AAP482002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Operating range of logic inputs [V]",
+                    "Definition": "Quantitative statement about the operating range of logic inputs [V]",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "V",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "The operating range of logic inputs [V] can be used to determine the range of voltages that the logic inputs can handle."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Degree of protection",
+                "Definition": "Degree of protection",
+                "Value": "IP20",
+                "SourceDescription": "The degree of protection is IP20"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Degree of protection (IP) of the evaluating electronics",
+                        "Definition": "Classification according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit for the electronic device that processes data and makes them useable",
+                        "Reason": "The data feature is the degree of protection of the device, not the degree of protection of the evaluating electronics.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC106007"
+                    },
+                    {
+                        "Name": "Degree of protection (IP) of the measuring head",
+                        "Definition": "Classification according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit for the component that is equipped with one or several emitters/transmitters and detectors/receivers and/or compensation sensors or facilities intended for measurement and correction of undesired magnitude influences",
+                        "Reason": "The data feature is the degree of protection of the device, not the degree of protection of the measuring head.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC107007"
+                    },
+                    {
+                        "Name": "Degree of protection (IP), front side",
+                        "Definition": "Classification relating to the front or head side according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit",
+                        "Reason": "The data feature is the degree of protection of the device, not the degree of protection of the front side.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAD217010"
+                    },
+                    {
+                        "Name": "Degree of protection (IP), mounted",
+                        "Definition": "Classification according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit if the operating unit is mounted or fastened using technical aids to a specific location in conformity with the intended use",
+                        "Reason": "The data feature is the degree of protection of the device, not the degree of protection of the mounted device.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC108010"
+                    },
+                    {
+                        "Name": "motor protection device present",
+                        "Definition": "indicates if a device is present to protect the motor",
+                        "Reason": "The data feature is the degree of protection of the device, not the motor protection device.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABF792001"
+                    },
+                    {
+                        "Name": "Degree of protection (IP), front side",
+                        "Definition": "Classification relating to the front or head side according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit",
+                        "Reason": "The data feature is the degree of protection of the device, not the degree of protection of the front side.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAD217010"
+                    },
+                    {
+                        "Name": "degree of protection",
+                        "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and/or ingress of water and verified by standardized test methods, expressed as a IP rating",
+                        "Reason": "The data feature is the degree of protection of the device, not the degree of protection.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAG975013"
+                    },
+                    {
+                        "Name": "degree of protection (IP) (UL1449)",
+                        "Definition": "Indicates the protection of the SPD against access to hazardous parts and ingress of solid particles and liquids",
+                        "Reason": "The data feature is the degree of protection of the device, not the degree of protection of the SPD.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABD315001"
+                    },
+                    {
+                        "Name": "Degree of protection (IP) of the evaluating electronics",
+                        "Definition": "Classification according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit for the electronic device that processes data and makes them useable",
+                        "Reason": "The data feature is the degree of protection of the device, not the degree of protection of the evaluating electronics.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC106007"
+                    },
+                    {
+                        "Name": "suitable for degree of protection (IP)",
+                        "Definition": "information about the suitabilty of an object for degree of protection (IP)",
+                        "Reason": "The data feature is the degree of protection of the device, not the suitability of the device for degree of protection.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF566005"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Degree of protection (IP) of the evaluating electronics",
+                    "Definition": "Classification according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit for the electronic device that processes data and makes them useable",
+                    "SemanticIdentifier": "AAC106007"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Degree of protection (IP) of the device",
+                    "Definition": "Classification according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit for the device",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "IP",
+                "ClassifyingScore_GeneralOrTechnical": 3,
+                "Affordance": "The degree of protection is used to determine the suitability of the device for the intended use."
+            }
+        }
+    ]
+}

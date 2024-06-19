@@ -1,0 +1,1308 @@
+{
+    "session_key": "t8_gpt-3.5-turbo-instruct_20240124_193824_27a4",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Part Number",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The unique identifier assigned to a specific product or component."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4599_4082_1047_5283"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "6AT8002-4AB00",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Product Type Designation",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The specific designation or model name given to a product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9921_9742_8647_0050"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "VIB sensor S01",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Product Description",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "A detailed description of the product, including its features and specifications."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4550_6591_3404_8828"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Piezoelectric sensor for connection to the SIPLUS CMS2000 Basic Unit VIB or the SIPLUS CMS2000 VIB-MUX expansion module.",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Installation and Mounting Instructions",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Instructions for how to properly install and mount the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5830_7680_9803_3201"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Includes mounting bolts UNF1/4-28 on M6 and M8.",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Type of Power Supply",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The type of power supply required for the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2898_2376_3864_6309"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "IEPE 2 to 10 mA",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Encoder Signals, IEPE",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The type of signals used by the product's encoder."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9657_5772_4170_2520"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Signal voltage (DC), min. 10 V",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Signal Voltage (DC), min.",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The minimum voltage of the product's signal."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5734_4245_1484_6725"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "10 V",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Signal Voltage (DC), max.",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The highest voltage that can be measured by the specific vibration sensor being described."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8554_3053_5749_1552"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "14 V",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "IP Degree of Protection",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The level of protection against solid objects and liquids provided by the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0127_5859_5229_6665"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "IP65",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Cable Length, max.",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The maximum length of cable that can be used with the vibration sensor."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6337_4095_3823_2904"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "30 m",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Type of Connection",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The type of connection used by the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4858_6381_9915_5163"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "MIL-C5015",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Material of Housing",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The material used for the product's housing."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1935_7284_6016_2264"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Stainless steel",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Part Number",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The unique identifier assigned to a specific product or component."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4599_4082_1047_5283",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Part Number"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The unique identifier assigned to a specific product or component."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Product Type Designation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The specific designation or model name given to a product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9921_9742_8647_0050",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product Type Designation"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The specific designation or model name given to a product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Product Description",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A detailed description of the product, including its features and specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4550_6591_3404_8828",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product Description"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "A detailed description of the product, including its features and specifications."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Installation and Mounting Instructions",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Instructions for how to properly install and mount the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5830_7680_9803_3201",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Installation and Mounting Instructions"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Instructions for how to properly install and mount the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Type of Power Supply",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The type of power supply required for the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2898_2376_3864_6309",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Type of Power Supply"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The type of power supply required for the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Encoder Signals, IEPE",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The type of signals used by the product's encoder."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9657_5772_4170_2520",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Encoder Signals, IEPE"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The type of signals used by the product's encoder."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Signal Voltage (DC), min.",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The minimum voltage of the product's signal."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5734_4245_1484_6725",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Signal Voltage (DC), min."
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The minimum voltage of the product's signal."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Signal Voltage (DC), max.",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The highest voltage that can be measured by the specific vibration sensor being described."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8554_3053_5749_1552",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Maximum Signal Voltage"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The highest voltage that can be measured by the specific vibration sensor being described."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "IP Degree of Protection",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The level of protection against solid objects and liquids provided by the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0127_5859_5229_6665",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "IP Degree of Protection"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The level of protection against solid objects and liquids provided by the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Cable Length, max.",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The maximum length of cable that can be used with the vibration sensor."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6337_4095_3823_2904",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Maximum Cable Length"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum length of cable that can be used with the vibration sensor."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Type of Connection",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The type of connection used by the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4858_6381_9915_5163",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Type of Connection"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The type of connection used by the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Material of Housing",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The material used for the product's housing."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1935_7284_6016_2264",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Material of Housing"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The material used for the product's housing."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "Part Number",
+                "Definition": "The unique identifier assigned to a specific product or component.",
+                "Value": "6AT8002-4AB00",
+                "SourceDescription": "This part number is listed in the product description and is used to identify the specific vibration sensor being described."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Part Number",
+                    "Definition": "The unique identifier assigned to a specific product or component.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This part number can be used to identify and track the specific vibration sensor in various engineering tasks, such as maintenance and replacement.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Product Type Designation",
+                "Definition": "The specific designation or model name given to a product.",
+                "Value": "VIB sensor S01",
+                "SourceDescription": "This product type designation is listed in the product description and is used to identify the specific vibration sensor being described."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Product Type Designation",
+                    "Definition": "The specific designation or model name given to a product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 4,
+                "Affordance": "This information can be used to identify the specific vibration sensor being described and can be used in engineering tasks such as ordering and maintenance.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Product Description",
+                "Definition": "A detailed description of the product, including its features and specifications.",
+                "Value": "Piezoelectric sensor for connection to the SIPLUS CMS2000 Basic Unit VIB or the SIPLUS CMS2000 VIB-MUX expansion module.",
+                "SourceDescription": "This product description is listed in the product description and provides information about the specific vibration sensor being described."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Product Description",
+                    "Definition": "A detailed description of the product, including its features and specifications.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 4,
+                "Affordance": "This information can be used to understand the specific features and specifications of the vibration sensor, and to determine its compatibility with the SIPLUS CMS2000 Basic Unit VIB or the SIPLUS CMS2000 VIB-MUX expansion module.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Installation and Mounting Instructions",
+                "Definition": "Instructions for how to properly install and mount the product.",
+                "Value": "Includes mounting bolts UNF1/4-28 on M6 and M8.",
+                "SourceDescription": "These installation and mounting instructions are listed in the product description and provide information about how to properly install and mount the specific vibration sensor being described."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Installation and Mounting Instructions",
+                    "Definition": "Instructions for how to properly install and mount the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "These instructions provide information on how to properly install and mount the specific vibration sensor being described, making it critical for ensuring the sensor functions and performs correctly in its intended context.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Type of Power Supply",
+                "Definition": "The type of power supply required for the product.",
+                "Value": "IEPE 2 to 10 mA",
+                "SourceDescription": "This type of power supply is listed in the product description and is required for the specific vibration sensor being described."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Type of Power Supply",
+                    "Definition": "The type of power supply required for the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "IEPE 2 to 10 mA",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information is critical for determining the proper power supply for the specific vibration sensor being described and can be used in engineering tasks such as selecting and installing the sensor in a system or process.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Encoder Signals, IEPE",
+                "Definition": "The type of signals used by the product's encoder.",
+                "Value": "Signal voltage (DC), min. 10 V",
+                "SourceDescription": "This type of signal is listed in the product description and is used by the encoder of the specific vibration sensor being described."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Encoder Signals, IEPE",
+                    "Definition": "The type of signals used by the product's encoder.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "V",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the specific type of signals needed for the encoder of the vibration sensor, allowing for proper installation and use in various engineering tasks.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Signal Voltage (DC), min.",
+                "Definition": "The minimum voltage of the product's signal.",
+                "Value": "10 V",
+                "SourceDescription": "This minimum signal voltage is listed in the product description and is used by the specific vibration sensor being described."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Signal Voltage (DC), min.",
+                    "Definition": "The minimum voltage of the product's signal.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "V",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This data property can be used to determine the minimum signal voltage for a specific vibration sensor, which is important for understanding its technical performance and compatibility with other systems or components.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Signal Voltage (DC), max.",
+                "Definition": "The maximum voltage of the product's signal.",
+                "Value": "14 V",
+                "SourceDescription": "This maximum signal voltage is listed in the product description and is used by the specific vibration sensor being described."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Maximum Signal Voltage",
+                    "Definition": "The highest voltage that can be measured by the specific vibration sensor being described.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "V",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This data property can be used to determine the maximum voltage that can be measured by the specific vibration sensor, which is important for engineering tasks such as selecting the appropriate power supply and ensuring the sensor can accurately measure the desired signals.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "IP Degree of Protection",
+                "Definition": "The level of protection against solid objects and liquids provided by the product.",
+                "Value": "IP65",
+                "SourceDescription": "This IP degree of protection is listed in the product description and provides information about the level of protection provided by the specific vibration sensor being described."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "IP Degree of Protection",
+                    "Definition": "The level of protection against solid objects and liquids provided by the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the level of protection provided by the specific vibration sensor, making it useful for engineering tasks such as selecting the appropriate sensor for a specific environment or application.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Cable Length, max.",
+                "Definition": "The maximum length of cable that can be used with the product.",
+                "Value": "30 m",
+                "SourceDescription": "This maximum cable length is listed in the product description and provides information about the maximum length of cable that can be used with the specific vibration sensor being described."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Maximum Cable Length",
+                    "Definition": "The maximum length of cable that can be used with the vibration sensor.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "m",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This data property can be used to determine the maximum cable length that can be used with the specific vibration sensor, which is important for installation and mounting purposes in various engineering tasks.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Type of Connection",
+                "Definition": "The type of connection used by the product.",
+                "Value": "MIL-C5015",
+                "SourceDescription": "This type of connection is listed in the product description and is used by the specific vibration sensor being described."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Type of Connection",
+                    "Definition": "The type of connection used by the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the specific type of connection needed for the vibration sensor, allowing for proper installation and integration into the SIPLUS CMS2000 Basic Unit VIB or the SIPLUS CMS2000 VIB-MUX expansion module.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Material of Housing",
+                "Definition": "The material used for the product's housing.",
+                "Value": "Stainless steel",
+                "SourceDescription": "This material of housing is listed in the product description and provides information about the specific vibration sensor being described."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Material of Housing",
+                    "Definition": "The material used for the product's housing.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the durability and resistance of the vibration sensor in various engineering tasks, such as designing and selecting appropriate mounting methods and locations for the sensor.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        }
+    ]
+}

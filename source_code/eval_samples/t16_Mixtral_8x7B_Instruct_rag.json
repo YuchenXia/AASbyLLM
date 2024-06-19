@@ -1,0 +1,1474 @@
+{
+    "session_key": "t16_Mixtral_8x7B_Instruct_rag_20240124_233228_4ee3",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Connector Name",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The name of the connector"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4289_4966_3444_2099"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Male connector",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Connector Use",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The use of the connector at the device"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1781_5653_2946_1452"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Single",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Part Number",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The unique identifier assigned to a specific connector by the manufacturer."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7242_1845_3301_0663"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "R901388333",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Designation",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The unique identifier of the connector"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8463_7418_5475_8073"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "7000-08331-0000000",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Version",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The version of the connector"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3942_7361_3837_7295"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "straight",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Ambient Temperature",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The temperature range in the outer area of the operating medium of the connector"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0748_0259_4954_3890"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "-25\u00b0C to +85\u00b0C",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Operating Current per Contact",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The maximum operating current per contact of the connector"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1800_3131_8268_0179"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "max. 4 A",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Operating Voltage",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The maximum voltage that can be applied to the connector under consideration of the conditions of use."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2777_3215_5806_8957"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "max. 32 V AC/DC",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Connection Type",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The type of connector, including its design and specifications"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6710_7269_2124_4688"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Male connector, straight, M8x1, 3-pin Insulation displacement, self-locking screw thread",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Connection Cross-Section",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The surface area of the section which is dissected at a cut through the connection orthogonally to its longitudinal axis"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1705_3142_3329_6695"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0.14 ... 0.34 mm2",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "IP Rating",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The IP rating of the connector is a measure of its protection against the ingress of foreign bodies and water"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4369_1549_8992_9264"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "IP67 (inserted and locked)",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Connector Name",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The name of the connector"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4289_4966_3444_2099",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Connector Name"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The name of the connector"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Connector Use",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The use of the connector at the device"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1781_5653_2946_1452",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Connector use at device"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The use of the connector at the device"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Part Number",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The unique identifier assigned to a specific connector by the manufacturer."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7242_1845_3301_0663",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Part Number"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The unique identifier assigned to a specific connector by the manufacturer."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Designation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The unique identifier of the connector"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8463_7418_5475_8073",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Designation of the connector"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The unique identifier of the connector"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Version",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The version of the connector"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3942_7361_3837_7295",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Connector version"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The version of the connector"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Operating Current per Contact",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The maximum operating current per contact of the connector"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1800_3131_8268_0179",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "max. operating current per contact"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum operating current per contact of the connector"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Operating Voltage",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The maximum voltage that can be applied to the connector under consideration of the conditions of use."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2777_3215_5806_8957",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Maximum operating voltage"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum voltage that can be applied to the connector under consideration of the conditions of use."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Connection Type",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The type of connector, including its design and specifications"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6710_7269_2124_4688",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Connector Type"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The type of connector, including its design and specifications"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Connection Cross-Section",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The surface area of the section which is dissected at a cut through the connection orthogonally to its longitudinal axis"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1705_3142_3329_6695",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Connection cross-section of the connector"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The surface area of the section which is dissected at a cut through the connection orthogonally to its longitudinal axis"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Ambient Temperature",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The temperature range in the outer area of the operating medium of the connector"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0748_0259_4954_3890",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Ambient temperature range"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The temperature range in the outer area of the operating medium of the connector"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "IP Rating",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The IP rating of the connector is a measure of its protection against the ingress of foreign bodies and water"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4369_1549_8992_9264",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "IP rating of the connector"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The IP rating of the connector is a measure of its protection against the ingress of foreign bodies and water"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "Connector Name",
+                "Definition": "The name of the connector",
+                "Value": "Male connector",
+                "SourceDescription": "The name of the connector is mentioned in the input text as 'Male connector'"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "type of connector",
+                        "Definition": "information on the make of the device to connect and disconnect cables",
+                        "Reason": "The annotation is relevant as it describes the type of connector",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAG610004"
+                    },
+                    {
+                        "Name": "Connector identification",
+                        "Definition": "unique name of a junction",
+                        "Reason": "The annotation is not relevant as it does not describe the name of the connector",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAN337001"
+                    },
+                    {
+                        "Name": "case connector connection 1",
+                        "Definition": "indication of the connector housing of patch cable port 1",
+                        "Reason": "The annotation is not relevant as it does not describe the name of the connector",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK420003"
+                    },
+                    {
+                        "Name": "type of connector connection 2",
+                        "Definition": "indication of the detail design of the device for seperating and connecting cables to port 2",
+                        "Reason": "The annotation is not relevant as it does not describe the name of the connector",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK423006"
+                    },
+                    {
+                        "Name": "type of connector connection 1",
+                        "Definition": "indication of the detail design of the device for seperating and connecting cables to port 1",
+                        "Reason": "The annotation is not relevant as it does not describe the name of the connector",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK422006"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "type of connector",
+                    "Definition": "information on the make of the device to connect and disconnect cables",
+                    "SemanticIdentifier": "AAG610004"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Connector Name",
+                    "Definition": "The name of the connector",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "The name of the connector can be used to identify the connector and distinguish it from other connectors"
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Connector Use",
+                "Definition": "The use of the connector",
+                "Value": "Single",
+                "SourceDescription": "The use of the connector is mentioned in the input text as 'single'"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "type of connector connection 1",
+                        "Definition": "indication of the detail design of the device for seperating and connecting cables to port 1",
+                        "Reason": "This annotation is not relevant to the data feature as it describes the design of the device, not the use of the connector.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK422006"
+                    },
+                    {
+                        "Name": "type of connector connection 2",
+                        "Definition": "indication of the detail design of the device for seperating and connecting cables to port 2",
+                        "Reason": "This annotation is not relevant to the data feature as it describes the design of the device, not the use of the connector.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK423006"
+                    },
+                    {
+                        "Name": "Type of connector at device",
+                        "Definition": "type of plug connection of a cable which is used for device connection",
+                        "Reason": "This annotation is relevant to the data feature as it describes the type of connector used for device connection.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAA650004"
+                    },
+                    {
+                        "Name": "type of connector",
+                        "Definition": "describes the kind of clamp which is used for connection",
+                        "Reason": "This annotation is not relevant to the data feature as it describes the design of the connector, not the use of the connector.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK194004"
+                    },
+                    {
+                        "Name": "type of connector",
+                        "Definition": "information on the make of the decvide to connect and disconnect cables",
+                        "Reason": "This annotation is not relevant to the data feature as it describes the make of the device, not the use of the connector.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAG610004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Type of connector at device",
+                    "Definition": "type of plug connection of a cable which is used for device connection",
+                    "SemanticIdentifier": "AAA650004"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Connector use at device",
+                    "Definition": "The use of the connector at the device",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "The use of the connector at the device can be used to determine the compatibility of the connector with the device and the appropriate application of the connector."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Part Number",
+                "Definition": "The part number of the connector",
+                "Value": "R901388333",
+                "SourceDescription": "The part number of the connector is mentioned in the input text as 'R901388333'"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "connector connection 1",
+                        "Definition": "indication of the patch cable connector port 1",
+                        "Reason": "This annotation is not relevant to the data feature as it refers to the connector port, not the part number.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK417003"
+                    },
+                    {
+                        "Name": "Manufacturing part number",
+                        "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                        "Reason": "This annotation is relevant to the data feature as it refers to the part number.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO628001"
+                    },
+                    {
+                        "Name": "case connector connection 1",
+                        "Definition": "indication of the connector housing of patch cable port 1",
+                        "Reason": "This annotation is not relevant to the data feature as it refers to the connector housing, not the part number.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK420003"
+                    },
+                    {
+                        "Name": "connector connection 2",
+                        "Definition": "indication of the patch cable connector port 2",
+                        "Reason": "This annotation is not relevant to the data feature as it refers to the connector port, not the part number.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK418003"
+                    },
+                    {
+                        "Name": "type of connector",
+                        "Definition": "information on the make of the decvide to connect and disconnect cables",
+                        "Reason": "This annotation is not relevant to the data feature as it refers to the type of connector, not the part number.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAG610004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Manufacturing part number",
+                    "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                    "SemanticIdentifier": "AAO628001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Part Number",
+                    "Definition": "The unique identifier assigned to a specific connector by the manufacturer.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Used for identifying and ordering the specific connector from the manufacturer or supplier."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Designation",
+                "Definition": "The designation of the connector",
+                "Value": "7000-08331-0000000",
+                "SourceDescription": "The designation of the connector is mentioned in the input text as '7000-08331-0000000'"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "type of connector connection 2",
+                        "Definition": "indication of the detail design of the device for seperating and connecting cables to port 2",
+                        "Reason": "This annotation is not relevant to the data feature as it refers to the detail design of the device for separating and connecting cables to port 2, while the data feature is the designation of the connector.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK423006"
+                    },
+                    {
+                        "Name": "type of connector connection 1",
+                        "Definition": "indication of the detail design of the device for seperating and connecting cables to port 1",
+                        "Reason": "This annotation is not relevant to the data feature as it refers to the detail design of the device for separating and connecting cables to port 1, while the data feature is the designation of the connector.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK422006"
+                    },
+                    {
+                        "Name": "type of connector",
+                        "Definition": "information on the make of the decvide to connect and disconnect cables",
+                        "Reason": "This annotation is relevant to the data feature as it refers to the type of connector, which is a general information about the connector.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAG610004"
+                    },
+                    {
+                        "Name": "type of connector interior",
+                        "Definition": "indication of the detail design of the device for seperating and connecting cables internal",
+                        "Reason": "This annotation is not relevant to the data feature as it refers to the detail design of the device for separating and connecting cables internal, while the data feature is the designation of the connector.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK425004"
+                    },
+                    {
+                        "Name": "connector housing",
+                        "Definition": "indication of the connector housing of the communication socket",
+                        "Reason": "This annotation is not relevant to the data feature as it refers to the connector housing of the communication socket, while the data feature is the designation of the connector.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK419001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "type of connector",
+                    "Definition": "information on the make of the decvide to connect and disconnect cables",
+                    "SemanticIdentifier": "AAG610004"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Designation of the connector",
+                    "Definition": "The unique identifier of the connector",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Used for identifying the specific connector in the product catalog or inventory management system."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Version",
+                "Definition": "The version of the connector",
+                "Value": "straight",
+                "SourceDescription": "The version of the connector is mentioned in the input text as 'straight'"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "type of connector",
+                        "Definition": "information on the make of the device to connect and disconnect cables",
+                        "Reason": "This annotation is relevant because it describes the type of connector, which is the version of the connector",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAG610004"
+                    },
+                    {
+                        "Name": "type left and right",
+                        "Definition": "specification whether the rafter-to-purlin connector is modelled for being mounted on the left and on the right",
+                        "Reason": "This annotation is not relevant because it does not describe the version of the connector",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK870004"
+                    },
+                    {
+                        "Name": "Type of angle connector",
+                        "Definition": "different types of angle connectors allow different compounds that can be backed by specific ports",
+                        "Reason": "This annotation is not relevant because it does not describe the version of the connector",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAT029001"
+                    },
+                    {
+                        "Name": "plug connector with torsion-resistance present",
+                        "Definition": "specification whether the product is equipped with plug connector with torsion-resistance",
+                        "Reason": "This annotation is not relevant because it does not describe the version of the connector",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE561001"
+                    },
+                    {
+                        "Name": "type of connector",
+                        "Definition": "describes the kind of clamp which is used for connection",
+                        "Reason": "This annotation is relevant because it describes the type of connector, which is the version of the connector",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAK194004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "type of connector",
+                    "Definition": "information on the make of the device to connect and disconnect cables",
+                    "SemanticIdentifier": "AAG610004"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Connector version",
+                    "Definition": "The version of the connector",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "The version of the connector can be used to determine the compatibility of the connector with other devices and systems"
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Operating Current per Contact",
+                "Definition": "The maximum operating current per contact of the connector",
+                "Value": "max. 4 A",
+                "SourceDescription": "The maximum operating current per contact of the connector is mentioned in the input text as 'max. 4 A'"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "max. input current per DC input",
+                        "Definition": "current, which is supplied at the connection and accepted by an operating resource, upper limit value of each single direct voltage input",
+                        "Reason": "The annotation is not relevant because it is specific to DC input, while the data feature is not specific to DC input",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAS562002"
+                    },
+                    {
+                        "Name": "max. just-operate current range",
+                        "Definition": "maximum current value an electrical device reacts to",
+                        "Reason": "The annotation is not relevant because it refers to the current value an electrical device reacts to, while the data feature is the maximum operating current per contact",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF851003"
+                    },
+                    {
+                        "Name": "max. rated current with AC",
+                        "Definition": "The maximum alternating current assigned by the manufacturer to an operating unit",
+                        "Reason": "The annotation is not relevant because it is specific to alternating current and assigned by the manufacturer, while the data feature is the maximum operating current per contact",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB830008"
+                    },
+                    {
+                        "Name": "maximum current rating",
+                        "Definition": "maximum electrical current drawn from the mains",
+                        "Reason": "The annotation is not relevant because it refers to the maximum electrical current drawn from the mains, while the data feature is the maximum operating current per contact",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW135002"
+                    },
+                    {
+                        "Name": "max. current in DC Link",
+                        "Definition": "value of the current, resulting from measurements which were determined under specified conditions and rules as defined by the manufacturer",
+                        "Reason": "The annotation is not relevant because it is specific to DC Link, while the data feature is not specific to DC Link",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAU437002"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "max. operating current per contact",
+                    "Definition": "The maximum operating current per contact of the connector",
+                    "SemanticIdentifier": null
+                },
+                "GeneratedAnnotation": {
+                    "Name": "max. operating current per contact",
+                    "Definition": "The maximum operating current per contact of the connector",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "A",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The maximum operating current per contact of the connector can be used in the design and selection of the connector to ensure that it can handle the required current, and in the operation and maintenance of the connector to monitor its current usage and prevent overloading."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Operating Voltage",
+                "Definition": "The maximum operating voltage of the connector",
+                "Value": "max. 32 V AC/DC",
+                "SourceDescription": "The maximum operating voltage of the connector is mentioned in the input text as 'max. 32 V AC/DC'"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Max. operating voltage",
+                        "Definition": "The maximum voltage, that can be applied to operating unit under consideration of the conditions of use and which relates to the different product-specific tests (i.e. insulation, switching capacity)",
+                        "Reason": "The annotation is relevant to the data feature as it describes the maximum voltage that can be applied to the operating unit under certain conditions.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAC966007"
+                    },
+                    {
+                        "Name": "max. input voltage with DC",
+                        "Definition": "maximum value of direct-voltage that can be applied to the input of an operating unit",
+                        "Reason": "The annotation is not relevant to the data feature as it describes the maximum input voltage with DC, while the data feature is about the operating voltage.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB848008"
+                    },
+                    {
+                        "Name": "Operating voltage type",
+                        "Definition": "Type of voltage required for operation of the device",
+                        "Reason": "The annotation is not relevant to the data feature as it describes the type of voltage required for operation of the device, while the data feature is about the maximum operating voltage.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAC064008"
+                    },
+                    {
+                        "Name": "max. operating voltage with DC",
+                        "Definition": "The maximum value of DC voltage (DC), that can be applied to operating unit under consideration of the conditions of use and which relates to the different product-specific tests (i.e. insulation, switching capacity)",
+                        "Reason": "The annotation is relevant to the data feature as it describes the maximum value of DC voltage that can be applied to the operating unit under certain conditions.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAB840008"
+                    },
+                    {
+                        "Name": "max. supply voltage",
+                        "Definition": "maximum value of the required voltage which must be temporarily or permanently applied to the supply connection of an operating unit to maintain its function",
+                        "Reason": "The annotation is not relevant to the data feature as it describes the maximum value of the required voltage which must be temporarily or permanently applied to the supply connection of an operating unit to maintain its function, while the data feature is about the operating voltage.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC965008"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Max. operating voltage",
+                    "Definition": "The maximum voltage, that can be applied to operating unit under consideration of the conditions of use and which relates to the different product-specific tests (i.e. insulation, switching capacity)",
+                    "SemanticIdentifier": "AAC966007"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Maximum operating voltage",
+                    "Definition": "The maximum voltage that can be applied to the connector under consideration of the conditions of use.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "V AC/DC",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The maximum operating voltage can be used to determine the compatibility of the connector with other devices and to ensure the safe operation of the connector."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Connection Type",
+                "Definition": "The connection type of the connector",
+                "Value": "Male connector, straight, M8x1, 3-pin Insulation displacement, self-locking screw thread",
+                "SourceDescription": "The connection type of the connector is mentioned in the input text as 'Male connector, straight, M8x1, 3-pin Insulation displacement, self-locking screw thread'"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "type of connector",
+                        "Definition": "describes the kind of clamp which is used for connection",
+                        "Reason": "This annotation is relevant as it describes the type of connector",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAK194004"
+                    },
+                    {
+                        "Name": "type of connector",
+                        "Definition": "information on the make of the decvide to connect and disconnect cables",
+                        "Reason": "This annotation is not relevant as it refers to the make of the device, not the type of connector",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAG610004"
+                    },
+                    {
+                        "Name": "type of connector connection 1",
+                        "Definition": "indication of the detail design of the device for seperating and connecting cables to port 1",
+                        "Reason": "This annotation is not relevant as it refers to the detail design of the device for port 1, not the type of connector",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK422006"
+                    },
+                    {
+                        "Name": "type of connector connection 2",
+                        "Definition": "indication of the detail design of the device for seperating and connecting cables to port 2",
+                        "Reason": "This annotation is not relevant as it refers to the detail design of the device for port 2, not the type of connector",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK423006"
+                    },
+                    {
+                        "Name": "type of connector",
+                        "Definition": "Information on the design of the device for separating and connecting lines",
+                        "Reason": "This annotation is relevant as it describes the type of connector",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "ABC266001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "type of connector",
+                    "Definition": "describes the kind of clamp which is used for connection",
+                    "SemanticIdentifier": "AAK194004"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Connector Type",
+                    "Definition": "The type of connector, including its design and specifications",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 4,
+                "Affordance": "Used to determine the compatibility of the connector with other devices and systems"
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Connection Cross-Section",
+                "Definition": "The connection cross-section of the connector",
+                "Value": "0.14 ... 0.34 mm2",
+                "SourceDescription": "The connection cross-section of the connector is mentioned in the input text as '0.14 ... 0.34 mm2'"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "min. connectable conductor cross-section",
+                        "Definition": "Min. permissible value of connector cross-section for the fastening element for description, designation or identification of a component",
+                        "Reason": "The annotation is not relevant because it refers to the minimum permissible value, while the data feature is the actual value.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB935006"
+                    },
+                    {
+                        "Name": "min. cross section of the connecting conductors",
+                        "Definition": "lower limit of the cutting area of the cable that is to be connected perpendicular to the center line",
+                        "Reason": "The annotation is not relevant because it refers to the minimum cross section of the connecting conductors, while the data feature is the connection cross-section of the connector.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAJ143003"
+                    },
+                    {
+                        "Name": "max. connectable conductor cross-section",
+                        "Definition": "Max. permissible value of connector cross-section for the fastening element for description, designation or identification of a component",
+                        "Reason": "The annotation is not relevant because it refers to the maximum permissible value, while the data feature is the actual value.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB785006"
+                    },
+                    {
+                        "Name": "nominal cross section connection cable",
+                        "Definition": "value, as stipulated by the manufacturer, of the area of the cut line through the connection cable orthogonally to its longitudinal axis",
+                        "Reason": "The annotation is not relevant because it refers to the nominal cross section of the connection cable, while the data feature is the connection cross-section of the connector.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAH470003"
+                    },
+                    {
+                        "Name": "connection cross section",
+                        "Definition": "surface area of the section which is dissected at a cut through the connection orthogonally to its longitudinal axis",
+                        "Reason": "The annotation is relevant because it refers to the connection cross-section, which is the same as the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAH628003"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "connection cross section",
+                    "Definition": "surface area of the section which is dissected at a cut through the connection orthogonally to its longitudinal axis",
+                    "SemanticIdentifier": "AAH628003"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Connection cross-section of the connector",
+                    "Definition": "The surface area of the section which is dissected at a cut through the connection orthogonally to its longitudinal axis",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "mm2",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The connection cross-section of the connector can be used to determine the maximum cross-section of the conductor that can be connected to the connector, and to ensure that the connector is suitable for the intended application."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Ambient Temperature",
+                "Definition": "The ambient temperature range of the connector",
+                "Value": "-25\u00b0C to +85\u00b0C",
+                "SourceDescription": "The ambient temperature range of the connector is mentioned in the input text as '-25\u00b0C to +85\u00b0C'"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "max. adjustable temperature",
+                        "Definition": "max. temperature supported",
+                        "Reason": "This annotation is not relevant as it refers to the maximum temperature supported, not the ambient temperature range.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAE893005"
+                    },
+                    {
+                        "Name": "specified maximum ambient temperature",
+                        "Definition": "maximum allowable temperature of the surrounding operating environment of a component or system",
+                        "Reason": "This annotation is relevant as it refers to the maximum allowable temperature of the surrounding operating environment of a component or system.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "ABC746001"
+                    },
+                    {
+                        "Name": "reference ambient temperature of electronics",
+                        "Definition": "Reference temperature of the air or another medium in which the electronics is applied as directed",
+                        "Reason": "This annotation is not relevant as it refers to the reference temperature of the air or another medium in which the electronics is applied as directed, not the ambient temperature range.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAN311003"
+                    },
+                    {
+                        "Name": "Ambient temperature",
+                        "Definition": "Temperature in the outer area of the operating medium",
+                        "Reason": "This annotation is relevant as it refers to the temperature in the outer area of the operating medium.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAE540004"
+                    },
+                    {
+                        "Name": "max. ambient temperature for evaluating electronics",
+                        "Definition": "Maximum limit value of the stipulated temperature conditions of the surrounding atmosphere for evaluating electronics",
+                        "Reason": "This annotation is not relevant as it refers to the maximum limit value of the stipulated temperature conditions of the surrounding atmosphere for evaluating electronics, not the ambient temperature range.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB905006"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "specified maximum ambient temperature",
+                    "Definition": "maximum allowable temperature of the surrounding operating environment of a component or system",
+                    "SemanticIdentifier": "ABC746001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Ambient temperature range",
+                    "Definition": "The temperature range in the outer area of the operating medium of the connector",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "\u00b0C",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "The ambient temperature range can be used to determine the operating conditions of the connector and ensure its proper functioning in the intended environment."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "IP Rating",
+                "Definition": "The IP rating of the connector",
+                "Value": "IP67 (inserted and locked)",
+                "SourceDescription": "The IP rating of the connector is mentioned in the input text as 'IP67 (inserted and locked)'"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "IP protection class with connector",
+                        "Definition": "scope of protection that can be achieved with a fluidic device in combination with the connector recommended by the manufacturer with respect to the ingress of foreign bodies and water",
+                        "Reason": "The annotation is relevant as it is related to the IP rating of the connector",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ971001"
+                    },
+                    {
+                        "Name": "Electrical interface (IEC 60870-5-103, RS 485 with RJ45 connector red.) present",
+                        "Definition": "Designation of the document of the International Electrotechnical Commission: Telecontrol equipment and systems - Part 5-103: Transmission protocols - Application-related standard for the information interface of protection devices, bidirectional serial interface for high-speed data transmission rates with up to 32 subscribers to a transmission module As a voltage difference between two corresponding leads, according to Recommended Standard 485, expresses presence / cooperation: a plug-in connector for telecommunication cabling standardized by the US Federal Communications Commission (FCC), as a fully stocked eight-pole (8P8C) modular plug or as a modular jack, Connector (if unshielded) and Ethernet connector (if shielded) in multiple (at least twofold) version",
+                        "Reason": "The annotation is not relevant as it is related to the electrical interface and not the IP rating of the connector",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAX040001"
+                    },
+                    {
+                        "Name": "Electrical interface (PROFINET IO, 100 Mbit/s, double RJ45 connector) present",
+                        "Definition": "(Physical and functional) compatibility of the systems to be connected for the exchange of data / PROFINET, by means of appropriate measures Input Output is used to control sensors and actuators by means of a central control in the manufacturing technology, value: 100 megabits per second, so that it exists in two copies or occurs by the US Federal Communications Commission (FCC) standardized connector for telecommunication cabling, as (8P8C) modular connector or as a modular jack, commonly referred to as an ISDN connector (if unshielded) and an Ethernet connector (if shielded)",
+                        "Reason": "The annotation is not relevant as it is related to the electrical interface and not the IP rating of the connector",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW861001"
+                    },
+                    {
+                        "Name": "Electrical interface (IEC 61850, 100 Mbit/s, double RJ45 connector) present",
+                        "Definition": "Design, or function as a more specific provision: electricity-based, electricity-related or electrically-powered, means of connection or connection for data transmission which, by appropriate means, establish the complete (physical and functional) compatibility of the systems to be connected for data exchange Of the document from International Electrotechnical Commission: Communication networks and systems for automation in the electrical power supply, value: 100 megabits per second, so that it exists in two copies or occurs by the US Federal Communications Commission (FCC) standardized connector for (8P8C) modular plug or as a modular jack, commonly referred to as an ISDN connector (if unshielded) and an Ethernet connector (if shielded)",
+                        "Reason": "The annotation is not relevant as it is related to the electrical interface and not the IP rating of the connector",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW866001"
+                    },
+                    {
+                        "Name": "Electrical interface (Modbus TCP, 100 Mbit/s, double RJ45) present",
+                        "Definition": "Design, or function as more detailed: electricity-based, electricity-related, or electrical-powered, means of connection or connectivity for data transmission which, by appropriate means, establishes the complete (physical and functional) compatibility of the systems to be connected for data exchange / Modbus Protocol as a communication protocol based on a master / slave or client / server architecture that allows Ethernet TCP / IP as another transmission technique, value: 100 megabits per second, so that it exists or appears in two copies (8P8C) modular connector or as a modular connector, commonly referred to as an ISDN connector (if unshielded) and an Ethernet connector (if shielded), the US Federal Communications Commission (FCC) standardized connector for telecommunication cabling",
+                        "Reason": "The annotation is not relevant as it is related to the electrical interface and not the IP rating of the connector",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW855001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "IP protection class with connector",
+                    "Definition": "scope of protection that can be achieved with a fluidic device in combination with the connector recommended by the manufacturer with respect to the ingress of foreign bodies and water",
+                    "SemanticIdentifier": "AAZ971001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "IP rating of the connector",
+                    "Definition": "The IP rating of the connector is a measure of its protection against the ingress of foreign bodies and water",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The IP rating of the connector can be used to determine its suitability for use in specific environments and applications, particularly those where protection against the ingress of foreign bodies and water is critical"
+            }
+        }
+    ]
+}

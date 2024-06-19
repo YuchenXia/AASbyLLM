@@ -1,0 +1,912 @@
+{
+    "session_key": "t16_gpt-3.5-turbo-instruct_20240124_232403_4f5d",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Part Number",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The unique identifier assigned to a specific part or component."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0877_3309_3662_0603"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "R901388333",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Version",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The specific version or model of a product or component."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1320_9071_5089_2649"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "straight",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Operating Current per Contact",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The maximum amount of current that can pass through a single contact of the connector."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9529_9762_6708_9549"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "max. 4 A",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Operating Voltage",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The maximum voltage that can be applied to the connector."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2755_3800_1804_6665"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "max. 32 V AC/DC",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Connection Type",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The specific type of connection for the connector, including the gender, shape, size, and method of connection."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8269_3933_4602_6090"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Male connector, straight, M8x1, 3-pin Insulation displacement, self-locking screw thread",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Connection Cross-Section",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The range of cross-sectional area that can be accommodated by the connector."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7273_1511_6852_2233"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0.14 ... 0.34 mm2",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Ambient Temperature",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The range of temperature in which the connector can operate safely and effectively."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0648_1523_3413_2238"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "-25\u00b0C to +85\u00b0C",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "IP Rating",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The level of protection against dust and water ingress for the connector."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9439_3582_1339_0090"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "IP67 (inserted and locked)",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Part Number",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The unique identifier assigned to a specific part or component."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0877_3309_3662_0603",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Part Number"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The unique identifier assigned to a specific part or component."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Version",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The specific version or model of a product or component."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1320_9071_5089_2649",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Version"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The specific version or model of a product or component."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Operating Current per Contact",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The maximum amount of current that can pass through a single contact of the connector."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9529_9762_6708_9549",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Operating Current per Contact"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum amount of current that can pass through a single contact of the connector."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Operating Voltage",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The maximum voltage that can be applied to the connector."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2755_3800_1804_6665",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Operating Voltage"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum voltage that can be applied to the connector."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Connection Type",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The specific type of connection for the connector, including the gender, shape, size, and method of connection."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8269_3933_4602_6090",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Connection Type"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The specific type of connection for the connector, including the gender, shape, size, and method of connection."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Connection Cross-Section",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The range of cross-sectional area that can be accommodated by the connector."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7273_1511_6852_2233",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Connection Cross-Section"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The range of cross-sectional area that can be accommodated by the connector."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Ambient Temperature",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The range of temperature in which the connector can operate safely and effectively."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0648_1523_3413_2238",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Ambient Temperature"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The range of temperature in which the connector can operate safely and effectively."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "IP Rating",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The level of protection against dust and water ingress for the connector."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9439_3582_1339_0090",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "IP Rating"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The level of protection against dust and water ingress for the connector."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "Part Number",
+                "Definition": "The unique identifier assigned to a specific part or component.",
+                "Value": "R901388333",
+                "SourceDescription": "This data feature is extracted from a data sheet for a male connector, single, with the part number R901388333."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Part Number",
+                    "Definition": "The unique identifier assigned to a specific part or component.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This data property can be used to identify and track a specific part or component in a male connector, single, with the part number R901388333. It can also be used for inventory management and ordering purposes.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Version",
+                "Definition": "The specific version or model of a product or component.",
+                "Value": "straight",
+                "SourceDescription": "This data feature is extracted from a data sheet for a male connector, single, with the version straight."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Version",
+                    "Definition": "The specific version or model of a product or component.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to identify and differentiate between different versions or models of the product or component, and can also be used in engineering tasks such as compatibility testing and product development.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Operating Current per Contact",
+                "Definition": "The maximum amount of current that can pass through a single contact of the connector.",
+                "Value": "max. 4 A",
+                "SourceDescription": "This data feature is extracted from a data sheet for a male connector, single, with a maximum operating current per contact of 4 A."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Operating Current per Contact",
+                    "Definition": "The maximum amount of current that can pass through a single contact of the connector.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "A",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This data property can be used to determine the maximum current capacity of a single contact in a male connector, making it useful for designing and selecting connectors for specific engineering tasks or applications.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Operating Voltage",
+                "Definition": "The maximum voltage that can be applied to the connector.",
+                "Value": "max. 32 V AC/DC",
+                "SourceDescription": "This data feature is extracted from a data sheet for a male connector, single, with a maximum operating voltage of 32 V AC/DC."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Operating Voltage",
+                    "Definition": "The maximum voltage that can be applied to the connector.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "V",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the maximum voltage that can be safely applied to the connector in various engineering tasks, such as designing electrical systems or selecting appropriate power sources.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Connection Type",
+                "Definition": "The specific type of connection for the connector, including the gender, shape, size, and method of connection.",
+                "Value": "Male connector, straight, M8x1, 3-pin Insulation displacement, self-locking screw thread",
+                "SourceDescription": "This data feature is extracted from a data sheet for a male connector, single, with a connection type of male, straight, M8x1, 3-pin Insulation displacement, self-locking screw thread."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Connection Type",
+                    "Definition": "The specific type of connection for the connector, including the gender, shape, size, and method of connection.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in designing and selecting connectors for specific engineering tasks, such as creating a secure and efficient connection for electronic devices.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Connection Cross-Section",
+                "Definition": "The range of cross-sectional area that can be accommodated by the connector.",
+                "Value": "0.14 ... 0.34 mm2",
+                "SourceDescription": "This data feature is extracted from a data sheet for a male connector, single, with a connection cross-section range of 0.14 to 0.34 mm2."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Connection Cross-Section",
+                    "Definition": "The range of cross-sectional area that can be accommodated by the connector.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "mm2",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This data property can be used to determine the appropriate connector for a specific cross-sectional area of a wire or cable in engineering tasks such as designing electrical systems or selecting components for a project.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Ambient Temperature",
+                "Definition": "The range of temperature in which the connector can operate safely and effectively.",
+                "Value": "-25\u00b0C to +85\u00b0C",
+                "SourceDescription": "This data feature is extracted from a data sheet for a male connector, single, with an ambient temperature range of -25\u00b0C to +85\u00b0C."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Ambient Temperature",
+                    "Definition": "The range of temperature in which the connector can operate safely and effectively.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "\u00b0C",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the suitable operating conditions for the connector in various engineering tasks, such as designing a system that can withstand extreme temperatures.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "IP Rating",
+                "Definition": "The level of protection against dust and water ingress for the connector.",
+                "Value": "IP67 (inserted and locked)",
+                "SourceDescription": "This data feature is extracted from a data sheet for a male connector, single, with an IP rating of IP67 when inserted and locked."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "IP Rating",
+                    "Definition": "The level of protection against dust and water ingress for the connector.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the suitability of the connector for use in environments with potential exposure to dust and water, such as outdoor or industrial settings.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        }
+    ]
+}

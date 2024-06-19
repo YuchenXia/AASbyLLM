@@ -1,0 +1,858 @@
+{
+    "session_key": "t13_gpt-3.5-turbo-instruct_rag_20240125_001825_cb1e",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Product Type",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Characteristic to differentiate between different products of a product family or special variants"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3562_1201_8905_5044"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "SIMATIC S7-1500",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Degree of Protection",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The level of protection provided against the intrusion of solid objects, dust, accidental contact, and water in electrical enclosures."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8976_9373_2945_1327"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "IP20 acc. to IEC 60 529",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Ambient Temperature",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The temperature of the surrounding environment."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9645_4131_1018_3219"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0...60 \u00b0C",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Relative Humidity",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The value of the ratio of actual pressure of water vapor in the atmosphere to the saturation vapor pressure above which condensation takes place."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5962_4651_1412_0558"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "10 %...95 %, no condensation",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Electromagnetic Compatibility",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "shock resistance of electrical and electronic devices to electromagnetic faults, which are defined for different environments (such as industrial environments or home and business environments) and with multiple severity classifications"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8668_3594_6848_0824"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Requirements of the EMC directive",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Interference Immunity",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Operating medium is immune to influence from a magnetic field if the change of the effective switch distance - caused by the influence of a magnetic field - is not greater than the determined value"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8572_5490_5634_9957"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "According to IEC 61000-6-2",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Product Type",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Characteristic to differentiate between different products of a product family or special variants"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3562_1201_8905_5044",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product type"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Characteristic to differentiate between different products of a product family or special variants"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Degree of Protection",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The level of protection provided against the intrusion of solid objects, dust, accidental contact, and water in electrical enclosures."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8976_9373_2945_1327",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Degree of Protection"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The level of protection provided against the intrusion of solid objects, dust, accidental contact, and water in electrical enclosures."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Ambient Temperature",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The temperature of the surrounding environment."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9645_4131_1018_3219",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Ambient Temperature"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The temperature of the surrounding environment."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Relative Humidity",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The value of the ratio of actual pressure of water vapor in the atmosphere to the saturation vapor pressure above which condensation takes place."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5962_4651_1412_0558",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Relative Humidity without condensation"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The value of the ratio of actual pressure of water vapor in the atmosphere to the saturation vapor pressure above which condensation takes place."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Electromagnetic Compatibility",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "shock resistance of electrical and electronic devices to electromagnetic faults, which are defined for different environments (such as industrial environments or home and business environments) and with multiple severity classifications"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8668_3594_6848_0824",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Electromagnetic Compatibility (EMC standard)"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "shock resistance of electrical and electronic devices to electromagnetic faults, which are defined for different environments (such as industrial environments or home and business environments) and with multiple severity classifications"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Interference Immunity",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Operating medium is immune to influence from a magnetic field if the change of the effective switch distance - caused by the influence of a magnetic field - is not greater than the determined value"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8572_5490_5634_9957",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Interference resistance to magnetic fields"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Operating medium is immune to influence from a magnetic field if the change of the effective switch distance - caused by the influence of a magnetic field - is not greater than the determined value"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "Product Type",
+                "Definition": "The specific type or model of a product.",
+                "Value": "SIMATIC S7-1500",
+                "SourceDescription": "Data sheet"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Product type",
+                        "Definition": "Additional information for describing products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                        "Reason": "The annotation is relevant as it provides additional information for describing the product type.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO846001"
+                    },
+                    {
+                        "Name": "Product type of the form",
+                        "Definition": "Additional information for describing the form of products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                        "Reason": "The annotation is not relevant as it is specific to the form of the product, not the type.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO844001"
+                    },
+                    {
+                        "Name": "Product type",
+                        "Definition": "Characteristic to differentiate between different products of a product family or special variants",
+                        "Reason": "The annotation is relevant as it provides additional information for describing the product type.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO057002"
+                    },
+                    {
+                        "Name": "product type",
+                        "Definition": "characterization of the product with regard to its general type",
+                        "Reason": "The annotation is relevant as it provides additional information for describing the product type.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO243004"
+                    },
+                    {
+                        "Name": "Type description of the product group",
+                        "Definition": "The specifying type description (type name, type code, abbreviated name, article number) for distinguishing according to product group (variant) of the used bookstore product",
+                        "Reason": "The annotation is not relevant as it is specific to a used bookstore product, not a technical product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO966001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Product type",
+                    "Definition": "Characteristic to differentiate between different products of a product family or special variants",
+                    "SemanticIdentifier": "AAO057002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Product type",
+                    "Definition": "Characteristic to differentiate between different products of a product family or special variants",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 4,
+                "Affordance": "This information can be used to differentiate between different products of a product family or special variants."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Degree of Protection",
+                "Definition": "The level of protection provided against the intrusion of solid objects, dust, accidental contact, and water in electrical enclosures.",
+                "Value": "IP20 acc. to IEC 60 529",
+                "SourceDescription": "Data sheet"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Degree of Protection",
+                        "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and against ingress of water",
+                        "Reason": "The given annotation is relevant as it provides a similar definition and includes all aspects of the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAV695001"
+                    },
+                    {
+                        "Name": "degree of protection",
+                        "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and/or ingress of water and verified by standardized test methods, expressed as a IP rating",
+                        "Reason": "The given annotation is not relevant as it includes additional information that is not mentioned in the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAG975013"
+                    },
+                    {
+                        "Name": "degree of protection (IP) (UL1449)",
+                        "Definition": "Indicates the protection of the SPD against access to hazardous parts and ingress of solid particles and liquids",
+                        "Reason": "The given annotation is not relevant as it includes additional information that is not mentioned in the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABD315001"
+                    },
+                    {
+                        "Name": "Protection class (IP, rear side)",
+                        "Definition": "Numerical classification and designation system in accordance with International Electrotechnical Commission 60529 for the indication of degrees of protection, preceded by the symbol IP, for use in empty housings or housings of electrical equipment in order to protect persons against contact with live or moving parts (except smooth shafts or Similar parts) in the interior of the housing to ensure the protection of the (electrical) working medium against the penetration of solid foreign bodies or dust and, where specified by the classification, the protection of the electrical equipment against harmful ingress of vapors, moisture or water / Location specific: the return / return page",
+                        "Reason": "The given annotation is not relevant as it includes additional information that is not mentioned in the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW856001"
+                    },
+                    {
+                        "Name": "Degree of protection (IP), front side",
+                        "Definition": "Classification relating to the front or head side according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit",
+                        "Reason": "The given annotation is not relevant as it includes additional information that is not mentioned in the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAD217010"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Degree of Protection",
+                    "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and against ingress of water",
+                    "SemanticIdentifier": "AAV695001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Degree of Protection",
+                    "Definition": "The level of protection provided against the intrusion of solid objects, dust, accidental contact, and water in electrical enclosures.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the level of protection provided by an enclosure against various external factors, such as hazardous parts, solid foreign objects, and water, in order to ensure the safety and functionality of the electrical equipment."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Ambient Temperature",
+                "Definition": "The temperature of the surrounding environment.",
+                "Value": "0...60 \u00b0C",
+                "SourceDescription": "Data sheet"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "ambient temperature",
+                        "Definition": "temperature of the surrounding operating environment of a component or system",
+                        "Reason": "The given annotation is relevant as it provides a clear and concise definition of the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ842001"
+                    },
+                    {
+                        "Name": "Ambient temperature",
+                        "Definition": "Temperature in the outer area of the operating medium",
+                        "Reason": "The given annotation is not relevant as it does not accurately describe the data feature and may cause confusion.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAE540004"
+                    },
+                    {
+                        "Name": "actual ambient temperature",
+                        "Definition": "temperature of the surrounding operating environment of a component or system, determined at the time under consideration",
+                        "Reason": "The given annotation is not relevant as it is too specific and does not accurately describe the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC747001"
+                    },
+                    {
+                        "Name": "set ambient temperature",
+                        "Definition": "given temperature of the surrounding operating environment of a component or system",
+                        "Reason": "The given annotation is not relevant as it is too specific and does not accurately describe the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC751001"
+                    },
+                    {
+                        "Name": "actual maximum ambient temperature",
+                        "Definition": "maximum determined temperature of the surrounding operating environment of a component or system in a defined time interval",
+                        "Reason": "The given annotation is not relevant as it is too specific and does not accurately describe the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC750001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "ambient temperature",
+                    "Definition": "temperature of the surrounding operating environment of a component or system",
+                    "SemanticIdentifier": "AAZ842001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Ambient Temperature",
+                    "Definition": "The temperature of the surrounding environment.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "\u00b0C",
+                "ClassifyingScore_GeneralOrTechnical": 4,
+                "Affordance": "This information can be used to determine the appropriate operating conditions for the product, such as temperature limits and potential cooling requirements."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Relative Humidity",
+                "Definition": "The amount of water vapor present in the air compared to the maximum amount that could be present at that temperature.",
+                "Value": "10 %...95 %, no condensation",
+                "SourceDescription": "Data sheet"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Humidity without condensation",
+                        "Definition": "Value of the ratio of actual pressure of water vapor in the atmosphere to the saturation vapor pressure above which condensation takes place",
+                        "Reason": "The annotation is relevant as it provides a specific value for the relative humidity without condensation.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAB357005"
+                    },
+                    {
+                        "Name": "permitted relative humidity (during transport)",
+                        "Definition": "value for ratio of the actual compression of water vapour in the atmosphere and the saturation vapour pressure during transport",
+                        "Reason": "The annotation is not relevant as it refers to a different context of transport.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW296001"
+                    },
+                    {
+                        "Name": "max. relative humidity",
+                        "Definition": "highest value of relative humidity for which a device is or must be designed to operate within its specified limits",
+                        "Reason": "The annotation is not relevant as it refers to the maximum value of relative humidity, while the data feature requires a range of values.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAN102003"
+                    },
+                    {
+                        "Name": "reference humidity",
+                        "Definition": "relative humidity at which the performance of a device was tested",
+                        "Reason": "The annotation is not relevant as it refers to a specific value for testing purposes, while the data feature requires a range of values.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAA023007"
+                    },
+                    {
+                        "Name": "permitted relative humidity (during storage)",
+                        "Definition": "value for ratio of the actual compression of water vapour in the atmosphere and the saturation vapour pressure during storage",
+                        "Reason": "The annotation is not relevant as it refers to a different context of storage.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW297001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Humidity without condensation",
+                    "Definition": "Value of the ratio of actual pressure of water vapor in the atmosphere to the saturation vapor pressure above which condensation takes place",
+                    "SemanticIdentifier": "BAB357005"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Relative Humidity without condensation",
+                    "Definition": "The value of the ratio of actual pressure of water vapor in the atmosphere to the saturation vapor pressure above which condensation takes place.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the appropriate level of humidity for the proper functioning of the product in various environments."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Electromagnetic Compatibility",
+                "Definition": "The ability of a device to function properly in its intended electromagnetic environment without causing or being affected by electromagnetic interference.",
+                "Value": "Requirements of the EMC directive",
+                "SourceDescription": "Data sheet"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "electromagnetic compatibility",
+                        "Definition": "ability of an electric facility to function satisfactorily in its electromagnetic environment without affecting this environment in an inadmissible fashion",
+                        "Reason": "The given annotation is not relevant as it does not accurately describe the data feature and may cause confusion.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAB325005"
+                    },
+                    {
+                        "Name": "classification of electromagnetic compatibility",
+                        "Definition": "classification of the ability of measuring equipment or a measuring system to operate as specified in its electromagnetic environment without introducing intolerable electromagnetic disturbances to anything in that environment",
+                        "Reason": "The given annotation is not relevant as it does not accurately describe the data feature and may cause confusion.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAN054002"
+                    },
+                    {
+                        "Name": "Electromagnetic Compatibility (EMC standard)",
+                        "Definition": "shock resistance of electrical and electronic devices to electromagnetic faults, which are defined for different environments (such as industrial environments or home and business environments) and with multiple severity classifications",
+                        "Reason": "The given annotation is not relevant as it does not accurately describe the data feature and may cause confusion.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ246001"
+                    },
+                    {
+                        "Name": "EMC design present",
+                        "Definition": "Design in electromagnetic compatibility, i.e. there is no build-up of interfering electromagnetic fields",
+                        "Reason": "The given annotation is not relevant as it does not accurately describe the data feature and may cause confusion.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC218008"
+                    },
+                    {
+                        "Name": "interference immunity",
+                        "Definition": "electromagnetic environment in which the device is or must be designed to operate within the specified accuracy limits",
+                        "Reason": "The given annotation is relevant as it accurately describes the data feature and provides additional information.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAN137002"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "interference immunity",
+                    "Definition": "electromagnetic environment in which the device is or must be designed to operate within the specified accuracy limits",
+                    "SemanticIdentifier": "AAN137002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Electromagnetic Compatibility (EMC standard)",
+                    "Definition": "shock resistance of electrical and electronic devices to electromagnetic faults, which are defined for different environments (such as industrial environments or home and business environments) and with multiple severity classifications",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the shock resistance of electrical and electronic devices in different environments and with varying severity classifications."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Interference Immunity",
+                "Definition": "The ability of a device to resist interference from external sources.",
+                "Value": "According to IEC 61000-6-2",
+                "SourceDescription": "Data sheet"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "interference immunity",
+                        "Definition": "electromagnetic environment in which the device is or must be designed to operate within the specified accuracy limits",
+                        "Reason": "The given annotation is not relevant as it does not directly relate to the data feature of interference immunity.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAN137002"
+                    },
+                    {
+                        "Name": "Interference resistance to magnetic fields",
+                        "Definition": "Operating medium is immune to influence from a magnetic field if the change of the effective switch distance - caused by the influence of a magnetic field - is not greater than the determined value",
+                        "Reason": "The given annotation is not relevant as it does not directly relate to the data feature of interference immunity.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAD\u00a0917006,00"
+                    },
+                    {
+                        "Name": "interference resistance to bursts on feed cables",
+                        "Definition": "ability of a device, equipment, an installation or a system, to be operated in the presence of a limited number of impulses or oscillation of a limited duration on feed cables without infringing on the function",
+                        "Reason": "The given annotation is not relevant as it does not directly relate to the data feature of interference immunity.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAB486005"
+                    },
+                    {
+                        "Name": "Interference resistance to bursts on signal cables",
+                        "Definition": "Capacity of a device, equipment, an installation or a system, that can be operated in the presence of a limited number of impulses or oscillation of a limited duration on signal cables with infringing the function",
+                        "Reason": "The given annotation is not relevant as it does not directly relate to the data feature of interference immunity.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAB485004"
+                    },
+                    {
+                        "Name": "interference resistance to cable-guided interferences (hf fields)",
+                        "Definition": "ability of a device, equipment, an installation or a system, to be operated in the presence of HF field induced interference variables with infringing on the function",
+                        "Reason": "The given annotation is not relevant as it does not directly relate to the data feature of interference immunity.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAB489006"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Interference resistance to magnetic fields",
+                    "Definition": "Operating medium is immune to influence from a magnetic field if the change of the effective switch distance - caused by the influence of a magnetic field - is not greater than the determined value",
+                    "SemanticIdentifier": "BAD\u00a0917006,00"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Interference resistance to magnetic fields",
+                    "Definition": "Operating medium is immune to influence from a magnetic field if the change of the effective switch distance - caused by the influence of a magnetic field - is not greater than the determined value",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the interference resistance of the device in the presence of magnetic fields."
+            }
+        }
+    ]
+}

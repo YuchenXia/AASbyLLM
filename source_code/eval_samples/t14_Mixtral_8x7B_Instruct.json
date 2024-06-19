@@ -1,0 +1,1704 @@
+{
+    "session_key": "t14_Mixtral_8x7B_Instruct_20240124_232233_e776",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Product type designation",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The designation of the product type."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6749_8875_1038_5218"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "BC138",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Product ID",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The unique identifier of the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9527_5393_7072_0598"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "7BBC138",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Control type",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The type of control for the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1590_4981_4597_4431"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Reversible",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Tachometer feedback input",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The presence or absence of a tachometer feedback input for the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2267_9840_1633_1109"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "No",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "AC Line switch",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "A switch that controls the connection of the product to the AC line."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9745_2328_9926_4994"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Standard",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Electrical connection to control barrier terminal block",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The electrical connection to control barrier terminal block for the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5559_0412_9546_3590"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Standard",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "AC Line input (VAC 50/60Hz)",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The AC voltage input to the product, measured in volts (V) and compatible with both 50 and 60 Hz power sources."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3099_5250_0521_3776"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "115",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Max. AC Load current (RMS)",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The maximum AC current (RMS) that the product can handle while operating under normal conditions."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5490_0563_5030_8070"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "5.0",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "DC Armature voltage nominal (VDC)",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The nominal DC voltage applied to the armature of the motor."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5619_3182_2708_3549"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "90",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Max. DC Load current (ADC)",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The maximum current that can be drawn by the DC armature of the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7365_1259_3124_7668"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "3.5",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Shunt field power supply (VDC)",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The voltage of the shunt field power supply for the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9776_3550_4143_5760"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "50/100",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Control of speed or torque",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The method of controlling the speed or torque of the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6511_0950_4513_9142"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Speed",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "IR Compensation adjustable (VDC)",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The voltage range that can be adjusted to compensate for the IR drop in the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6828_9431_0143_5367"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0 - 24",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "AC Line fuse",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The fuse used to protect the AC line from overcurrent situations."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0569_0335_7062_4366"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Included",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Current sensing relay/overload protector",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The current sensing relay/overload protector for the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9579_6792_2579_4373"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "No",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "AC Line filter for CE",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The AC Line filter for CE is a device that filters the AC line input to meet the CE requirements for the product."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2920_8772_0868_2771"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Opt-BC24-LF",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Product type designation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The designation of the product type."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6749_8875_1038_5218",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product type designation"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The designation of the product type."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Product ID",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The unique identifier of the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9527_5393_7072_0598",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product ID"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The unique identifier of the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Control type",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The type of control for the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1590_4981_4597_4431",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Control type"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The type of control for the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "AC Line input (VAC 50/60Hz)",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The AC voltage input to the product, measured in volts (V) and compatible with both 50 and 60 Hz power sources."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3099_5250_0521_3776",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "AC Line Input Voltage"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The AC voltage input to the product, measured in volts (V) and compatible with both 50 and 60 Hz power sources."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Max. AC Load current (RMS)",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The maximum AC current (RMS) that the product can handle while operating under normal conditions."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5490_0563_5030_8070",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Maximum AC RMS load current"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum AC current (RMS) that the product can handle while operating under normal conditions."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "DC Armature voltage nominal (VDC)",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The nominal DC voltage applied to the armature of the motor."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5619_3182_2708_3549",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "DC Armature voltage nominal"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The nominal DC voltage applied to the armature of the motor."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Max. DC Load current (ADC)",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The maximum current that can be drawn by the DC armature of the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7365_1259_3124_7668",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Maximum DC armature load current"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum current that can be drawn by the DC armature of the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Shunt field power supply (VDC)",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The voltage of the shunt field power supply for the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9776_3550_4143_5760",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Shunt field power supply voltage"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The voltage of the shunt field power supply for the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Control of speed or torque",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The method of controlling the speed or torque of the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6511_0950_4513_9142",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Control of speed or torque"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The method of controlling the speed or torque of the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "IR Compensation adjustable (VDC)",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The voltage range that can be adjusted to compensate for the IR drop in the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6828_9431_0143_5367",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "IR Compensation adjustable voltage"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The voltage range that can be adjusted to compensate for the IR drop in the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Tachometer feedback input",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The presence or absence of a tachometer feedback input for the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2267_9840_1633_1109",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Tachometer feedback input"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The presence or absence of a tachometer feedback input for the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "AC Line fuse",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The fuse used to protect the AC line from overcurrent situations."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0569_0335_7062_4366",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "AC Line fuse"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The fuse used to protect the AC line from overcurrent situations."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "AC Line switch",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A switch that controls the connection of the product to the AC line."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9745_2328_9926_4994",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "AC Line Switch"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "A switch that controls the connection of the product to the AC line."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Electrical connection to control barrier terminal block",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The electrical connection to control barrier terminal block for the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5559_0412_9546_3590",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Electrical connection to control barrier terminal block"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The electrical connection to control barrier terminal block for the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Current sensing relay/overload protector",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The current sensing relay/overload protector for the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9579_6792_2579_4373",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Current sensing relay/overload protector"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The current sensing relay/overload protector for the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "AC Line filter for CE",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The AC Line filter for CE is a device that filters the AC line input to meet the CE requirements for the product."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2920_8772_0868_2771",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "AC Line filter for CE"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The AC Line filter for CE is a device that filters the AC line input to meet the CE requirements for the product."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "Product type designation",
+                "Definition": "The designation of the product type.",
+                "Value": "BC138",
+                "SourceDescription": "This data feature is extracted from the input text 'Product type designation: BC138'."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Product type designation",
+                    "Definition": "The designation of the product type.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Used to identify the product type in the product catalog.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Product ID",
+                "Definition": "The unique identifier of the product.",
+                "Value": "7BBC138",
+                "SourceDescription": "This data feature is extracted from the input text 'Product ID: 7BBC138'."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Product ID",
+                    "Definition": "The unique identifier of the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Used for identifying the product in the inventory management system.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Control type",
+                "Definition": "The type of control for the product.",
+                "Value": "Reversible",
+                "SourceDescription": "This data feature is extracted from the input text 'Control type: Reversible'."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Control type",
+                    "Definition": "The type of control for the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Used to determine the type of control for the product, which can be used in the product design and selection process.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "AC Line input (VAC 50/60Hz)",
+                "Definition": "The AC line input voltage and frequency for the product.",
+                "Value": "115",
+                "SourceDescription": "This data feature is extracted from the input text 'AC Line input (VAC 50/60Hz): 115'."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "AC Line Input Voltage",
+                    "Definition": "The AC voltage input to the product, measured in volts (V) and compatible with both 50 and 60 Hz power sources.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "V",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Used to determine the compatibility of the product with the power supply in a specific location.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Max. AC Load current (RMS)",
+                "Definition": "The maximum AC load current (RMS) for the product.",
+                "Value": "5.0",
+                "SourceDescription": "This data feature is extracted from the input text 'Max. AC Load current (RMS): 5.0'."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Maximum AC RMS load current",
+                    "Definition": "The maximum AC current (RMS) that the product can handle while operating under normal conditions.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "A",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Used to determine the maximum AC current (RMS) that the product can handle while operating under normal conditions, which is critical in determining the product's electrical load capacity and power requirements.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "DC Armature voltage nominal (VDC)",
+                "Definition": "The nominal DC armature voltage for the product.",
+                "Value": "90",
+                "SourceDescription": "This data feature is extracted from the input text 'DC Armature voltage nominal (VDC): 90'."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "DC Armature voltage nominal",
+                    "Definition": "The nominal DC voltage applied to the armature of the motor.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "VDC",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Used to determine the compatibility of the motor with the power supply and to ensure the correct operation of the motor.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Max. DC Load current (ADC)",
+                "Definition": "The maximum DC load current (ADC) for the product.",
+                "Value": "3.5",
+                "SourceDescription": "This data feature is extracted from the input text 'Max. DC Load current (ADC): 3.5'."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Maximum DC armature load current",
+                    "Definition": "The maximum current that can be drawn by the DC armature of the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "A",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Used to determine the maximum current that can be drawn by the DC armature of the product, which is critical in determining the product's power handling capacity and safe operating limits.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Shunt field power supply (VDC)",
+                "Definition": "The shunt field power supply voltage for the product.",
+                "Value": "50/100",
+                "SourceDescription": "This data feature is extracted from the input text 'Shunt field power supply (VDC): 50/100'."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Shunt field power supply voltage",
+                    "Definition": "The voltage of the shunt field power supply for the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "VDC",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Used to determine the compatibility of the product with other systems and to ensure proper operation of the product in a specific context.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Control of speed or torque",
+                "Definition": "The control of speed or torque for the product.",
+                "Value": "Speed",
+                "SourceDescription": "This data feature is extracted from the input text 'Control of speed or torque: Speed'."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Control of speed or torque",
+                    "Definition": "The method of controlling the speed or torque of the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 4,
+                "Affordance": "Used to determine the control method of the product, which can be used in the design and development of the product.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "IR Compensation adjustable (VDC)",
+                "Definition": "The IR compensation adjustable voltage for the product.",
+                "Value": "0 - 24",
+                "SourceDescription": "This data feature is extracted from the input text 'IR Compensation adjustable (VDC): 0 - 24'."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "IR Compensation adjustable voltage",
+                    "Definition": "The voltage range that can be adjusted to compensate for the IR drop in the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "VDC",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to adjust the voltage to compensate for the IR drop in the product, which is critical for the product's performance and safety.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Tachometer feedback input",
+                "Definition": "The tachometer feedback input for the product.",
+                "Value": "No",
+                "SourceDescription": "This data feature is extracted from the input text 'Tachometer feedback input: No'."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Tachometer feedback input",
+                    "Definition": "The presence or absence of a tachometer feedback input for the product."
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "Determining if a tachometer feedback input is included in the product design.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "AC Line fuse",
+                "Definition": "The AC line fuse for the product.",
+                "Value": "Included",
+                "SourceDescription": "This data feature is extracted from the input text 'AC Line fuse: Included'."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "AC Line fuse",
+                    "Definition": "The fuse used to protect the AC line from overcurrent situations.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Used to determine if a replacement fuse is needed and to ensure the product is safe to use.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "AC Line switch",
+                "Definition": "The AC line switch for the product.",
+                "Value": "Standard",
+                "SourceDescription": "This data feature is extracted from the input text 'AC Line switch: Standard'."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "AC Line Switch",
+                    "Definition": "A switch that controls the connection of the product to the AC line.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "Used to control the connection of the product to the AC line.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Electrical connection to control barrier terminal block",
+                "Definition": "The electrical connection to control barrier terminal block for the product.",
+                "Value": "Standard",
+                "SourceDescription": "This data feature is extracted from the input text 'Electrical connection to control barrier terminal block: Standard'."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Electrical connection to control barrier terminal block",
+                    "Definition": "The electrical connection to control barrier terminal block for the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Used for specifying the electrical connection to control barrier terminal block for the product during the design and manufacturing process.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Current sensing relay/overload protector",
+                "Definition": "The current sensing relay/overload protector for the product.",
+                "Value": "No",
+                "SourceDescription": "This data feature is extracted from the input text 'Current sensing relay/overload protector: No'."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Current sensing relay/overload protector",
+                    "Definition": "The current sensing relay/overload protector for the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Indicates whether the product has a current sensing relay/overload protector or not, which is critical for the product's electrical safety and performance.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "AC Line filter for CE",
+                "Definition": "The AC Line filter for CE for the product.",
+                "Value": "Opt-BC24-LF",
+                "SourceDescription": "This data feature is extracted from the input text 'AC Line filter for CE: Opt-BC24-LF'."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "AC Line filter for CE",
+                    "Definition": "The AC Line filter for CE is a device that filters the AC line input to meet the CE requirements for the product.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 4,
+                "Affordance": "Used to select the appropriate AC Line filter for CE for the product to meet the CE requirements.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        }
+    ]
+}
