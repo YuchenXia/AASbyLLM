@@ -22,4 +22,5 @@ To set up the project locally, follow these steps:
    in .env:
    OPENAI_API_KEY="your_key_here"
    ```
-4. run app.py
+4. run **app.py** and use web browser to interact with the system.
+
