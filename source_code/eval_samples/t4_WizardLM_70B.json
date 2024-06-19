@@ -1,0 +1,1309 @@
+{
+    "session_key": "t4_WizardLM_70B_20240124_193849_7404",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "seat valve_Stock No.",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Stock number of the seat valve"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9346_5687_3388_1486"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "S55208-V158",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "DN_100",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The nominal diameter is the internal diameter of a pipe or tube, measured in millimeters. It is used to identify the size of the pipe or tube and is crucial for ensuring compatibility with other components in a system."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5126_7099_5791_4965"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "100",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Stroke_DN 50: 20 mm;From DN 65: 40 mm",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The length of the valve's piston travel for different nominal sizes, specifically 20 mm for DN 50 and 40 mm for DN 65 and above."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1453_7648_7135_8048"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "40 mm",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Leakage rate_0...0.01 % of kvs value",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The amount of fluid that leaks through the valve when it is closed, expressed as a percentage of the kvs value."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6218_3849_9204_2375"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0...0.01 %",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "kvs_150 m\u00b3/h",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The nominal flow rate (kvs) is the volumetric flow rate at the reference temperature of 20 \u00b0C, corresponding to a pressure drop of 1013 mbar across the valve, when the valve is fully open."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3815_5009_0664_5318"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "150 m\u00b3/h",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Medium temperature_-5\u2026220 \u00b0C",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Temperature range of the medium"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8440_5246_6035_6110"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "-5\u2026220 \u00b0C",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Valve characteristic_Equal percentage, kvs 220/315 linear",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The characteristic of the valve that describes its equal percentage flow behavior for kvs 220/315 linear."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6240_7234_6256_1942"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Equal percentage, kvs 220/315 linear",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Rangeability_> 100",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Rangeability of the valve"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2754_9353_5151_7393"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "> 100",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Permissible operating pressure_2500 kPa",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Maximum pressure the valve can operate at"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8215_1674_6284_9080"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "2500 kPa",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Material, valve body_Ductile iron",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The material used for the valve body of a seat valve"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4659_7609_0084_7527"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Ductile iron",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Material, inside set_CrNi steel",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The material used for the inside set of the valve"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0060_7867_6095_0425"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "CrNi steel",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "PN class_PN 25",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The classification of a valve based on its ability to withstand pressure"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4277_7847_9219_5766"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "PN 25",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "seat valve_Stock No.",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Stock number of the seat valve"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9346_5687_3388_1486",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "StockNo_seatvalve"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Stock number of the seat valve"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Stroke_DN 50: 20 mm;From DN 65: 40 mm",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The length of the valve's piston travel for different nominal sizes, specifically 20 mm for DN 50 and 40 mm for DN 65 and above."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1453_7648_7135_8048",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Stroke_DN50_20mm_FromDN65_40mm"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The length of the valve's piston travel for different nominal sizes, specifically 20 mm for DN 50 and 40 mm for DN 65 and above."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Leakage rate_0...0.01 % of kvs value",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The amount of fluid that leaks through the valve when it is closed, expressed as a percentage of the kvs value."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6218_3849_9204_2375",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Leakage rate"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The amount of fluid that leaks through the valve when it is closed, expressed as a percentage of the kvs value."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "DN_100",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The nominal diameter is the internal diameter of a pipe or tube, measured in millimeters. It is used to identify the size of the pipe or tube and is crucial for ensuring compatibility with other components in a system."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5126_7099_5791_4965",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Nominal Diameter"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The nominal diameter is the internal diameter of a pipe or tube, measured in millimeters. It is used to identify the size of the pipe or tube and is crucial for ensuring compatibility with other components in a system."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "kvs_150 m\u00b3/h",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The nominal flow rate (kvs) is the volumetric flow rate at the reference temperature of 20 \u00b0C, corresponding to a pressure drop of 1013 mbar across the valve, when the valve is fully open."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3815_5009_0664_5318",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Nominal flow rate"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The nominal flow rate (kvs) is the volumetric flow rate at the reference temperature of 20 \u00b0C, corresponding to a pressure drop of 1013 mbar across the valve, when the valve is fully open."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Medium temperature_-5\u2026220 \u00b0C",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Temperature range of the medium"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8440_5246_6035_6110",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Medium temperature"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Temperature range of the medium"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Valve characteristic_Equal percentage, kvs 220/315 linear",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The characteristic of the valve that describes its equal percentage flow behavior for kvs 220/315 linear."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6240_7234_6256_1942",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Valve_Characteristic_Equal_Percentage"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The characteristic of the valve that describes its equal percentage flow behavior for kvs 220/315 linear."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Rangeability_> 100",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Rangeability of the valve"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2754_9353_5151_7393",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Rangeability"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Rangeability of the valve"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Permissible operating pressure_2500 kPa",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Maximum pressure the valve can operate at"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8215_1674_6284_9080",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Permissible operating pressure"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Maximum pressure the valve can operate at"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Material, valve body_Ductile iron",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The material used for the valve body of a seat valve"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4659_7609_0084_7527",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Material_of_valve_body"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The material used for the valve body of a seat valve"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Material, inside set_CrNi steel",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The material used for the inside set of the valve"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0060_7867_6095_0425",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Material of inside set"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The material used for the inside set of the valve"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "PN class_PN 25",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The classification of a valve based on its ability to withstand pressure"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4277_7847_9219_5766",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Pressure rating class"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The classification of a valve based on its ability to withstand pressure"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "seat valve_Stock No.",
+                "Definition": "Stock number of the seat valve",
+                "Value": "S55208-V158",
+                "SourceDescription": "Stock No."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "StockNo_seatvalve",
+                    "Definition": "Stock number of the seat valve",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Identification and inventory management of the seat valve",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Stroke_DN 50: 20 mm;From DN 65: 40 mm",
+                "Definition": "Stroke length for different DN sizes",
+                "Value": "40 mm",
+                "SourceDescription": "Stroke"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Stroke_DN50_20mm_FromDN65_40mm",
+                    "Definition": "The length of the valve's piston travel for different nominal sizes, specifically 20 mm for DN 50 and 40 mm for DN 65 and above.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to valve design, performance optimization, and system integration.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Leakage rate_0...0.01 % of kvs value",
+                "Definition": "Leakage rate in relation to kvs value",
+                "Value": "0...0.01 %",
+                "SourceDescription": "Leakage rate"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Leakage rate",
+                    "Definition": "The amount of fluid that leaks through the valve when it is closed, expressed as a percentage of the kvs value.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "%",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to fluid control systems to ensure efficient operation and minimize energy loss.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "DN_100",
+                "Definition": "Nominal diameter",
+                "Value": "100",
+                "SourceDescription": "DN"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Nominal Diameter",
+                    "Definition": "The nominal diameter is the internal diameter of a pipe or tube, measured in millimeters. It is used to identify the size of the pipe or tube and is crucial for ensuring compatibility with other components in a system.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "The nominal diameter is used in various engineering applications, such as designing piping systems, selecting appropriate fittings, and determining pressure ratings.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "kvs_150 m\u00b3/h",
+                "Definition": "Nominal flow rate",
+                "Value": "150 m\u00b3/h",
+                "SourceDescription": "kvs"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Nominal flow rate",
+                    "Definition": "The nominal flow rate (kvs) is the volumetric flow rate at the reference temperature of 20 \u00b0C, corresponding to a pressure drop of 1013 mbar across the valve, when the valve is fully open.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "m\u00b3/h",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The nominal flow rate is used to determine the performance of the valve, and it can be used in hydraulic calculations, system design, and performance testing.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Medium temperature_-5\u2026220 \u00b0C",
+                "Definition": "Temperature range of the medium",
+                "Value": "-5\u2026220 \u00b0C",
+                "SourceDescription": "Medium temperature"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Medium temperature",
+                    "Definition": "Temperature range of the medium",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-5\u2026220 \u00b0C",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in designing and testing systems that involve the flow of medium at specific temperatures.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Valve characteristic_Equal percentage, kvs 220/315 linear",
+                "Definition": "Characteristic of the valve",
+                "Value": "Equal percentage, kvs 220/315 linear",
+                "SourceDescription": "Valve characteristic"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Valve_Characteristic_Equal_Percentage",
+                    "Definition": "The characteristic of the valve that describes its equal percentage flow behavior for kvs 220/315 linear.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in specific engineering tasks such as designing, testing, and maintaining valves, and in applications where understanding the valve's flow behavior is crucial.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Rangeability_> 100",
+                "Definition": "Rangeability of the valve",
+                "Value": "> 100",
+                "SourceDescription": "Rangeability"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Rangeability",
+                    "Definition": "Rangeability of the valve",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Used in determining the range of flow rates the valve can control effectively.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Permissible operating pressure_2500 kPa",
+                "Definition": "Maximum pressure the valve can operate at",
+                "Value": "2500 kPa",
+                "SourceDescription": "Permissible operating pressure"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Permissible operating pressure",
+                    "Definition": "Maximum pressure the valve can operate at",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "kPa",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to pressure safety and performance of the valve.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Material, valve body_Ductile iron",
+                "Definition": "Material used for the valve body",
+                "Value": "Ductile iron",
+                "SourceDescription": "Material, valve body"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Material_of_valve_body",
+                    "Definition": "The material used for the valve body of a seat valve",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to material selection and compatibility for valve bodies in various industrial applications.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Material, inside set_CrNi steel",
+                "Definition": "Material used for the inside set",
+                "Value": "CrNi steel",
+                "SourceDescription": "Material, inside set"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Material of inside set",
+                    "Definition": "The material used for the inside set of the valve",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to material selection and compatibility for valve components.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "PN class_PN 25",
+                "Definition": "Pressure rating class",
+                "Value": "PN 25",
+                "SourceDescription": "PN class"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Pressure rating class",
+                    "Definition": "The classification of a valve based on its ability to withstand pressure",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to pressure handling and safety assessment of the valve.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        }
+    ]
+}

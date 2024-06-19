@@ -1,0 +1,2089 @@
+{
+    "session_key": "t3_Mixtral_8x7B_Instruct_rag_20240124_193506_9a00",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Product No.",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "unique identifier of the product"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8764_9326_4291_4968"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "GAP191.1E/IHT",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Stock No.",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "unique classifying number that enables to name an object and to order it from a supplier or manufacturer"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5991_6987_0128_5625"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "S55499-D639",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Angular rotation",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The maximum angle to which the air damper can rotate."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1532_4480_6956_7231"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "90\u00b0",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Cable length",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Length of the cable attached to the air damper for data or energy transmission, measured without connector."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3955_9256_0956_0752"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0.9 m",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Ambient temperature, operation",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The temperature range within which the air damper can operate."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3278_5507_6416_3183"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "-32\u202655 \u00b0C",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Dimensions (W x H x D)",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The dimensions of the air damper in the order of width, height, and depth."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9707_1366_0470_1665"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "81 x 192 x 63 mm",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Auxiliary switch",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "whether the device is equipped with an auxiliary switch"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7627_2877_0863_3630"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Torque",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The force applied to the air damper to rotate it."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9493_5465_6495_8119"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "6 Nm",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Air damper area",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The area of the air damper."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2857_8637_8530_8488"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "1 m\u00b2",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Power consumption",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The power consumed by the air damper during defined operating conditions."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2588_2565_4437_2004"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "20 VA, 13 W",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Positioning time",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The time taken for the air damper to reach its position."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1882_6359_2524_9531"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "2 s",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Positioning signal",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The type of signal required to position the air damper."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3957_7279_2235_6935"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "DC 0(2)...10 V, 0(4)...20 mA",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Degree of protection",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The level of protection provided by the air damper against solid particles and liquids."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5269_8164_8852_9194"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "IP54",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Medium temperature",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The temperature range of the medium that the air damper can handle."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2636_5093_9226_8680"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "-32\u202650 \u00b0C",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Ambient humidity, operation",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "maximum relative humidity at which the air damper can operate properly"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3033_5256_8080_2097"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "95 % r.h.",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Operating voltage",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Required voltage for the air damper to operate."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7003_6960_8190_7204"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "AC/DC 24 V",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Product No.",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "unique identifier of the product"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8764_9326_4291_4968",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product identifier"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "unique identifier of the product"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Stock No.",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "unique classifying number that enables to name an object and to order it from a supplier or manufacturer"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5991_6987_0128_5625",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Stock number"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "unique classifying number that enables to name an object and to order it from a supplier or manufacturer"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Torque",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The force applied to the air damper to rotate it."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9493_5465_6495_8119",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Air damper torque"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The force applied to the air damper to rotate it."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Air damper area",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The area of the air damper."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2857_8637_8530_8488",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Air damper area"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The area of the air damper."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Angular rotation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The maximum angle to which the air damper can rotate."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1532_4480_6956_7231",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Maximum rotation angle of the air damper"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum angle to which the air damper can rotate."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Power consumption",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The power consumed by the air damper during defined operating conditions."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2588_2565_4437_2004",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Power consumption of the air damper"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The power consumed by the air damper during defined operating conditions."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Positioning time",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The time taken for the air damper to reach its position."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1882_6359_2524_9531",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Positioning time"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The time taken for the air damper to reach its position."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Cable length",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Length of the cable attached to the air damper for data or energy transmission, measured without connector."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3955_9256_0956_0752",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Cable length attached to air damper"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Length of the cable attached to the air damper for data or energy transmission, measured without connector."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Positioning signal",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The type of signal required to position the air damper."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3957_7279_2235_6935",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Positioning signal type"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The type of signal required to position the air damper."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Degree of protection",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The level of protection provided by the air damper against solid particles and liquids."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5269_8164_8852_9194",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Degree of protection"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The level of protection provided by the air damper against solid particles and liquids."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Ambient temperature, operation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The temperature range within which the air damper can operate."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3278_5507_6416_3183",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Ambient temperature, operation"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The temperature range within which the air damper can operate."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Medium temperature",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The temperature range of the medium that the air damper can handle."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2636_5093_9226_8680",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Medium temperature range"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The temperature range of the medium that the air damper can handle."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Ambient humidity, operation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "maximum relative humidity at which the air damper can operate properly"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3033_5256_8080_2097",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "maximum ambient humidity"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "maximum relative humidity at which the air damper can operate properly"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Dimensions (W x H x D)",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The dimensions of the air damper in the order of width, height, and depth."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9707_1366_0470_1665",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Dimensions (W x H x D)"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The dimensions of the air damper in the order of width, height, and depth."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Operating voltage",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Required voltage for the air damper to operate."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7003_6960_8190_7204",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Operating voltage"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Required voltage for the air damper to operate."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Auxiliary switch",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "whether the device is equipped with an auxiliary switch"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7627_2877_0863_3630",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Auxiliary switch present"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "whether the device is equipped with an auxiliary switch"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "Product No.",
+                "Definition": "The unique identifier of the product.",
+                "Value": "GAP191.1E/IHT",
+                "SourceDescription": "This data feature is located in the second line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "product identifier",
+                        "Definition": "unique identifier of the product",
+                        "Reason": "The annotation is relevant to the data feature as it is a unique identifier of the product.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "ABA671001"
+                    },
+                    {
+                        "Name": "product article number of manufacturer",
+                        "Definition": "unique product identifier of the manufacturer",
+                        "Reason": "The annotation is not relevant to the data feature as it is not a unique product identifier of the manufacturer.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO676003"
+                    },
+                    {
+                        "Name": "Product number",
+                        "Definition": "Coded series of characters which is used in place of the article (or service) by a body supplying administrative services and is thus the meaningful unit, for example, in planning and control systems or warehousing",
+                        "Reason": "The annotation is relevant to the data feature as it is a coded series of characters which is used in place of the product by a body supplying administrative services and is thus the meaningful unit.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO607001"
+                    },
+                    {
+                        "Name": "product-type designation",
+                        "Definition": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants",
+                        "Reason": "The annotation is not relevant to the data feature as it is not an identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF542002"
+                    },
+                    {
+                        "Name": "supplier of the identifier",
+                        "Definition": "DUNS-no., supplier number, or other number as identifier of an offeror or supplier of the identification",
+                        "Reason": "The annotation is not relevant to the data feature as it is not a DUNS-no., supplier number, or other number as identifier of an offeror or supplier of the identification.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP796004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "product identifier",
+                    "Definition": "unique identifier of the product",
+                    "SemanticIdentifier": "ABA671001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Product identifier",
+                    "Definition": "unique identifier of the product",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "The product identifier can be used in administrative services, planning, and control systems or warehousing."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Stock No.",
+                "Definition": "The unique identifier of the stock.",
+                "Value": "S55499-D639",
+                "SourceDescription": "This data feature is located in the third line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "National stock number",
+                        "Definition": "13-digit numeric code, identifying all the standardized material items of supply as they have been recognized by the United States Department of Defense",
+                        "Reason": "This annotation is not relevant because the stock number is not a 13-digit numeric code.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAN075003"
+                    },
+                    {
+                        "Name": "supplier of the identifier",
+                        "Definition": "DUNS-no., supplier number, or other number as identifier of an offeror or supplier of the identification",
+                        "Reason": "This annotation is not relevant because the stock number is not an identifier of an offeror or supplier.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP796004"
+                    },
+                    {
+                        "Name": "identifying order number",
+                        "Definition": "unique classifying number that enables to name an object and to order it from a supplier or manufacturer",
+                        "Reason": "This annotation is relevant because the stock number is a unique classifying number that enables to name an object and to order it from a supplier or manufacturer.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO689001"
+                    },
+                    {
+                        "Name": "impression text or impression numbers",
+                        "Definition": "names the imprint text or number for a standard stock stamp without the possibility of individualization (e.g. scanned, sent on..., copy...)",
+                        "Reason": "This annotation is not relevant because the stock number is not an imprint text or number for a standard stock stamp.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABF423001"
+                    },
+                    {
+                        "Name": "product article number of supplier",
+                        "Definition": "unique product order identifier of the supplier",
+                        "Reason": "This annotation is relevant because the stock number is a unique product order identifier of the supplier.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO736004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "identifying order number",
+                    "Definition": "unique classifying number that enables to name an object and to order it from a supplier or manufacturer",
+                    "SemanticIdentifier": "AAO689001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Stock number",
+                    "Definition": "unique classifying number that enables to name an object and to order it from a supplier or manufacturer",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "The stock number can be used to order the product from the supplier."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Torque",
+                "Definition": "The force applied to the air damper to rotate it.",
+                "Value": "6 Nm",
+                "SourceDescription": "This data feature is located in the fifth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "torque",
+                        "Definition": "measured torque of the motor",
+                        "Reason": "This annotation is not relevant because it refers to the measured torque of the motor, while the data feature is the force applied to the air damper to rotate it.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC236001"
+                    },
+                    {
+                        "Name": "Torque",
+                        "Definition": "The torque which can be transferred by the operating resource",
+                        "Reason": "This annotation is relevant because it refers to the torque which can be transferred by the operating resource, which is consistent with the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAA977005"
+                    },
+                    {
+                        "Name": "drive torque",
+                        "Definition": "drive torque on the shaft of a component or system (e.g. hydrostatic power transmission)",
+                        "Reason": "This annotation is not relevant because it refers to the drive torque on the shaft of a component or system, while the data feature is the force applied to the air damper to rotate it.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ807001"
+                    },
+                    {
+                        "Name": "torque tool mount",
+                        "Definition": "description of the admission of torque wrench",
+                        "Reason": "This annotation is not relevant because it refers to the admission of torque wrench, while the data feature is the force applied to the air damper to rotate it.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK618002"
+                    },
+                    {
+                        "Name": "max. torque (UL 1449)",
+                        "Definition": "maximum torque which is allowed to be applied to the screws of the supply line terminals",
+                        "Reason": "This annotation is not relevant because it refers to the maximum torque which is allowed to be applied to the screws of the supply line terminals, while the data feature is the force applied to the air damper to rotate it.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABD482001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Torque",
+                    "Definition": "The torque which can be transferred by the operating resource",
+                    "SemanticIdentifier": "BAA977005"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Air damper torque",
+                    "Definition": "The force applied to the air damper to rotate it.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "Nm",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in the engineering task of calculating the force required to rotate the air damper."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Air damper area",
+                "Definition": "The area of the air damper.",
+                "Value": "1 m\u00b2",
+                "SourceDescription": "This data feature is located in the sixth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "flow area A",
+                        "Definition": "narrowest flow cross-section of a safety relief valve (not the smallest cross-section between valve head and seat)",
+                        "Reason": "The annotation is not relevant because the air damper area is not the narrowest flow cross-section of a safety relief valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABF473001"
+                    },
+                    {
+                        "Name": "Width of adjustable area",
+                        "Definition": "The dimension of the adjustable area at a right angle to its height and length/ depth",
+                        "Reason": "The annotation is not relevant because the air damper area is not the dimension of the adjustable area at a right angle to its height and length/ depth.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAF030004"
+                    },
+                    {
+                        "Name": "air flow volume",
+                        "Definition": "air volume which can be moved through the device in a specific direction within a second",
+                        "Reason": "The annotation is not relevant because the air damper area is not the air volume which can be moved through the device in a specific direction within a second.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAJ744002"
+                    },
+                    {
+                        "Name": "Application area of inhaler or nebulizer",
+                        "Definition": "category of persons determined for the intended use of inhaler or nebulizer",
+                        "Reason": "The annotation is not relevant because the air damper area is not a category of persons determined for the intended use of inhaler or nebulizer.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAA347005"
+                    },
+                    {
+                        "Name": "Application area of respirator",
+                        "Definition": "category of persons determined for the intended use of the respirator",
+                        "Reason": "The annotation is not relevant because the air damper area is not a category of persons determined for the intended use of the respirator.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAA334005"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "flow area A",
+                    "Definition": "narrowest flow cross-section of a safety relief valve (not the smallest cross-section between valve head and seat)",
+                    "SemanticIdentifier": "ABF473001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Air damper area",
+                    "Definition": "The area of the air damper.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "m\u00b2",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The air damper area can be used to determine the size of the air damper required for a specific application, or to calculate the air flow rate through the damper."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Angular rotation",
+                "Definition": "The maximum rotation angle of the air damper.",
+                "Value": "90\u00b0",
+                "SourceDescription": "This data feature is located in the seventh line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Rotational direction of the drift",
+                        "Definition": "Motion direction (rotating direction) in the case of rotation. NOTE: The rotational direction takes place in view of the targeted end. Anti-clockwise shaft rotation (left L) is described as positive and clockwise (right R ) as negative. Rotational direction-independence is described with (S)",
+                        "Reason": "This annotation is not relevant to the data feature as it is about the direction of rotation, not the maximum rotation angle.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAD867005"
+                    },
+                    {
+                        "Name": "measurement principle for angle of rotation",
+                        "Definition": "test methods for measuring the rotational angle",
+                        "Reason": "This annotation is not relevant to the data feature as it is about the measurement principle, not the maximum rotation angle.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK732002"
+                    },
+                    {
+                        "Name": "aperture angle vertical",
+                        "Definition": "full width at half maximum in the aerial diagram, defined by the marginal point of the main lobe, at which the field strength dropped around 3 dB concerning the maximum field strength for vertical attitude",
+                        "Reason": "This annotation is not relevant to the data feature as it is about the aperture angle vertical, not the maximum rotation angle.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAS336002"
+                    },
+                    {
+                        "Name": "aperture angle horizontal",
+                        "Definition": "full width at half maximum in the aerial diagram, defined by the marginal point of the main lobe, at which the field strength dropped around 3 dB concerning the maximum field strength for horizontal attitude",
+                        "Reason": "This annotation is not relevant to the data feature as it is about the aperture angle horizontal, not the maximum rotation angle.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAS335002"
+                    },
+                    {
+                        "Name": "max. pivoting range sensor (vertical)",
+                        "Definition": "maximum range in the vertical direction in which the sensor can be pivoted",
+                        "Reason": "This annotation is not relevant to the data feature as it is about the maximum range in the vertical direction, not the maximum rotation angle.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE718001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Angular rotation",
+                    "Definition": "The maximum rotation angle of the air damper.",
+                    "SemanticIdentifier": null
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Maximum rotation angle of the air damper",
+                    "Definition": "The maximum angle to which the air damper can rotate.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "\u00b0",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "This information can be used to determine the maximum rotation angle of the air damper in a specific application or engineering task."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Power consumption",
+                "Definition": "The power consumed by the air damper.",
+                "Value": "20 VA, 13 W",
+                "SourceDescription": "This data feature is located in the eighth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "last electrical power consumption",
+                        "Definition": "last determined electrical power consumption of the component or system",
+                        "Reason": "This annotation is not relevant because it refers to the last determined electrical power consumption, while the data feature is the power consumption.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC670001"
+                    },
+                    {
+                        "Name": "power consumption",
+                        "Definition": "power requirement of the device or component during defined operating conditions",
+                        "Reason": "This annotation is relevant because it refers to the power consumption, which is the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAC969007"
+                    },
+                    {
+                        "Name": "power consumption in standby mode",
+                        "Definition": "power consumption in standby mode (Psm) rounded to two decimal places, expressed in W.In accordance with Annex IV of Commission Delegated Regulation supplementing Regulation (EU) 2017/1369",
+                        "Reason": "This annotation is not relevant because it refers to the power consumption in standby mode, while the data feature is the power consumption.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABF719001"
+                    },
+                    {
+                        "Name": "max. power consumption",
+                        "Definition": "max. electrical power consumption of the appliance taken from the electrical power suply",
+                        "Reason": "This annotation is not relevant because it refers to the maximum electrical power consumption, while the data feature is the power consumption.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAR626003"
+                    },
+                    {
+                        "Name": "Power consumption in standby mode (2010/30/EU)",
+                        "Definition": "If applicable, the power consumption in standby mode in Watt according to the Regulation 65/2014 (2010/30/EU framework directive) put 0 to indicate N/A",
+                        "Reason": "This annotation is not relevant because it refers to the power consumption in standby mode, while the data feature is the power consumption.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAS601004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "power consumption",
+                    "Definition": "power requirement of the device or component during defined operating conditions",
+                    "SemanticIdentifier": "AAC969007"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Power consumption of the air damper",
+                    "Definition": "The power consumed by the air damper during defined operating conditions.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "W",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the energy efficiency of the air damper and to calculate the operating costs."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Positioning time",
+                "Definition": "The time taken for the air damper to reach its position.",
+                "Value": "2 s",
+                "SourceDescription": "This data feature is located in the ninth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Positioning function present",
+                        "Definition": "whether the automation software is equipped with a positioning function",
+                        "Reason": "This annotation is not relevant to the data feature because it refers to the software, not the air damper.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAD\u00a0572008,00"
+                    },
+                    {
+                        "Name": "measurement precision of the positioning",
+                        "Definition": "describes the measurement precision of positioning of the locating device",
+                        "Reason": "This annotation is relevant to the data feature because it refers to the precision of positioning.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAM405004"
+                    },
+                    {
+                        "Name": "Location of control panel",
+                        "Definition": "position of control panel",
+                        "Reason": "This annotation is not relevant to the data feature because it refers to the location of the control panel, not the air damper.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAE692009"
+                    },
+                    {
+                        "Name": "start time of inlet pressure-measurement",
+                        "Definition": "timestamp that indicates, when the measurement of the property value inlet pressure started",
+                        "Reason": "This annotation is not relevant to the data feature because it refers to the start time of inlet pressure-measurement, not the air damper positioning time.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC502001"
+                    },
+                    {
+                        "Name": "shifting on-time",
+                        "Definition": "length of time that elapses between the control signal (electric or pneumatic) being applied and the pressure increasing at the respective valve output until 10 % of the defined operating pressure is reached",
+                        "Reason": "This annotation is not relevant to the data feature because it refers to the shifting on-time, not the air damper positioning time.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ895001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "measurement precision of the positioning",
+                    "Definition": "describes the measurement precision of positioning of the locating device",
+                    "SemanticIdentifier": "AAM405004"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Positioning time",
+                    "Definition": "The time taken for the air damper to reach its position.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "s",
+                "ClassifyingScore_GeneralOrTechnical": 4,
+                "Affordance": "This information can be used to determine the response time of the air damper in an engineering task."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Cable length",
+                "Definition": "The length of the cable attached to the air damper.",
+                "Value": "0.9 m",
+                "SourceDescription": "This data feature is located in the tenth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Cable length",
+                        "Definition": "Length of a cable for data or energy transmission, measured without connector",
+                        "Reason": "This annotation is relevant to the data feature as it describes the length of the cable.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAB733008"
+                    },
+                    {
+                        "Name": "cable length measurement present",
+                        "Definition": "specification whether the product is equipped with cable length measurement",
+                        "Reason": "This annotation is not relevant to the data feature as it describes whether the product is equipped with cable length measurement, not the length itself.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABF091001"
+                    },
+                    {
+                        "Name": "Length of the connecting cable",
+                        "Definition": "Cable length for data and energy transfer measured with connector",
+                        "Reason": "This annotation is not relevant to the data feature as it describes the length of the connecting cable, not the cable attached to the air damper.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB766006"
+                    },
+                    {
+                        "Name": "Cable length can be configured",
+                        "Definition": "Specification if the cable length is variable",
+                        "Reason": "This annotation is not relevant to the data feature as it describes whether the cable length can be configured, not the length itself.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB734006"
+                    },
+                    {
+                        "Name": "Cable diameter",
+                        "Definition": "states the diameter of a cable",
+                        "Reason": "This annotation is not relevant to the data feature as it describes the diameter of the cable, not the length.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAE365006"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Cable length",
+                    "Definition": "Length of a cable for data or energy transmission, measured without connector",
+                    "SemanticIdentifier": "AAB733008"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Cable length attached to air damper",
+                    "Definition": "Length of the cable attached to the air damper for data or energy transmission, measured without connector.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "m",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "The cable length can be used to determine the maximum distance between the air damper and the control unit."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Positioning signal",
+                "Definition": "The signal required to position the air damper.",
+                "Value": "DC 0(2)...10 V, 0(4)...20 mA",
+                "SourceDescription": "This data feature is located in the eleventh line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Positioning function present",
+                        "Definition": "whether the automation software is equipped with a positioning function",
+                        "Reason": "This annotation is not relevant to the data feature as it refers to the software, not the signal.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAD\u00a0572008,00"
+                    },
+                    {
+                        "Name": "location of electrical connection(s)",
+                        "Definition": "mechanical position of electrical connection output(s) of the component",
+                        "Reason": "This annotation is not relevant to the data feature as it refers to the mechanical position of the electrical connection, not the signal.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF297001"
+                    },
+                    {
+                        "Name": "power supply position",
+                        "Definition": "description of the position of the power supply on the power supply box",
+                        "Reason": "This annotation is not relevant to the data feature as it refers to the position of the power supply, not the signal.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAG070002"
+                    },
+                    {
+                        "Name": "integrated interrupt mechanism for the signal lines",
+                        "Definition": "Indicates if the SPD has in integrated interrupt mechanism to easily interrupt the signal lines for measurements and maintenance",
+                        "Reason": "This annotation is relevant to the data feature as it refers to the signal lines.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "ABD300001"
+                    },
+                    {
+                        "Name": "Location of control panel",
+                        "Definition": "position of control panel",
+                        "Reason": "This annotation is not relevant to the data feature as it refers to the position of the control panel, not the signal.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAE692009"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "integrated interrupt mechanism for the signal lines",
+                    "Definition": "Indicates if the SPD has in integrated interrupt mechanism to easily interrupt the signal lines for measurements and maintenance",
+                    "SemanticIdentifier": "ABD300001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Positioning signal type",
+                    "Definition": "The type of signal required to position the air damper.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "V, mA",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the compatibility of the signal with the control system and to troubleshoot any issues with the signal transmission."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Degree of protection",
+                "Definition": "The level of protection provided by the air damper against solid particles and liquids.",
+                "Value": "IP54",
+                "SourceDescription": "This data feature is located in the twelfth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "degree of protection (IP) (UL1449)",
+                        "Definition": "Indicates the protection of the SPD against access to hazardous parts and ingress of solid particles and liquids",
+                        "Reason": "This annotation is relevant because it describes the level of protection provided by the air damper against solid particles and liquids.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "ABD315001"
+                    },
+                    {
+                        "Name": "Degree of Protection",
+                        "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and against ingress of water",
+                        "Reason": "This annotation is relevant because it describes the level of protection provided by the air damper against solid particles and liquids.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAV695001"
+                    },
+                    {
+                        "Name": "degree of protection",
+                        "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and/or ingress of water and verified by standardized test methods, expressed as a IP rating",
+                        "Reason": "This annotation is relevant because it describes the level of protection provided by the air damper against solid particles and liquids.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAG975013"
+                    },
+                    {
+                        "Name": "Degree of protection (IP) of the measuring head",
+                        "Definition": "Classification according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit for the component that is equipped with one or several emitters/transmitters and detectors/receivers and/or compensation sensors or facilities intended for measurement and correction of undesired magnitude influences",
+                        "Reason": "This annotation is not relevant because it describes the protection of the measuring head, not the air damper.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC107007"
+                    },
+                    {
+                        "Name": "Degree of protection (IP), front side",
+                        "Definition": "Classification relating to the front or head side according to the protection of the operating unit against any external influences and protection against moving parts in the operating unit",
+                        "Reason": "This annotation is not relevant because it describes the protection of the front or head side of the operating unit, not the air damper.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAD217010"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "degree of protection",
+                    "Definition": "extent of protection provided by an enclosure against access to hazardous parts, against ingress of solid foreign objects and/or ingress of water and verified by standardized test methods, expressed as a IP rating",
+                    "SemanticIdentifier": "BAG975013"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Degree of protection",
+                    "Definition": "The level of protection provided by the air damper against solid particles and liquids.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the suitability of the air damper for use in environments with specific levels of solid particles and liquids."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Ambient temperature, operation",
+                "Definition": "The temperature range within which the air damper can operate.",
+                "Value": "-32\u202655 \u00b0C",
+                "SourceDescription": "This data feature is located in the thirteenth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "ambient temperature",
+                        "Definition": "temperature of the surrounding operating environment of a component or system",
+                        "Reason": "This annotation is relevant because it describes the temperature of the surrounding operating environment of a component or system, which is consistent with the definition of the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ842001"
+                    },
+                    {
+                        "Name": "Ambient temperature",
+                        "Definition": "Temperature in the outer area of the operating medium",
+                        "Reason": "This annotation is not relevant because it describes the temperature in the outer area of the operating medium, which is not consistent with the definition of the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAE540004"
+                    },
+                    {
+                        "Name": "maximum ambient temperature (during operation)",
+                        "Definition": "maximal permitted temperature of the atmosphere surrounding the operating resource during operation",
+                        "Reason": "This annotation is not relevant because it describes the maximal permitted temperature of the atmosphere surrounding the operating resource during operation, which is not consistent with the definition of the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW302002"
+                    },
+                    {
+                        "Name": "minimum ambient temperature (during operation)",
+                        "Definition": "minimal permitted temperature of the atmosphere surrounding the operating resource during operation",
+                        "Reason": "This annotation is not relevant because it describes the minimal permitted temperature of the atmosphere surrounding the operating resource during operation, which is not consistent with the definition of the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW301002"
+                    },
+                    {
+                        "Name": "upper limiting value of ambient temperature",
+                        "Definition": "highest ambient temperature a device can or must withstand without permanent impairment of operating characteristics",
+                        "Reason": "This annotation is not relevant because it describes the highest ambient temperature a device can or must withstand without permanent impairment of operating characteristics, which is not consistent with the definition of the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAN313004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "ambient temperature",
+                    "Definition": "temperature of the surrounding operating environment of a component or system",
+                    "SemanticIdentifier": "AAZ842001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Ambient temperature, operation",
+                    "Definition": "The temperature range within which the air damper can operate.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "\u00b0C",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "This information can be used to determine the appropriate operating conditions for the air damper."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Medium temperature",
+                "Definition": "The temperature range of the medium that the air damper can handle.",
+                "Value": "-32\u202650 \u00b0C",
+                "SourceDescription": "This data feature is located in the fourteenth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Temperature range",
+                        "Definition": "Range from the smallest through to the largest temperature in the outer surroundings of the operating medium",
+                        "Reason": "The annotation is relevant because it describes the temperature range of the medium, which is the same as the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO931001"
+                    },
+                    {
+                        "Name": "min. temperature range medium",
+                        "Definition": "Minimum limit value of temperature medium from which internal parameters (i.e. conductivity, pH value, redox value, oxygen concentration) or external parameters (i.e. filling level, density) are detected",
+                        "Reason": "The annotation is not relevant because it describes the minimum limit value of temperature medium, which is not the same as the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC020007"
+                    },
+                    {
+                        "Name": "min. medium temperature",
+                        "Definition": "Minimum limit value of temperature medium from which internal parameters (i.e. conductivity, pH value, redox value, oxygen concentration) or external parameters (i.e. filling level, density) are detected",
+                        "Reason": "The annotation is not relevant because it describes the minimum limit value of temperature medium, which is not the same as the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB988006"
+                    },
+                    {
+                        "Name": "min. temperature range",
+                        "Definition": "minimum boundary value of the temperature range, in which an operating unit can be used, without serious changes of assigned features, depending on the exposure time. Temporal restrictions like short-time or durability have to be stated",
+                        "Reason": "The annotation is not relevant because it describes the minimum boundary value of the temperature range, which is not the same as the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAH177003"
+                    },
+                    {
+                        "Name": "min. ambient temperature",
+                        "Definition": "lower limit of the temperature range of the surrounding space in which the component, the pipework or the system can be operated",
+                        "Reason": "The annotation is not relevant because it describes the lower limit of the temperature range of the surrounding space, which is not the same as the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ952002"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Temperature range",
+                    "Definition": "Range from the smallest through to the largest temperature in the outer surroundings of the operating medium",
+                    "SemanticIdentifier": "AAO931001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Medium temperature range",
+                    "Definition": "The temperature range of the medium that the air damper can handle.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "\u00b0C",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the temperature range of the medium that the air damper can handle, and to ensure that the air damper is used within its specified temperature range."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Ambient humidity, operation",
+                "Definition": "The humidity range within which the air damper can operate.",
+                "Value": "95 % r.h.",
+                "SourceDescription": "This data feature is located in the fifteenth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "min. application humidity range",
+                        "Definition": "indication of the minimum value of relative humidity at which the device can be operated properly",
+                        "Reason": "This annotation is not relevant because the data feature is not the minimum value of relative humidity.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK081002"
+                    },
+                    {
+                        "Name": "max. application humidity range",
+                        "Definition": "indication of the maximum value of relative humidity, at which the device can be operated properly",
+                        "Reason": "This annotation is relevant because the data feature is the maximum value of relative humidity.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAK082002"
+                    },
+                    {
+                        "Name": "reference humidity",
+                        "Definition": "reference humidity at which the device specifications apply",
+                        "Reason": "This annotation is not relevant because the data feature is not a reference humidity.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAN146002"
+                    },
+                    {
+                        "Name": "max. relative humidity (operation)",
+                        "Definition": "highest relative humidity which is permitted for the intended use of device",
+                        "Reason": "This annotation is relevant because the data feature is the maximum value of relative humidity.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAA915007"
+                    },
+                    {
+                        "Name": "ambient humidity",
+                        "Definition": "measured ambient humidity",
+                        "Reason": "This annotation is relevant because the data feature is the ambient humidity.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "ABC147001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "max. application humidity range",
+                    "Definition": "indication of the maximum value of relative humidity, at which the device can be operated properly",
+                    "SemanticIdentifier": "AAK082002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "maximum ambient humidity",
+                    "Definition": "maximum relative humidity at which the air damper can operate properly",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "% r.h.",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the maximum relative humidity at which the air damper can operate properly, and to ensure that the air damper is not operated outside of its specified humidity range."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Dimensions (W x H x D)",
+                "Definition": "The dimensions of the air damper in the order of width, height, and depth.",
+                "Value": "81 x 192 x 63 mm",
+                "SourceDescription": "This data feature is located in the sixteenth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "diameter (d1)",
+                        "Definition": "diameter of a duct or a hose line or the size or the terminal dimension of an armature",
+                        "Reason": "The annotation is not relevant to the data feature as it refers to the diameter of a duct or a hose line or the size or the terminal dimension of an armature, while the data feature is the dimensions of the air damper in the order of width, height, and depth.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAH184004"
+                    },
+                    {
+                        "Name": "depth of working area",
+                        "Definition": "the dimension perpendicular to height and length/depth of the work area",
+                        "Reason": "The annotation is not relevant to the data feature as it refers to the dimension perpendicular to height and length/depth of the work area, while the data feature is the dimensions of the air damper in the order of width, height, and depth.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAA296007"
+                    },
+                    {
+                        "Name": "Width (mounted, unfolded)",
+                        "Definition": "For objects with a fixed orientation or preferred position for use, the horizontal dimension at right angles to height and length/depth",
+                        "Reason": "The annotation is relevant to the data feature as it refers to the horizontal dimension at right angles to height and length/depth, which is consistent with the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ879001"
+                    },
+                    {
+                        "Name": "height of installation duct",
+                        "Definition": "one-dimensional expansion of the installation duct, measured in millimeter, perpendicularly to its width and length",
+                        "Reason": "The annotation is not relevant to the data feature as it refers to the one-dimensional expansion of the installation duct, measured in millimeter, perpendicularly to its width and length, while the data feature is the dimensions of the air damper in the order of width, height, and depth.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAH760004"
+                    },
+                    {
+                        "Name": "Height/material thickness (mounted, unfolded)",
+                        "Definition": "For objects with a fixed orientation or preferred position for use, the vertical dimension at right angles to width and length/depth",
+                        "Reason": "The annotation is not relevant to the data feature as it refers to the vertical dimension at right angles to width and length/depth, while the data feature is the dimensions of the air damper in the order of width, height, and depth.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ881001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Width (mounted, unfolded)",
+                    "Definition": "For objects with a fixed orientation or preferred position for use, the horizontal dimension at right angles to height and length/depth",
+                    "SemanticIdentifier": "AAZ879001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Dimensions (W x H x D)",
+                    "Definition": "The dimensions of the air damper in the order of width, height, and depth.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "mm",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "The affordance of the information is to provide the dimensions of the air damper for installation and maintenance purposes."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Operating voltage",
+                "Definition": "The voltage required to operate the air damper.",
+                "Value": "AC/DC 24 V",
+                "SourceDescription": "This data feature is located in the seventeenth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Operating voltage",
+                        "Definition": "Required auxiliary electrical energy which must always or at times be present at the supply input for the function of the operating resource to be maintained",
+                        "Reason": "This annotation is relevant because it describes the required voltage for the air damper to operate.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAD220007"
+                    },
+                    {
+                        "Name": "Operating voltage",
+                        "Definition": "Required electrical energy which must always or at times be present at the supply input for the function of the operating resource to be maintained",
+                        "Reason": "This annotation is relevant because it describes the required voltage for the air damper to operate.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAG968005"
+                    },
+                    {
+                        "Name": "voltage type of operating voltage",
+                        "Definition": "certain form of voltage that indicates whether the equipment can be controled by AC voltage, DC voltage, AC / DC or modulated DC voltage",
+                        "Reason": "This annotation is not relevant because it describes the type of voltage, not the required voltage for operation.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF842003"
+                    },
+                    {
+                        "Name": "Operating voltage type",
+                        "Definition": "Type of voltage required for operation of the device",
+                        "Reason": "This annotation is not relevant because it describes the type of voltage, not the required voltage for operation.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAC064008"
+                    },
+                    {
+                        "Name": "monitoring voltage",
+                        "Definition": "information about the kind of voltage which is intended for the surveillance of the operating status of an equipment",
+                        "Reason": "This annotation is not relevant because it describes the voltage used for monitoring the operating status, not the required voltage for operation.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF830004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Operating voltage",
+                    "Definition": "Required auxiliary electrical energy which must always or at times be present at the supply input for the function of the operating resource to be maintained",
+                    "SemanticIdentifier": "AAD220007"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Operating voltage",
+                    "Definition": "Required voltage for the air damper to operate.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "V",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the compatibility of the air damper with the power supply and to ensure proper operation of the air damper."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Auxiliary switch",
+                "Definition": "The switch that is used to control the air damper.",
+                "Value": "0",
+                "SourceDescription": "This data feature is located in the eighteenth line of the input text."
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Auxiliary voltage for alarm switch (at DC)",
+                        "Definition": "Additional electromotive force (to be applied to other applied voltages), which must be available to an electrical equipment in a timely or continuous manner to ensure the function of the equipment / for the purpose / allocation: potential - free auxiliary switches with special connection designations / under the condition: (DC = direct current) / a value of a quantity which is valid for a predefined operating condition, which is generally determined by the manufacturer for an element, a group or a device A short explanation of a text (footnote or endnote)",
+                        "Reason": "This annotation is not relevant to the data feature as it refers to the auxiliary voltage for alarm switch, not the auxiliary switch itself.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW915002"
+                    },
+                    {
+                        "Name": "Designed as safety switch",
+                        "Definition": "due to its technical properties the switch design is suitable for use as a safety switch that has to fulfill specific technical features",
+                        "Reason": "This annotation is not relevant to the data feature as it refers to the switch design, not the auxiliary switch itself.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB391007"
+                    },
+                    {
+                        "Name": "manual switch present",
+                        "Definition": "specification whether hter is a manual switch",
+                        "Reason": "This annotation is not relevant to the data feature as it refers to the manual switch, not the auxiliary switch.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF711004"
+                    },
+                    {
+                        "Name": "Integrated auxiliary switch present",
+                        "Definition": "whether the main switch is equipped with an integrated auxiliary switch",
+                        "Reason": "This annotation is relevant to the data feature as it refers to the auxiliary switch.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAD\u00a0376009,00"
+                    },
+                    {
+                        "Name": "switch present",
+                        "Definition": "specification whether a device is equipped with a switch",
+                        "Reason": "This annotation is not relevant to the data feature as it is too general and does not specify the type of switch.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAH460004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Integrated auxiliary switch present",
+                    "Definition": "whether the main switch is equipped with an integrated auxiliary switch",
+                    "SemanticIdentifier": "BAD\u00a0376009,00"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Auxiliary switch present",
+                    "Definition": "whether the device is equipped with an auxiliary switch",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "The affordance of the auxiliary switch is to control the air damper."
+            }
+        }
+    ]
+}

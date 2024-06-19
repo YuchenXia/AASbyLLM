@@ -1,0 +1,1705 @@
+{
+    "session_key": "t6_Mixtral_8x7B_Instruct_20240124_193551_3261",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Name_1",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The name of the magnetic sensor"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7734_6543_7773_4194"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Magnetic sensor with free cable end",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Part_number_1",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The unique identifier of the magnetic sensor"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2600_1623_6425_3177"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "R347600903",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Use_1",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The intended purpose or function of the magnetic sensor in a specific context"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0220_7081_0795_3950"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Reference, limit switch",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Designation_1",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The unique identifier assigned to a product by the manufacturer for easy identification and reference."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8872_3652_6267_9406"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "R12212",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Connection_type_1",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The type of connection used for the magnetic sensor, including the length of the cable and the number of pins."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0663_2848_8306_3920"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Cable 2.0 m, 3-pin",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Ambient_temperature_1",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The temperature of the surrounding environment in which the magnetic sensor operates"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3262_7077_9270_0186"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "-40 \u00b0C to +85 \u00b0C",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Functional_principle_1",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The way in which a device or system operates or functions, in this case, the magnetic sensor."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1454_1233_7250_1301"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "magnetic",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Operating_voltage_1",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The maximum voltage that can be applied to the magnetic sensor without causing damage or malfunction."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6656_6087_1728_1250"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "max. 30 V DC",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Load_current_1",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The maximum current that can be drawn by the magnetic sensor without causing damage or malfunction."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1682_0795_2411_1421"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "500 mA",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Switching_function_1",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The switching function of the magnetic sensor is the way the sensor changes its state in response to a change in the magnetic field. It can be a NO (Normally Open) or NC (Normally Closed) contact, or a REED contact, which is a type of magnetic switch used for switching electrical circuits."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8440_4126_1156_8067"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "REED/changeover contact: (NC: C+NC, NO: C+NO)",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Activation_point_1",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The distance from the sensor's reference point to the point where the sensor is activated"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4167_9135_3366_1856"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "9 mm",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Switching_frequency_1",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The number of cycles per second at which a magnetic sensor switches between its on and off states"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8354_3363_9346_9997"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "2.5 kHz",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Max_permissible_starting_speed_1",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The maximum permissible speed at which the magnetic sensor can start without causing damage or malfunction."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7518_6684_6110_5728"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "2 m/s",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Cable_cross_section_1",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The cross-sectional area of the cable of the magnetic sensor"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2521_4460_5656_7491"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "3 x 0.14 mm2",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Cable_diameter_1",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The diameter of the cable of the magnetic sensor"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3816_0765_7594_8630"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "3.2 \u00b10.20 mm",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "IP_rating_1",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The Ingress Protection (IP) rating of a device indicates the level of protection provided by mechanical casings and electrical enclosures against intrusion, dust, accidental contact, and water."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4677_5191_2431_4444"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "IP66",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Name_1",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The name of the magnetic sensor"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7734_6543_7773_4194",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Name_1"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The name of the magnetic sensor"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Part_number_1",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The unique identifier of the magnetic sensor"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2600_1623_6425_3177",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Part number"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The unique identifier of the magnetic sensor"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Use_1",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The intended purpose or function of the magnetic sensor in a specific context"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0220_7081_0795_3950",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Use"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The intended purpose or function of the magnetic sensor in a specific context"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Designation_1",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The unique identifier assigned to a product by the manufacturer for easy identification and reference."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8872_3652_6267_9406",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Designation"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The unique identifier assigned to a product by the manufacturer for easy identification and reference."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Functional_principle_1",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The way in which a device or system operates or functions, in this case, the magnetic sensor."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1454_1233_7250_1301",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Functional principle"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The way in which a device or system operates or functions, in this case, the magnetic sensor."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Operating_voltage_1",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The maximum voltage that can be applied to the magnetic sensor without causing damage or malfunction."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6656_6087_1728_1250",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Operating voltage"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum voltage that can be applied to the magnetic sensor without causing damage or malfunction."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Load_current_1",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The maximum current that can be drawn by the magnetic sensor without causing damage or malfunction."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1682_0795_2411_1421",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Load_current"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum current that can be drawn by the magnetic sensor without causing damage or malfunction."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Switching_function_1",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The switching function of the magnetic sensor is the way the sensor changes its state in response to a change in the magnetic field. It can be a NO (Normally Open) or NC (Normally Closed) contact, or a REED contact, which is a type of magnetic switch used for switching electrical circuits."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8440_4126_1156_8067",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Switching function"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The switching function of the magnetic sensor is the way the sensor changes its state in response to a change in the magnetic field. It can be a NO (Normally Open) or NC (Normally Closed) contact, or a REED contact, which is a type of magnetic switch used for switching electrical circuits."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Activation_point_1",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The distance from the sensor's reference point to the point where the sensor is activated"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4167_9135_3366_1856",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Activation point"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The distance from the sensor's reference point to the point where the sensor is activated"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Connection_type_1",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The type of connection used for the magnetic sensor, including the length of the cable and the number of pins."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0663_2848_8306_3920",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Connection type"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The type of connection used for the magnetic sensor, including the length of the cable and the number of pins."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Switching_frequency_1",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The number of cycles per second at which a magnetic sensor switches between its on and off states"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8354_3363_9346_9997",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Switching frequency"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The number of cycles per second at which a magnetic sensor switches between its on and off states"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Max_permissible_starting_speed_1",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The maximum permissible speed at which the magnetic sensor can start without causing damage or malfunction."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7518_6684_6110_5728",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Maximum permissible starting speed"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The maximum permissible speed at which the magnetic sensor can start without causing damage or malfunction."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Cable_cross_section_1",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The cross-sectional area of the cable of the magnetic sensor"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2521_4460_5656_7491",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Cable cross-section"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The cross-sectional area of the cable of the magnetic sensor"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Cable_diameter_1",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The diameter of the cable of the magnetic sensor"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3816_0765_7594_8630",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Cable diameter"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The diameter of the cable of the magnetic sensor"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Ambient_temperature_1",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The temperature of the surrounding environment in which the magnetic sensor operates"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3262_7077_9270_0186",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Ambient temperature"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The temperature of the surrounding environment in which the magnetic sensor operates"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "IP_rating_1",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The Ingress Protection (IP) rating of a device indicates the level of protection provided by mechanical casings and electrical enclosures against intrusion, dust, accidental contact, and water."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4677_5191_2431_4444",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "IP_rating"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The Ingress Protection (IP) rating of a device indicates the level of protection provided by mechanical casings and electrical enclosures against intrusion, dust, accidental contact, and water."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "Name_1",
+                "Definition": "The name of the magnetic sensor",
+                "Value": "Magnetic sensor with free cable end",
+                "SourceDescription": "The name is explicitly mentioned in the input text."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Name_1",
+                    "Definition": "The name of the magnetic sensor",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Used for identifying the magnetic sensor in the engineering context",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Part_number_1",
+                "Definition": "The unique identifier of the magnetic sensor",
+                "Value": "R347600903",
+                "SourceDescription": "The part number is explicitly mentioned in the input text."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Part number",
+                    "Definition": "The unique identifier of the magnetic sensor",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Used for identifying the specific magnetic sensor in the market or in the inventory management system.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Use_1",
+                "Definition": "The use of the magnetic sensor",
+                "Value": "Reference, limit switch",
+                "SourceDescription": "The use of the magnetic sensor is explicitly mentioned in the input text."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Use",
+                    "Definition": "The intended purpose or function of the magnetic sensor in a specific context",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "The use of the magnetic sensor in selecting the appropriate sensor for a specific application",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Designation_1",
+                "Definition": "The designation of the magnetic sensor",
+                "Value": "R12212",
+                "SourceDescription": "The designation of the magnetic sensor is explicitly mentioned in the input text."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Designation",
+                    "Definition": "The unique identifier assigned to a product by the manufacturer for easy identification and reference.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Used for identifying the product during purchasing, installation, and maintenance processes.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Functional_principle_1",
+                "Definition": "The functional principle of the magnetic sensor",
+                "Value": "magnetic",
+                "SourceDescription": "The functional principle of the magnetic sensor is explicitly mentioned in the input text."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Functional principle",
+                    "Definition": "The way in which a device or system operates or functions, in this case, the magnetic sensor.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Used to determine the type of sensor and its compatibility with other systems.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Operating_voltage_1",
+                "Definition": "The operating voltage of the magnetic sensor",
+                "Value": "max. 30 V DC",
+                "SourceDescription": "The operating voltage of the magnetic sensor is explicitly mentioned in the input text."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Operating voltage",
+                    "Definition": "The maximum voltage that can be applied to the magnetic sensor without causing damage or malfunction.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "V DC",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Used to determine the compatibility of the magnetic sensor with the power supply and to ensure the safe operation of the sensor.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Load_current_1",
+                "Definition": "The load current of the magnetic sensor",
+                "Value": "500 mA",
+                "SourceDescription": "The load current of the magnetic sensor is explicitly mentioned in the input text."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Load_current",
+                    "Definition": "The maximum current that can be drawn by the magnetic sensor without causing damage or malfunction.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "A",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Used to determine the maximum current that can be drawn by the magnetic sensor in a specific application, ensuring safe and efficient operation.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Switching_function_1",
+                "Definition": "The switching function of the magnetic sensor",
+                "Value": "REED/changeover contact: (NC: C+NC, NO: C+NO)",
+                "SourceDescription": "The switching function of the magnetic sensor is explicitly mentioned in the input text."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Switching function",
+                    "Definition": "The switching function of the magnetic sensor is the way the sensor changes its state in response to a change in the magnetic field. It can be a NO (Normally Open) or NC (Normally Closed) contact, or a REED contact, which is a type of magnetic switch used for switching electrical circuits.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the specific switching function of the magnetic sensor, which is critical in determining how the sensor will function or perform in a specific context. It can be used in the design and implementation of electrical circuits and systems that use the magnetic sensor.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Activation_point_1",
+                "Definition": "The activation point of the magnetic sensor",
+                "Value": "9 mm",
+                "SourceDescription": "The activation point of the magnetic sensor is explicitly mentioned in the input text."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Activation point",
+                    "Definition": "The distance from the sensor's reference point to the point where the sensor is activated",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "mm",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Used to determine the minimum distance required for the sensor to detect a magnetic field",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Connection_type_1",
+                "Definition": "The connection type of the magnetic sensor",
+                "Value": "Cable 2.0 m, 3-pin",
+                "SourceDescription": "The connection type of the magnetic sensor is explicitly mentioned in the input text."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Connection type",
+                    "Definition": "The type of connection used for the magnetic sensor, including the length of the cable and the number of pins.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "m, pin",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "Used to determine the compatibility of the magnetic sensor with the system it will be connected to.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Switching_frequency_1",
+                "Definition": "The switching frequency of the magnetic sensor",
+                "Value": "2.5 kHz",
+                "SourceDescription": "The switching frequency of the magnetic sensor is explicitly mentioned in the input text."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Switching frequency",
+                    "Definition": "The number of cycles per second at which a magnetic sensor switches between its on and off states",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "Hz",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Used to determine the maximum speed at which the sensor can operate without malfunctioning",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Max_permissible_starting_speed_1",
+                "Definition": "The max. permissible starting speed of the magnetic sensor",
+                "Value": "2 m/s",
+                "SourceDescription": "The max. permissible starting speed of the magnetic sensor is explicitly mentioned in the input text."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Maximum permissible starting speed",
+                    "Definition": "The maximum permissible speed at which the magnetic sensor can start without causing damage or malfunction.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "m/s",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Used to determine the maximum speed at which the magnetic sensor can start without causing damage or malfunction, which is critical in designing and operating the sensor in specific applications.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Cable_cross_section_1",
+                "Definition": "The cable cross-section of the magnetic sensor",
+                "Value": "3 x 0.14 mm2",
+                "SourceDescription": "The cable cross-section of the magnetic sensor is explicitly mentioned in the input text."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Cable cross-section",
+                    "Definition": "The cross-sectional area of the cable of the magnetic sensor",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "mm2",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Used to determine the suitability of the cable for specific applications based on the available space and current-carrying capacity.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Cable_diameter_1",
+                "Definition": "The cable diameter of the magnetic sensor",
+                "Value": "3.2 \u00b10.20 mm",
+                "SourceDescription": "The cable diameter of the magnetic sensor is explicitly mentioned in the input text."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Cable diameter",
+                    "Definition": "The diameter of the cable of the magnetic sensor",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "mm",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Used to determine the size of the cable and its compatibility with other components in the system.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Ambient_temperature_1",
+                "Definition": "The ambient temperature of the magnetic sensor",
+                "Value": "-40 \u00b0C to +85 \u00b0C",
+                "SourceDescription": "The ambient temperature of the magnetic sensor is explicitly mentioned in the input text."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Ambient temperature",
+                    "Definition": "The temperature of the surrounding environment in which the magnetic sensor operates",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "\u00b0C",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "Specifies the temperature range for safe operation of the magnetic sensor in the surrounding environment",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "IP_rating_1",
+                "Definition": "The IP rating of the magnetic sensor",
+                "Value": "IP66",
+                "SourceDescription": "The IP rating of the magnetic sensor is explicitly mentioned in the input text."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "IP_rating",
+                    "Definition": "The Ingress Protection (IP) rating of a device indicates the level of protection provided by mechanical casings and electrical enclosures against intrusion, dust, accidental contact, and water.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The IP rating can be used to determine the suitability of the magnetic sensor for specific environments and applications based on the level of protection provided against intrusion, dust, accidental contact, and water.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        }
+    ]
+}

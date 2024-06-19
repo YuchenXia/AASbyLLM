@@ -1,0 +1,1720 @@
+{
+    "session_key": "t1_Mixtral_8x7B_Instruct_rag_20240124_192056_ecf0",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Manufacturer-article name",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The name of the manufacturer and the article"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5399_4203_7340_4865"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Solenoid valve",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Part number",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "A unique identifier for the product assigned by the manufacturer"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9830_5316_8539_5872"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "574226",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Nominal size",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The physical size of the valve in terms of the nominal size of the ports"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8837_6511_0082_6786"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "4.6 mm",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Valve function",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The number of ports and the direction of flow of the valve"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3679_4435_6410_9411"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "2x3/2 closed, monostable",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Type of actuation",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The method by which the valve is actuated or controlled, in this case, electrically"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4058_8012_4217_0919"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "electrical",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Valve size",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The physical size of the valve"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4399_6123_0617_4925"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "14 mm",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Operating pressure",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The range of pressures at which the valve can operate"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3759_4997_9767_1913"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "1.5 ... 8 bar",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Design structure",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The internal design of the valve that moves the valve piston into the de-energised position"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4327_5109_2751_3281"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Piston slide",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Type of reset",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "specifies the method by which the valve is reset after actuation"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9634_3512_7109_9382"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Air spring",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Protection class",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The level of protection provided by the valve against environmental factors, specifically in accordance with the International Electrotechnical Commission 60529 standard and classified as IP65."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0582_7281_6719_6542"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "IP65 with plug socket",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Switching time off",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The time it takes for the valve to switch off"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3069_0509_7339_5591"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "23 ms",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Switching time on",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The time it takes for the valve to switch on after the control signal is applied"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6691_1691_2114_7843"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "8 ms",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Duty cycle",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The ratio of the time the valve is on to the total time"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7782_5176_0795_1242"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "100 %",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Manufacturer-article name",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The name of the manufacturer and the article"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5399_4203_7340_4865",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Manufacturer-article name"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The name of the manufacturer and the article"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Part number",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A unique identifier for the product assigned by the manufacturer"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9830_5316_8539_5872",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Manufacturer part number"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "A unique identifier for the product assigned by the manufacturer"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Valve function",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The number of ports and the direction of flow of the valve"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3679_4435_6410_9411",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Valve function"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The number of ports and the direction of flow of the valve"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Type of actuation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The method by which the valve is actuated or controlled, in this case, electrically"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4058_8012_4217_0919",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Type of actuation"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The method by which the valve is actuated or controlled, in this case, electrically"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Valve size",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The physical size of the valve"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4399_6123_0617_4925",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Valve size"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The physical size of the valve"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Operating pressure",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The range of pressures at which the valve can operate"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3759_4997_9767_1913",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Operating pressure range"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The range of pressures at which the valve can operate"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Design structure",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The internal design of the valve that moves the valve piston into the de-energised position"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4327_5109_2751_3281",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Design structure of the valve"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The internal design of the valve that moves the valve piston into the de-energised position"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Type of reset",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "specifies the method by which the valve is reset after actuation"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9634_3512_7109_9382",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "type of reset"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "specifies the method by which the valve is reset after actuation"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Protection class",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The level of protection provided by the valve against environmental factors, specifically in accordance with the International Electrotechnical Commission 60529 standard and classified as IP65."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0582_7281_6719_6542",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Protection class (IP65)"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The level of protection provided by the valve against environmental factors, specifically in accordance with the International Electrotechnical Commission 60529 standard and classified as IP65."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Nominal size",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The physical size of the valve in terms of the nominal size of the ports"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8837_6511_0082_6786",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Nominal size of the valve"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The physical size of the valve in terms of the nominal size of the ports"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Switching time off",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The time it takes for the valve to switch off"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3069_0509_7339_5591",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Switching time off"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The time it takes for the valve to switch off"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Switching time on",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The time it takes for the valve to switch on after the control signal is applied"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6691_1691_2114_7843",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Switching time on"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The time it takes for the valve to switch on after the control signal is applied"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Duty cycle",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The ratio of the time the valve is on to the total time"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7782_5176_0795_1242",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Duty cycle"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The ratio of the time the valve is on to the total time"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "Manufacturer-article name",
+                "Definition": "The name of the manufacturer and the article",
+                "Value": "Solenoid valve",
+                "SourceDescription": "The name of the manufacturer and the article is explicitly mentioned in the input text"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "product article number of manufacturer",
+                        "Definition": "unique product identifier of the manufacturer",
+                        "Reason": "The name of the manufacturer and the article is not a unique product identifier of the manufacturer",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO676003"
+                    },
+                    {
+                        "Name": "product article number of supplier",
+                        "Definition": "unique product order identifier of the supplier",
+                        "Reason": "The name of the manufacturer and the article is not a unique product order identifier of the supplier",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO736004"
+                    },
+                    {
+                        "Name": "Features of article",
+                        "Definition": "most important capability characteristics of a product in summary",
+                        "Reason": "The name of the manufacturer and the article is not the most important capability characteristics of a product in summary",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAJ034004"
+                    },
+                    {
+                        "Name": "Manufacturer product designation",
+                        "Definition": "Short description of the product (short text)",
+                        "Reason": "The name of the manufacturer and the article is a short description of the product",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAW338001"
+                    },
+                    {
+                        "Name": "Code of the manufacturer declaration",
+                        "Definition": "Code of the manufacturer explanations or notes for a component or device in text form",
+                        "Reason": "The name of the manufacturer and the article is not a code of the manufacturer explanations or notes for a component or device in text form",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAQ197001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Manufacturer product designation",
+                    "Definition": "Short description of the product (short text)",
+                    "SemanticIdentifier": "AAW338001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Manufacturer-article name",
+                    "Definition": "The name of the manufacturer and the article",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Identifying the product in a product database or in a product list"
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Part number",
+                "Definition": "A unique identifier for the product assigned by the manufacturer or distributor",
+                "Value": "574226",
+                "SourceDescription": "The part number is explicitly mentioned in the input text"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Manufacturing part number",
+                        "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                        "Reason": "The annotation is relevant as it is a unique identifier for the product assigned by the manufacturer or distributor",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO628001"
+                    },
+                    {
+                        "Name": "product article number of manufacturer",
+                        "Definition": "unique product identifier of the manufacturer",
+                        "Reason": "The annotation is relevant as it is a unique identifier for the product assigned by the manufacturer or distributor",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO676003"
+                    },
+                    {
+                        "Name": "serial number of manufacturer",
+                        "Definition": "unique identification of the manufacturer for the identity of the object",
+                        "Reason": "The annotation is not relevant as it is not a unique identifier for the product assigned by the manufacturer or distributor",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABF465001"
+                    },
+                    {
+                        "Name": "product identifier",
+                        "Definition": "unique identifier of the product",
+                        "Reason": "The annotation is relevant as it is a unique identifier for the product assigned by the manufacturer or distributor",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "ABA671001"
+                    },
+                    {
+                        "Name": "Manufacturer product order suffix",
+                        "Definition": "By the manufacturer awarded string for the identification of additional attributes, not by a structured manufacturer item number may be expressed",
+                        "Reason": "The annotation is not relevant as it is not a unique identifier for the product assigned by the manufacturer or distributor",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAU733001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "product article number of manufacturer",
+                    "Definition": "unique product identifier of the manufacturer",
+                    "SemanticIdentifier": "AAO676003"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Manufacturer part number",
+                    "Definition": "A unique identifier for the product assigned by the manufacturer",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Used for identifying the product in the manufacturer's catalog or database"
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Valve function",
+                "Definition": "The function of the valve in terms of the number of ports and the direction of flow",
+                "Value": "2x3/2 closed, monostable",
+                "SourceDescription": "The valve function is explicitly mentioned in the input text"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "directional control valve function",
+                        "Definition": "specification of the number of connections and shifting positions of a fluidic directional control valve",
+                        "Reason": "The annotation is relevant as it describes the number of ports and the direction of flow of the valve.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ989001"
+                    },
+                    {
+                        "Name": "Number of valves that can be connected",
+                        "Definition": "Quantitative statement about the number of connectible components which control or regulate the direction, pressure or volume flow of a fluid",
+                        "Reason": "The annotation is not relevant as it does not describe the number of ports and the direction of flow of the valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAP765001"
+                    },
+                    {
+                        "Name": "suitability for both directions of flow",
+                        "Definition": "specification relating to the behaviour in the event of a change of flow direction in fluidic valves",
+                        "Reason": "The annotation is not relevant as it does not describe the number of ports and the direction of flow of the valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ920001"
+                    },
+                    {
+                        "Name": "flow control valve function",
+                        "Definition": "method of influencing the flow rate of a fluidic component",
+                        "Reason": "The annotation is not relevant as it does not describe the number of ports and the direction of flow of the valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ979001"
+                    },
+                    {
+                        "Name": "valve protection function present",
+                        "Definition": "specification whether the is a valve protection function",
+                        "Reason": "The annotation is not relevant as it does not describe the number of ports and the direction of flow of the valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF714004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "directional control valve function",
+                    "Definition": "specification of the number of connections and shifting positions of a fluidic directional control valve",
+                    "SemanticIdentifier": "AAZ989001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Valve function",
+                    "Definition": "The number of ports and the direction of flow of the valve",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The valve function can be used to determine the compatibility of the valve with other components in a fluidic system and to ensure the correct flow direction and pressure conditions."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Type of actuation",
+                "Definition": "The method by which the valve is actuated or controlled",
+                "Value": "electrical",
+                "SourceDescription": "The type of actuation is explicitly mentioned in the input text"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Actuation type",
+                        "Definition": "means of moving a fluidic valve from its normal position to its operating position or vice versa by means of external force",
+                        "Reason": "This annotation is relevant as it describes the method of moving a fluidic valve, which is related to the actuation of the valve.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ408002"
+                    },
+                    {
+                        "Name": "type of control",
+                        "Definition": "method of transmitting the actuation signal to the shifting element of a directional control valve",
+                        "Reason": "This annotation is not relevant as it describes the method of transmitting the actuation signal, which is not related to the actuation of the valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ978001"
+                    },
+                    {
+                        "Name": "type of valve activation",
+                        "Definition": "method of activating the fitting",
+                        "Reason": "This annotation is relevant as it describes the method of activating the fitting, which is related to the actuation of the valve.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAD599008"
+                    },
+                    {
+                        "Name": "Type of actuation",
+                        "Definition": "Type of voltage with which the shunt release can be operated",
+                        "Reason": "This annotation is not relevant as it describes the type of voltage with which the shunt release can be operated, which is not related to the actuation of the valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAC050008"
+                    },
+                    {
+                        "Name": "Actuation",
+                        "Definition": "Mechanical type of motion of a control or switch",
+                        "Reason": "This annotation is not relevant as it describes the mechanical type of motion of a control or switch, which is not related to the actuation of the valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAE968005"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Actuation type",
+                    "Definition": "means of moving a fluidic valve from its normal position to its operating position or vice versa by means of external force",
+                    "SemanticIdentifier": "AAZ408002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Type of actuation",
+                    "Definition": "The method by which the valve is actuated or controlled, in this case, electrically",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the type of actuation required for the valve in a specific application or engineering task."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Valve size",
+                "Definition": "The physical size of the valve",
+                "Value": "14 mm",
+                "SourceDescription": "The valve size is explicitly mentioned in the input text"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "face-to face length of valve",
+                        "Definition": "indicated distance between the - to the centre line - horizontal, external surfaces of the housing end apertures",
+                        "Reason": "This annotation is not relevant to the valve size as it refers to the distance between the housing end apertures, not the physical size of the valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAI514005"
+                    },
+                    {
+                        "Name": "nominal width (DN)",
+                        "Definition": "diameter of a pipe/hose or the size/mounting dimension of a valve",
+                        "Reason": "This annotation is relevant to the valve size as it refers to the size of a valve.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAH222001"
+                    },
+                    {
+                        "Name": "flap size",
+                        "Definition": "information on the size of the heart valve",
+                        "Reason": "This annotation is not relevant to the valve size as it refers to the size of a heart valve, not a solenoid valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABD992001"
+                    },
+                    {
+                        "Name": "diameter of nominal impeller",
+                        "Definition": "size of the impeller, which is provided as standard for the respective pump size by the manufacturer",
+                        "Reason": "This annotation is not relevant to the valve size as it refers to the size of an impeller, not a valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABF502001"
+                    },
+                    {
+                        "Name": "suitable for valve nozzle R",
+                        "Definition": "describes for which valve plug R a resource is suitable",
+                        "Reason": "This annotation is not relevant to the valve size as it refers to the compatibility of a resource with a valve plug, not the physical size of the valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK655002"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "nominal width (DN)",
+                    "Definition": "diameter of a pipe/hose or the size/mounting dimension of a valve",
+                    "SemanticIdentifier": "AAH222001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Valve size",
+                    "Definition": "The physical size of the valve",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "mm",
+                "ClassifyingScore_GeneralOrTechnical": 4,
+                "Affordance": "Valve size can be used to determine the physical space required for installation and the compatibility with other components in a system."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Operating pressure",
+                "Definition": "The range of pressures at which the valve can operate",
+                "Value": "1.5 ... 8 bar",
+                "SourceDescription": "The operating pressure is explicitly mentioned in the input text"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Greatest value of operating pressure range",
+                        "Definition": "States the highest value of pressure with which a device can be operated",
+                        "Reason": "This annotation is not relevant because it refers to the maximum value of the operating pressure range, while the data feature is the whole range of operating pressure",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAE226007"
+                    },
+                    {
+                        "Name": "Operating pressure",
+                        "Definition": "The pressure which arises in a system part within the operating range",
+                        "Reason": "This annotation is relevant because it refers to the operating pressure of a device, which is the same as the data feature",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAA452006"
+                    },
+                    {
+                        "Name": "maximum operating pressure",
+                        "Definition": "upper limit of the pressure range at which a fluidic device fulfils its function",
+                        "Reason": "This annotation is not relevant because it refers to the maximum operating pressure, while the data feature is the whole range of operating pressure",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ943001"
+                    },
+                    {
+                        "Name": "minimum operating pressure",
+                        "Definition": "lower limit of the pressure range at which a fluidic device fulfils its function",
+                        "Reason": "This annotation is not relevant because it refers to the minimum operating pressure, while the data feature is the whole range of operating pressure",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ954001"
+                    },
+                    {
+                        "Name": "maximum pilot pressure",
+                        "Definition": "maximum pressure for actuating fluidic valves with pneumatic or piloted electrical actuation equipment",
+                        "Reason": "This annotation is not relevant because it refers to the maximum pilot pressure, which is not the same as the operating pressure",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ944001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Operating pressure",
+                    "Definition": "The pressure which arises in a system part within the operating range",
+                    "SemanticIdentifier": "BAA452006"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Operating pressure range",
+                    "Definition": "The range of pressures at which the valve can operate",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "bar",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the compatibility of the valve with other components in a system, and to ensure that the valve is not subjected to pressures outside of its operating range"
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Design structure",
+                "Definition": "The internal design of the valve",
+                "Value": "Piston slide",
+                "SourceDescription": "The design structure is explicitly mentioned in the input text"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "manifold present",
+                        "Definition": "indication whether the device has a manifold attached comprising two or more valves",
+                        "Reason": "The annotation is not relevant to the data feature as it does not describe the internal design of the valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAB346009"
+                    },
+                    {
+                        "Name": "valve protection function present",
+                        "Definition": "specification whether the is a valve protection function",
+                        "Reason": "The annotation is not relevant to the data feature as it does not describe the internal design of the valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF714004"
+                    },
+                    {
+                        "Name": "valve return",
+                        "Definition": "constructional design of the mechanism that moves the valve piston into the de-energised position",
+                        "Reason": "The annotation is relevant to the data feature as it describes the internal design of the valve.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ984001"
+                    },
+                    {
+                        "Name": "Overflow valve integrated",
+                        "Definition": "Information as to whether an object or function is an integral component of the object",
+                        "Reason": "The annotation is not relevant to the data feature as it does not describe the internal design of the valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC253006"
+                    },
+                    {
+                        "Name": "tube shape",
+                        "Definition": "Which inner mold have specified the pipes for transporting liquids and gases",
+                        "Reason": "The annotation is not relevant to the data feature as it does not describe the internal design of the valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAX099001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "valve return",
+                    "Definition": "constructional design of the mechanism that moves the valve piston into the de-energised position",
+                    "SemanticIdentifier": "AAZ984001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Design structure of the valve",
+                    "Definition": "The internal design of the valve that moves the valve piston into the de-energised position",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The design structure of the valve is critical in determining how the valve will function or perform in a specific context, such as selecting the appropriate valve for a specific application or troubleshooting valve malfunctions."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Type of reset",
+                "Definition": "The method by which the valve is reset after actuation",
+                "Value": "Air spring",
+                "SourceDescription": "The type of reset is explicitly mentioned in the input text"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "reset function present",
+                        "Definition": "specification whether the device is equipped with the reset function",
+                        "Reason": "The annotation is not relevant to the data feature as it does not specify the type of reset.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAH677004"
+                    },
+                    {
+                        "Name": "reset function",
+                        "Definition": "specifies whether the operating device is equipped with a reset function",
+                        "Reason": "The annotation is relevant to the data feature as it specifies the type of reset.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAK391004"
+                    },
+                    {
+                        "Name": "valve return",
+                        "Definition": "constructional design of the mechanism that moves the valve piston into the de-energised position",
+                        "Reason": "The annotation is not relevant to the data feature as it does not specify the type of reset.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ984001"
+                    },
+                    {
+                        "Name": "type of valve activation",
+                        "Definition": "method of activating the fitting",
+                        "Reason": "The annotation is not relevant to the data feature as it does not specify the type of reset.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAD599008"
+                    },
+                    {
+                        "Name": "shut-off valve function",
+                        "Definition": "method of interrupting the flow of the fluidic medium",
+                        "Reason": "The annotation is not relevant to the data feature as it does not specify the type of reset.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ976001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "reset function",
+                    "Definition": "specifies whether the operating device is equipped with a reset function",
+                    "SemanticIdentifier": "AAK391004"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "type of reset",
+                    "Definition": "specifies the method by which the valve is reset after actuation",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 4,
+                "Affordance": "The information can be used in the design of the valve control system and in the selection of the reset mechanism."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Protection class",
+                "Definition": "The level of protection provided by the valve against environmental factors",
+                "Value": "IP65 with plug socket",
+                "SourceDescription": "The protection class is explicitly mentioned in the input text"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "valve protection function present",
+                        "Definition": "specification whether the is a valve protection function",
+                        "Reason": "This annotation is not relevant to the data feature as it does not provide information about the level of protection provided by the valve against environmental factors.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF714004"
+                    },
+                    {
+                        "Name": "Protection class in accordance with EN 60 730-1",
+                        "Definition": "The protection class for a device or component prescribed in accordance with EN 60 730-1",
+                        "Reason": "This annotation is not relevant to the data feature as it does not provide information about the level of protection provided by the valve against environmental factors.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAD\u00a0781006,00"
+                    },
+                    {
+                        "Name": "Protection class (IP, rear side)",
+                        "Definition": "Numerical classification and designation system in accordance with International Electrotechnical Commission 60529 for the indication of degrees of protection, preceded by the symbol IP, for use in empty housings or housings of electrical equipment in order to protect persons against contact with live or moving parts (except smooth shafts or Similar parts) in the interior of the housing to ensure the protection of the (electrical) working medium against the penetration of solid foreign bodies or dust and, where specified by the classification, the protection of the electrical equipment against harmful ingress of vapors, moisture or water / Location specific: the return / return page",
+                        "Reason": "This annotation is relevant to the data feature as it provides information about the level of protection provided by the valve against environmental factors.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAW856001"
+                    },
+                    {
+                        "Name": "protection class",
+                        "Definition": "indication of the safety class of the object",
+                        "Reason": "This annotation is relevant to the data feature as it provides information about the level of protection provided by the valve against environmental factors.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAK401005"
+                    },
+                    {
+                        "Name": "Index of protection class",
+                        "Definition": "Supplementary index of the protection class which contains the information necessary to achieve the specified degree of protection of the product",
+                        "Reason": "This annotation is not relevant to the data feature as it does not provide information about the level of protection provided by the valve against environmental factors.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ336001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Protection class (IP, rear side)",
+                    "Definition": "Numerical classification and designation system in accordance with International Electrotechnical Commission 60529 for the indication of degrees of protection, preceded by the symbol IP, for use in empty housings or housings of electrical equipment in order to protect persons against contact with live or moving parts (except smooth shafts or Similar parts) in the interior of the housing to ensure the protection of the (electrical) working medium against the penetration of solid foreign bodies or dust and, where specified by the classification, the protection of the electrical equipment against harmful ingress of vapors, moisture or water / Location specific: the return / return page",
+                    "SemanticIdentifier": "AAW856001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Protection class (IP65)",
+                    "Definition": "The level of protection provided by the valve against environmental factors, specifically in accordance with the International Electrotechnical Commission 60529 standard and classified as IP65.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 4,
+                "Affordance": "The protection class can be used to determine the suitability of the valve for use in specific environments and conditions, such as in wet or dusty environments, or to ensure the safety of personnel working near the valve."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Nominal size",
+                "Definition": "The physical size of the valve in terms of the nominal size of the ports",
+                "Value": "4.6 mm",
+                "SourceDescription": "The nominal size is explicitly mentioned in the input text"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "nominal width (DN)",
+                        "Definition": "diameter of a pipe/hose or the size/mounting dimension of a valve",
+                        "Reason": "The annotation is relevant as it describes the size of the valve, which is the nominal size of the ports.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAH222001"
+                    },
+                    {
+                        "Name": "diameter of nominal impeller",
+                        "Definition": "size of the impeller, which is provided as standard for the respective pump size by the manufacturer",
+                        "Reason": "The annotation is not relevant as it refers to the size of the impeller, not the valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABF502001"
+                    },
+                    {
+                        "Name": "nominal size (Outlet)",
+                        "Definition": "alphanumeric description of the size of components in a pipe system as a reference, in contrast to components that are defined by an outer diameter or by a thread size",
+                        "Reason": "The annotation is not relevant as it refers to the size of components in a pipe system, not the valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABF522001"
+                    },
+                    {
+                        "Name": "nominal size at location 2",
+                        "Definition": "alphanumeric description of the size of components in a pipe system as a reference, in contrast to components that are defined by an outer diameter or by a thread size",
+                        "Reason": "The annotation is not relevant as it refers to the size of components in a pipe system, not the valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO800003"
+                    },
+                    {
+                        "Name": "nominal size",
+                        "Definition": "numeric identifier for the measured variable referred to the flow cross section of a fluidic device",
+                        "Reason": "The annotation is not relevant as it refers to the measured variable of a fluidic device, not the valve.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC418001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "nominal width (DN)",
+                    "Definition": "diameter of a pipe/hose or the size/mounting dimension of a valve",
+                    "SemanticIdentifier": "AAH222001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Nominal size of the valve",
+                    "Definition": "The physical size of the valve in terms of the nominal size of the ports",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "mm",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Used to determine the compatibility of the valve with other components in a pipe system."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Switching time off",
+                "Definition": "The time it takes for the valve to switch off",
+                "Value": "23 ms",
+                "SourceDescription": "The switching time off is explicitly mentioned in the input text"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "shifting off-time",
+                        "Definition": "length of time that elapses between the control signal (electric or pneumatic) being withdrawn and the pressure decreasing at the respective valve output until 90 % of the defined operating pressure is reached",
+                        "Reason": "The annotation is relevant as it describes the time it takes for the valve to switch off, which is the same as the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ905001"
+                    },
+                    {
+                        "Name": "Valve switching times from 0 to 1",
+                        "Definition": "Time between the switch-on command and the control of a component which controls or regulates the direction, the pressure or volume flow of a fluid",
+                        "Reason": "The annotation is not relevant as it describes the time it takes for the valve to switch on, which is different from the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC191007"
+                    },
+                    {
+                        "Name": "Valve switching times from 0 to 1",
+                        "Definition": "Time between the switch-on command and the control of a component which controls or regulates the direction, the pressure or volume flow of a fluid",
+                        "Reason": "The annotation is not relevant as it describes the time it takes for the valve to switch on, which is different from the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC192007"
+                    },
+                    {
+                        "Name": "shifting on-time",
+                        "Definition": "length of time that elapses between the control signal (electric or pneumatic) being applied and the pressure increasing at the respective valve output until 10 % of the defined operating pressure is reached",
+                        "Reason": "The annotation is not relevant as it describes the time it takes for the valve to switch on, which is different from the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ895001"
+                    },
+                    {
+                        "Name": "Switch-on time",
+                        "Definition": "describes the time it takes for the sensor to be ready after the supply voltage is applied",
+                        "Reason": "The annotation is not relevant as it describes the time it takes for the sensor to be ready, which is different from the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ245001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "shifting off-time",
+                    "Definition": "length of time that elapses between the control signal (electric or pneumatic) being withdrawn and the pressure decreasing at the respective valve output until 90 % of the defined operating pressure is reached",
+                    "SemanticIdentifier": "AAZ905001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Switching time off",
+                    "Definition": "The time it takes for the valve to switch off",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "ms",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Used in the design of control systems to ensure proper timing and synchronization of valve operations."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Switching time on",
+                "Definition": "The time it takes for the valve to switch on",
+                "Value": "8 ms",
+                "SourceDescription": "The switching time on is explicitly mentioned in the input text"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Switch-on time",
+                        "Definition": "describes the time it takes for the sensor to be ready after the supply voltage is applied",
+                        "Reason": "The annotation is not relevant because it describes the time it takes for the sensor to be ready after the supply voltage is applied, not the time it takes for the valve to switch on.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ245001"
+                    },
+                    {
+                        "Name": "Valve switching times from 0 to 1",
+                        "Definition": "Time between the switch-on command and the control of a component which controls or regulates the direction, the pressure or volume flow of a fluid",
+                        "Reason": "The annotation is relevant because it describes the time between the switch-on command and the control of a component which controls or regulates the direction, the pressure or volume flow of a fluid, which is consistent with the definition of switching time on.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAC192007"
+                    },
+                    {
+                        "Name": "Valve switching times from 0 to 1",
+                        "Definition": "Time between the switch-on command and the control of a component which controls or regulates the direction, the pressure or volume flow of a fluid",
+                        "Reason": "The annotation is relevant because it describes the time between the switch-on command and the control of a component which controls or regulates the direction, the pressure or volume flow of a fluid, which is consistent with the definition of switching time on.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAC191007"
+                    },
+                    {
+                        "Name": "shifting off-time",
+                        "Definition": "length of time that elapses between the control signal (electric or pneumatic) being withdrawn and the pressure decreasing at the respective valve output until 90 % of the defined operating pressure is reached",
+                        "Reason": "The annotation is not relevant because it describes the time that elapses between the control signal being withdrawn and the pressure decreasing, not the time it takes for the valve to switch on.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ905001"
+                    },
+                    {
+                        "Name": "shifting on-time",
+                        "Definition": "length of time that elapses between the control signal (electric or pneumatic) being applied and the pressure increasing at the respective valve output until 10 % of the defined operating pressure is reached",
+                        "Reason": "The annotation is relevant because it describes the time that elapses between the control signal being applied and the pressure increasing, which is consistent with the definition of switching time on.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ895001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Valve switching times from 0 to 1",
+                    "Definition": "Time between the switch-on command and the control of a component which controls or regulates the direction, the pressure or volume flow of a fluid",
+                    "SemanticIdentifier": "AAC192007"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Switching time on",
+                    "Definition": "The time it takes for the valve to switch on after the control signal is applied",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "ms",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The switching time on can be used to determine the response time of the valve, which is critical in selecting the appropriate valve for a specific application."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Duty cycle",
+                "Definition": "The ratio of the time the valve is on to the total time",
+                "Value": "100 %",
+                "SourceDescription": "The duty cycle is explicitly mentioned in the input text"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "shifting off-time",
+                        "Definition": "length of time that elapses between the control signal (electric or pneumatic) being withdrawn and the pressure decreasing at the respective valve output until 90 % of the defined operating pressure is reached",
+                        "Reason": "This annotation is not relevant to the duty cycle as it refers to the time it takes for the pressure to decrease after the control signal is withdrawn, not the ratio of the time the valve is on to the total time.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ905001"
+                    },
+                    {
+                        "Name": "shifting on-time",
+                        "Definition": "length of time that elapses between the control signal (electric or pneumatic) being applied and the pressure increasing at the respective valve output until 10 % of the defined operating pressure is reached",
+                        "Reason": "This annotation is not relevant to the duty cycle as it refers to the time it takes for the pressure to increase after the control signal is applied, not the ratio of the time the valve is on to the total time.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ895001"
+                    },
+                    {
+                        "Name": "minimum set working time (cycles)",
+                        "Definition": "given minimum number of shifting cycles to which a system, sub-system, component or pipe system shall be subjected during operation",
+                        "Reason": "This annotation is not relevant to the duty cycle as it refers to the minimum number of shifting cycles, not the ratio of the time the valve is on to the total time.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC487001"
+                    },
+                    {
+                        "Name": "working time (cycles)",
+                        "Definition": "number of shifting cycles to which a system, sub-system, component or piping was subjected, during operation of a function",
+                        "Reason": "This annotation is not relevant to the duty cycle as it refers to the number of shifting cycles, not the ratio of the time the valve is on to the total time.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ812001"
+                    },
+                    {
+                        "Name": "specified maximum working time (cycles)",
+                        "Definition": "maximum number of shifting cycles to which a system, subsystem, component or piping shall be subjected during operation",
+                        "Reason": "This annotation is not relevant to the duty cycle as it refers to the maximum number of shifting cycles, not the ratio of the time the valve is on to the total time.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC634001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Duty cycle",
+                    "Definition": "The ratio of the time the valve is on to the total time",
+                    "SemanticIdentifier": null
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Duty cycle",
+                    "Definition": "The ratio of the time the valve is on to the total time",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "%",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the operating time of the valve and the energy consumption of the system."
+            }
+        }
+    ]
+}

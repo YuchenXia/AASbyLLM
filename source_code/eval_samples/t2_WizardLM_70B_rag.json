@@ -1,0 +1,2302 @@
+{
+    "session_key": "t2_WizardLM_70B_rag_20240124_195558_2306",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Name",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Name of the product"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5599_5657_5940_6131"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "vacuum generator",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Manufacturer code",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Unique identifier assigned by the manufacturer to the product"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2668_4257_5917_9830"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "OVEL-10-H-15-PQ-VQ6-UA-C-A-B2PNLK-H3",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Silencer design",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Design of the silencer"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5438_8150_2484_5946"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Open",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Mounting position",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Position where the product can be mounted"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6864_0298_3692_9365"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "optional",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Manual override",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "A feature that allows the user to manually override the product's automatic function."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2889_7311_7210_2983"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Non-detenting",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Filter",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Specifies whether a filter exists"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2984_7853_3418_4928"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Filter",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Open silencer",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Description of the silencer design"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5559_5592_4566_8695"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Open silencer",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Design",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The design of the product"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8327_9035_3545_8506"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "T-shape",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Switching function",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Whether the product has a switchable function"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7948_8735_7651_9751"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Switchable",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Nominal size, Laval nozzle",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Size of the Laval nozzle in a vacuum generator"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5592_0247_6156_6560"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0.95 mm",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Ejector characteristic",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Characteristic of the ejector"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9455_4714_7722_5791"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "High vacuum",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Standard",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "indication of the standard to which the product conforms"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6485_5293_4763_4118"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Standard",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Grade of filtration",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The size of particles that can be filtered"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0045_4594_5673_3295"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "40 \u00b5m",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Integrated function",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Function integrated into the product"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3595_4922_9333_1830"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Electric ejector pulse",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Flow control",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Indication of the presence of flow control in the product"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9571_6893_5885_6883"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Pressure sensor",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Electric on-off valve",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Whether the product has an electric on-off valve"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1434_3354_8162_5617"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Electric on-off valve",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Switching element function",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Description of how the switching element operates"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5133_1129_3268_3213"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "N/C contact",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Output",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Whether the product has an output function"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0626_2723_7770_8902"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Freely programmable",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Name",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Name of the product"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5599_5657_5940_6131",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product name"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Name of the product"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Manufacturer code",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Unique identifier assigned by the manufacturer to the product"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2668_4257_5917_9830",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Manufacturer Code"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Unique identifier assigned by the manufacturer to the product"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Nominal size, Laval nozzle",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Size of the Laval nozzle in a vacuum generator"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5592_0247_6156_6560",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Nominal size of Laval nozzle"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Size of the Laval nozzle in a vacuum generator"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Silencer design",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Design of the silencer"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5438_8150_2484_5946",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Silencer design"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Design of the silencer"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Mounting position",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Position where the product can be mounted"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6864_0298_3692_9365",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Mounting position"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Position where the product can be mounted"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Ejector characteristic",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Characteristic of the ejector"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9455_4714_7722_5791",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Ejector Characteristic"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Characteristic of the ejector"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Standard",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "indication of the standard to which the product conforms"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6485_5293_4763_4118",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Standard"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "indication of the standard to which the product conforms"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Grade of filtration",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The size of particles that can be filtered"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0045_4594_5673_3295",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Filtration size"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The size of particles that can be filtered"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Manual override",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A feature that allows the user to manually override the product's automatic function."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2889_7311_7210_2983",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Manual override"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "A feature that allows the user to manually override the product's automatic function."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Integrated function",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Function integrated into the product"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3595_4922_9333_1830",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Integrated function"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Function integrated into the product"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Flow control",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Indication of the presence of flow control in the product"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9571_6893_5885_6883",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Flow control present"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Indication of the presence of flow control in the product"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Electric on-off valve",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Whether the product has an electric on-off valve"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1434_3354_8162_5617",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Electric on-off valve"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Whether the product has an electric on-off valve"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Filter",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Specifies whether a filter exists"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2984_7853_3418_4928",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Filter present"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Specifies whether a filter exists"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Open silencer",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Description of the silencer design"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5559_5592_4566_8695",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Silencer design"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Description of the silencer design"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Design",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The design of the product"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8327_9035_3545_8506",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product Design"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The design of the product"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Switching element function",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Description of how the switching element operates"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5133_1129_3268_3213",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Switching function"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Description of how the switching element operates"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Switching function",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Whether the product has a switchable function"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7948_8735_7651_9751",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Switching function"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Whether the product has a switchable function"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Output",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Whether the product has an output function"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0626_2723_7770_8902",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Output function"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Whether the product has an output function"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "Name",
+                "Definition": "Name of the product",
+                "Value": "vacuum generator",
+                "SourceDescription": "Product name"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Material description of the product line",
+                        "Definition": "Usual name or brand name of the material in general language",
+                        "Reason": "The data feature is the name of the product, not the material description.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "Manufacturer product designation",
+                        "Definition": "Short description of the product (short text)",
+                        "Reason": "The data feature is the name of the product, which is a short description.",
+                        "isRelevant": true
+                    },
+                    {
+                        "Name": "product type description of processor",
+                        "Definition": "name of the product family or variant",
+                        "Reason": "The data feature is the name of the product, not the product type description.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "Material description of the case",
+                        "Definition": "Usual name or brand name of the material in general language",
+                        "Reason": "The data feature is the name of the product, not the material description.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "Product family",
+                        "Definition": "Name that has been defined for a cluster of products by the manufacturer, to differentiate in the entire range",
+                        "Reason": "The data feature is the name of the product, not the product family.",
+                        "isRelevant": false
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Manufacturer product designation",
+                    "Definition": "Short description of the product (short text)",
+                    "SemanticIdentifier": "AAW338001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Product name",
+                    "Definition": "Name of the product",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Identifying and describing the product without getting into detailed technical specifications."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Manufacturer code",
+                "Definition": "Code assigned by the manufacturer",
+                "Value": "OVEL-10-H-15-PQ-VQ6-UA-C-A-B2PNLK-H3",
+                "SourceDescription": "Product code"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "model code of manufacturer",
+                        "Definition": "sequence of characters assigned in accordance with certain rules of the manufacturer's for designation of the model",
+                        "Reason": "The annotation is relevant as it describes a sequence of characters assigned by the manufacturer for designating the model, which aligns with the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAE344005"
+                    },
+                    {
+                        "Name": "Manufacturer program",
+                        "Definition": "Referencing a manufacturer's product program",
+                        "Reason": "The annotation does not directly relate to the data feature, which is a product code, not a program.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAX607001"
+                    },
+                    {
+                        "Name": "product code",
+                        "Definition": "machine-readable string of the model of the machine, that might include options like the hardware configuration of the model",
+                        "Reason": "The annotation is relevant as it describes a machine-readable string representing the model of the machine, which aligns with the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "ABA679001"
+                    },
+                    {
+                        "Name": "Code of the manufacturer declaration",
+                        "Definition": "Code of the manufacturer explanations or notes for a component or device in text form",
+                        "Reason": "The annotation does not directly relate to the data feature, which is a product code, not a declaration code.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAQ197001"
+                    },
+                    {
+                        "Name": "Manufacturer declaration present",
+                        "Definition": "Information as to whether a manufacturer declaration is present for the product",
+                        "Reason": "The annotation does not directly relate to the data feature, which is a product code, not a declaration presence.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC224006"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "product code",
+                    "Definition": "machine-readable string of the model of the machine, that might include options like the hardware configuration of the model",
+                    "SemanticIdentifier": "ABA679001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Manufacturer Code",
+                    "Definition": "Unique identifier assigned by the manufacturer to the product",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "Identification and tracking of the product, inventory management, and order processing."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Nominal size, Laval nozzle",
+                "Definition": "Size of the Laval nozzle",
+                "Value": "0.95 mm",
+                "SourceDescription": "Product specification"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "nominal size of laval nozzle",
+                        "Definition": "numeric identifier for the size of the laval nozzle in a vacuum generator",
+                        "Reason": "The annotation is relevant as it directly describes the size of the Laval nozzle in a vacuum generator.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "ABC419001"
+                    },
+                    {
+                        "Name": "suitable for max. nozzle",
+                        "Definition": "specification of the maximum size/ diameter of the nozzles which can be worked on with a tool",
+                        "Reason": "The annotation is not relevant as it does not directly describe the nominal size of the Laval nozzle.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAJ994003"
+                    },
+                    {
+                        "Name": "type of nozzle",
+                        "Definition": "information on the modelling of the short lug tube piece",
+                        "Reason": "The annotation is not relevant as it does not directly describe the nominal size of the Laval nozzle.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAH313004"
+                    },
+                    {
+                        "Name": "adjustable nozzle present",
+                        "Definition": "specification whether the product is equipped with adjustable nozzle",
+                        "Reason": "The annotation is not relevant as it does not directly describe the nominal size of the Laval nozzle.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE311001"
+                    },
+                    {
+                        "Name": "suitable for min. nozzle",
+                        "Definition": "specification of the minimum size/ diameter of the nozzles which can be worked on with a tool",
+                        "Reason": "The annotation is not relevant as it does not directly describe the nominal size of the Laval nozzle.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAJ993003"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "nominal size of laval nozzle",
+                    "Definition": "numeric identifier for the size of the laval nozzle in a vacuum generator",
+                    "SemanticIdentifier": "ABC419001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Nominal size of Laval nozzle",
+                    "Definition": "Size of the Laval nozzle in a vacuum generator",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "mm",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to vacuum generator design, manufacturing, and maintenance where the size of the Laval nozzle is a critical parameter."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Silencer design",
+                "Definition": "Design of the silencer",
+                "Value": "Open",
+                "SourceDescription": "Product design"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "noise reduction",
+                        "Definition": "minimum possible reduction in the noise level (when using a silencer) of a fluidic component",
+                        "Reason": "The annotation is not directly related to the silencer design, but it is related to the function of the silencer.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ924001"
+                    },
+                    {
+                        "Name": "loud speaker present",
+                        "Definition": "specification whether the product is equipped with a loudspeaker",
+                        "Reason": "The annotation is not directly related to the silencer design.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE515001"
+                    },
+                    {
+                        "Name": "integrated loudspeakers present",
+                        "Definition": "whether a product has integrated loudspeaker",
+                        "Reason": "The annotation is not directly related to the silencer design.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAA172007"
+                    },
+                    {
+                        "Name": "Design of filter system",
+                        "Definition": "outer shape of the filter system",
+                        "Reason": "The annotation is not directly related to the silencer design.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAA631005"
+                    },
+                    {
+                        "Name": "type of loudspeaker",
+                        "Definition": "information on the device to change low-frequency electric signals into sound",
+                        "Reason": "The annotation is not directly related to the silencer design.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAG549002"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "noise reduction",
+                    "Definition": "minimum possible reduction in the noise level (when using a silencer) of a fluidic component",
+                    "SemanticIdentifier": "AAZ924001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Silencer design",
+                    "Definition": "Design of the silencer",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "The information can be used to understand the design of the silencer and its potential impact on the product's noise level."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Mounting position",
+                "Definition": "Position where the product can be mounted",
+                "Value": "optional",
+                "SourceDescription": "Product installation"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "mounting orientation",
+                        "Definition": "device installation position defined by the manufacturer for proper operation",
+                        "Reason": "The data feature is about the mounting position, not the orientation.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAQ211005"
+                    },
+                    {
+                        "Name": "shape of the installation area",
+                        "Definition": "information about the design of the product, which describes the shape of the surface required for mounting the product",
+                        "Reason": "The data feature is about the mounting position, not the shape of the installation area.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABD845001"
+                    },
+                    {
+                        "Name": "Fixation of the mounting",
+                        "Definition": "specific manner for installation/fixation of a mounting",
+                        "Reason": "The data feature is about the mounting position, not the fixation method.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAW110001"
+                    },
+                    {
+                        "Name": "mounting method of the installation unit",
+                        "Definition": "information on the way the installation unit is mounted",
+                        "Reason": "The data feature is about the mounting position, not the mounting method.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAG033004"
+                    },
+                    {
+                        "Name": "Assembly on floor is possible",
+                        "Definition": "indication whether the product can be mounted on the floor",
+                        "Reason": "The data feature is about the mounting position, not the assembly location.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAD\u00a0290008,00"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Mounting position",
+                    "Definition": "Position where the product can be mounted",
+                    "SemanticIdentifier": null
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Mounting position",
+                    "Definition": "Position where the product can be mounted",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Identifying the possible mounting locations for the product."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Ejector characteristic",
+                "Definition": "Characteristic of the ejector",
+                "Value": "High vacuum",
+                "SourceDescription": "Product feature"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Ejection mechanism present",
+                        "Definition": "whether the socket has an ejection mechanism",
+                        "Reason": "The data feature is about the ejector characteristic of a product, not about the ejection mechanism of a socket.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAD\u00a0319008,00"
+                    },
+                    {
+                        "Name": "Special characteristics",
+                        "Definition": "Essential characteristics of the product which are not described by an independent attribute",
+                        "Reason": "The data feature is a specific characteristic of the ejector, which is described by an independent attribute.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAD\u00a0816002,00"
+                    },
+                    {
+                        "Name": "electrical characteristic",
+                        "Definition": "describes the electrical characteristics of the object",
+                        "Reason": "The data feature is about the ejector characteristic of a product, which is not necessarily related to electrical characteristics.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK262003"
+                    },
+                    {
+                        "Name": "pneumatic exhaust port",
+                        "Definition": "type and size of the pressure media interface for exhausting a pneumatic component",
+                        "Reason": "The data feature is about the ejector characteristic of a product, not about the pneumatic exhaust port.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ963002"
+                    },
+                    {
+                        "Name": "meets exhaust value (according to EU-standard)",
+                        "Definition": "specification whether the device meets the exhaust value according to EU-standard EN 303-2",
+                        "Reason": "The data feature is about the ejector characteristic of a product, not about whether it meets a specific exhaust value standard.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK952005"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Special characteristics",
+                    "Definition": "Essential characteristics of the product which are not described by an independent attribute",
+                    "SemanticIdentifier": "BAD\u00a0816002,00"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Ejector Characteristic",
+                    "Definition": "Characteristic of the ejector",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The ejector characteristic can be used to determine the performance of the ejector in a specific context, such as maintaining a certain level of vacuum."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Standard",
+                "Definition": "Standard to which the product conforms",
+                "Value": "Standard",
+                "SourceDescription": "Product standard"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Standard number",
+                        "Definition": "indicator for identifying a standard to which a product to be described belongs",
+                        "Reason": "The data feature is about the standard to which the product conforms, and the annotation describes a standard number which is an identifier for the standard.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ523002"
+                    },
+                    {
+                        "Name": "Standard",
+                        "Definition": "indication of the available standard",
+                        "Reason": "The data feature is about the standard to which the product conforms, and the annotation describes the available standard.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAT136001"
+                    },
+                    {
+                        "Name": "product corresponding (according to CE)",
+                        "Definition": "specification whether it is conform to the CE-standard",
+                        "Reason": "The data feature is about the standard to which the product conforms, but the annotation is about the CE-standard conformance.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAG902005"
+                    },
+                    {
+                        "Name": "standard letter to the standard number",
+                        "Definition": "label for the identification of different products that are based to the same standard document",
+                        "Reason": "The data feature is about the standard to which the product conforms, but the annotation is about the identification of different products based on the same standard document.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO832002"
+                    },
+                    {
+                        "Name": "compliance of fitting to standard(s)",
+                        "Definition": "international or national standards to which the fitting of the product is in accordance",
+                        "Reason": "The data feature is about the standard to which the product conforms, but the annotation is about the fitting of the product to the standard.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO990001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Standard",
+                    "Definition": "indication of the available standard",
+                    "SemanticIdentifier": "AAT136001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Standard",
+                    "Definition": "indication of the standard to which the product conforms",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The information can be used to ensure the product meets the required standards and specifications."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Grade of filtration",
+                "Definition": "Grade of filtration",
+                "Value": "40 \u00b5m",
+                "SourceDescription": "Product filtration"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Grade of filtration",
+                        "Definition": "nominal value that specifies the maximum theoretical diameter of particles and suspended matter that will still be let through by a filter irrespective of the type of filter material",
+                        "Reason": "The annotation is relevant to the data feature as it describes the maximum theoretical diameter of particles that can be filtered.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ415002"
+                    },
+                    {
+                        "Name": "Max. filtration pressure",
+                        "Definition": "The overpressure of a fluid required at the inlet of a filter for the filtration process",
+                        "Reason": "The annotation is not relevant to the data feature as it describes the pressure required for filtration, not the size of particles filtered.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAI015005"
+                    },
+                    {
+                        "Name": "filtrated",
+                        "Definition": "information if the blood product was filtrated",
+                        "Reason": "The annotation is not relevant to the data feature as it describes whether the blood product was filtered or not.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAE705004"
+                    },
+                    {
+                        "Name": "Closed process present",
+                        "Definition": "Information as to whether there is closed filtrate drainage for the filter press",
+                        "Reason": "The annotation is not relevant to the data feature as it describes the type of filtrate drainage.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC240006"
+                    },
+                    {
+                        "Name": "filtration speed (according to Herzberg)",
+                        "Definition": "filter attribute",
+                        "Reason": "The annotation is not relevant to the data feature as it describes the speed of filtration.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAF366004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Grade of filtration",
+                    "Definition": "nominal value that specifies the maximum theoretical diameter of particles and suspended matter that will still be let through by a filter irrespective of the type of filter material",
+                    "SemanticIdentifier": "AAZ415002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Filtration size",
+                    "Definition": "The size of particles that can be filtered",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "\u00b5m",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the filter's efficiency and the size of particles it can remove."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Manual override",
+                "Definition": "Whether the product has a manual override",
+                "Value": "Non-detenting",
+                "SourceDescription": "Product feature"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Manual override",
+                        "Definition": "manually actuated device on a valve for priority actuation",
+                        "Reason": "The annotation is relevant as it describes the manual override feature of the product.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ419002"
+                    },
+                    {
+                        "Name": "overload protection present",
+                        "Definition": "specification whether the product is equipped with an overload protection",
+                        "Reason": "The annotation is not relevant as it does not describe the manual override feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE549001"
+                    },
+                    {
+                        "Name": "Manual present",
+                        "Definition": "whether the documentation contains a manual",
+                        "Reason": "The annotation is not relevant as it does not describe the manual override feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAD\u00a0361008,00"
+                    },
+                    {
+                        "Name": "self-leveling",
+                        "Definition": "Information on whether the product sets up automatically",
+                        "Reason": "The annotation is not relevant as it does not describe the manual override feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAX140001"
+                    },
+                    {
+                        "Name": "manual on/off switch present",
+                        "Definition": "Indication whether the device is equipped with a manual On/Off switch",
+                        "Reason": "The annotation is not relevant as it does not describe the manual override feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAH485008"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Manual override",
+                    "Definition": "manually actuated device on a valve for priority actuation",
+                    "SemanticIdentifier": "AAZ419002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Manual override",
+                    "Definition": "A feature that allows the user to manually override the product's automatic function.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "This information can be used to understand the product's functionality and user control options."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Integrated function",
+                "Definition": "Function integrated into the product",
+                "Value": "Electric ejector pulse",
+                "SourceDescription": "Product feature"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Product function: movements",
+                        "Definition": "(Clearly defined) technical task/activity, execution of movement that can be completed/carried out by the product",
+                        "Reason": "The annotation is relevant as it describes a technical function of the product.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAC884007"
+                    },
+                    {
+                        "Name": "suitable for",
+                        "Definition": "condition for a product to be integrated into another (superior) product (system)",
+                        "Reason": "The annotation is not relevant as it describes the compatibility of the product with another product, not the integrated function.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABD850001"
+                    },
+                    {
+                        "Name": "Technological function integrated",
+                        "Definition": "whether in the PLC programming software has an integrated technological function",
+                        "Reason": "The annotation is not relevant as it describes a function in software, not the product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAD\u00a0225009,00"
+                    },
+                    {
+                        "Name": "general call function present",
+                        "Definition": "specification whether the product is equipped with a general call function",
+                        "Reason": "The annotation is not relevant as it describes a specific type of function, not the integrated function.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE478001"
+                    },
+                    {
+                        "Name": "Function",
+                        "Definition": "Condition of a product that can be used in a specific surrounding (in conformity with the intended use)",
+                        "Reason": "The annotation is relevant as it describes a general function of the product.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAD253008"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Product function: movements",
+                    "Definition": "(Clearly defined) technical task/activity, execution of movement that can be completed/carried out by the product",
+                    "SemanticIdentifier": "BAC884007"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Integrated function",
+                    "Definition": "Function integrated into the product",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The integrated function can be used in various applications such as automation, control systems, and robotics."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Flow control",
+                "Definition": "Whether the product has flow control",
+                "Value": "Pressure sensor",
+                "SourceDescription": "Product feature"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "volume flow control present",
+                        "Definition": "indication whether the product is equipped with a flow control",
+                        "Reason": "The data feature is about the presence of flow control, which aligns with the annotation's focus on flow control.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAL262004"
+                    },
+                    {
+                        "Name": "control flow rate",
+                        "Definition": "pilot flow rate",
+                        "Reason": "The data feature is about the presence of flow control, not the rate of flow.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ840001"
+                    },
+                    {
+                        "Name": "transistor output present",
+                        "Definition": "whether flow monitoring device has a transistor output",
+                        "Reason": "The data feature is about flow control, not the output type of the device.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAC145007"
+                    },
+                    {
+                        "Name": "air flow control",
+                        "Definition": "whether the air flow regulation can be carried out by steps or can be carried out continuously",
+                        "Reason": "The data feature is about the presence of flow control, not the type of air flow regulation.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK354003"
+                    },
+                    {
+                        "Name": "set control flow rate",
+                        "Definition": "given pilot flow rate in the application",
+                        "Reason": "The data feature is about the presence of flow control, not the specific flow rate in an application.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC579001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "volume flow control present",
+                    "Definition": "indication whether the product is equipped with a flow control",
+                    "SemanticIdentifier": "AAL262004"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Flow control present",
+                    "Definition": "Indication of the presence of flow control in the product",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The information can be used to identify if the product has a flow control feature, which can be useful in specific engineering tasks such as designing or selecting products with specific flow requirements."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Electric on-off valve",
+                "Definition": "Whether the product has an electric on-off valve",
+                "Value": "Electric on-off valve",
+                "SourceDescription": "Product feature"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "switch-off present",
+                        "Definition": "wheter the product is equipped with a switch-off",
+                        "Reason": "The data feature is about the presence of an electric on-off valve, which is related to the concept of a switch-off.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAL091004"
+                    },
+                    {
+                        "Name": "On-Off switch present",
+                        "Definition": "whether the control or socket is equipped with an on-off switch",
+                        "Reason": "The data feature is about the presence of an electric on-off valve, which is related to the concept of an on-off switch.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAD\u00a0340008,00"
+                    },
+                    {
+                        "Name": "manual on/off switch present",
+                        "Definition": "Indication whether the device is equipped with a manual On/Off switch",
+                        "Reason": "The data feature is about the presence of an electric on-off valve, which is related to the concept of a manual on/off switch.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAH485008"
+                    },
+                    {
+                        "Name": "turn-off possible",
+                        "Definition": "whether the plug has an attachment for turning off the current",
+                        "Reason": "The data feature is about the presence of an electric on-off valve, which is not directly related to the concept of turning off the current through a plug.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAD\u00a0471008,00"
+                    },
+                    {
+                        "Name": "Switch/power on indicator",
+                        "Definition": "description of the kind of appliance's on/off switch",
+                        "Reason": "The data feature is about the presence of an electric on-off valve, which is related to the concept of a switch/power on indicator.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAR585003"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "On-Off switch present",
+                    "Definition": "whether the control or socket is equipped with an on-off switch",
+                    "SemanticIdentifier": "BAD\u00a0340008,00"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Electric on-off valve",
+                    "Definition": "Whether the product has an electric on-off valve",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The information can be used in engineering tasks related to control systems and automation, and in specific applications such as industrial processes and manufacturing."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Filter",
+                "Definition": "Whether the product has a filter",
+                "Value": "Filter",
+                "SourceDescription": "Product feature"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "filter present",
+                        "Definition": "whether a filter fan exists",
+                        "Reason": "The data feature is about the existence of a filter, not a fan.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "Frame present",
+                        "Definition": "whether the product has a rectangular border of the filter",
+                        "Reason": "The data feature is about the existence of a filter, not its frame.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "Filter check indicator",
+                        "Definition": "presence of a filter check indicator",
+                        "Reason": "The data feature is about the existence of a filter, not an indicator.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "filter mat present",
+                        "Definition": "Indicates whether the associated filter matt is included",
+                        "Reason": "The data feature is about the existence of a filter, not a mat.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "Filter available",
+                        "Definition": "Specifies whether a filter is integrated",
+                        "Reason": "The data feature is about the existence of a filter, not its integration.",
+                        "isRelevant": false
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Filter available",
+                    "Definition": "Specifies whether a filter is integrated",
+                    "SemanticIdentifier": "AAZ383001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Filter present",
+                    "Definition": "Specifies whether a filter exists",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "This information can be used to identify if the product has a filter and its type for various applications such as product comparison, maintenance, and customer service."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Open silencer",
+                "Definition": "Whether the product has an open silencer",
+                "Value": "Open silencer",
+                "SourceDescription": "Product feature"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "loud speaker present",
+                        "Definition": "specification whether the product is equipped with a loudspeaker",
+                        "Reason": "The annotation does not match the data feature.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "record player present",
+                        "Definition": "specification whether the product is equipped with record player",
+                        "Reason": "The annotation does not match the data feature.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "Transparent front lid present",
+                        "Definition": "whether the product has a transparent front lid",
+                        "Reason": "The annotation does not match the data feature.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "horn speaker",
+                        "Definition": "specification whether the product is a horn speaker",
+                        "Reason": "The annotation does not match the data feature.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "open listening activated",
+                        "Definition": "describes if open listening is activated",
+                        "Reason": "The annotation does not match the data feature.",
+                        "isRelevant": false
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": null,
+                    "Definition": null,
+                    "SemanticIdentifier": null
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Silencer design",
+                    "Definition": "Description of the silencer design",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "The information can be used to identify the design of the silencer in the product."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Design",
+                "Definition": "Design of the product",
+                "Value": "T-shape",
+                "SourceDescription": "Product design"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Design of the user",
+                        "Definition": "Design which is an option for the user",
+                        "Reason": "The data feature is about the design of the product, not about the user's design.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "Design software on CD present",
+                        "Definition": "whether the product is delivered with a design software CD",
+                        "Reason": "The data feature is about the design of the product, not about the software CD.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "Design of product",
+                        "Definition": "Regulation, rule, guidelines, etc. for manufacture of products",
+                        "Reason": "The data feature is about the design of the product, not about the manufacturing guidelines.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "Manufacturer product marketing description",
+                        "Definition": "description of the product to point out product highlights from the manufacturer perspective",
+                        "Reason": "The data feature is about the design of the product, not about the marketing description.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "Design of inclinability",
+                        "Definition": "Defined brand or make for the inclinability of products",
+                        "Reason": "The data feature is about the design of the product, not about the inclinability of products.",
+                        "isRelevant": false
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Design of product",
+                    "Definition": "Design of the product",
+                    "SemanticIdentifier": "AAP835001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Product Design",
+                    "Definition": "The design of the product",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "The design of the product can be used for understanding the aesthetics and usability of the product."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Switching element function",
+                "Definition": "Function of the switching element",
+                "Value": "N/C contact",
+                "SourceDescription": "Product feature"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Design of the switching element",
+                        "Definition": "Design and/or mode of operation of an element that implements a switching function",
+                        "Reason": "This annotation is not relevant because it is about the design of the switching element, not its function.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB412007"
+                    },
+                    {
+                        "Name": "switching element function",
+                        "Definition": "Design of control element as opener, shutter, opener by force, or changer",
+                        "Reason": "This annotation is relevant because it directly describes the function of the switching element.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAD\u00a0899010,00"
+                    },
+                    {
+                        "Name": "Design of the switch function of the inputs",
+                        "Definition": "Design / function of the switch elements of inputs (break contact, make contact, positive opener or change-over switch) and, possibly, the number of contacts, e.g.: change-over switch 1S + 3\u00d6...(1 make + 3 break)",
+                        "Reason": "This annotation is not relevant because it is about the design of the switch function of the inputs, not the switching element function.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAB399006"
+                    },
+                    {
+                        "Name": "type of switching input",
+                        "Definition": "design of the input as semiconductor switching element",
+                        "Reason": "This annotation is not relevant because it is about the design of the switching input, not the switching element function.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC478001"
+                    },
+                    {
+                        "Name": "number of switching elements",
+                        "Definition": "quantitative information to the amount of available switching elements",
+                        "Reason": "This annotation is not relevant because it is about the number of switching elements, not the switching element function.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE967001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "switching element function",
+                    "Definition": "Design of control element as opener, shutter, opener by force, or changer",
+                    "SemanticIdentifier": "BAD\u00a0899010,00"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Switching function",
+                    "Definition": "Description of how the switching element operates",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to understand the specific operation of the switching element in a product, which can be crucial for troubleshooting, maintenance, and product design."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Switching function",
+                "Definition": "Whether the product has a switchable function",
+                "Value": "Switchable",
+                "SourceDescription": "Product feature"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "material of housing",
+                        "Definition": "name of material from which the housing is made",
+                        "Reason": "The data feature is about the product's function, not its material.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "switch function present",
+                        "Definition": "specification whether there is a switch function",
+                        "Reason": "This annotation is relevant to the data feature.",
+                        "isRelevant": true
+                    },
+                    {
+                        "Name": "switchable",
+                        "Definition": "specification whether the unit is switchable",
+                        "Reason": "This annotation is relevant to the data feature.",
+                        "isRelevant": true
+                    },
+                    {
+                        "Name": "Switch function",
+                        "Definition": "mathematic modeling of functions which can only have the values 1 or 0 as the definition range (states)",
+                        "Reason": "This annotation is not relevant to the data feature as it is about mathematical modeling.",
+                        "isRelevant": false
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "switch function present",
+                    "Definition": "specification whether there is a switch function"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Switching function",
+                    "Definition": "Whether the product has a switchable function"
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "This information can be used to determine if the product has a switchable function, which can be useful in various applications such as controlling the product's operation."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Output",
+                "Definition": "Whether the product has an output",
+                "Value": "Freely programmable",
+                "SourceDescription": "Product feature"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Output function present",
+                        "Definition": "whether product has an output function",
+                        "Reason": "The data feature is about the product's output function.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAE901008"
+                    },
+                    {
+                        "Name": "signal output present",
+                        "Definition": "specification whether the product is equipped with a signal output",
+                        "Reason": "The data feature is about the product's output function, not signal output.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE604001"
+                    },
+                    {
+                        "Name": "Output, voltage present",
+                        "Definition": "whether the input/ output module has an output for voltage",
+                        "Reason": "The data feature is about the product's output function, not voltage output.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAD\u00a0100009,00"
+                    },
+                    {
+                        "Name": "Output, current present",
+                        "Definition": "whether the input/ output module has an output for current",
+                        "Reason": "The data feature is about the product's output function, not current output.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAD\u00a0101009,00"
+                    },
+                    {
+                        "Name": "Index present",
+                        "Definition": "whether a product contains an index",
+                        "Reason": "The data feature is about the product's output function, not index.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAG445008"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Output function present",
+                    "Definition": "whether product has an output function",
+                    "SemanticIdentifier": "BAE901008"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Output function",
+                    "Definition": "Whether the product has an output function",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The information can be used to determine the product's output capabilities and functionality in specific engineering tasks."
+            }
+        }
+    ]
+}

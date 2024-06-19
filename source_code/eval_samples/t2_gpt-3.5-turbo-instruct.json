@@ -1,0 +1,1803 @@
+{
+    "session_key": "t2_gpt-3.5-turbo-instruct_20240124_192203_5d45",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Manufacturer code",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The code assigned to the manufacturer of the vacuum generator."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6323_3495_9563_1066"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "OVEL-10-H-15-PQ-VQ6-UA-C-A-B2PNLK-H3",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Part number",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The unique identification number assigned to the vacuum generator."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9902_5297_1299_5944"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "8069572",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Nominal size, Laval nozzle",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The size of the Laval nozzle used in the vacuum generator."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6237_0852_5144_7235"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0.95 mm",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Grid dimension",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The dimension of the grid used in the vacuum generator."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5128_3753_7507_4788"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "15 mm",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Silencer design",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The design of the silencer used in the vacuum generator."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8880_0511_5037_5430"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Open",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Mounting position",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The optional mounting position for the vacuum generator."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7030_9772_9232_5926"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "optional",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Ejector characteristic",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The characteristic of the ejector used in the vacuum generator."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2606_2220_4641_7787"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "High vacuum",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Standard",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The standard used for the vacuum generator."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6911_3545_4539_8194"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Grade of filtration",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Manual override",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The type of manual override used in the vacuum generator."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5569_9517_8974_9186"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Non-detenting",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Integrated function",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The integrated function of the vacuum generator."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8879_2241_7508_2129"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Electric ejector pulse",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Flow control",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The type of flow control used in the vacuum generator."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1284_5724_5308_2120"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Pressure sensor",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Electric on-off valve",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The type of electric on-off valve used in the vacuum generator."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5338_0164_2724_6436"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Filter",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Open silencer",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The type of open silencer used in the vacuum generator."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1217_7683_5472_0635"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Design",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "T-shape",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The shape of the vacuum generator."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9481_9234_1632_8843"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Switching element function",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "N/C contact",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The type of contact used in the vacuum generator."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0060_1044_5093_7297"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "N/C or N/O contact, switchable",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Switchable",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The switchable function of the vacuum generator."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6142_3734_9190_5605"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Switching function",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Freely programmable",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The programmable function of the vacuum generator."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5039_0929_3356_5709"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Output",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Manufacturer code",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The code assigned to the manufacturer of the vacuum generator."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6323_3495_9563_1066",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Manufacturer code"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The code assigned to the manufacturer of the vacuum generator."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Part number",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The unique identification number assigned to the vacuum generator."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9902_5297_1299_5944",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Part number"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The unique identification number assigned to the vacuum generator."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Nominal size, Laval nozzle",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The size of the Laval nozzle used in the vacuum generator."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6237_0852_5144_7235",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Nominal size, Laval nozzle"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The size of the Laval nozzle used in the vacuum generator."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Grid dimension",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The dimension of the grid used in the vacuum generator."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5128_3753_7507_4788",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Grid dimension"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The dimension of the grid used in the vacuum generator."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Silencer design",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The design of the silencer used in the vacuum generator."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8880_0511_5037_5430",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Silencer design"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The design of the silencer used in the vacuum generator."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Mounting position",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The optional mounting position for the vacuum generator."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7030_9772_9232_5926",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Mounting position"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The optional mounting position for the vacuum generator."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Ejector characteristic",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The characteristic of the ejector used in the vacuum generator."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2606_2220_4641_7787",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Ejector characteristic"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The characteristic of the ejector used in the vacuum generator."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Standard",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The standard used for the vacuum generator."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6911_3545_4539_8194",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Standard"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The standard used for the vacuum generator."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Manual override",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The type of manual override used in the vacuum generator."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5569_9517_8974_9186",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Manual override"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The type of manual override used in the vacuum generator."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Integrated function",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The integrated function of the vacuum generator."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8879_2241_7508_2129",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Integrated function"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The integrated function of the vacuum generator."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Flow control",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The type of flow control used in the vacuum generator."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1284_5724_5308_2120",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Flow control"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The type of flow control used in the vacuum generator."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Electric on-off valve",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The type of electric on-off valve used in the vacuum generator."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5338_0164_2724_6436",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Electric on-off valve"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The type of electric on-off valve used in the vacuum generator."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Open silencer",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The type of open silencer used in the vacuum generator."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1217_7683_5472_0635",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Open silencer"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The type of open silencer used in the vacuum generator."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "T-shape",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The shape of the vacuum generator."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9481_9234_1632_8843",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "T-shape"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The shape of the vacuum generator."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "N/C contact",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The type of contact used in the vacuum generator."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0060_1044_5093_7297",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "N/C contact"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The type of contact used in the vacuum generator."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Switchable",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The switchable function of the vacuum generator."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6142_3734_9190_5605",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Switchable"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The switchable function of the vacuum generator."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Freely programmable",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The programmable function of the vacuum generator."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5039_0929_3356_5709",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Freely programmable"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The programmable function of the vacuum generator."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "Manufacturer code",
+                "Definition": "The code assigned to the manufacturer of the vacuum generator.",
+                "Value": "OVEL-10-H-15-PQ-VQ6-UA-C-A-B2PNLK-H3",
+                "SourceDescription": "This data feature is extracted from a data sheet for a vacuum generator."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Manufacturer code",
+                    "Definition": "The code assigned to the manufacturer of the vacuum generator.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This data property can be used to identify the manufacturer of the vacuum generator and can be used in engineering tasks such as ordering replacement parts or troubleshooting issues with the generator.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Part number",
+                "Definition": "The unique identification number assigned to the vacuum generator.",
+                "Value": "8069572",
+                "SourceDescription": "This data feature is extracted from a data sheet for a vacuum generator."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Part number",
+                    "Definition": "The unique identification number assigned to the vacuum generator.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 4,
+                "Affordance": "This data property can be used to identify and track a specific vacuum generator in a system or process.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Nominal size, Laval nozzle",
+                "Definition": "The size of the Laval nozzle used in the vacuum generator.",
+                "Value": "0.95 mm",
+                "SourceDescription": "This data feature is extracted from a data sheet for a vacuum generator."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Nominal size, Laval nozzle",
+                    "Definition": "The size of the Laval nozzle used in the vacuum generator.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "mm",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This data property can be used to determine the size of the Laval nozzle in a vacuum generator, which is critical in understanding its performance and potential applications in various engineering tasks.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Grid dimension",
+                "Definition": "The dimension of the grid used in the vacuum generator.",
+                "Value": "15 mm",
+                "SourceDescription": "This data feature is extracted from a data sheet for a vacuum generator."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Grid dimension",
+                    "Definition": "The dimension of the grid used in the vacuum generator.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "mm",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This data property can be used to determine the size and spacing of the grid in a vacuum generator, which is critical in understanding its technical performance and efficiency in creating a vacuum.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Silencer design",
+                "Definition": "The design of the silencer used in the vacuum generator.",
+                "Value": "Open",
+                "SourceDescription": "This data feature is extracted from a data sheet for a vacuum generator."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Silencer design",
+                    "Definition": "The design of the silencer used in the vacuum generator.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in the design and selection of vacuum generators for specific engineering tasks, such as noise reduction and air flow control.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Mounting position",
+                "Definition": "The optional mounting position for the vacuum generator.",
+                "Value": "optional",
+                "SourceDescription": "This data feature is extracted from a data sheet for a vacuum generator."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Mounting position",
+                    "Definition": "The optional mounting position for the vacuum generator.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the optimal mounting position for the vacuum generator in a specific engineering task.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Ejector characteristic",
+                "Definition": "The characteristic of the ejector used in the vacuum generator.",
+                "Value": "High vacuum",
+                "SourceDescription": "This data feature is extracted from a data sheet for a vacuum generator."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Ejector characteristic",
+                    "Definition": "The characteristic of the ejector used in the vacuum generator.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the performance and functionality of the vacuum generator in high vacuum applications.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Standard",
+                "Definition": "The standard used for the vacuum generator.",
+                "Value": "Grade of filtration",
+                "SourceDescription": "This data feature is extracted from a data sheet for a vacuum generator."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Standard",
+                    "Definition": "The standard used for the vacuum generator.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the appropriate grade of filtration for the vacuum generator in various engineering tasks.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Manual override",
+                "Definition": "The type of manual override used in the vacuum generator.",
+                "Value": "Non-detenting",
+                "SourceDescription": "This data feature is extracted from a data sheet for a vacuum generator."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Manual override",
+                    "Definition": "The type of manual override used in the vacuum generator.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in the design and operation of vacuum generators for specific engineering tasks, such as controlling the manual override function for the vacuum generator.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Integrated function",
+                "Definition": "The integrated function of the vacuum generator.",
+                "Value": "Electric ejector pulse",
+                "SourceDescription": "This data feature is extracted from a data sheet for a vacuum generator."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Integrated function",
+                    "Definition": "The integrated function of the vacuum generator.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to program the electric ejector pulse function of the vacuum generator.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Flow control",
+                "Definition": "The type of flow control used in the vacuum generator.",
+                "Value": "Pressure sensor",
+                "SourceDescription": "This data feature is extracted from a data sheet for a vacuum generator."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Flow control",
+                    "Definition": "The type of flow control used in the vacuum generator.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the specific flow control mechanism used in the vacuum generator, which is crucial for understanding its performance and potential applications in various engineering tasks.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Electric on-off valve",
+                "Definition": "The type of electric on-off valve used in the vacuum generator.",
+                "Value": "Filter",
+                "SourceDescription": "This data feature is extracted from a data sheet for a vacuum generator."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Electric on-off valve",
+                    "Definition": "The type of electric on-off valve used in the vacuum generator.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in the design and operation of vacuum generators for specific engineering tasks, such as controlling the flow of air and maintaining a high vacuum level.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Open silencer",
+                "Definition": "The type of open silencer used in the vacuum generator.",
+                "Value": "Design",
+                "SourceDescription": "This data feature is extracted from a data sheet for a vacuum generator."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Open silencer",
+                    "Definition": "The type of open silencer used in the vacuum generator.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in the design and selection of a vacuum generator for specific engineering tasks requiring high vacuum and a freely programmable switching function.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "T-shape",
+                "Definition": "The shape of the vacuum generator.",
+                "Value": "Switching element function",
+                "SourceDescription": "This data feature is extracted from a data sheet for a vacuum generator."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "T-shape",
+                    "Definition": "The shape of the vacuum generator.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in designing and selecting vacuum generators for specific engineering tasks.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "N/C contact",
+                "Definition": "The type of contact used in the vacuum generator.",
+                "Value": "N/C or N/O contact, switchable",
+                "SourceDescription": "This data feature is extracted from a data sheet for a vacuum generator."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "N/C contact",
+                    "Definition": "The type of contact used in the vacuum generator.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to determine the type of contact needed for a specific vacuum generator, allowing for precise and efficient functioning in various engineering tasks.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Switchable",
+                "Definition": "The switchable function of the vacuum generator.",
+                "Value": "Switching function",
+                "SourceDescription": "This data feature is extracted from a data sheet for a vacuum generator."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Switchable",
+                    "Definition": "The switchable function of the vacuum generator.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks where the switching function of a vacuum generator is required.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Freely programmable",
+                "Definition": "The programmable function of the vacuum generator.",
+                "Value": "Output",
+                "SourceDescription": "This data feature is extracted from a data sheet for a vacuum generator."
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Freely programmable",
+                    "Definition": "The programmable function of the vacuum generator.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks where the vacuum generator's programmable function is required.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,1804 @@
+{
+    "session_key": "t3_WizardLM_70B_20240124_230208_851a",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "air damper_Product No.",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "A unique identifier assigned to a product for ordering and inventory purposes"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0719_9374_7756_8216"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "GAP191.1E/IHT",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "air damper_Stock No.",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "A unique identifier assigned to a product for inventory and ordering purposes"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1402_3453_6652_4042"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "S55499-D639",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "air damper_Torque",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The torque required to move the air damper, which is a mechanical device that controls the amount of air entering into a duct, chimney, vent, or airwork tool."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1923_9342_4337_1316"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "6 Nm",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "air damper_Holding torque",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The amount of torque required to keep the air damper in a fixed position"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9962_2899_8659_8956"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "6 Nm",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "air damper_Air damper area",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The surface area of the air damper, measured in square meters (m\u00b2)."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2735_1543_6506_1658"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "1 m\u00b2",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "air damper_Angular rotation",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The angular rotation of the air damper is the measure of the rotation angle of the damper blade in degrees."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3304_5898_0530_4691"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "90\u00b0",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "air damper_Power consumption",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The amount of power consumed by the air damper"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8108_7847_9604_2781"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "20 VA, 13 W",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "air damper_Positioning time",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The time taken by the air damper to move from one position to another"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4187_5002_0384_0367"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "2 s",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "air damper_Cable length",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The distance from one end of the cable to the other end, measured along the cable"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3192_4825_5337_7561"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0.9 m",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "air damper_Positioning signal",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Positioning signal of an air damper is a control signal that determines the position of the damper blade in an HVAC system."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0028_0670_1969_2907"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "DC 0(2)...10 V, 0(4)...20 mA",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "air damper_Degree of protection",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The degree of protection of the air damper defines its resistance to intrusion from foreign bodies and water."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5821_6012_9921_8234"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "IP54",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "air damper_Ambient temperature, operation",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The temperature range at which the air damper can operate effectively"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5521_3898_6267_2012"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "-32\u202655 \u00b0C",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "air damper_Medium temperature",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The temperature range of the medium in which the air damper operates"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8372_2424_6069_7630"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "-32\u202650 \u00b0C",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "air damper_Ambient humidity, operation",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The level of humidity in the surrounding environment required for the proper operation of the air damper"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1319_1858_2548_8825"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "95 % r.h.",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "air damper_Dimensions (W x H x D)",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The size of the air damper in width, height, and depth"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6346_4114_3486_9037"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "81 x 192 x 63 mm",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "air damper_Operating voltage",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The operating voltage of the air damper is the voltage required to power the device and maintain its functionality."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9590_9604_3858_0231"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "AC/DC 24 V",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "air damper_Auxiliary switch",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "A feature of the air damper that allows for additional control or functionality"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3903_7831_0160_9049"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "air damper_Product No.",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A unique identifier assigned to a product for ordering and inventory purposes"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0719_9374_7756_8216",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product Number"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "A unique identifier assigned to a product for ordering and inventory purposes"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "air damper_Stock No.",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A unique identifier assigned to a product for inventory and ordering purposes"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1402_3453_6652_4042",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Stock Number"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "A unique identifier assigned to a product for inventory and ordering purposes"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "air damper_Torque",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The torque required to move the air damper, which is a mechanical device that controls the amount of air entering into a duct, chimney, vent, or airwork tool."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1923_9342_4337_1316",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "AirDamperTorque"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The torque required to move the air damper, which is a mechanical device that controls the amount of air entering into a duct, chimney, vent, or airwork tool."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "air damper_Holding torque",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The amount of torque required to keep the air damper in a fixed position"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9962_2899_8659_8956",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Holding_torque_of_air_damper"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The amount of torque required to keep the air damper in a fixed position"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "air damper_Air damper area",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The surface area of the air damper, measured in square meters (m\u00b2)."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2735_1543_6506_1658",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Air Damper Area"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The surface area of the air damper, measured in square meters (m\u00b2)."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "air damper_Angular rotation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The angular rotation of the air damper is the measure of the rotation angle of the damper blade in degrees."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3304_5898_0530_4691",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Angular rotation of air damper"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The angular rotation of the air damper is the measure of the rotation angle of the damper blade in degrees."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "air damper_Power consumption",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The amount of power consumed by the air damper"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8108_7847_9604_2781",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Power consumption of air damper"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The amount of power consumed by the air damper"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "air damper_Positioning time",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The time taken by the air damper to move from one position to another"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4187_5002_0384_0367",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Positioning time"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The time taken by the air damper to move from one position to another"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "air damper_Cable length",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The distance from one end of the cable to the other end, measured along the cable"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3192_4825_5337_7561",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Cable length of air damper"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The distance from one end of the cable to the other end, measured along the cable"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "air damper_Positioning signal",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Positioning signal of an air damper is a control signal that determines the position of the damper blade in an HVAC system."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0028_0670_1969_2907",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "air_damper_Positioning_signal"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Positioning signal of an air damper is a control signal that determines the position of the damper blade in an HVAC system."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "air damper_Degree of protection",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The degree of protection of the air damper defines its resistance to intrusion from foreign bodies and water."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5821_6012_9921_8234",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Degree of protection_air damper"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The degree of protection of the air damper defines its resistance to intrusion from foreign bodies and water."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "air damper_Ambient temperature, operation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The temperature range at which the air damper can operate effectively"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5521_3898_6267_2012",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Ambient_temperature_for_operation_of_air_damper"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The temperature range at which the air damper can operate effectively"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "air damper_Medium temperature",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The temperature range of the medium in which the air damper operates"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8372_2424_6069_7630",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Medium temperature of air damper"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The temperature range of the medium in which the air damper operates"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "air damper_Ambient humidity, operation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The level of humidity in the surrounding environment required for the proper operation of the air damper"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1319_1858_2548_8825",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "AmbientHumidity_Operation"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The level of humidity in the surrounding environment required for the proper operation of the air damper"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "air damper_Dimensions (W x H x D)",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The size of the air damper in width, height, and depth"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/6346_4114_3486_9037",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Dimensions of air damper"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The size of the air damper in width, height, and depth"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "air damper_Operating voltage",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The operating voltage of the air damper is the voltage required to power the device and maintain its functionality."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/9590_9604_3858_0231",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Operating Voltage of Air Damper"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The operating voltage of the air damper is the voltage required to power the device and maintain its functionality."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "air damper_Auxiliary switch",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A feature of the air damper that allows for additional control or functionality"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/3903_7831_0160_9049",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Auxiliary switch"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "A feature of the air damper that allows for additional control or functionality"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "air damper_Product No.",
+                "Definition": "Product number of air damper",
+                "Value": "GAP191.1E/IHT",
+                "SourceDescription": "Product number of air damper"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Product Number",
+                    "Definition": "A unique identifier assigned to a product for ordering and inventory purposes",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Used for identifying and ordering the product in inventory and sales processes.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "air damper_Stock No.",
+                "Definition": "Stock number of air damper",
+                "Value": "S55499-D639",
+                "SourceDescription": "Stock number of air damper"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Stock Number",
+                    "Definition": "A unique identifier assigned to a product for inventory and ordering purposes",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "Inventory and ordering of the product",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "air damper_Torque",
+                "Definition": "Torque of air damper",
+                "Value": "6 Nm",
+                "SourceDescription": "Torque of air damper"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "AirDamperTorque",
+                    "Definition": "The torque required to move the air damper, which is a mechanical device that controls the amount of air entering into a duct, chimney, vent, or airwork tool.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "Nm",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to HVAC systems, industrial ventilation, and air control systems to ensure proper airflow and energy efficiency.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "air damper_Holding torque",
+                "Definition": "Holding torque of air damper",
+                "Value": "6 Nm",
+                "SourceDescription": "Holding torque of air damper"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Holding_torque_of_air_damper",
+                    "Definition": "The amount of torque required to keep the air damper in a fixed position",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "Nm",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to air flow control and pressure regulation in various industrial processes.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "air damper_Air damper area",
+                "Definition": "Area of air damper",
+                "Value": "1 m\u00b2",
+                "SourceDescription": "Area of air damper"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Air Damper Area",
+                    "Definition": "The surface area of the air damper, measured in square meters (m\u00b2).",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "m\u00b2",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to air flow control and optimization, as well as in determining the size of the air damper for specific applications.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "air damper_Angular rotation",
+                "Definition": "Angular rotation of air damper",
+                "Value": "90\u00b0",
+                "SourceDescription": "Angular rotation of air damper"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Angular rotation of air damper",
+                    "Definition": "The angular rotation of the air damper is the measure of the rotation angle of the damper blade in degrees.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "degrees",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to air flow control and HVAC systems to ensure optimal performance and energy efficiency.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "air damper_Power consumption",
+                "Definition": "Power consumption of air damper",
+                "Value": "20 VA, 13 W",
+                "SourceDescription": "Power consumption of air damper"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Power consumption of air damper",
+                    "Definition": "The amount of power consumed by the air damper",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "20 VA, 13 W",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to energy efficiency and load management.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "air damper_Positioning time",
+                "Definition": "Positioning time of air damper",
+                "Value": "2 s",
+                "SourceDescription": "Positioning time of air damper"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Positioning time",
+                    "Definition": "The time taken by the air damper to move from one position to another",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "s",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to the design and optimization of air dampers, as well as in the analysis of system performance and efficiency.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "air damper_Cable length",
+                "Definition": "Cable length of air damper",
+                "Value": "0.9 m",
+                "SourceDescription": "Cable length of air damper"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Cable length of air damper",
+                    "Definition": "The distance from one end of the cable to the other end, measured along the cable",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "m",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks such as determining the appropriate cable length for the air damper, and in specific applications like designing the layout of the air damper system.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "air damper_Positioning signal",
+                "Definition": "Positioning signal of air damper",
+                "Value": "DC 0(2)...10 V, 0(4)...20 mA",
+                "SourceDescription": "Positioning signal of air damper"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "air_damper_Positioning_signal",
+                    "Definition": "Positioning signal of an air damper is a control signal that determines the position of the damper blade in an HVAC system.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to HVAC system control and automation, such as designing, testing, and troubleshooting of air damper control systems.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "air damper_Degree of protection",
+                "Definition": "Degree of protection of air damper",
+                "Value": "IP54",
+                "SourceDescription": "Degree of protection of air damper"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Degree of protection_air damper",
+                    "Definition": "The degree of protection of the air damper defines its resistance to intrusion from foreign bodies and water.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to environmental protection and safety, such as ensuring the proper functioning of the air damper in various conditions.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "air damper_Ambient temperature, operation",
+                "Definition": "Ambient temperature for operation of air damper",
+                "Value": "-32\u202655 \u00b0C",
+                "SourceDescription": "Ambient temperature for operation of air damper"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Ambient_temperature_for_operation_of_air_damper",
+                    "Definition": "The temperature range at which the air damper can operate effectively",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-32\u202655 \u00b0C",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to ensure the air damper is used within its optimal temperature range for efficient operation.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "air damper_Medium temperature",
+                "Definition": "Medium temperature of air damper",
+                "Value": "-32\u202650 \u00b0C",
+                "SourceDescription": "Medium temperature of air damper"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Medium temperature of air damper",
+                    "Definition": "The temperature range of the medium in which the air damper operates",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-32\u202650 \u00b0C",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to HVAC systems, industrial processes, and environmental control systems.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "air damper_Ambient humidity, operation",
+                "Definition": "Ambient humidity for operation of air damper",
+                "Value": "95 % r.h.",
+                "SourceDescription": "Ambient humidity for operation of air damper"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "AmbientHumidity_Operation",
+                    "Definition": "The level of humidity in the surrounding environment required for the proper operation of the air damper",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "% r.h.",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to the design, installation, and maintenance of air dampers, ensuring optimal performance under specific humidity conditions.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "air damper_Dimensions (W x H x D)",
+                "Definition": "Dimensions of air damper",
+                "Value": "81 x 192 x 63 mm",
+                "SourceDescription": "Dimensions of air damper"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Dimensions of air damper",
+                    "Definition": "The size of the air damper in width, height, and depth",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "mm",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks such as designing and installing the air damper, and in determining the required space for the air damper in a system or device.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "air damper_Operating voltage",
+                "Definition": "Operating voltage of air damper",
+                "Value": "AC/DC 24 V",
+                "SourceDescription": "Operating voltage of air damper"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Operating Voltage of Air Damper",
+                    "Definition": "The operating voltage of the air damper is the voltage required to power the device and maintain its functionality.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to power supply and system design for the proper operation of the air damper.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "air damper_Auxiliary switch",
+                "Definition": "Auxiliary switch of air damper",
+                "Value": "0",
+                "SourceDescription": "Auxiliary switch of air damper"
+            },
+            "Annotations": {
+                "GeneratedAnnotation": {
+                    "Name": "Auxiliary switch",
+                    "Definition": "A feature of the air damper that allows for additional control or functionality",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to control systems or automation, where understanding the auxiliary switch functionality is crucial.",
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": null,
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ],
+                "BestAnnotation": [
+                    {
+                        "Name": "[Not using external library]",
+                        "Definition": null,
+                        "Reason": "not using external library",
+                        "isRelevant": false,
+                        "SemanticIdentifier": null
+                    }
+                ]
+            }
+        }
+    ]
+}

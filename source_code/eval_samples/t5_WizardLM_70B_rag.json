@@ -1,0 +1,1341 @@
+{
+    "session_key": "t5_WizardLM_70B_rag_20240124_210221_aa2c",
+    "aas": {
+        "assetAdministrationShells": [
+            {
+                "idShort": "AAS_Sample_Generated_by_LLM",
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/aas/9455_5160_3002_2366",
+                "assetInformation": {
+                    "assetKind": "Instance",
+                    "globalAssetId": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/asset/8091_2271_2132_6317",
+                    "specificAssetIds": []
+                },
+                "submodels": [
+                    {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "Submodel",
+                                "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                            }
+                        ]
+                    }
+                ],
+                "modelType": "AssetAdministrationShell"
+            }
+        ],
+        "submodels": [
+            {
+                "idShort": "TechnicalData",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Submodel containing techical data to the asset."
+                    }
+                ],
+                "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+                "kind": "Instance",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+                        }
+                    ]
+                },
+                "submodelElements": [
+                    {
+                        "idShort": "GeneralInformation",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Product_Type",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Name of the product type"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1470_0820_0998_0264"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "electric actuator",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Product_Name",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Unique sequence of characters identifying the product"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5144_6280_0945_4735"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "herculine 2000",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Storage_Temperature",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "The temperature range from -40 \u00b0C to +93 \u00b0C (\u201340 \u00b0C to +200 \u00b0F) is suitable for storage."
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1448_8076_6724_7865"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "\u201340 \u00b0C to +93 \u00b0C (\u201340 \u00b0C to +200 \u00b0F)",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    },
+                    {
+                        "idShort": "TechnicalProperties",
+                        "description": [
+                            {
+                                "language": "en",
+                                "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                            }
+                        ],
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337"
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "idShort": "Weight",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Weight of the product"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0553_8692_0091_9598"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "25 lb. (11.36 kg)",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Enclosure",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Description of the product enclosure"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2110_0821_2064_3304"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Precision-machined die-cast aluminum housing finished in light gray powder coat epoxy.",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Factory_Setting",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Factory set angle of the product"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4291_2293_2989_4787"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "90\u00b0 or 150\u00b0 (+/-5\u00b0)",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Relative_Humidity",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Range of relative humidity for proper operation"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1819_8978_5799_2255"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0 % to 99 % R.H. non-condensing over the full operating temperature range",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Scale",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Definition of the scale range"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1161_3074_1884_1041"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "0 % to 100 % corresponding to full crank arm travel",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Lubrication",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Specific type or brand of lubricant used"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8092_2624_6487_3164"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "Texaco Starplex 2 EP Grease",
+                                "modelType": "Property"
+                            },
+                            {
+                                "idShort": "Clamp_Bolt",
+                                "description": [
+                                    {
+                                        "language": "en",
+                                        "text": "Torque required for clamp bolt"
+                                    }
+                                ],
+                                "semanticId": {
+                                    "type": "ExternalReference",
+                                    "keys": [
+                                        {
+                                            "type": "GlobalReference",
+                                            "value": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8782_8816_0665_2685"
+                                        }
+                                    ]
+                                },
+                                "valueType": "xs:string",
+                                "value": "88 lb-in (10 N-m)",
+                                "modelType": "Property"
+                            }
+                        ],
+                        "modelType": "SubmodelElementCollection"
+                    }
+                ],
+                "modelType": "Submodel"
+            }
+        ],
+        "conceptDescriptions": [
+            {
+                "idShort": "TechnicalProperty",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "A technical property generally refers to a characteristic or attribute that defines or describes the technical aspects of an object, system, material, or process. These properties are usually measurable or quantifiable and are critical in determining how something will function or perform in a specific context."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/7424_3271_2132_8337",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "GeneralInformation",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "General information refers to the basic details about a product that would identify and describe it without getting into the detailed technical specifications."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2535_3271_2132_8369",
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Product_Type",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Name of the product type"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1470_0820_0998_0264",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product Type"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Name of the product type"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Product_Name",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Unique sequence of characters identifying the product"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/5144_6280_0945_4735",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product Part Number"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Unique sequence of characters identifying the product"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Weight",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Weight of the product"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/0553_8692_0091_9598",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Product weight"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Weight of the product"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Enclosure",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Description of the product enclosure"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/2110_0821_2064_3304",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Description of enclosure"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Description of the product enclosure"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Factory_Setting",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Factory set angle of the product"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/4291_2293_2989_4787",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Factory_Setting"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Factory set angle of the product"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Storage_Temperature",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "The temperature range from -40 \u00b0C to +93 \u00b0C (\u201340 \u00b0C to +200 \u00b0F) is suitable for storage."
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1448_8076_6724_7865",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Storage Temperature Range"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "The temperature range from -40 \u00b0C to +93 \u00b0C (\u201340 \u00b0C to +200 \u00b0F) is suitable for storage."
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Relative_Humidity",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Range of relative humidity for proper operation"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1819_8978_5799_2255",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Humidity_Range"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Range of relative humidity for proper operation"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Scale",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Definition of the scale range"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/1161_3074_1884_1041",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Range of the scale"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Definition of the scale range"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Lubrication",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Specific type or brand of lubricant used"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8092_2624_6487_3164",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Type of lubrication"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Specific type or brand of lubricant used"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            },
+            {
+                "idShort": "Clamp_Bolt",
+                "description": [
+                    {
+                        "language": "en",
+                        "text": "Torque required for clamp bolt"
+                    }
+                ],
+                "id": "https://github.com/YuchenXia/AASbyLLM/tree/main/AAS_Samples/ids/cd/8782_8816_0665_2685",
+                "embeddedDataSpecifications": [
+                    {
+                        "dataSpecification": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+                                }
+                            ]
+                        },
+                        "dataSpecificationContent": {
+                            "preferredName": [
+                                {
+                                    "language": "en",
+                                    "text": "Clamp_Bolt_Torque"
+                                }
+                            ],
+                            "unit": "",
+                            "sourceOfDefinition": "generated by AI software AASbyLLM based on user given texts.",
+                            "dataType": "STRING",
+                            "definition": [
+                                {
+                                    "language": "en",
+                                    "text": "Torque required for clamp bolt"
+                                }
+                            ],
+                            "modelType": "DataSpecificationIec61360"
+                        }
+                    }
+                ],
+                "modelType": "ConceptDescription"
+            }
+        ]
+    },
+    "resultsForHumanEvaluation": [
+        {
+            "DataFeature": {
+                "Name": "Product_Type",
+                "Definition": "Name of the product type",
+                "Value": "electric actuator",
+                "SourceDescription": "Product type designation"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "product-type designation",
+                        "Definition": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants",
+                        "Reason": "This annotation is relevant because it describes the identification code for the product type, which is the same information as the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAF542002"
+                    },
+                    {
+                        "Name": "Product type",
+                        "Definition": "Additional information for describing products to be able to distinguish - for a product family or for special design (variants) - the products from each other",
+                        "Reason": "This annotation is relevant because it describes additional information for distinguishing products within a product family or special design, which is related to the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO846001"
+                    },
+                    {
+                        "Name": "Type description of the product group",
+                        "Definition": "The specifying type description (type name, type code, abbreviated name, article number) for distinguishing according to product group (variant) of the used bookstore product",
+                        "Reason": "This annotation is not relevant because it is specific to distinguishing product groups in a bookstore product, which is not related to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO966001"
+                    },
+                    {
+                        "Name": "product type",
+                        "Definition": "characterization of the product with regard to its general type",
+                        "Reason": "This annotation is relevant because it describes the general type of the product, which is related to the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO243004"
+                    },
+                    {
+                        "Name": "Type description of the input channels",
+                        "Definition": "The specifying designation (type name, type code, abbreviated name, article number) for the input channel that a product has",
+                        "Reason": "This annotation is not relevant because it describes the input channels of a product, which is not related to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO948001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "product-type designation",
+                    "Definition": "identification code, which is defined by the manufacturer, or coded type declaration as additional entry to the product brand name, to differentiate single products of a product familly or special variants",
+                    "SemanticIdentifier": "AAF542002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Product Type",
+                    "Definition": "Name of the product type",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "The information can be used to identify and distinguish the specific product type within a product family or special design."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Product_Name",
+                "Definition": "Name of the product",
+                "Value": "herculine 2000",
+                "SourceDescription": "Part number"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Manufacturing part number",
+                        "Definition": "Sequence of characters for identifying name of a manufacturing part",
+                        "Reason": "The data feature is a part number which is used to identify the product.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO628001"
+                    },
+                    {
+                        "Name": "product identifier",
+                        "Definition": "unique identifier of the product",
+                        "Reason": "The data feature is a part number which is a unique identifier for the product.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "ABA671001"
+                    },
+                    {
+                        "Name": "number of the parts list",
+                        "Definition": "Description of the list that includes all individual parts required for manufacturing or assembling a product",
+                        "Reason": "The data feature is a part number, not a description of a parts list.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAO835001"
+                    },
+                    {
+                        "Name": "product type description of processor",
+                        "Definition": "name of the product family or variant",
+                        "Reason": "The data feature is a part number, not a product type description.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAR557001"
+                    },
+                    {
+                        "Name": "product article number of manufacturer",
+                        "Definition": "unique product identifier of the manufacturer",
+                        "Reason": "The data feature is a part number which is a unique identifier for the product.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAO676003"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "product identifier",
+                    "Definition": "unique identifier of the product",
+                    "SemanticIdentifier": "ABA671001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Product Part Number",
+                    "Definition": "Unique sequence of characters identifying the product",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 1,
+                "Affordance": "The information can be used for inventory management, order processing, and customer support."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Weight",
+                "Definition": "Weight of the product",
+                "Value": "25 lb. (11.36 kg)",
+                "SourceDescription": "Weight"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Net weight",
+                        "Definition": "Weight of the system (product) in kg",
+                        "Reason": "The weight of the product is the weight of the system.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAS707002"
+                    },
+                    {
+                        "Name": "Gross weight",
+                        "Definition": "mass of the packed product",
+                        "Reason": "The weight of the product is not the mass of the packed product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAE622005"
+                    },
+                    {
+                        "Name": "weight without weighting",
+                        "Definition": "indication of the physical mass of the product, excluding any necessary weights",
+                        "Reason": "The weight of the product includes the necessary weights.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABD800001"
+                    },
+                    {
+                        "Name": "Norm weight",
+                        "Definition": "mass of the product to be weighed in relation to a surface or length",
+                        "Reason": "The weight of the product is not related to a surface or length.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ522001"
+                    },
+                    {
+                        "Name": "weight of item",
+                        "Definition": "force exerted by the mass of an object",
+                        "Reason": "The weight of the product is the force exerted by its mass.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "BAB576007"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Net weight",
+                    "Definition": "Weight of the system (product) in kg",
+                    "SemanticIdentifier": "AAS707002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Product weight",
+                    "Definition": "Weight of the product",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "kg",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used for logistics, packaging, and product design purposes."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Enclosure",
+                "Definition": "Description of the product enclosure",
+                "Value": "Precision-machined die-cast aluminum housing finished in light gray powder coat epoxy.",
+                "SourceDescription": "Enclosure"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "protective enclosure present",
+                        "Definition": "specification whether there is a protective enclosure",
+                        "Reason": "The data feature does not directly mention the presence of a protective enclosure.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAG474004"
+                    },
+                    {
+                        "Name": "Design of enclosure",
+                        "Definition": "Design and designation of a secondary product enclosed with a publication",
+                        "Reason": "The data feature is about the design of the product's enclosure, not a secondary product enclosed with a publication.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAE937002"
+                    },
+                    {
+                        "Name": "Enclosure rating encoder",
+                        "Definition": "describes protection from direct contact or from the ingress of solids and liquids",
+                        "Reason": "The data feature does not provide information about the protection rating of the enclosure.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAZ293001"
+                    },
+                    {
+                        "Name": "Manufacturer product description",
+                        "Definition": "Description of the product, it's technical features and implementation if needed (long text)",
+                        "Reason": "The data feature provides a specific description of the product enclosure, not a general product description.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAU734001"
+                    },
+                    {
+                        "Name": "inspection opening and cover present",
+                        "Definition": "specification whether the product is equipped with inspection opening and cover",
+                        "Reason": "The data feature does not mention whether the product is equipped with inspection opening and cover.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE497001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Design of enclosure",
+                    "Definition": "Design and designation of a secondary product enclosed with a publication",
+                    "SemanticIdentifier": "BAE937002"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Description of enclosure",
+                    "Definition": "Description of the product enclosure",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The information can be used for understanding the design and materials used in the product's enclosure, which can be useful in product design, manufacturing, and quality control processes."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Factory_Setting",
+                "Definition": "Factory set angle of the product",
+                "Value": "90\u00b0 or 150\u00b0 (+/-5\u00b0)",
+                "SourceDescription": "Factory set at 90\u00b0 or 150\u00b0 (+/-5\u00b0)"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "point angle 1st step",
+                        "Definition": "angle between the major cutting edge and the same cutting edge rotated 180 degrees about its tool axis",
+                        "Reason": "The data feature does not mention anything about cutting edge or tool axis.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAA848006"
+                    },
+                    {
+                        "Name": "right-angled",
+                        "Definition": "specification whether the shape of the product has a right angle",
+                        "Reason": "The data feature does not mention anything about the shape of the product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE588001"
+                    },
+                    {
+                        "Name": "angle of the desoldering insert",
+                        "Definition": "describes the angle of the desoldering insert",
+                        "Reason": "The data feature does not mention anything about desoldering insert.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK512004"
+                    },
+                    {
+                        "Name": "angled",
+                        "Definition": "specification whether the geometric shape of product is angled",
+                        "Reason": "The data feature does not mention anything about the geometric shape of the product.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE318001"
+                    },
+                    {
+                        "Name": "adjustment range (horizontal)",
+                        "Definition": "construction of the exact setting along the horizontal of a core drill machine",
+                        "Reason": "The data feature does not mention anything about a core drill machine.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAI083004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Factory_Setting",
+                    "Definition": "Factory set angle of the product",
+                    "SemanticIdentifier": null
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Factory_Setting",
+                    "Definition": "Factory set angle of the product",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to identify the factory set angle of the product, which is crucial for determining the product's orientation and function."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Storage_Temperature",
+                "Definition": "Temperature range for storage",
+                "Value": "\u201340 \u00b0C to +93 \u00b0C (\u201340 \u00b0C to +200 \u00b0F)",
+                "SourceDescription": "Storage Temperature"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "storage temperature",
+                        "Definition": "Temperature at which a component is stored",
+                        "Reason": "It is directly related to the data feature.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAZ830001"
+                    },
+                    {
+                        "Name": "max. permissible temperature during storage",
+                        "Definition": "maximum permissible temperature of the operating resource during storage",
+                        "Reason": "It is related to the maximum temperature during storage, but not exactly the same as the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABA654001"
+                    },
+                    {
+                        "Name": "upper limiting value of storage temperature",
+                        "Definition": "temperature up to which the device may be stored or transported without any permanent impairment to its operability",
+                        "Reason": "It is related to the maximum temperature during storage, but not exactly the same as the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAN272004"
+                    },
+                    {
+                        "Name": "max. storage temperature",
+                        "Definition": "maximum temperature which can be fed with a heat storage",
+                        "Reason": "It is not directly related to the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAI791003"
+                    },
+                    {
+                        "Name": "min. permissible temperature during storage",
+                        "Definition": "minimum permissible temperature of the operating resource during storage",
+                        "Reason": "It is related to the minimum temperature during storage, but not exactly the same as the data feature.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABA653001"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "storage temperature",
+                    "Definition": "Temperature at which a component is stored",
+                    "SemanticIdentifier": "AAZ830001"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Storage Temperature Range",
+                    "Definition": "The temperature range from -40 \u00b0C to +93 \u00b0C (\u201340 \u00b0C to +200 \u00b0F) is suitable for storage.",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 2,
+                "Affordance": "This information can be used to ensure proper storage conditions for the product to maintain its operability and longevity."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Relative_Humidity",
+                "Definition": "Humidity range for operation",
+                "Value": "0 % to 99 % R.H. non-condensing over the full operating temperature range",
+                "SourceDescription": "Relative Humidity"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "max. adjustment range of the relative air humidity",
+                        "Definition": "maximal value for the adjustment range of relative air humidity",
+                        "Reason": "The data feature is about the range of relative humidity for operation, not the adjustment range.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAJ051003"
+                    },
+                    {
+                        "Name": "max. application humidity range",
+                        "Definition": "indication of the maximum value of relative humidity, at which the device can be operated properly",
+                        "Reason": "The data feature is about the range of relative humidity for operation, not the maximum application humidity range.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK082002"
+                    },
+                    {
+                        "Name": "min. adjustment range relative air humidity",
+                        "Definition": "minimal value for the adjustment range of relative ar humidity",
+                        "Reason": "The data feature is about the range of relative humidity for operation, not the minimum adjustment range.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAJ052002"
+                    },
+                    {
+                        "Name": "min. application humidity range",
+                        "Definition": "indication of the minimum value of relative humidity at which the device can be operated properly",
+                        "Reason": "The data feature is about the range of relative humidity for operation, not the minimum application humidity range.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAK081002"
+                    },
+                    {
+                        "Name": "reference humidity",
+                        "Definition": "relative humidity at which the performance of a device was tested",
+                        "Reason": "The data feature is about the range of relative humidity for operation, not the reference humidity.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "BAA023007"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Relative_Humidity",
+                    "Definition": "Humidity range for operation",
+                    "SemanticIdentifier": "AAJ051003"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Humidity_Range",
+                    "Definition": "Range of relative humidity for proper operation",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used to ensure the device is operated within the appropriate humidity range for optimal performance."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Scale",
+                "Definition": "Range of the scale",
+                "Value": "0 % to 100 % corresponding to full crank arm travel",
+                "SourceDescription": "Scale"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "Scale range",
+                        "Definition": "min. range of the scale",
+                        "Reason": "The data feature is about the range of the scale, not the minimum range.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "nominal end value of the scale",
+                        "Definition": "end value and boundary of the display range for visualization of existing measurements",
+                        "Reason": "The data feature is about the range of the scale, not the end value or boundary.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "Type of scale",
+                        "Definition": "Unit of measurement of scale",
+                        "Reason": "The data feature is about the range of the scale, not the unit of measurement.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "Length of scale",
+                        "Definition": "Maximum dimension of scale",
+                        "Reason": "The data feature is about the range of the scale, not the length of the scale.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "max. indicating range",
+                        "Definition": "maximum displayable range of measured values, determined by a predefined scale",
+                        "Reason": "The data feature is about the range of the scale, not the maximum indicating range.",
+                        "isRelevant": false
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Scale range",
+                    "Definition": "min. range of the scale",
+                    "SemanticIdentifier": "AAD912006"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Range of the scale",
+                    "Definition": "Definition of the scale range",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "The range of the scale can be used to understand the full crank arm travel and can be used in engineering tasks related to the operation and maintenance of the electric actuator."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Lubrication",
+                "Definition": "Type of lubrication used",
+                "Value": "Texaco Starplex 2 EP Grease",
+                "SourceDescription": "Lubrication"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "oil lubricated",
+                        "Definition": "specification whether the unit is lubricated with oil",
+                        "Reason": "The data feature is about the type of lubrication used, which is not necessarily about whether the unit is lubricated with oil.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "Lubricant",
+                        "Definition": "Fluid or tenacious compound for reduction of friction or for transmission of power in lubrication systems",
+                        "Reason": "The data feature is about the type of lubrication used, which is a fluid for reduction of friction.",
+                        "isRelevant": true
+                    },
+                    {
+                        "Name": "Cooling lubricant",
+                        "Definition": "Liquid used for cooling and lubrication when materials are cut",
+                        "Reason": "The data feature is about the type of lubrication used, which is not necessarily for cooling and lubrication when materials are cut.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "Type of hydraulic oil",
+                        "Definition": "according to intended purpose and demanded quality different kinds of products on different material base",
+                        "Reason": "The data feature is about the type of lubrication used, which is not necessarily about hydraulic oil.",
+                        "isRelevant": false
+                    },
+                    {
+                        "Name": "Lubricant",
+                        "Definition": "A substance which is added to a mixture of substances in a small quantity so that movement is easier and adherence to other substances is prevented",
+                        "Reason": "The data feature is about the type of lubrication used, which is a substance added for easier movement and preventing adherence.",
+                        "isRelevant": true
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "Lubricant",
+                    "Definition": "Fluid or tenacious compound for reduction of friction or for transmission of power in lubrication systems",
+                    "SemanticIdentifier": "BAJ006006"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Type of lubrication",
+                    "Definition": "Specific type or brand of lubricant used",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "-",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "Identifying the specific type of lubrication used can help in maintenance, troubleshooting, and ensuring optimal performance of the electric actuator."
+            }
+        },
+        {
+            "DataFeature": {
+                "Name": "Clamp_Bolt",
+                "Definition": "Torque required for clamp bolt",
+                "Value": "88 lb-in (10 N-m)",
+                "SourceDescription": "Clamp Bolt"
+            },
+            "Annotations": {
+                "EvaluatedAnnotations": [
+                    {
+                        "Name": "minimal clamping torque",
+                        "Definition": "smallest for the clamping required moment measured in the axis joint",
+                        "Reason": "The annotation is relevant as it describes the minimum torque required for the clamp bolt, which is a specific technical property.",
+                        "isRelevant": true,
+                        "SemanticIdentifier": "AAE829004"
+                    },
+                    {
+                        "Name": "clamping bolt present",
+                        "Definition": "information on whether a sawing floor has a clamping screw or not",
+                        "Reason": "The annotation is not relevant as it does not describe the torque required for the clamp bolt.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAM125004"
+                    },
+                    {
+                        "Name": "clamp present",
+                        "Definition": "specification whether the product is equipped with clamp",
+                        "Reason": "The annotation is not relevant as it does not describe the torque required for the clamp bolt.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABE349001"
+                    },
+                    {
+                        "Name": "clamping unit release pressure",
+                        "Definition": "pressure required to release the clamping of the clamping units",
+                        "Reason": "The annotation is not relevant as it does not describe the torque required for the clamp bolt.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "ABC461001"
+                    },
+                    {
+                        "Name": "clamp position fixed",
+                        "Definition": "specification whether a clamp is fixed in position",
+                        "Reason": "The annotation is not relevant as it does not describe the torque required for the clamp bolt.",
+                        "isRelevant": false,
+                        "SemanticIdentifier": "AAH314004"
+                    }
+                ],
+                "BestAnnotation": {
+                    "Name": "minimal clamping torque",
+                    "Definition": "smallest for the clamping required moment measured in the axis joint",
+                    "SemanticIdentifier": "AAE829004"
+                },
+                "GeneratedAnnotation": {
+                    "Name": "Clamp_Bolt_Torque",
+                    "Definition": "Torque required for clamp bolt",
+                    "SemanticIdentifier": null
+                },
+                "Unit": "lb-in (N-m)",
+                "ClassifyingScore_GeneralOrTechnical": 5,
+                "Affordance": "This information can be used in engineering tasks related to the assembly, maintenance, and performance optimization of the electric actuator."
+            }
+        }
+    ]
+}
