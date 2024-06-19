@@ -1,4 +1,6 @@
 # AASbyLLM
+Generating digital twins models with large language models.
+
 ## Live Prototype
 A web-application is hosted here (prototype version): [https://aasbyllmappv16-yawjvp4zbq-ew.a.run.app](https://aasbyllmappv16-yawjvp4zbq-ew.a.run.app)
 
