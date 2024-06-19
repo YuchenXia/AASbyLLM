@@ -17,9 +17,9 @@ To set up the project locally, follow these steps:
    ```
 3. Run the app.py after you integrating an LLM to the model, this can be simply done by using an LLM API, for example, a GPT3.5 model from OpenAI:
    
-   Add your OpenAI API key
+   create an *.env* file at the project folder and add your OpenAI API key in it.
    ```
-   in .env file:
+   in .env:
    OPENAI_API_KEY="your_key_here"
    ```
 4. run app.py
