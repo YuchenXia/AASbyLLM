@@ -1,32 +1,35 @@
 # AASbyLLM
-
+## Live Prototype
 A web-application is hosted here (prototype version): [https://aasbyllmappv16-yawjvp4zbq-ew.a.run.app](https://aasbyllmappv16-yawjvp4zbq-ew.a.run.app)
 
-(Note: It may take 30 seconds to 2 minutes for the elastic server system to boot up.)
+(Note: It may take 20 seconds to 2 minutes for the elastic server system to boot up. The server automatically shuts down after being idle for 10 minutes and clears all the data.)
 
 # Demo: Generating AAS structured information model from PDF
 ![Demo GIF](Demo_AAS_generation.gif)
 
 A demo Video with higher resolution is availabe: [Demo VideoDemo_AAS_generation.mov](Demo_AAS_generation.mov)
 
+# Source code realease
+The folder **source_code** contains the simplified source code for reproducibility, taking into account the copyright restrictions of external libraries used in the RAG mechanism. These libraries have been excluded without significantly affecting functionality.
 
-## The Research Paper
-Details of this work has been documented in a pre-print paper, which is currently under review:
+# The Research Paper
+Details of this work has been documented in a journal paper, we paid the Open-Access-Fee to the publisher to make it open-source:
 
-The Paper: [https://arxiv.org/abs/2405.18092](https://arxiv.org/abs/2403.17209)
+The Paper: [Generation of Asset Administration Shell with Large Language Model Agents: Towards Semantic Interoperability in Digital Twins in the Context of Industry 4.0](https://www.doi.org/10.1109/ACCESS.2024.3415470)
 
->Xia, Y., Xiao, Z., Jazdi, N., & Weyrich, M. (2024). Generation of Asset Administration Shell with Large Language Model Agents: Towards Semantic Interoperability in Digital Twins in the Context of Industry 4.0. ArXiv. /abs/2403.17209
-
+>Y. Xia, Z. Xiao, N. Jazdi and M. Weyrich, "Generation of Asset Administration Shell with Large Language Model Agents: Towards Semantic Interoperability in Digital Twins in the Context of Industry 4.0," in IEEE Access, doi: 10.1109/ACCESS.2024.3415470.
 
 ```bibtex
-@misc{xia2024generation,
-      title={Generation of Asset Administration Shell with Large Language Model Agents: Towards Semantic Interoperability in Digital Twins in the Context of Industry 4.0}, 
-      author={Yuchen Xia and Zhewen Xiao and Nasser Jazdi and Michael Weyrich},
-      year={2024},
-      eprint={2403.17209},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI}
-}
+@ARTICLE{10559483,
+  author={Xia, Yuchen and Xiao, Zhewen and Jazdi, Nasser and Weyrich, Michael},
+  journal={IEEE Access}, 
+  title={Generation of Asset Administration Shell with Large Language Model Agents: Towards Semantic Interoperability in Digital Twins in the Context of Industry 4.0}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Semantics;Data models;Digital twins;Context modeling;Interoperability;Unified modeling language;Fourth Industrial Revolution;Asset Administration Shell;Large Language Model;Semantic Interoperability;Digital Twin;Industry 4.0;Generative AI;Retrieval-Augmented Generation},
+  doi={10.1109/ACCESS.2024.3415470}}
 ```
 
 ### Abstract
