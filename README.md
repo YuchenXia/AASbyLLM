@@ -25,9 +25,6 @@ The Paper: [Generation of Asset Administration Shell with Large Language Model A
   journal={IEEE Access}, 
   title={Generation of Asset Administration Shell with Large Language Model Agents: Towards Semantic Interoperability in Digital Twins in the Context of Industry 4.0}, 
   year={2024},
-  volume={},
-  number={},
-  pages={1-1},
   keywords={Semantics;Data models;Digital twins;Context modeling;Interoperability;Unified modeling language;Fourth Industrial Revolution;Asset Administration Shell;Large Language Model;Semantic Interoperability;Digital Twin;Industry 4.0;Generative AI;Retrieval-Augmented Generation},
   doi={10.1109/ACCESS.2024.3415470}}
 ```
