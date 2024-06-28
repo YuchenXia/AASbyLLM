@@ -19,7 +19,7 @@ Details of this work has been documented in a journal paper, we paid the Open-Ac
 
 The Paper: [Generation of Asset Administration Shell with Large Language Model Agents: Towards Semantic Interoperability in Digital Twins in the Context of Industry 4.0](https://www.doi.org/10.1109/ACCESS.2024.3415470)
 
->Y. Xia, Z. Xiao, N. Jazdi and M. Weyrich, "Generation of Asset Administration Shell with Large Language Model Agents: Towards Semantic Interoperability in Digital Twins in the Context of Industry 4.0," in IEEE Access, doi: 10.1109/ACCESS.2024.3415470.
+>📄 Y. Xia, Z. Xiao, N. Jazdi and M. Weyrich, "Generation of Asset Administration Shell with Large Language Model Agents: Towards Semantic Interoperability in Digital Twins in the Context of Industry 4.0," in IEEE Access, doi: 10.1109/ACCESS.2024.3415470.
 
 ```bibtex
 @ARTICLE{10559483,
@@ -70,7 +70,12 @@ The prompt for extraction agent: [extraction_agent_prompt](extraction_agent_prom
 The extraction LLM agent is designed to identify and extract the name, the value, and an initial definition for a semantic node from the input text. This LLM processes the given input text and initially creates a name, definition, and contextual description for each semantic node as output, enriching the raw data with semantic details in a data structure.
 
 ### Semantic search agent
-This agent does not require a prompt. Following identification and extraction, this agent performs a semantic search using an embedding LLM to find semantically similar entries in the ECLASS dictionary. The search mechanism is based on our [previous work](https://ieeexplore.ieee.org/document/9921637) , where a vectorized embedding index, called “semantic fingerprint”, is created for comparison between queried text and each ECLASS dictionary entry. The result is a list of retrieved similar definition entries from ECLASS dictionary.
+This agent does not require a prompt. Following identification and extraction, this agent performs a semantic search using an embedding LLM to find semantically similar entries in the ECLASS dictionary. The search mechanism is based on our [previous work](https://ieeexplore.ieee.org/document/9921637)📄:
+>📄 Y. Xia, N. Jazdi and M. Weyrich, "Automated generation of Asset Administration Shell: a transfer learning approach with neural language model and semantic fingerprints," 2022 IEEE 27th International Conference on Emerging Technologies and Factory Automation (ETFA), Stuttgart, Germany, 2022, pp. 1-4, doi: 10.1109/ETFA52439.2022.9921637.
+
+where a vectorized embedding index, called “semantic fingerprint”, is created for comparison between queried text and each ECLASS dictionary entry. The result is a list of retrieved similar definition entries from ECLASS dictionary.
+
+
 
 ### Synthesis agent prompt
 The prompt for extraction agent: [synthesis_agent_prompt](synthesis_agent_prompt.txt)
