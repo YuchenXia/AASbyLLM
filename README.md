@@ -19,7 +19,7 @@ Details of this work has been documented in a journal paper, we paid the Open-Ac
 
 The Paper: [Generation of Asset Administration Shell with Large Language Model Agents: Towards Semantic Interoperability in Digital Twins in the Context of Industry 4.0](https://www.doi.org/10.1109/ACCESS.2024.3415470)
 
->📄 [Y. Xia](https://yuchenxia.github.io/), Z. Xiao, N. Jazdi and M. Weyrich, "Generation of Asset Administration Shell with Large Language Model Agents: Towards Semantic Interoperability in Digital Twins in the Context of Industry 4.0," in IEEE Access, doi: 10.1109/ACCESS.2024.3415470.
+>📄 [Y. Xia](https://yuchenxia.com), Z. Xiao, N. Jazdi and M. Weyrich, "Generation of Asset Administration Shell with Large Language Model Agents: Towards Semantic Interoperability in Digital Twins in the Context of Industry 4.0," in IEEE Access, doi: 10.1109/ACCESS.2024.3415470.
 
 ```bibtex
 @ARTICLE{10559483,
@@ -82,4 +82,4 @@ The prompt for extraction agent: [synthesis_agent_prompt](synthesis_agent_prompt
 
 This step incorporates the results from the semantic search into the generation process. An LLM-agent is prompted to generate a judgment of the relevance of the retrieved entries, accompanied by a short reason in text. The purpose of this step is two folds: firstly, semantic search is based on relationship of semantic similarity, which is a typical proxy metric for search but suboptimal for determining precise relevance. Inappropriate results shall be filtered out; Secondly, in this step, the generated judgement and reason serve as intermediate textual material for considering more nuanced relationships during the whole process. By instructing the LLM to judge and reason for each search result, the LLM generates more precise semantic node. After synthesis, a complete semantic node is created based on RAG, ready for AAS model creation.
 
-<a href="https://yuchenxia.github.io/" target="_blank">Yuchen Xia</a> is a PhD candidate specializing in LLM agents, digital twins, and industrial automation since 2021. You can find more about his work and projects on his <a href="https://yuchenxia.github.io/" target="_blank">personal website</a>.
+<a href="https://yuchenxia.com" target="_blank">Yuchen Xia, Ph.D.</a> is specializes in LLM agents, digital twins, and industrial automation since 2021. You can find more about his work and projects on his <a href="https://yuchenxia.com" target="_blank">personal website</a>.
