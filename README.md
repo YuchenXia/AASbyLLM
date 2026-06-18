@@ -1,10 +1,27 @@
 # AASbyLLM
 Generating digital twins models with large language models.
 
+## Paper
+Details of this work has been documented in a journal paper:
+
+>📄 [Generation of Asset Administration Shell with Large Language Model Agents: Towards Semantic Interoperability in Digital Twins in the Context of Industry 4.0](https://www.doi.org/10.1109/ACCESS.2024.3415470)
+>
+>[Y. Xia](https://yuchenxia.com), Z. Xiao, N. Jazdi and M. Weyrich, "Generation of Asset Administration Shell with Large Language Model Agents: Towards Semantic Interoperability in Digital Twins in the Context of Industry 4.0," in IEEE Access, doi: 10.1109/ACCESS.2024.3415470.
+
+## Related Dissertation
+This work is part of the doctoral research summarized in the Ph.D. dissertation:
+
+> Y. Xia, **Integrating Large Language Model Agents with Digital Twins for Industrial Autonomous Systems**, Doctoral Dissertation, University of Stuttgart, 2026.
+>
+> which presents a general framework for integrating LLMs, digital twins, and automation systems into industrial autonomous systems, including synthesised theories and multiple industrial case studies.
+>
+> Dissertation (Open-access): https://doi.org/10.18419/opus-18222
+
 ## Live Prototype
 A web-application is hosted here (prototype version): [https://aasbyllmappv16-yawjvp4zbq-ew.a.run.app](https://aasbyllmappv16-yawjvp4zbq-ew.a.run.app)
 
 (Note: It may take 20 seconds to 2 minutes for the elastic server system to boot up. The server automatically shuts down after being idle for 10 minutes and clears all the data.)
+
 
 # Demo: Generating AAS structured information model from PDF
 ![Demo GIF](Demo_AAS_generation.gif)
